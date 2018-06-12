@@ -13,10 +13,10 @@
     
     <item>
       <title>World Wide Webber</title>
-      <link>https://jimwebber.org/</link>
+      <link>https://jimwebber.org/foo/</link>
       <pubDate>Tue, 12 Jun 2018 19:43:31 +0200</pubDate>
       
-      <guid>https://jimwebber.org/</guid>
+      <guid>https://jimwebber.org/foo/</guid>
       <description>= Welcome to World Wide Webber
 Apologies for the 1990&amp;rsquo;s throwback site, but I tired of Wordpress being a malware vector and went back to a static site using Hugo. I&amp;rsquo;ll port over the old content and comments at some point.</description>
     </item>
