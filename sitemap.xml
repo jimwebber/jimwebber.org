@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jimwebber.org/</loc>
+    <lastmod>2018-06-12T19:43:31+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jimwebber.org/categories/</loc>
     <priority>0</priority>
   </url>
@@ -14,6 +19,7 @@
   
   <url>
     <loc>https://jimwebber.org/</loc>
+    <lastmod>2018-06-12T19:43:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
