@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>World Wide Webber</title>
-    <link>https://jimwebber.org/</link>
-    <description>Recent content on World Wide Webber</description>
+    <title>World Wide Webber on World Wide Webber</title>
+    <link>/</link>
+    <description>Recent content in World Wide Webber on World Wide Webber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 12 Jun 2018 19:43:31 +0200</lastBuildDate>
-    
-	<atom:link href="https://jimwebber.org/index.xml" rel="self" type="application/rss+xml" />
-    
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 13 Jun 2016 10:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>World Wide Webber</title>
-      <link>https://jimwebber.org/foo/</link>
-      <pubDate>Tue, 12 Jun 2018 19:43:31 +0200</pubDate>
+      <title>Coming soon</title>
+      <link>/publication/holding-page/</link>
+      <pubDate>Wed, 13 Jun 2018 17:21:00 +0200</pubDate>
       
-      <guid>https://jimwebber.org/foo/</guid>
-      <description>= Welcome to World Wide Webber
-Apologies for the 1990&amp;rsquo;s throwback site, but I tired of Wordpress being a malware vector and went back to a static site using Hugo. I&amp;rsquo;ll port over the old content and comments at some point.</description>
+      <guid>/publication/holding-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog coming soon</title>
+      <link>/post/coming-soon/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/coming-soon/</guid>
+      <description>
+
+&lt;h1 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h1&gt;
+</description>
     </item>
     
   </channel>
