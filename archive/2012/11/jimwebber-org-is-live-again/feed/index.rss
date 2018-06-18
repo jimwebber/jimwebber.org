@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: jimwebber.org is live again</title>
+	<atom:link href="http://wp.local/2012/11/jimwebber-org-is-live-again/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.local/2012/11/jimwebber-org-is-live-again/</link>
+	<description>Jim Webber&#039;s Blog</description>
+	<lastBuildDate>Mon, 04 Jun 2018 12:30:52 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>By: Savas Parastatidis</title>
+		<link>http://wp.local/2012/11/jimwebber-org-is-live-again/#comment-1</link>
+		<dc:creator><![CDATA[Savas Parastatidis]]></dc:creator>
+		<pubDate>Tue, 27 Nov 2012 04:01:48 +0000</pubDate>
+		<guid isPermaLink="false">http://jimwebber.org/?p=577#comment-1</guid>
+		<description><![CDATA[Welcome back.
+
+RIP pblog. It served us well for many years. Remember when we were talking about making it a platform? That was before wordpress was popular. Soooo many good ideas back then :)]]></description>
+		<content:encoded><![CDATA[<p>Welcome back.</p>
+<p>RIP pblog. It served us well for many years. Remember when we were talking about making it a platform? That was before wordpress was popular. Soooo many good ideas back then :)</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

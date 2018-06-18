@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Strategies for Scaling Neo4j</title>
+	<atom:link href="http://wp.local/2011/03/strategies-for-scaling-neo4j/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.local/2011/03/strategies-for-scaling-neo4j/</link>
+	<description>Jim Webber&#039;s Blog</description>
+	<lastBuildDate>Mon, 04 Jun 2018 12:30:52 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>By: jim</title>
+		<link>http://wp.local/2011/03/strategies-for-scaling-neo4j/#comment-1075</link>
+		<dc:creator><![CDATA[jim]]></dc:creator>
+		<pubDate>Sat, 27 Jul 2013 19:22:52 +0000</pubDate>
+		<guid isPermaLink="false">http://jim.webber.name/2011/03/22/ef4748c3-6459-40b6-bcfa-818960150e0f.aspx#comment-1075</guid>
+		<description><![CDATA[@Vishal
+
+To shard the database, you first observe some properties from your domain which are good for sharding. Good candidates for sharding often emerge from considering the queries you want to run (hence ultimately from the domain). 
+
+Then you must create a convention to describe &quot;proxy&quot; nodes whose real implementation is on another instance of Neo4j (this could be as simple as a well-known property in Neo4j 1.9 or a label in Neo4j 2.0). Your application must be written to obey this convention. On receiving a proxy node, it fires off a request at the machine that hosts that node. Your choice of sharding key determines how many such proxies will be used at runtime, so it&#039;s worth giving it due consideration - queries that cross machine boundaries will, of course, be slower than queries that run  in a single instance.
+
+In terms of operating a cluster or multi-cluster (when you shard), Neo4j provides High Availability as a master/slave cluster. You can read up on that here: http://docs.neo4j.org/chunked/stable/ha-how.html. And finally there is a hardware calculator that helps with sizing of machines here: http://info.neotechnology.com/CalculatorLandingPageV2.html.
+
+Hope that helps.
+
+Jim]]></description>
+		<content:encoded><![CDATA[<p>@Vishal</p>
+<p>To shard the database, you first observe some properties from your domain which are good for sharding. Good candidates for sharding often emerge from considering the queries you want to run (hence ultimately from the domain). </p>
+<p>Then you must create a convention to describe &#8220;proxy&#8221; nodes whose real implementation is on another instance of Neo4j (this could be as simple as a well-known property in Neo4j 1.9 or a label in Neo4j 2.0). Your application must be written to obey this convention. On receiving a proxy node, it fires off a request at the machine that hosts that node. Your choice of sharding key determines how many such proxies will be used at runtime, so it&#8217;s worth giving it due consideration &#8211; queries that cross machine boundaries will, of course, be slower than queries that run  in a single instance.</p>
+<p>In terms of operating a cluster or multi-cluster (when you shard), Neo4j provides High Availability as a master/slave cluster. You can read up on that here: <a href="http://docs.neo4j.org/chunked/stable/ha-how.html" rel="nofollow">http://docs.neo4j.org/chunked/stable/ha-how.html</a>. And finally there is a hardware calculator that helps with sizing of machines here: <a href="http://info.neotechnology.com/CalculatorLandingPageV2.html" rel="nofollow">http://info.neotechnology.com/CalculatorLandingPageV2.html</a>.</p>
+<p>Hope that helps.</p>
+<p>Jim</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Vishal Makadia</title>
+		<link>http://wp.local/2011/03/strategies-for-scaling-neo4j/#comment-1074</link>
+		<dc:creator><![CDATA[Vishal Makadia]]></dc:creator>
+		<pubDate>Sat, 27 Jul 2013 13:52:43 +0000</pubDate>
+		<guid isPermaLink="false">http://jim.webber.name/2011/03/22/ef4748c3-6459-40b6-bcfa-818960150e0f.aspx#comment-1074</guid>
+		<description><![CDATA[I will want to use neo4j with approximetly 80 billions of modes and that much relationships.Can you give me some ideas,so that I fulfill my requirements.
+i)How can I shard my neo4j database?(How can I implement domain specific sharding?) 
+ii)How can I implement neo4j High availability.Is node is replicated across different database instances?
+iii)If I will make 80 billions of nodes,what is the memory and disk requirements.Can you give me some ideas where all 80 billions of nodes resides(In memory or in disk)?
+Thnaks in advance..]]></description>
+		<content:encoded><![CDATA[<p>I will want to use neo4j with approximetly 80 billions of modes and that much relationships.Can you give me some ideas,so that I fulfill my requirements.<br />
+i)How can I shard my neo4j database?(How can I implement domain specific sharding?)<br />
+ii)How can I implement neo4j High availability.Is node is replicated across different database instances?<br />
+iii)If I will make 80 billions of nodes,what is the memory and disk requirements.Can you give me some ideas where all 80 billions of nodes resides(In memory or in disk)?<br />
+Thnaks in advance..</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

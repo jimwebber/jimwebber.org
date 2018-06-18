@@ -1,0 +1,259 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+<base href="/archive" />
+
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+		
+
+		<title>Square Pegs and Round Holes in the NOSQL World &#8211; World Wide Webber</title>
+
+
+
+
+<link rel='stylesheet' id='responsive-style-css'  href='/archive/contents/ui/theme/core/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='/archive/contents/ui/theme/core/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='/archive/contents/ui/theme/core/css/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-modernizr.min.js'></script>
+
+
+
+
+
+
+
+
+	<script>
+		jQuery(document).ready(function(){
+		var copyright_text = "";
+		var cyberchimps_link = "";
+		var siteurl = "/archive"; 
+		if(copyright_text == "")
+		{
+			jQuery(".copyright #copyright_link").text(" "+"Default copyright text");
+		}
+		else{ 
+			jQuery(".copyright #copyright_link").text(" "+copyright_text);
+		}
+		jQuery(".copyright #copyright_link").attr('href',siteurl);
+		if(cyberchimps_link == 1)
+		{
+			jQuery(".powered").css("display","block");
+		}
+		else{
+			jQuery(".powered").css("display","none");
+		}
+		});
+	</script>
+<!-- We need this for debugging -->
+<!-- Responsive 3.11 -->
+		<style type="text/css" id="wp-custom-css">
+			1		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-121 single-format-standard default-layout">
+
+  	
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header_section">
+	<div id="header" role="banner">
+
+		
+		
+		
+		
+				<div id="content-outer">
+			<div id="logo">
+				<span class="site-name"><a href="/archive/" title="World Wide Webber" rel="home">World Wide Webber</a></span>
+				<span class="site-description">Jim Webber&#039;s Blog</span>
+			</div><!-- end of #logo -->
+		</div>
+				
+				<div class="main-nav"><ul class="menu"><li ><a href="/archive/">Home</a></li><li class="page_item page-item-95 current_page_parent"><a href="/archive/blog/">Blog</a></li><li class="page_item page-item-5 page_item_has_children"><a href="/archive/biography/">Bio</a><ul class='children'><li class="page_item page-item-10"><a href="/archive/biography/shortbio/">Short Bio</a></li></ul></li><li class="page_item page-item-630"><a href="/archive/books/">Books</a></li><li class="page_item page-item-15"><a href="/archive/contact/">Contact</a></li><li class="page_item page-item-13"><a href="/archive/professional/">Professional</a></li><li class="page_item page-item-12"><a href="/archive/publications/">Publications</a></li></ul></div>
+		
+		
+	</div><!-- end of #header -->
+	</div>
+
+
+	  
+	<div id="wrapper" class="clearfix">
+<div id="content-outer">
+<div id="content" class="grid col-620" role="main">
+
+	
+	
+		
+						<div id="post-121" class="post-121 post type-post status-publish format-standard hentry category-neo4j category-nosql">
+				
+				
+	<h1 class="entry-title post-title responsive">Square Pegs and Round Holes in the NOSQL World</h1>
+
+<div class="post-meta">
+	<i class="fa fa-calendar" aria-hidden="true"></i><span class="meta-prep meta-prep-author posted">Posted on </span><a href="/archive/2011/04/square-pegs-and-round-holes-in-the-nosql-world/" title="Square Pegs and Round Holes in the NOSQL World" rel="bookmark"><time class="timestamp updated" datetime="2011-04-21T18:10:52+00:00">April 21, 2011</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="/archive/author/jim/" title="View all posts by jim"><span class="author-gravtar"></span>jim</a></span>		<span class='posted-in'>
+Posted in <a href="/archive/category/neo4j/">neo4j</a>, <a href="/archive/category/nosql/">NOSQL</a>		</span>
+
+			<span class="comments-link">
+		<span class="mdash">&mdash;</span>
+			<a href="/archive/2011/04/square-pegs-and-round-holes-in-the-nosql-world/#respond">No Comments &darr;</a>		</span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<div>
+<p>The graph database space is a peculiar corner of the NOSQL universe. In general, the NOSQL movement has pushed towards simpler data models with more sophisticated computation infrastructure compared to traditional RDBMS. In contrast graph databases like <a href="http://neo4j.org/">Neo4j</a> actually provide a far richer data model than a traditional RDBMS and a search-centric rather than compute-intensive method for data processing.</p>
+<p>Strangely the expressive data model supported by graphs can be difficult to understand amid the general clamour of the simpler-is-better NOSQL movement. But what makes this doubly strange is that other NOSQL database types can support limited graph processing too.</p>
+<p>This strange duality where non-graphs stores can be used for limited graph applications was the subject of a thread on the Neo4j mailing list, which was the inspiration for this post. In that thread, community members discussed the value of using non-graph stores for graph data particularly since prominent Web services are known to use this approach (like Twitter&#8217;s <a href="https://github.com/twitter/flockdb">FlockDB</a>). But as it happens the use-case for those graphs tends to be relatively shallow &#8211; &#8220;friend&#8221; and &#8220;follow&#8221; relationships and suchlike. In those situations, it can be a reasonable solution to have information in your values (or document properties, columns, or even rows in a relational database) to indicate a shallow relation as we can see in this diagram:</p>
+<p><a href="http://jimwebber.org/2011/04/square-pegs-and-round-holes-in-the-nosql-world/attachment/1/" rel="attachment wp-att-596"><img class="alignnone size-medium wp-image-596" alt="1" src="http://jimwebber.org/contents/data/2011/04/1-300x94.png" width="300" height="94" srcset="/archive/contents/data/2011/04/1-300x94.png 300w, /archive/contents/data/2011/04/1-1024x324.png 1024w, /archive/contents/data/2011/04/1.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>At runtime, the application using the datastore  (remember: that’s code <em>you</em> typically have to write) follows the logical links between stored documents and creates a logical graph representation. This means the application code needs to understand how to create a graph representation from those loosely linked documents.</p>
+<p><a href="http://jimwebber.org/2011/04/square-pegs-and-round-holes-in-the-nosql-world/attachment/2/" rel="attachment wp-att-598"><img class="alignnone size-medium wp-image-598" alt="2" src="http://jimwebber.org/contents/data/2011/04/2-300x214.png" width="300" height="214" srcset="/archive/contents/data/2011/04/2-300x214.png 300w, /archive/contents/data/2011/04/2-1024x732.png 1024w, /archive/contents/data/2011/04/2.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>If the graphs are shallow, this approach can work reasonably well. Twitter&#8217;s FlockDB is an existential proof of that. But as relationships between data become more interesting and deeper, this is an approach that rapidly runs out of steam. This approach requires graphs to be structured early on in the system lifecycle (design time), meaning a specific topology is baked into the datastore and into the application layer. This implies tight coupling between the code that reifies the graphs and the mechanism through which they&#8217;re flattened in the datastore. Any structural changes to the graph now require changes to the stored data <em>and</em> the logic that reifies the data.</p>
+<p><a href="http://neo4j.org/">Neo4j</a> takes a different approach: it stores graphs natively and so separates application and storage concerns. That is, where your documents have relationships between them, that&#8217;s they way they&#8217;re stored, searched, and processed in Neo4j even if those relationships are very deep. In this case, the logical graph that we reified from the document store can be natively (and efficiently) persisted in <a href="http://neo4j.org/">Neo4j</a>.</p>
+<p><a href="http://jimwebber.org/2011/04/square-pegs-and-round-holes-in-the-nosql-world/attachment/3/" rel="attachment wp-att-600"><img class="alignnone size-medium wp-image-600" alt="3" src="http://jimwebber.org/contents/data/2011/04/3-300x90.png" width="300" height="90" srcset="/archive/contents/data/2011/04/3-300x90.png 300w, /archive/contents/data/2011/04/3-1024x309.png 1024w, /archive/contents/data/2011/04/3.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>What&#8217;s often deceptive is that in some use-cases, projecting a graph from a document or KV store and using <a href="http://neo4j.org/">Neo4j</a> might begin with seemingly similar levels of complexity. For example, we might create an e-commerce application with customers and items they have bought. In a KV or document case we might store the identifiers of products our customers had bought inside the customer entity. In <a href="http://neo4j.org/">Neo4j</a>, we&#8217;d simply add relationships like <em>PURCHASED</em> between customer nodes and the product nodes they&#8217;d bought. Since <a href="http://neo4j.org/">Neo4j</a> is schema-less, adding these relationships doesn’t require migrations, nor should it affect any existing code using the data. The next diagram shows this contrast: the graph structure is explicit in the graph database, but implicit in a document store.</p>
+<p><a href="http://jimwebber.org/2011/04/square-pegs-and-round-holes-in-the-nosql-world/attachment/4/" rel="attachment wp-att-602"><img class="alignnone size-medium wp-image-602" alt="4" src="http://jimwebber.org/contents/data/2011/04/4-300x197.png" width="300" height="197" srcset="/archive/contents/data/2011/04/4-300x197.png 300w, /archive/contents/data/2011/04/4-1024x675.png 1024w, /archive/contents/data/2011/04/4.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Even at this stage, the graph shows its flexibility. Imagine that a number of customers bought a product that had to be recalled. In the document case we&#8217;d run a query (typically using a map/reduce framework) that grabs the document for each customer and checks whether a customer has the identifier for the defective product in their purchase history. This is a big undertaking if each customer has to be checked, though thankfully because it&#8217;s an embarrassingly parallel operation we can throw hardware at the problem. We could also design a clever indexing scheme, provided we can tolerate the write latency and space costs that indexing implies.</p>
+<p>With <a href="http://neo4j.org/">Neo4j</a>, all we need to do is locate the product (by graph traversal or index lookup) and look for incoming <em>PURCHASED</em> relations to determine immediately which customers need to be informed about the product recall. Easy peasy!</p>
+<p>As the e-commerce solution grows, we want to evolve a social aspect to shopping so that customers can receive buying recommendations based on what their social group has purchased. In the non-native graph store, we now have to encode the notion of friends and even friends of friends into the store and into the logic that reifies the graph. This is where things start to get tricky since now we have a deeper traversal from a customer to customers (friends) to customers (friends of friends) and then into purchases. What initially seemed simple, is now starting to look dauntingly like a fully fledged graph store, albeit one we have to build.</p>
+<p><a href="http://jimwebber.org/2011/04/square-pegs-and-round-holes-in-the-nosql-world/attachment/6/" rel="attachment wp-att-604"><img class="alignnone size-medium wp-image-604" alt="6" src="http://jimwebber.org/contents/data/2011/04/6-300x130.png" width="300" height="130" srcset="/archive/contents/data/2011/04/6-300x130.png 300w, /archive/contents/data/2011/04/6-1024x446.png 1024w, /archive/contents/data/2011/04/6.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Conversely in the <a href="http://neo4j.org/">Neo4j</a> case, we simply use the <em>FRIEND</em> relationships between customers, and for recommendations we simply traverse the graph across all outgoing <em>FRIEND</em> relationships (limited to depth 1 for immediate friends, or depth 2 for friends-of-friends), and for outgoing <em>PURCHASED</em> relationships to see what they&#8217;ve bought. What&#8217;s important here is that it&#8217;s Neo4j that handles the hard work of traversing the graph, not the application code as we can see in the diagram above.</p>
+<p>But there&#8217;s much more value the e-commerce site can drive from this data. Not only can social recommendations be implemented by close friends, but the e-commerce site can also start to look for trends and base recommendations on them. This is precisely the kind of thing that supermarket loyalty schemes do with big iron and long-running SQL queries &#8211; but we can do it on commodity hardware very rapidly using <a href="http://neo4j.org/">Neo4j</a>.</p>
+<p>For example, one set of customers that we might want to incentivise are those people who we think are young performers. These are customers that perhaps have told us something about their age, and we&#8217;ve noticed a particular buying pattern surrounding them &#8211; they buy DJ-quality headphones. Often those same customers buy DJ-quality decks too, but there&#8217;s a potentially profitable set of those customers that &#8211; shockingly &#8211; don&#8217;t yet own decks (much to the gratitude of their flatmates and neighbours I suspect).</p>
+<p>With a document or KV store, looking for this pattern by trawling through all the customer documents and projecting a graph is laborious. But matching these patterns in a graph is quite straightforward and efficient – simply by specifying a prototype to match against and then by efficiently traversing the graph structure looking for matches.</p>
+<p><a href="http://jimwebber.org/2011/04/square-pegs-and-round-holes-in-the-nosql-world/attachment/69/" rel="attachment wp-att-613"><img class="alignnone size-medium wp-image-613" alt="69" src="http://jimwebber.org/contents/data/2011/04/69-300x229.png" width="300" height="229" srcset="/archive/contents/data/2011/04/69-300x229.png 300w, /archive/contents/data/2011/04/69.png 1005w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>This shows a wonderful emergent property of graphs &#8211; simply store all the data you like as nodes and relationships in <a href="http://neo4j.org/">Neo4j</a> and later you&#8217;ll be able to extract useful business information that perhaps you can&#8217;t imagine today, without the performance penalties associated with joins on large datasets.</p>
+<p>In these kind of situations, choosing a non-graph store for storing graphs is a gamble. You may find that you&#8217;ve designed your graph topology far too early in the system lifecycle and lose the ability to evolve the structure and perform business intelligence on your data. That&#8217;s why <a href="http://neo4j.org/">Neo4j</a> is cool &#8211; it keeps graph and application concerns separate, and allows you to defer data modelling decisions to more responsible points throughout the lifetime of your application.</p>
+<p>So if you&#8217;re fighting with graph data imprisoned in Key-Value, Document or relational datastores, then <a href="http://neo4j.org/download">try Neo4j</a>.</p>
+</div>
+
+					
+									</div><!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">&#8249; <a href="/archive/2011/04/neo4j-1-3ga-free-as-in-beer/" rel="prev">Neo4j 1.3GA: Free as in Beer!</a></div>
+					<div class="next"><a href="/archive/2011/08/graph-processing-versus-graph-databases/" rel="next">Graph Processing versus Graph Databases</a> &#8250;</div>
+				</div><!-- end of .navigation -->
+
+				
+	<div class="post-data">
+			</div><!-- end of .post-data -->
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-121 -->
+			
+						
+
+
+
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2011/04/square-pegs-and-round-holes-in-the-nosql-world/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="/archive/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" /></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='121' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e13cdf13da" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="74"/></p>			</form>
+			</div><!-- #respond -->
+	
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit" role="complementary">
+		
+		<div id="text-7" class="widget-wrapper widget_text">			<div class="textwidget"><div>
+<h4 align="center">Jim Webber's Books</h4>  
+
+<p align="center">
+<img alt="Graph Databases book cover" src="http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg" width="160" height="240" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+  
+<p align="center">
+<a href="http://www.amazon.com/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (US)</a>  
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (UK)</a>
+</p>
+
+
+<p align="center"><img alt="REST in Practice book cover" src="http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0596805829">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0596805829">Amazon (UK)</a></p>
+
+<p align="center"><img alt="Developing Enterprise Web Services book cover" src="https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=B005MZDYRE">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0131401602">Amazon (UK)</a></p>
+</div></div>
+		</div>
+			</div><!-- end of #widgets -->
+</div>
+</div><!-- end of #wrapper -->
+
+	 
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+	
+	<div id="footer-wrapper">
+		
+		 <!--   main-->
+		
+		<div id="content-outer">			
+				</div>
+		<div id="content-outer">
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"><li class="twitter-icon"><a href="http://twitter.com/jimwebber"><img src="/archive/contents/ui/theme/core/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+		
+		<div class="grid col-300 copyright">
+			&copy; 2018<a id="copyright_link" href="/archive/" title="World Wide Webber">
+				World Wide Webber			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><!--<a href="#scroll-top" title="scroll to top">&uarr;</a>
+		<div id="scroll-to-top"><span class="glyphicon glyphicon-chevron-up"></span></div>--></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme" rel="noindex, nofollow">Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+	</div>
+		
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+<div id="scroll" title="Scroll to Top" style="display: block;">Top<span></span></div>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-scripts.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/jquery.placeholder.min.js'></script>
+<script async="async" type='text/javascript' src='/archive/contents/lib/akismet/_inc/form.js'></script>
+</body>
+</html>

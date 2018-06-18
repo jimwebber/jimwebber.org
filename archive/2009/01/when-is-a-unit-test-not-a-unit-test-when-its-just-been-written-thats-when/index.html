@@ -1,0 +1,246 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+<base href="/archive" />
+
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+		
+
+		<title>When is a Unit Test not a Unit Test? When it&#8217;s just been written, that&#8217;s when &#8211; World Wide Webber</title>
+
+
+
+
+<link rel='stylesheet' id='responsive-style-css'  href='/archive/contents/ui/theme/core/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='/archive/contents/ui/theme/core/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='/archive/contents/ui/theme/core/css/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-modernizr.min.js'></script>
+
+
+
+
+
+
+
+
+	<script>
+		jQuery(document).ready(function(){
+		var copyright_text = "";
+		var cyberchimps_link = "";
+		var siteurl = "/archive"; 
+		if(copyright_text == "")
+		{
+			jQuery(".copyright #copyright_link").text(" "+"Default copyright text");
+		}
+		else{ 
+			jQuery(".copyright #copyright_link").text(" "+copyright_text);
+		}
+		jQuery(".copyright #copyright_link").attr('href',siteurl);
+		if(cyberchimps_link == 1)
+		{
+			jQuery(".powered").css("display","block");
+		}
+		else{
+			jQuery(".powered").css("display","none");
+		}
+		});
+	</script>
+<!-- We need this for debugging -->
+<!-- Responsive 3.11 -->
+		<style type="text/css" id="wp-custom-css">
+			1		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-161 single-format-standard default-layout">
+
+  	
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header_section">
+	<div id="header" role="banner">
+
+		
+		
+		
+		
+				<div id="content-outer">
+			<div id="logo">
+				<span class="site-name"><a href="/archive/" title="World Wide Webber" rel="home">World Wide Webber</a></span>
+				<span class="site-description">Jim Webber&#039;s Blog</span>
+			</div><!-- end of #logo -->
+		</div>
+				
+				<div class="main-nav"><ul class="menu"><li ><a href="/archive/">Home</a></li><li class="page_item page-item-95 current_page_parent"><a href="/archive/blog/">Blog</a></li><li class="page_item page-item-5 page_item_has_children"><a href="/archive/biography/">Bio</a><ul class='children'><li class="page_item page-item-10"><a href="/archive/biography/shortbio/">Short Bio</a></li></ul></li><li class="page_item page-item-630"><a href="/archive/books/">Books</a></li><li class="page_item page-item-15"><a href="/archive/contact/">Contact</a></li><li class="page_item page-item-13"><a href="/archive/professional/">Professional</a></li><li class="page_item page-item-12"><a href="/archive/publications/">Publications</a></li></ul></div>
+		
+		
+	</div><!-- end of #header -->
+	</div>
+
+
+	  
+	<div id="wrapper" class="clearfix">
+<div id="content-outer">
+<div id="content" class="grid col-620" role="main">
+
+	
+	
+		
+						<div id="post-161" class="post-161 post type-post status-publish format-standard hentry category-programming category-testing">
+				
+				
+	<h1 class="entry-title post-title responsive">When is a Unit Test not a Unit Test? When it&#8217;s just been written, that&#8217;s when</h1>
+
+<div class="post-meta">
+	<i class="fa fa-calendar" aria-hidden="true"></i><span class="meta-prep meta-prep-author posted">Posted on </span><a href="/archive/2009/01/when-is-a-unit-test-not-a-unit-test-when-its-just-been-written-thats-when/" title="When is a Unit Test not a Unit Test? When it&#8217;s just been written, that&#8217;s when" rel="bookmark"><time class="timestamp updated" datetime="2009-01-30T23:07:11+00:00">January 30, 2009</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="/archive/author/jim/" title="View all posts by jim"><span class="author-gravtar"></span>jim</a></span>		<span class='posted-in'>
+Posted in <a href="/archive/category/programming/">Programming</a>, <a href="/archive/category/testing/">Testing</a>		</span>
+
+			<span class="comments-link">
+		<span class="mdash">&mdash;</span>
+			<a href="/archive/2009/01/when-is-a-unit-test-not-a-unit-test-when-its-just-been-written-thats-when/#respond">No Comments &darr;</a>		</span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<div xmlns="http://www.w3.org/1999/xhtml">
+<p xmlns="">In the course of my work, I get to spend time with people who have different points of view on software development compared to my own, and indeed compared to those of my colleagues at <a href="http://www.thoughtworks.com">ThoughtWorks</a> (with whom I tend to share notions about what constitutes pragmatic software development). Often these viewpoints are interesting and instructive, and sometimes provocative too. </p>
+<p xmlns="">In that spirit, I&#8217;ve been drawn into numerous conversations around test-first development. There has been some debate around my team around lazily &#8211; in the computing sense &#8211;  testing rather than testing first, or indeed leaving some of the testing to QA to cover in the guise of functional tests. </p>
+<p xmlns="">This rationale is commonplace, that if we write fewer tests then our teams velocity will improve, and provided our overall code coverage is good, then the world is a happy and harmonious place. While you may choose to get embroiled in that debate (I have my opinions of course, and occasionally those opinions turn to outright apoplectic rage!) but that&#8217;s not quite what I&#8217;m interested in here. </p>
+<p xmlns="">What I&#8217;m interested in is that already we&#8217;ve focussed on testing, and <em>I think that&#8217;s premature</em>. </p>
+<p xmlns="">But wait, isn&#8217;t that heresy? How can modern software development which prioritises testing as an integral part, or even precursor to writing production code ever use the words &#8220;testing&#8221; and &#8220;premature&#8221; in the same sentence? <a href="http://martinfowler.com">Mr Fowler</a> may have me whacked for even contemplating such thoughts. </p>
+<p xmlns="">Fortunately I think I&#8217;m safe from being whacked for now, because I still believe in writing software artifacts commonly called unit tests, but I really don&#8217;t think they are tests, at least not at first. You see, when we as developers are writing unit tests, what we&#8217;re actually writing is a (usually) partial behavioural contract against a component under test in a given context. Still we&#8217;re not writing tests per se, although the behavioural contracts we write are often littered with that four letter word. </p>
+<p xmlns="">It is the application of layers of such contracts to components in a set of contexts (with stubs and mocks where necessary) that resembles the component&#8217;s real use cases which drives out the design of that component. And it is (good) design that unit tests drive out, something which <a href="http://dannorth.net/">Dan North</a>&#8216;s <a href="http://behaviour-driven.org/">BDD</a> captures excellently.</p>
+<p xmlns="">This set of behavioural contracts finally becomes proper unit tests when the component is wired into the system under development and the developers move on. The testing aspect of unit tests finally emerges as tests continually exercise the fitness of the codebase as part of a continuous build and support refactoring as new functionality is added. </p>
+<p xmlns="">So we get a double benefit from test-first approaches, not only do they lead us to think deeply about design at design time, but their legacy is a test suite that documents and supports ongoing development of the system. This is precisely when the value of unit testing &#8211; design, components, and interaction &#8211; comes into its own. </p>
+<p xmlns="">Of course I can&#8217;t leave this topic without highlighting an important paradox: while agile teams may be accused of avoiding design and jumping straight to coding, the fact is that TDD and BDD force teams to consider component and interaction design very thoroughly before they write real code, leaving a clear and reproducible audit trail for any developers that follow. And that is something that even the most ivory towered of architects can&#8217;t admonish.</p>
+</div>
+
+					
+									</div><!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">&#8249; <a href="/archive/2009/01/dear-microsoft-ui-innovators/" rel="prev">Dear Microsoft UI Innovators&#8230;</a></div>
+					<div class="next"><a href="/archive/2009/02/testing-functionality-versus-testing-design/" rel="next">Testing Functionality versus Testing Design</a> &#8250;</div>
+				</div><!-- end of .navigation -->
+
+				
+	<div class="post-data">
+			</div><!-- end of .post-data -->
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-161 -->
+			
+						
+
+
+
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2009/01/when-is-a-unit-test-not-a-unit-test-when-its-just-been-written-thats-when/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="/archive/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" /></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='161' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="7684fe8fb4" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="1"/></p>			</form>
+			</div><!-- #respond -->
+	
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit" role="complementary">
+		
+		<div id="text-7" class="widget-wrapper widget_text">			<div class="textwidget"><div>
+<h4 align="center">Jim Webber's Books</h4>  
+
+<p align="center">
+<img alt="Graph Databases book cover" src="http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg" width="160" height="240" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+  
+<p align="center">
+<a href="http://www.amazon.com/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (US)</a>  
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (UK)</a>
+</p>
+
+
+<p align="center"><img alt="REST in Practice book cover" src="http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0596805829">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0596805829">Amazon (UK)</a></p>
+
+<p align="center"><img alt="Developing Enterprise Web Services book cover" src="https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=B005MZDYRE">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0131401602">Amazon (UK)</a></p>
+</div></div>
+		</div>
+			</div><!-- end of #widgets -->
+</div>
+</div><!-- end of #wrapper -->
+
+	 
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+	
+	<div id="footer-wrapper">
+		
+		 <!--   main-->
+		
+		<div id="content-outer">			
+				</div>
+		<div id="content-outer">
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"><li class="twitter-icon"><a href="http://twitter.com/jimwebber"><img src="/archive/contents/ui/theme/core/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+		
+		<div class="grid col-300 copyright">
+			&copy; 2018<a id="copyright_link" href="/archive/" title="World Wide Webber">
+				World Wide Webber			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><!--<a href="#scroll-top" title="scroll to top">&uarr;</a>
+		<div id="scroll-to-top"><span class="glyphicon glyphicon-chevron-up"></span></div>--></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme" rel="noindex, nofollow">Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+	</div>
+		
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+<div id="scroll" title="Scroll to Top" style="display: block;">Top<span></span></div>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-scripts.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/jquery.placeholder.min.js'></script>
+<script async="async" type='text/javascript' src='/archive/contents/lib/akismet/_inc/form.js'></script>
+</body>
+</html>

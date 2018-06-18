@@ -1,0 +1,238 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+<base href="/archive" />
+
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+		
+
+		<title>Steve Vinoski, Building RESTful Web Services with Erlang and Yaws &#8211; World Wide Webber</title>
+
+
+
+
+<link rel='stylesheet' id='responsive-style-css'  href='/archive/contents/ui/theme/core/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='/archive/contents/ui/theme/core/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='/archive/contents/ui/theme/core/css/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-modernizr.min.js'></script>
+
+
+
+
+
+
+
+
+	<script>
+		jQuery(document).ready(function(){
+		var copyright_text = "";
+		var cyberchimps_link = "";
+		var siteurl = "/archive"; 
+		if(copyright_text == "")
+		{
+			jQuery(".copyright #copyright_link").text(" "+"Default copyright text");
+		}
+		else{ 
+			jQuery(".copyright #copyright_link").text(" "+copyright_text);
+		}
+		jQuery(".copyright #copyright_link").attr('href',siteurl);
+		if(cyberchimps_link == 1)
+		{
+			jQuery(".powered").css("display","block");
+		}
+		else{
+			jQuery(".powered").css("display","none");
+		}
+		});
+	</script>
+<!-- We need this for debugging -->
+<!-- Responsive 3.11 -->
+		<style type="text/css" id="wp-custom-css">
+			1		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-168 single-format-standard default-layout">
+
+  	
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header_section">
+	<div id="header" role="banner">
+
+		
+		
+		
+		
+				<div id="content-outer">
+			<div id="logo">
+				<span class="site-name"><a href="/archive/" title="World Wide Webber" rel="home">World Wide Webber</a></span>
+				<span class="site-description">Jim Webber&#039;s Blog</span>
+			</div><!-- end of #logo -->
+		</div>
+				
+				<div class="main-nav"><ul class="menu"><li ><a href="/archive/">Home</a></li><li class="page_item page-item-95 current_page_parent"><a href="/archive/blog/">Blog</a></li><li class="page_item page-item-5 page_item_has_children"><a href="/archive/biography/">Bio</a><ul class='children'><li class="page_item page-item-10"><a href="/archive/biography/shortbio/">Short Bio</a></li></ul></li><li class="page_item page-item-630"><a href="/archive/books/">Books</a></li><li class="page_item page-item-15"><a href="/archive/contact/">Contact</a></li><li class="page_item page-item-13"><a href="/archive/professional/">Professional</a></li><li class="page_item page-item-12"><a href="/archive/publications/">Publications</a></li></ul></div>
+		
+		
+	</div><!-- end of #header -->
+	</div>
+
+
+	  
+	<div id="wrapper" class="clearfix">
+<div id="content-outer">
+<div id="content" class="grid col-620" role="main">
+
+	
+	
+		
+						<div id="post-168" class="post-168 post type-post status-publish format-standard hentry category-rest">
+				
+				
+	<h1 class="entry-title post-title responsive">Steve Vinoski, Building RESTful Web Services with Erlang and Yaws</h1>
+
+<div class="post-meta">
+	<i class="fa fa-calendar" aria-hidden="true"></i><span class="meta-prep meta-prep-author posted">Posted on </span><a href="/archive/2008/11/steve-vinoski-building-restful-web-services-with-erlang-and-yaws/" title="Steve Vinoski, Building RESTful Web Services with Erlang and Yaws" rel="bookmark"><time class="timestamp updated" datetime="2008-11-24T00:19:04+00:00">November 24, 2008</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="/archive/author/jim/" title="View all posts by jim"><span class="author-gravtar"></span>jim</a></span>		<span class='posted-in'>
+Posted in <a href="/archive/category/rest/">REST</a>		</span>
+
+			<span class="comments-link">
+		<span class="mdash">&mdash;</span>
+			<a href="/archive/2008/11/steve-vinoski-building-restful-web-services-with-erlang-and-yaws/#respond">No Comments &darr;</a>		</span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<div xmlns="http://www.w3.org/1999/xhtml">
+<p xmlns="">Here are my raw, unedited notes from <a href="http://steve.vinoski.net">Steve Vinoski</a>&#8216;s <a href="http://qconsf.com/sf2008/presentation/Building+RESTful+Web+Services+with+Erlang+and+Yaws">QCon San Francisco 2008 talk</a>.</p>
+<p xmlns="">&#8211; Got into REST around 2001/2002 because of Mark Baker   <br />&#8211; Erlang overview &#8211; functional, concurrent, distributed, focus on reliability; small language    <br />&#8211; YAWS &#8211; Yet Another Web Server &#8211; good for serving dynamic content; embeddable, or stand alone    <br />&#8211; Dynamic content &#8211; embed &lt;erl&gt; tags in HTML in a .yaws file    <br />&#8211; Out function &#8211; ties your apps to the Web server &#8211; an arg record gives connection details to the application &#8211; a big tuple    <br />&#8211; Ehtml avoids embedding &lt;erl&gt; tags which get messy, instead write HTML with Erlang syntax &#8211; tuple space of tuples    <br />&#8211; Obligatory Emacs rant&#8230;    <br />&#8211; Appmods &#8211; application module exports a function, is bound to one or more URIs via configuration file. Yaws calls Out function on any appmods registered for a URI.    <br />&#8211; Question: Can you bind appmods to multiple URI elements? Answer: Yes. Also one appmod to multiple URIs too.    <br />&#8211; Yapps &#8211; Yaws applications &#8211; a whole Erlang application (usually a collection of modules) with reliability characteristics in mind. Can be restarted etc. Lives in the same VM, safely.    <br />&#8211; Yapps are tied to URIs just the same as appmods. Typically bind Yapp early in the URI, and appmods later    <br />&#8211; Yapp framework is optional &#8211; uses mnesia, the fault tolerant filestore by default (requires config). Can configure Yapps to bootstrap with other stores. Steve created in-memory store with same interface as mnesia.    <br />&#8211; Design URIs well &#8211; should be easy on the eye, because that makes your server implementation better    <br />&#8211; Erlang pattern matching, allows functional overloading based on number and value of arguments. Underscored arguments are optional (compiler warns otherwise)    <br />&#8211; Pattern matching supports URI-based dispatch &#8211; look in the Arg and break out the path. Split path into list, pass the path and URI into the out/3 function &#8211; generalise to add specific handlers for each URI path    <br />&#8211; Question: is pattern matching on URIs using the pattern common in Erlang? Answer: Yes, it probably is. Could also use a table to dispatch on whole URI    <br />&#8211; URI Design allows you to take advantage of the language and pattern match. So friendly URIs buy you a lot    <br />&#8211; Representations and media types &#8211; resources can have many representations (see Content-Type header), and clients can use Accept header to negotiate (list of preferences using q parameters)    <br />&#8211; Joe Gregorio wrote a mimeparse library in Python for this, Steve recently ported it to Erlang    <br />&#8211; Using mimeparse in Erlang simply pass a list of mime types you want, from the Accept header and it returns the best match of the acceptable types, or an empty list    <br />&#8211; If you can&#8217;t match a type based on the accept header, then return 406 Not Acceptable    <br />&#8211; create out/4 function which takes Arg, Uri, mime type, order and let pattern matching do its thing    <br />&#8211; Question: Why not just add .xml etc to the end of your URI? Answer: You can go either way.     <br />&#8211; Yaws has a JSON module, or Mochiweb has a one too. Erlang has xmerl (part of Erlang) or erlsom (add on package, modern faster than xmerl)    <br />&#8211; Question: Can you grab mochiweb without grief? Answer: There are modules that are separable that you can pull in.    <br />&#8211; For multiple representations, use overloaded functions for out/4 function for the resource    <br />&#8211; Vary header tells caches that representation will change depending on the content type    <br />&#8211; Yaws gives you a lot of power for not much code    <br />&#8211; HATEOAS &#8211; many RESTful APIs miss this part of REST. XML has xlink to help, json making progress    <br />&#8211; Comment: realistically xlink not widely implemented    <br />&#8211; Comment: there&#8217;s something called &#8220;JSON reference&#8221;    <br />&#8211; Each resource decided what methods it supports, get the method from the Arg record coming into your Out function    <br />&#8211; Question on methods changing over resource lifecycle &#8211; TBD    <br />&#8211; HTTP methods are dispatched based on pattern matching again &#8211; drag the method out of the Arg record    <br />&#8211; Yaws has functions for extracting query and post data (versus extracting POST data as binary from Arg record)    <br />&#8211; Conditional GET is critical to scalability &#8211; use ETags and last-modified headers &#8211; return them as a header from Yaws just like any other header, a tuple of {header-name, value}    <br />&#8211; Etags takes precedence over last modified if both are sent    <br />&#8211; Yaws is stable and robust; Erlang/OTP under the covers, so can load code for yapps and appmods on the fly.     <br />&#8211; Question: Are you using Erlang in your job? Answer: Yes, both Erlang and Yaws    <br />&#8211; Monitoring (heart) for watching process, supervisor in process too. Can run 10,000s processes cheaply (1M in 0.5 seconds).    <br />&#8211; Launch a process, link to it, if it dies you&#8217;ll get a notification (even over networks)    <br />&#8211; Yaws has an interactive mode &#8211; Steve has never started the debugger in Erlang!    <br />&#8211; OPTIONS support recently added, sendfile support added in C via linked-in driver, testing being improved    <br />&#8211; Question: Yaws versus WebMachine? Answer: Some people like other frameworks </p>
+</div>
+
+					
+									</div><!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">&#8249; <a href="/archive/2008/11/ian-robinson-restful-enterprise-development/" rel="prev">Ian Robinson, RESTful Enterprise Development</a></div>
+					<div class="next"><a href="/archive/2008/11/leonard-richardson-introducing-real-world-rest/" rel="next">Leonard Richardson, Introducing Real-World REST</a> &#8250;</div>
+				</div><!-- end of .navigation -->
+
+				
+	<div class="post-data">
+			</div><!-- end of .post-data -->
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-168 -->
+			
+						
+
+
+
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2008/11/steve-vinoski-building-restful-web-services-with-erlang-and-yaws/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="/archive/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" /></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='168' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="03ac4610b5" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="80"/></p>			</form>
+			</div><!-- #respond -->
+	
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit" role="complementary">
+		
+		<div id="text-7" class="widget-wrapper widget_text">			<div class="textwidget"><div>
+<h4 align="center">Jim Webber's Books</h4>  
+
+<p align="center">
+<img alt="Graph Databases book cover" src="http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg" width="160" height="240" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+  
+<p align="center">
+<a href="http://www.amazon.com/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (US)</a>  
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (UK)</a>
+</p>
+
+
+<p align="center"><img alt="REST in Practice book cover" src="http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0596805829">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0596805829">Amazon (UK)</a></p>
+
+<p align="center"><img alt="Developing Enterprise Web Services book cover" src="https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=B005MZDYRE">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0131401602">Amazon (UK)</a></p>
+</div></div>
+		</div>
+			</div><!-- end of #widgets -->
+</div>
+</div><!-- end of #wrapper -->
+
+	 
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+	
+	<div id="footer-wrapper">
+		
+		 <!--   main-->
+		
+		<div id="content-outer">			
+				</div>
+		<div id="content-outer">
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"><li class="twitter-icon"><a href="http://twitter.com/jimwebber"><img src="/archive/contents/ui/theme/core/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+		
+		<div class="grid col-300 copyright">
+			&copy; 2018<a id="copyright_link" href="/archive/" title="World Wide Webber">
+				World Wide Webber			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><!--<a href="#scroll-top" title="scroll to top">&uarr;</a>
+		<div id="scroll-to-top"><span class="glyphicon glyphicon-chevron-up"></span></div>--></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme" rel="noindex, nofollow">Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+	</div>
+		
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+<div id="scroll" title="Scroll to Top" style="display: block;">Top<span></span></div>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-scripts.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/jquery.placeholder.min.js'></script>
+<script async="async" type='text/javascript' src='/archive/contents/lib/akismet/_inc/form.js'></script>
+</body>
+</html>

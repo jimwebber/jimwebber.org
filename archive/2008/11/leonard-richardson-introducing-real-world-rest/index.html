@@ -1,0 +1,238 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+<base href="/archive" />
+
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+		
+
+		<title>Leonard Richardson, Introducing Real-World REST &#8211; World Wide Webber</title>
+
+
+
+
+<link rel='stylesheet' id='responsive-style-css'  href='/archive/contents/ui/theme/core/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='/archive/contents/ui/theme/core/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='/archive/contents/ui/theme/core/css/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-modernizr.min.js'></script>
+
+
+
+
+
+
+
+
+	<script>
+		jQuery(document).ready(function(){
+		var copyright_text = "";
+		var cyberchimps_link = "";
+		var siteurl = "/archive"; 
+		if(copyright_text == "")
+		{
+			jQuery(".copyright #copyright_link").text(" "+"Default copyright text");
+		}
+		else{ 
+			jQuery(".copyright #copyright_link").text(" "+copyright_text);
+		}
+		jQuery(".copyright #copyright_link").attr('href',siteurl);
+		if(cyberchimps_link == 1)
+		{
+			jQuery(".powered").css("display","block");
+		}
+		else{
+			jQuery(".powered").css("display","none");
+		}
+		});
+	</script>
+<!-- We need this for debugging -->
+<!-- Responsive 3.11 -->
+		<style type="text/css" id="wp-custom-css">
+			1		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-167 single-format-standard default-layout">
+
+  	
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header_section">
+	<div id="header" role="banner">
+
+		
+		
+		
+		
+				<div id="content-outer">
+			<div id="logo">
+				<span class="site-name"><a href="/archive/" title="World Wide Webber" rel="home">World Wide Webber</a></span>
+				<span class="site-description">Jim Webber&#039;s Blog</span>
+			</div><!-- end of #logo -->
+		</div>
+				
+				<div class="main-nav"><ul class="menu"><li ><a href="/archive/">Home</a></li><li class="page_item page-item-95 current_page_parent"><a href="/archive/blog/">Blog</a></li><li class="page_item page-item-5 page_item_has_children"><a href="/archive/biography/">Bio</a><ul class='children'><li class="page_item page-item-10"><a href="/archive/biography/shortbio/">Short Bio</a></li></ul></li><li class="page_item page-item-630"><a href="/archive/books/">Books</a></li><li class="page_item page-item-15"><a href="/archive/contact/">Contact</a></li><li class="page_item page-item-13"><a href="/archive/professional/">Professional</a></li><li class="page_item page-item-12"><a href="/archive/publications/">Publications</a></li></ul></div>
+		
+		
+	</div><!-- end of #header -->
+	</div>
+
+
+	  
+	<div id="wrapper" class="clearfix">
+<div id="content-outer">
+<div id="content" class="grid col-620" role="main">
+
+	
+	
+		
+						<div id="post-167" class="post-167 post type-post status-publish format-standard hentry category-rest">
+				
+				
+	<h1 class="entry-title post-title responsive">Leonard Richardson, Introducing Real-World REST</h1>
+
+<div class="post-meta">
+	<i class="fa fa-calendar" aria-hidden="true"></i><span class="meta-prep meta-prep-author posted">Posted on </span><a href="/archive/2008/11/leonard-richardson-introducing-real-world-rest/" title="Leonard Richardson, Introducing Real-World REST" rel="bookmark"><time class="timestamp updated" datetime="2008-11-24T00:20:20+00:00">November 24, 2008</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="/archive/author/jim/" title="View all posts by jim"><span class="author-gravtar"></span>jim</a></span>		<span class='posted-in'>
+Posted in <a href="/archive/category/rest/">REST</a>		</span>
+
+			<span class="comments-link">
+		<span class="mdash">&mdash;</span>
+			<a href="/archive/2008/11/leonard-richardson-introducing-real-world-rest/#respond">No Comments &darr;</a>		</span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<div xmlns="http://www.w3.org/1999/xhtml">
+<p xmlns="">Here are my raw, unedited notes from <a href="http://crummy.com">Leonard Richardson</a>&#8216;s <a href="http://qconsf.com/sf2008/presentation/Introducing+Real-World+REST">QCon San Francisco 2008 talk</a>.</p>
+<p xmlns="">&#8211; Advocating for a RESTful approach induces people to think you&#8217;re crazy!   <br />&#8211; Many application protocols in use on the Intenet &#8211; Web technologies were all seen as one big lump    <br />&#8211; The Web obliterated all but a handful of Internet protocols (except: SMTP, BitTorrent, ssh, IRC and friends)    <br />&#8211; Some protocols were simply never born because of the Web    <br />&#8211; SOAP allows automated clients to get things done over HTTP, just like humans get stuff over HTTP    <br />&#8211; But SOAP jumped on the HTTP bandwagon and HTTP &lt; WWWW    <br />&#8211; Some Web services are not RESTful, merely anti WS-*    <br />&#8211; Use the whole Web &#8211; URI, HTTP, HTML &#8211; don&#8217;t need to invent new specialised protocols now    <br />&#8211; The Web is one big technology, made of 3 smaller technologies, and there are emergent properties    <br />&#8211; Easy to buy high order arguments like HATEOAS if the upshot is that things get done faster    <br />&#8211; Outvoted when trying to use Atom and AtomPub &#8211; use JSON with hyperlinks in the representations to explore the object graph, using a naming convention    <br />&#8211; HTML and WADL may be isomorphic in general    <br />&#8211; Question: is this (HTML/WADL) the equivalent of WSDL? Answer: Yes, probably.    <br />&#8211; Backend implementation decisions can cause ugly hacks &#8211; uniform interface violations &#8211; that leak through the interface (e.g. bug status). PUTs being tunnelled through POST in this case    <br />&#8211; Again, custom named operations through POST require more annotations    <br />&#8211; Trying to avoid situations where a Web service changes and clients break (e.g. Amazon, WSDL-based services), turn to HATEOAS instead    <br />&#8211; launchpadlib doesn&#8217;t break when Web service changes    <br />&#8211; warts on a Web service cause warts on the client! Specialised code needed, idioms sacrificed    <br />&#8211; Every time a REST principle was violated, we paid the price on the client side. The hacks bled through to the client    <br />&#8211; Use WADL to automatically generate human documentation    <br />&#8211; You can judge a service crudely, by seeing how far it goes up the stack: URI-&gt;HTTP-&gt;HTML (hypermedia)    <br />  &#8211; Level 0 &#8211; One URI one HTTP method &#8211; e.g. SOAP    <br />  &#8211; Level 1 &#8211; Many URIs, one HTTP method  &#8211; e.g. most RESTful services that aren&#8217;t (still loved, because people love URIs)    <br />  &#8211; Level 2 &#8211; Many URIs, each with multiple HTTP methods &#8211; e.g. Amazon S3    <br />  &#8211; Level 3 &#8211; Resources describe their own capabilities and interconnections &#8211; e.g. AtomPub    <br />&#8211; The Web allows decomposition of complexity via many URIs, HTTP splits complexity by partitioning read operations (GET) and the write operations (all the others). Composing these yields sophisticated systems    <br />&#8211; GET matters because it is constrained, and so you can optimise (level 1 services ignore these constraints)    <br />&#8211; HTML only knows about GET and POST &#8211; tension between more specific constraints and opportunity to optimise, versus clients not understanding the enlarged vocabulary    <br />&#8211; PATCH used in launchpad Web service, for partial updates    <br />&#8211; Beyond a certain point to use POST and describe the differences with hypermedia    <br />&#8211; Amazon S3 interface is the Web equivalent of a scavenger hunt, and creates coupling between client and server because of out of band rules for client-size generation of URIs    <br />&#8211; Question: Can the Amazon scheme be seen as a relevant URI? Answer: No, because you have to URL escape it    <br />&#8211; Question: Is there a way to specify what the root is within the Amazon document? Answer: Yes    <br />&#8211; Netflix has a custom XML vocabulary, but hypermedia controls are there    <br />&#8211; In launchpad, server-side fixes don&#8217;t affect clients    <br />&#8211; Links are one kind of hypermedia, forms are the other kind telling you how to manipulate resources &#8211; the form gives the POST operation its semantics    <br />&#8211; Prefer hypermedia to media &#8211; just read in the hypermedia and play by normal rules    <br />&#8211; Question: How do you distinguish between which HTTP methods are valid? Answer: Form action, or OPTIONS    <br />&#8211; Lots of Form technologies, expect convergence &#8211; all just describe what HTTP requests you might make    <br />&#8211; Limit to complexity that you can automate &#8211; divide and conquer spreads complexity around, refactor to reduce complexity, make complexity learnable through standardisation: divide and conquer: URIs, refactor: HTTP, standardise: hypermedia </p>
+</div>
+
+					
+									</div><!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">&#8249; <a href="/archive/2008/11/steve-vinoski-building-restful-web-services-with-erlang-and-yaws/" rel="prev">Steve Vinoski, Building RESTful Web Services with Erlang and Yaws</a></div>
+					<div class="next"><a href="/archive/2008/11/stu-charlton-designing-enterprise-it-systems-with-rest/" rel="next">Stu Charlton, Designing Enterprise IT Systems with REST</a> &#8250;</div>
+				</div><!-- end of .navigation -->
+
+				
+	<div class="post-data">
+			</div><!-- end of .post-data -->
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-167 -->
+			
+						
+
+
+
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2008/11/leonard-richardson-introducing-real-world-rest/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="/archive/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" /></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='167' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8bfb388ce0" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="181"/></p>			</form>
+			</div><!-- #respond -->
+	
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit" role="complementary">
+		
+		<div id="text-7" class="widget-wrapper widget_text">			<div class="textwidget"><div>
+<h4 align="center">Jim Webber's Books</h4>  
+
+<p align="center">
+<img alt="Graph Databases book cover" src="http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg" width="160" height="240" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+  
+<p align="center">
+<a href="http://www.amazon.com/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (US)</a>  
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (UK)</a>
+</p>
+
+
+<p align="center"><img alt="REST in Practice book cover" src="http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0596805829">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0596805829">Amazon (UK)</a></p>
+
+<p align="center"><img alt="Developing Enterprise Web Services book cover" src="https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=B005MZDYRE">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0131401602">Amazon (UK)</a></p>
+</div></div>
+		</div>
+			</div><!-- end of #widgets -->
+</div>
+</div><!-- end of #wrapper -->
+
+	 
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+	
+	<div id="footer-wrapper">
+		
+		 <!--   main-->
+		
+		<div id="content-outer">			
+				</div>
+		<div id="content-outer">
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"><li class="twitter-icon"><a href="http://twitter.com/jimwebber"><img src="/archive/contents/ui/theme/core/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+		
+		<div class="grid col-300 copyright">
+			&copy; 2018<a id="copyright_link" href="/archive/" title="World Wide Webber">
+				World Wide Webber			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><!--<a href="#scroll-top" title="scroll to top">&uarr;</a>
+		<div id="scroll-to-top"><span class="glyphicon glyphicon-chevron-up"></span></div>--></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme" rel="noindex, nofollow">Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+	</div>
+		
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+<div id="scroll" title="Scroll to Top" style="display: block;">Top<span></span></div>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-scripts.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/jquery.placeholder.min.js'></script>
+<script async="async" type='text/javascript' src='/archive/contents/lib/akismet/_inc/form.js'></script>
+</body>
+</html>

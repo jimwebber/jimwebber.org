@@ -1,0 +1,243 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+<base href="/archive" />
+
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+		
+
+		<title>Making Metadata Work Harder &#8211; SSDL and Crash Recovery &#8211; World Wide Webber</title>
+
+
+
+
+<link rel='stylesheet' id='responsive-style-css'  href='/archive/contents/ui/theme/core/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='/archive/contents/ui/theme/core/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='/archive/contents/ui/theme/core/css/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-modernizr.min.js'></script>
+
+
+
+
+
+
+
+
+	<script>
+		jQuery(document).ready(function(){
+		var copyright_text = "";
+		var cyberchimps_link = "";
+		var siteurl = "/archive"; 
+		if(copyright_text == "")
+		{
+			jQuery(".copyright #copyright_link").text(" "+"Default copyright text");
+		}
+		else{ 
+			jQuery(".copyright #copyright_link").text(" "+copyright_text);
+		}
+		jQuery(".copyright #copyright_link").attr('href',siteurl);
+		if(cyberchimps_link == 1)
+		{
+			jQuery(".powered").css("display","block");
+		}
+		else{
+			jQuery(".powered").css("display","none");
+		}
+		});
+	</script>
+<!-- We need this for debugging -->
+<!-- Responsive 3.11 -->
+		<style type="text/css" id="wp-custom-css">
+			1		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-284 single-format-standard default-layout">
+
+  	
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header_section">
+	<div id="header" role="banner">
+
+		
+		
+		
+		
+				<div id="content-outer">
+			<div id="logo">
+				<span class="site-name"><a href="/archive/" title="World Wide Webber" rel="home">World Wide Webber</a></span>
+				<span class="site-description">Jim Webber&#039;s Blog</span>
+			</div><!-- end of #logo -->
+		</div>
+				
+				<div class="main-nav"><ul class="menu"><li ><a href="/archive/">Home</a></li><li class="page_item page-item-95 current_page_parent"><a href="/archive/blog/">Blog</a></li><li class="page_item page-item-5 page_item_has_children"><a href="/archive/biography/">Bio</a><ul class='children'><li class="page_item page-item-10"><a href="/archive/biography/shortbio/">Short Bio</a></li></ul></li><li class="page_item page-item-630"><a href="/archive/books/">Books</a></li><li class="page_item page-item-15"><a href="/archive/contact/">Contact</a></li><li class="page_item page-item-13"><a href="/archive/professional/">Professional</a></li><li class="page_item page-item-12"><a href="/archive/publications/">Publications</a></li></ul></div>
+		
+		
+	</div><!-- end of #header -->
+	</div>
+
+
+	  
+	<div id="wrapper" class="clearfix">
+<div id="content-outer">
+<div id="content" class="grid col-620" role="main">
+
+	
+	
+		
+						<div id="post-284" class="post-284 post type-post status-publish format-standard hentry category-uncategorized">
+				
+				
+	<h1 class="entry-title post-title responsive">Making Metadata Work Harder &#8211; SSDL and Crash Recovery</h1>
+
+<div class="post-meta">
+	<i class="fa fa-calendar" aria-hidden="true"></i><span class="meta-prep meta-prep-author posted">Posted on </span><a href="/archive/2006/08/making-metadata-work-harder-ssdl-and-crash-recovery/" title="Making Metadata Work Harder &#8211; SSDL and Crash Recovery" rel="bookmark"><time class="timestamp updated" datetime="2006-08-08T01:48:24+00:00">August 8, 2006</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="/archive/author/jim/" title="View all posts by jim"><span class="author-gravtar"></span>jim</a></span>		<span class='posted-in'>
+Posted in <a href="/archive/category/uncategorized/">Uncategorized</a>		</span>
+
+			<span class="comments-link">
+		<span class="mdash">&mdash;</span>
+			<a href="/archive/2006/08/making-metadata-work-harder-ssdl-and-crash-recovery/#respond">No Comments &darr;</a>		</span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>Update:</b> fixed dodgy formatting</p>
+<p>A few days back, <a xmlns="http://www.w3.org/1999/xhtml" href="http://savas.parastatidis.name/2006/07/17/cf5d3e1e-1e4d-4669-aed2-4cf6e9aef444.aspx">Savas blogged about the Newcastle University team that entered the IEEE Service-Oriented Computing Contest</a> with a cool service-oriented system designed to automate real estate transactions. One of the interesting  experimental aspects of the system was the major actors involved were described using <a xmlns="http://www.w3.org/1999/xhtml" href="http://www.ssdl.org">SSDL</a> and the  team created  the world&#8217;s first SSDL engine to run the business protocols that comprised the solution.</p>
+<p>While I was happy just to marvel at this super piece work, it took an email exchange between Philipp Reinecke and Patric Fornasier on the <a xmlns="http://www.w3.org/1999/xhtml" href="http://mailbase.ncl.ac.uk/lists/sccontest/archive.html">team&#8217;s mailing list</a> to slap me back into actually thinking critically about it, and about the profound effect that metadata has on dependable computing systems in particular. The SSDL engine that the team implemented validates a business protocol by recording (some of) the details of messages that it sends and receives in a persistent store. The individual messages exchanges are themselves stateless, therefore making the service scalable (to the limits of its underlying datastore) and recoverable. What is interesting is not so much that a validation of an entire conversation is possible (of course this isn’t possible with WSDL), but that it is in fact possible to leverage SSDL for more than that.</p>
+<p>It&#8217;s actually not a huge intuitive leap to think about SSDL as a DSL for Web Services. If that DSL had appropriate framework support then the kind of validation engine that the team built by hand could be automatically generated (much like how Rails automatically generates database schemas and bindings for Ruby Web apps). However there is no need to stop simply at automatically generating the protocol validation framework for a business process. As messages are sent and received, the underlying framework stores them for validation purposes, but it is equally possible to put them to use for another (generally horrible) task &#8211; crash recovery.</p>
+<p>Rewind to February when I last caught up with <a xmlns="http://www.w3.org/1999/xhtml" href="http://www.martinfowler.com">Martin</a>. He gave an interesting talk about a pattern he&#8217;s observed which he’s calling &#8220;<a xmlns="http://www.w3.org/1999/xhtml" href="http://www.martinfowler.com/eaaDev/EventNarrative.html">Chain of Events</a>&#8221; where an application records all the stimuli it receives from the outside world. This pattern makes crash recovery straightforward (assuming internally deterministic behaviour), since all that needs to happen is for those external stimuli to be replayed back to the application at recovery time.</p>
+<p>In the case of a Web Service described with SSDL, it is possible to have a framework which builds on top of the protocol validation code to create crash recovery code. Since crash recovery code is a horrible affair which is prone to having bugs crop up at inconvenient times (i.e. at recovery time!), any level of automation around this will be a significant boost to enterprise Web Services development. All of which is, I think, presents some pretty exciting opportunities. No longer is metadata only for automatically generating client-side stubs, but can we put metadata to automate (for example) the creation of transactional scopes for specific subsets of related activities (where the relations are expressed, of course, as part of the SSDL description)? Ditto for security aspects.  Indeed I’m intrigued by the notion of applying policies across a finely targeted set of related interactions (which is not  possible with today’s technology), and using tooling to automate the resulting secure, reliable, transacted business protocols that emerge.</p>
+<p>Is this viable, or am I completely barking up the wrong tree?</p>
+</div>
+
+					
+									</div><!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">&#8249; <a href="/archive/2006/08/presenting-at-teched-2006-in-australia-and-new-zealand/" rel="prev">Presenting at TechEd 2006 in Australia and New Zealand</a></div>
+					<div class="next"><a href="/archive/2006/08/ssdl-links/" rel="next">SSDL Links</a> &#8250;</div>
+				</div><!-- end of .navigation -->
+
+				
+	<div class="post-data">
+			</div><!-- end of .post-data -->
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-284 -->
+			
+						
+
+
+
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2006/08/making-metadata-work-harder-ssdl-and-crash-recovery/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="/archive/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" /></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='284' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="c511f370a2" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="30"/></p>			</form>
+			</div><!-- #respond -->
+	
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit" role="complementary">
+		
+		<div id="text-7" class="widget-wrapper widget_text">			<div class="textwidget"><div>
+<h4 align="center">Jim Webber's Books</h4>  
+
+<p align="center">
+<img alt="Graph Databases book cover" src="http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg" width="160" height="240" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+  
+<p align="center">
+<a href="http://www.amazon.com/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (US)</a>  
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (UK)</a>
+</p>
+
+
+<p align="center"><img alt="REST in Practice book cover" src="http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0596805829">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0596805829">Amazon (UK)</a></p>
+
+<p align="center"><img alt="Developing Enterprise Web Services book cover" src="https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=B005MZDYRE">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0131401602">Amazon (UK)</a></p>
+</div></div>
+		</div>
+			</div><!-- end of #widgets -->
+</div>
+</div><!-- end of #wrapper -->
+
+	 
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+	
+	<div id="footer-wrapper">
+		
+		 <!--   main-->
+		
+		<div id="content-outer">			
+				</div>
+		<div id="content-outer">
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"><li class="twitter-icon"><a href="http://twitter.com/jimwebber"><img src="/archive/contents/ui/theme/core/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+		
+		<div class="grid col-300 copyright">
+			&copy; 2018<a id="copyright_link" href="/archive/" title="World Wide Webber">
+				World Wide Webber			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><!--<a href="#scroll-top" title="scroll to top">&uarr;</a>
+		<div id="scroll-to-top"><span class="glyphicon glyphicon-chevron-up"></span></div>--></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme" rel="noindex, nofollow">Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+	</div>
+		
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+<div id="scroll" title="Scroll to Top" style="display: block;">Top<span></span></div>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-scripts.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/jquery.placeholder.min.js'></script>
+<script async="async" type='text/javascript' src='/archive/contents/lib/akismet/_inc/form.js'></script>
+</body>
+</html>

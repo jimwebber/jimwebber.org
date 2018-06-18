@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Anemic Service Model</title>
+	<atom:link href="http://wp.local/2008/04/anemic-service-model/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.local/2008/04/anemic-service-model/</link>
+	<description>Jim Webber&#039;s Blog</description>
+	<lastBuildDate>Mon, 04 Jun 2018 12:30:52 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>By: Hannes</title>
+		<link>http://wp.local/2008/04/anemic-service-model/#comment-785</link>
+		<dc:creator><![CDATA[Hannes]]></dc:creator>
+		<pubDate>Fri, 25 Jan 2013 06:18:30 +0000</pubDate>
+		<guid isPermaLink="false">http://jim.webber.name/2008/04/19/30b4f0e9-f67a-4310-bf38-ca0a3423206e.aspx#comment-785</guid>
+		<description><![CDATA[You must have forgotten you wrote this entry. I read it for the 
+first time last year, but now all the images seem to be missing?]]></description>
+		<content:encoded><![CDATA[<p>You must have forgotten you wrote this entry. I read it for the<br />
+first time last year, but now all the images seem to be missing?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

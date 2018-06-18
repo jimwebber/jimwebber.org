@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Scaling Neo4j with Cache Sharding and Neo4j HA</title>
+	<atom:link href="http://wp.local/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wp.local/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/</link>
+	<description>Jim Webber&#039;s Blog</description>
+	<lastBuildDate>Mon, 04 Jun 2018 12:30:52 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>By: Performance in Neo4j (&#8220;Obligatory Neo4j&#8221; Part 4) &#124; alex.d.garland</title>
+		<link>http://wp.local/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/#comment-2319</link>
+		<dc:creator><![CDATA[Performance in Neo4j (&#8220;Obligatory Neo4j&#8221; Part 4) &#124; alex.d.garland]]></dc:creator>
+		<pubDate>Thu, 20 Feb 2014 20:50:39 +0000</pubDate>
+		<guid isPermaLink="false">http://jim.webber.name/2011/02/23/abe72f61-27fb-4c1b-8ce1-d0db7583497b.aspx#comment-2319</guid>
+		<description><![CDATA[[&#8230;] There are also some architectural and hardware-based options.  The commercially licensed version of Neo4j offers the possibility of master-slave replication for horizontal read-scaling, and a technique called cache-sharding can be used which increases the chance of required data being queued up in main memory.  There are more details on that here. [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] There are also some architectural and hardware-based options.  The commercially licensed version of Neo4j offers the possibility of master-slave replication for horizontal read-scaling, and a technique called cache-sharding can be used which increases the chance of required data being queued up in main memory.  There are more details on that here. [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

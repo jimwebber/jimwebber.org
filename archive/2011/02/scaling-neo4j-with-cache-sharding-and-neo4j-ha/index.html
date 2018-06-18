@@ -1,0 +1,273 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+<base href="/archive" />
+
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+		
+
+		<title>Scaling Neo4j with Cache Sharding and Neo4j HA &#8211; World Wide Webber</title>
+
+
+
+
+<link rel='stylesheet' id='responsive-style-css'  href='/archive/contents/ui/theme/core/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='/archive/contents/ui/theme/core/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='/archive/contents/ui/theme/core/css/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/archive/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-modernizr.min.js'></script>
+
+
+
+
+
+
+
+
+	<script>
+		jQuery(document).ready(function(){
+		var copyright_text = "";
+		var cyberchimps_link = "";
+		var siteurl = "/archive"; 
+		if(copyright_text == "")
+		{
+			jQuery(".copyright #copyright_link").text(" "+"Default copyright text");
+		}
+		else{ 
+			jQuery(".copyright #copyright_link").text(" "+copyright_text);
+		}
+		jQuery(".copyright #copyright_link").attr('href',siteurl);
+		if(cyberchimps_link == 1)
+		{
+			jQuery(".powered").css("display","block");
+		}
+		else{
+			jQuery(".powered").css("display","none");
+		}
+		});
+	</script>
+<!-- We need this for debugging -->
+<!-- Responsive 3.11 -->
+		<style type="text/css" id="wp-custom-css">
+			1		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-124 single-format-standard default-layout">
+
+  	
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header_section">
+	<div id="header" role="banner">
+
+		
+		
+		
+		
+				<div id="content-outer">
+			<div id="logo">
+				<span class="site-name"><a href="/archive/" title="World Wide Webber" rel="home">World Wide Webber</a></span>
+				<span class="site-description">Jim Webber&#039;s Blog</span>
+			</div><!-- end of #logo -->
+		</div>
+				
+				<div class="main-nav"><ul class="menu"><li ><a href="/archive/">Home</a></li><li class="page_item page-item-95 current_page_parent"><a href="/archive/blog/">Blog</a></li><li class="page_item page-item-5 page_item_has_children"><a href="/archive/biography/">Bio</a><ul class='children'><li class="page_item page-item-10"><a href="/archive/biography/shortbio/">Short Bio</a></li></ul></li><li class="page_item page-item-630"><a href="/archive/books/">Books</a></li><li class="page_item page-item-15"><a href="/archive/contact/">Contact</a></li><li class="page_item page-item-13"><a href="/archive/professional/">Professional</a></li><li class="page_item page-item-12"><a href="/archive/publications/">Publications</a></li></ul></div>
+		
+		
+	</div><!-- end of #header -->
+	</div>
+
+
+	  
+	<div id="wrapper" class="clearfix">
+<div id="content-outer">
+<div id="content" class="grid col-620" role="main">
+
+	
+	
+		
+						<div id="post-124" class="post-124 post type-post status-publish format-standard hentry category-neo4j category-nosql">
+				
+				
+	<h1 class="entry-title post-title responsive">Scaling Neo4j with Cache Sharding and Neo4j HA</h1>
+
+<div class="post-meta">
+	<i class="fa fa-calendar" aria-hidden="true"></i><span class="meta-prep meta-prep-author posted">Posted on </span><a href="/archive/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/" title="Scaling Neo4j with Cache Sharding and Neo4j HA" rel="bookmark"><time class="timestamp updated" datetime="2011-02-23T18:15:29+00:00">February 23, 2011</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="/archive/author/jim/" title="View all posts by jim"><span class="author-gravtar"></span>jim</a></span>		<span class='posted-in'>
+Posted in <a href="/archive/category/neo4j/">neo4j</a>, <a href="/archive/category/nosql/">NOSQL</a>		</span>
+
+			<span class="comments-link">
+		<span class="mdash">&mdash;</span>
+			<a href="/archive/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/#respond">No Comments &darr;</a>		</span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<p>In the <a href="http://neo4j.org/">Neo4j</a> world, we consider large datasets to be those which are substantially larger than main memory. With such large datasets, it&#8217;s impossible for a Neo4j instance to cache the whole database in RAM and therefore provide extremely rapid traversals of the graph, since we&#8217;ll have to hit the disk eventually. In those situations we&#8217;ve previously recommended scaling vertically by opting for solid-state storage to provide constant, low seek times for data on disk (avoiding the high seek penalty incurred by spinning disks). While the SSD approach provides a substantial performance boost in most scenarios, even the fastest SSD isn&#8217;t a replacement for RAM.</p>
+<p>I <a href="http://jim.webber.name/2011/02/16/3b8f4b3d-c884-4fba-ae6b-7b75a191fa22.aspx">wrote previously</a> that partitioning graphs across physical instances is a notoriously difficult way to scale graph data. Yet  we still want the ability to service large workloads and host large data sets in Neo4j. Until the recent 1.2 release I think this was a weak point for the database, but with the advent of Neo4j High Availability (HA) I don&#8217;t think it is anymore. In fact Neo4j HA gives us considerably more options for designing solutions for availability, scalability and very large data sets.</p>
+<p>One pattern that I&#8217;ve seen using Neo4j HA for large deployments is what we&#8217;re calling &#8220;Cache Sharding&#8221; to maintain high performance with a dataset that far exceeds main memory space. Cache sharding isn&#8217;t sharding in the traditional sense, since we expect a full data set to be present on each database instance. To implement cache sharing, we partition the workload undertaken by each database instance, to increase the likelihood of hitting a warm cache for a given request &#8211; and warm caches in Neo4j are ridiculously high performance.</p>
+<p>The solution architecture for this setup is shown below. We move from the hard problem of graph sharding, to the simpler problem of consistent routing, something which high volume Web farms have been doing for ages.</p>
+<p><a href="http://jimwebber.org/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/1-2/" rel="attachment wp-att-617"><img class="alignnone size-medium wp-image-617" alt="1" src="http://jimwebber.org/contents/data/2011/02/1-300x191.png" width="300" height="191" srcset="/archive/contents/data/2011/02/1-300x191.png 300w, /archive/contents/data/2011/02/1.png 917w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>The strategy we use to implement consistent routing will vary by domain. Sometimes it&#8217;s good enough to have sticky sessions, other times we&#8217;ll want to route based on the characteristics of the data set.  A simple strategy is where the instance which first serves requests for a particular user will serve subsequent requests for that user ensuring a good chance that the request will be processed by a warm cache. Other domain-specific approaches will also work, for example in geographical data system we can route requests about particular locations to specific database instances which will be warm for that location. Either way, we&#8217;re increasing the likelihood of the required nodes and relationships already being cached in RAM, and therefore quick to access and process.</p>
+<p>Of course reading from the database is only half of the story. If we&#8217;re going to run a number of servers to exploit their large aggregate caching capability, we need to keep those servers in sync. This is where the Neo4j HA software becomes particularly useful. A Neo4j HA deployment effectively creates a multi-master cluster.</p>
+<p>Writes to any node will result in all other nodes eventually receiving that write through the HA protocol. Writing to the elected master in the cluster causes the data to be persisted (strictly ACID, always), and then changes are propagated to the slaves through the HA protocol for eventual consistency.</p>
+<p><a href="http://jimwebber.org/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/2-2/" rel="attachment wp-att-618"><img alt="2" src="http://jimwebber.org/contents/data/2011/02/2-300x221.png" width="300" height="221" /></a></p>
+<p>If a write operation is processed by a slave, it enrols the elected master in a transaction and both instances persist the results (again strictly ACID). Other slaves then catch up through the HA protocol.</p>
+<p><a href="http://jimwebber.org/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/3-2/" rel="attachment wp-att-619"><img class="alignnone size-medium wp-image-619" alt="3" src="http://jimwebber.org/contents/data/2011/02/3-300x255.png" width="300" height="255" srcset="/archive/contents/data/2011/02/3-300x255.png 300w, /archive/contents/data/2011/02/3.png 886w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>By using this pattern, we can treat a Neo4j HA cluster as a performant database for reads and writes, knowing that with a good routing strategy we&#8217;re going to be keeping traversals in memory and extremely fast &#8211; fast enough for very demanding applications.</p>
+
+					
+									</div><!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">&#8249; <a href="/archive/2011/02/cfp-ecows-2011-the-9th-ieee-european-conference-on-web-services/" rel="prev">CFP: ECOWS 2011 &#8211; The 9th IEEE European Conference on Web Services</a></div>
+					<div class="next"><a href="/archive/2011/03/strategies-for-scaling-neo4j/" rel="next">Strategies for Scaling Neo4j</a> &#8250;</div>
+				</div><!-- end of .navigation -->
+
+				
+	<div class="post-data">
+			</div><!-- end of .post-data -->
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-124 -->
+			
+						
+	<h6 id="comments">
+		0 comments on &ldquo;<span>Scaling Neo4j with Cache Sharding and Neo4j HA</span>&rdquo;	</h6>
+
+	
+	<ol class="commentlist">
+			</ol>
+
+	
+
+
+	<h6 id="pings">1 Pings&#47;Trackbacks for "Scaling Neo4j with Cache Sharding and Neo4j HA"</h6>
+
+	<ol class="commentlist">
+				<li class="pingback even thread-even depth-1" id="comment-2319">
+				<div id="div-comment-2319" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn"><a href='http://alexdgarland.com/2014/02/20/obligatory-neo4j-4/' rel='external nofollow' class='url'>Performance in Neo4j (&#8220;Obligatory Neo4j&#8221; Part 4) | alex.d.garland</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="/archive/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/#comment-2319">
+			February 20, 2014 at 8:50 pm</a>		</div>
+
+		<p>[&#8230;] There are also some architectural and hardware-based options.  The commercially licensed version of Neo4j offers the possibility of master-slave replication for horizontal read-scaling, and a technique called cache-sharding can be used which increases the chance of required data being queued up in main memory.  There are more details on that here. [&#8230;]</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+	</ol>
+
+
+
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2011/02/scaling-neo4j-with-cache-sharding-and-neo4j-ha/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="/archive/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" /></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='124' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a3b6b900f2" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="241"/></p>			</form>
+			</div><!-- #respond -->
+	
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit" role="complementary">
+		
+		<div id="text-7" class="widget-wrapper widget_text">			<div class="textwidget"><div>
+<h4 align="center">Jim Webber's Books</h4>  
+
+<p align="center">
+<img alt="Graph Databases book cover" src="http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg" width="160" height="240" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+  
+<p align="center">
+<a href="http://www.amazon.com/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (US)</a>  
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/1449356265/ref=as_li_tf_il?ie=UTF8&camp=1634&creative=6738&creativeASIN=1449356265&linkCode=as2&tag=jimwebbesblog-21">Amazon (UK)</a>
+</p>
+
+
+<p align="center"><img alt="REST in Practice book cover" src="http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0596805829">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0596805829">Amazon (UK)</a></p>
+
+<p align="center"><img alt="Developing Enterprise Web Services book cover" src="https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg" width="160" height="240" /></p>
+<p align="center"><a href="http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;tag=jimwebbesblog-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=B005MZDYRE">Amazon (US)</a>
+<br/>
+<a href="http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;tag=jimwebbesblog-21&amp;linkCode=xm2&amp;camp=1634&amp;creativeASIN=0131401602">Amazon (UK)</a></p>
+</div></div>
+		</div>
+			</div><!-- end of #widgets -->
+</div>
+</div><!-- end of #wrapper -->
+
+	 
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix" role="contentinfo">
+	
+	<div id="footer-wrapper">
+		
+		 <!--   main-->
+		
+		<div id="content-outer">			
+				</div>
+		<div id="content-outer">
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"><li class="twitter-icon"><a href="http://twitter.com/jimwebber"><img src="/archive/contents/ui/theme/core/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+		
+		<div class="grid col-300 copyright">
+			&copy; 2018<a id="copyright_link" href="/archive/" title="World Wide Webber">
+				World Wide Webber			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><!--<a href="#scroll-top" title="scroll to top">&uarr;</a>
+		<div id="scroll-to-top"><span class="glyphicon glyphicon-chevron-up"></span></div>--></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme" rel="noindex, nofollow">Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+	</div>
+		
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+<div id="scroll" title="Scroll to Top" style="display: block;">Top<span></span></div>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/responsive-scripts.min.js'></script>
+<script type='text/javascript' src='/archive/contents/ui/theme/core/js/jquery.placeholder.min.js'></script>
+<script async="async" type='text/javascript' src='/archive/contents/lib/akismet/_inc/form.js'></script>
+</body>
+</html>
