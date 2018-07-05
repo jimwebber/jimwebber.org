@@ -11,12 +11,166 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Papers Coming soon</title>
-      <link>/publication/holding-page/</link>
-      <pubDate>Wed, 13 Jun 2018 17:21:00 +0100</pubDate>
+      <title>Refereed Publications</title>
+      <link>/papers/</link>
+      <pubDate>Thu, 05 Jul 2018 19:08:39 +0100</pubDate>
       
-      <guid>/publication/holding-page/</guid>
-      <description></description>
+      <guid>/papers/</guid>
+      <description>
+
+&lt;h2 id=&#34;academic-book-chapters&#34;&gt;Academic Book Chapters&lt;/h2&gt;
+
+&lt;p&gt;(The technical books I&amp;#8217;ve authored are on my &lt;a href=&#34;/books/&#34;&gt;books page&lt;/a&gt;.&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h4 id=&#34;realising-service-oriented-architectures-using-web-services&#34;&gt;Realising Service Oriented Architectures Using Web Services&lt;/h4&gt;
+
+&lt;p&gt;Jim Webber and Savas Parastatidis, &lt;a href=&#34;http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;amp;amp;tid=11654&#34; target=&#34;_blank&#34;&gt;Service-Oriented Computing: The Web Services Phenomenon&lt;/a&gt;, MIT Press 2008.&lt;/p&gt;
+
+&lt;h4 id=&#34;protocol-based-integration-using-ssdl-and-pi-calculus&#34;&gt;Protocol-based Integration using SSDL and Pi-Calculus&lt;/h4&gt;
+
+&lt;p&gt;Woodman, S., Parastatidis, S. and Webber, J. In &lt;a href=&#34;http://www.springer.com/computer/communication+networks/book/978-1-84628-519-6&#34; target=&#34;_blank&#34;&gt;Workflows for E-science: Scientific Workflows for Grids&lt;/a&gt; Taylor, I. .J., Deelman, E., Gannon, D.B. and Shields, M. (eds.), pp 227-243, ISBN 978-1-84628-519-6, Springer-Verlag 2007.&lt;/p&gt;
+
+&lt;h4 id=&#34;visual-object-oriented-development-of-parallel-applications-ph-d-thesis-http-www-cs-ncl-ac-uk-publications-articles-papers-366-pdf&#34;&gt;Visual Object-Oriented Development of Parallel Applications (&lt;a href=&#34;http://www.cs.ncl.ac.uk/publications/articles/papers/366.pdf&#34; target=&#34;_blank&#34;&gt;Ph.D. Thesis&lt;/a&gt;)&lt;/h4&gt;
+
+&lt;p&gt;Webber, J. Department of Computing Science, University of Newcastle upon Tyne, 2000.&lt;/p&gt;
+
+&lt;h2 id=&#34;academic-journals&#34;&gt;Academic Journals&lt;/h2&gt;
+
+&lt;h4 id=&#34;investigations-on-path-indexing-for-graph-databases&#34;&gt;Investigations on path indexing for graph databases&lt;/h4&gt;
+
+&lt;p&gt;Sumrall J., Fletcher G. H. L. , Poulovassilis A., Svensson J., Vejlstrup M., Vest C., and Webber J. &lt;a href=&#34;https://sites.google.com/site/pelga16/&#34; target=&#34;_blank&#34;&gt;Proceedings of PELGA 2016&lt;/a&gt;.
+&lt;h4&gt;&lt;strong&gt;An Architect&amp;#8217;s Guide to Developing Enterprise Web Services&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J., CSI Communications, Volume 29, Issue 9, pp. 15-20, March 2006.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Asynchronous Messaging between Web Services Using SSDL&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis, S., Woodman, S., Webber, J., Kuo, D., Greenfield, P., IEEE Internet Computing, vol. 10, no. 1, pp. 26-39, January/February, 2006.&lt;br /&gt;
+See also: &lt;a href=&#34;http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4236%2F33376%2F01580411.pdf%3Farnumber%3D1580411&amp;amp;authDecision=-203&#34;&gt;IEEE Web site&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Grid Computing using Web Services Technologies&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis S., Watson, P., Webber, J., 6th Thematic Workshop of the EU Network of Excellence DELOS, Cagliari, Italy, June 24-25, 2004, Lecture Notes in Computer Science, Springer-Verlag, ISSN: 0302-9743. See also &lt;a href=&#34;http://dx.doi.org/10.1007/11549819_2&#34;&gt;http://dx.doi.org/10.1007/11549819_2&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;WS-GAF: a framework for building Grid applications using Web Services&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis S., Webber, J., Watson, P. Rischbeck, T., Journal of Concurrency and Computation: Practice and Experience, 17(2-4), p391-417, 2005&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Web Service Grids: An Evolutionary Approach&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Atkinson, M. et al, Journal of Concurrency and Computation: Practice and Experience, 17(2-4), p377-389), 2005&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Coordinating Business Transactions on the Web&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Dalal, S. Little, M. Potts, M. Temel, S., Webber, J., IEEE Internet Computing Special Edition on Web Services, January 2003.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Visual, Object-Oriented Development of Parallel Applications&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J. and Lee, P.A., Journal of Visual Languages and Computing, Volume 12, Issue 2, pp 145-161, Academic Press, ISSN: 1045-926X, 2001.&lt;/p&gt;
+&lt;h2&gt;Conference Proceedings&lt;/h2&gt;
+&lt;h4&gt;&lt;strong&gt;Towards a Horizontally Scalable Graph Database&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Jim Webber, Proceedings of the &lt;a href=&#34;http://data-forum.eu/&#34;&gt;European Data Forum&lt;/a&gt;, June 6-7 2012, Copenhagen, Denmark.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;The Role of Hypermedia in Distributed System Development&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Savas Parastatidis, Jim Webber, Guilherme Silveira and Ian Robinson, Proceedings of the First International Workshop on RESTful Design (WS-REST 2010), at WWW 2010&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Soya: a Programming Model and Runtime Environment for Component Composition using SSDL&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Patric Fornasier, Jim Webber, and Ian Gorton, Proceedings of the &lt;a href=&#34;http://www.csse.monash.edu.au/~hws/CBSE10/&#34;&gt;10th International ACM SIGSOFT Symposium on Component-Based Software Engineering&lt;/a&gt; (CBSE 2007)&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Expressing and Reasoning about Service Contracts in Service-Oriented Computing&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Kuo, D. et al., Proceedings of the IEEE International Conference on Web Services 2006, pp 915-918, July 2006&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Secure and Provable Service Support for Human-Intensive Real-Estate Processes&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Emerson Ribeiro de Mello et al, Proceedings of the IEEE International Conference on Services Computing (SCC&amp;#8217;06), pp. 495-504&lt;br /&gt;
+See also: &lt;a href=&#34;http://doi.ieeecomputersociety.org/10.1109/SCC.2006.84&#34;&gt;http://doi.ieeecomputersociety.org/10.1109/SCC.2006.84&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Proceedings of the First International Workshop on the Design of Service-Oriented Applications (WDSOA&amp;#8217;05)&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Chung, J.Y., Feuerlicht, G., Webber J. (eds), Amsterdam, 2005. IBM Research Report RC23819.&lt;br /&gt;
+See also: &lt;a href=&#34;http://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/0fd9b681aadeffa1852570cf005fdc06?OpenDocument&#34;&gt;http://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/0fd9b681aadeffa1852570cf005fdc06?OpenDocument&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis, S. and Webber, J., Proceedings of the 2004 IEEE International Conference on Services Computing, Shanghai, China, 2004.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;The WS-GAF Registry Service&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis S., and Webber, J., 2nd Workshop on Building Service-based Grids, GGF 11 Honolulu, Hawaii, USA, July 2004.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Grid Computing using Web Services Technologies&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis, S., Watson, , P., and Webber, J., Proceedings of the DELOS Workshop on Digital Library Architectures, S. Margherita di Pula, Cagliari, Italy, June 2004.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;The Misplaced Comma: Programmers&amp;#8217; Tales and Traditions&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Marshall, L. and Webber, J., Proceedings of the 14th Annual Workshop of the Psychology of Programming Interest Group, 2002.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.ppig.org/papers/14th-marshall.pdf&#34;&gt;http://www.ppig.org/papers/14th-marshall.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Visual, Object-Oriented Development of Parallel Applications&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J. and Lee, P.A., Proceedings of Satellite Workshop on Visual Methods for Parallel and Distributed Programming, IEEE Visual Languages, Seattle, USA, September 2000.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Gotos Considered Harmful and other Programmer&amp;#8217;s Taboos&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Marshall, L. and Webber, J. Proceedings of the 12th Annual Workshop of the Psychology of Programming Interest Group, 2000.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.ppig.org/papers/12th-marshall.pdf&#34;&gt;http://www.ppig.org/papers/12th-marshall.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Vorlon: A Visual Object-Oriented Approach to Parallel Application Development&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J. Proceedings of the Doctoral Symposium, 13th IEEE Conference on Automated Software Engineering, 1998.&lt;br /&gt;
+See also: &lt;a href=&#34;http://ase.informatik.uni-essen.de/ase/past/ase98/ASE98DocSymProc.pdf&#34;&gt;http://ase.informatik.uni-essen.de/ase/past/ase98/ASE98DocSymProc.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Industrial Journals&lt;/h2&gt;
+&lt;h4&gt;&lt;strong&gt;Service-Oriented, Distributed, High-Performance Computing&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis S. and Webber, J., Microsoft Architecture Journal, Vol. 1, Issue 5, July 2005.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.microsoft.com/architecture/library.aspx?pid=journal.5&amp;amp;abver=FEEB2E89-4412-4C58-A7F8-9B2CA0E0BDAC&amp;amp;id=http://msdn.microsoft.com/architecture/default.aspx?pull=/library/en-us/dnmaj/html/Jour5Serv.asp&#34;&gt;http://www.microsoft.com/architecture/default.aspx?pid=journal.5&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Stateful Interactions in Web Services:&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;A Comparison of WS-Context and WS-ResourceFramework&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J., Parastatidis S., Little, M.C., Web Services Journal, Vol. 4, Issue 5, May 2004.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/44675.htm&#34;&gt;http://webservices.sys-con.com/read/44675.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Why WSDL is not Yet Another Object IDL&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J., and Parastatidis S., Web Services Journal, Vol. 4, Issue 4, April 2004.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/44354.htm&#34;&gt;http://webservices.sys-con.com/read/44354.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Horses for Courses: Services, Objects, and Loose Coupling&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J., and Parastatidis S., Web Services Journal, Vol. 4, Issue 1, January 2004.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39953.htm&#34;&gt;http://webservices.sys-con.com/read/39953.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Introducing WS-CAF&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J. and Little, M.C., Web Services Journal, Vol. 3, Issue 12, December 2003.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39936.htm&#34;&gt;http://webservices.sys-con.com/read/39936.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Demystifying Service Oriented Architectures&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J. and Parastatidis, S., Web Services Journal, Vol. 3, Issue 11, November 2003.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39908.htm&#34;&gt;http://webservices.sys-con.com/read/39908.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Introducing BPEL4WS&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber J., and Little M.C., Web Services Journal, Vol. 3, Issue 8, August 2003.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39830.htm&#34;&gt;http://webservices.sys-con.com/read/39830.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Introducing WS-Transaction&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Little M.C. and Webber J., Web Services Journal, Vol. 3, Issue 6, June 2003. Continued Vol. 3, Issue 7, June 2003.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39769.htm&#34;&gt;http://webservices.sys-con.com/read/39769.htm&lt;/a&gt; and &lt;a href=&#34;http://webservices.sys-con.com/read/39795.htm&#34;&gt;http://webservices.sys-con.com/read/39795.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Introducing WS-Coordination&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber J., and Little M.C., Web Services Journal, Vol. 3, Issue 5, May 2003.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39751.htm&#34;&gt;http://webservices.sys-con.com/read/39751.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Building Transactional Web Services with OASIS BTP&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber J., Web Services Journal, Vol. 2, Issue 10, October 2002. Continued Vol.2, Issue 11, November 2002.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39577.htm&#34;&gt;http://webservices.sys-con.com/read/39577.htm&lt;/a&gt; and &lt;a href=&#34;http://webservices.sys-con.com/read/39606.htm&#34;&gt;http://webservices.sys-con.com/read/39606.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;The Smart Money s on OASIS BTP&lt;/strong&gt; (Guest Editorial)&lt;/h4&gt;
+&lt;p&gt;Webber J., Web Services Journal, Vol. 2, Issue 4, April 2002.&lt;br /&gt;
+See also: &lt;a href=&#34;http://webservices.sys-con.com/read/39424.htm&#34;&gt;http://webservices.sys-con.com/read/39424.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Making Web Services Work&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Webber, J., et al, Application Development Advisor, Volume 5, Issue 9, pp 68-71 SIGS Ltd., ISSN: 1369-4200, 2001&lt;/p&gt;
+&lt;h2&gt;Whitepapers&lt;/h2&gt;
+&lt;h4&gt;&lt;strong&gt;Soap Service Description Language&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis, S., Webber J., et al&lt;br /&gt;
+See &lt;a href=&#34;http://www.ssdl.org/&#34;&gt;http://www.ssdl.org&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Web Services Composite Application Framework (WS-CAF) Specification&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Bunting, D. et al.&lt;br /&gt;
+See &lt;a href=&#34;http://www.arjuna.com/standards/ws-caf/&#34;&gt;http://www.arjuna.com/standards/ws-caf/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Technical Reports&lt;/h2&gt;
+&lt;h4&gt;&lt;strong&gt;Secure and Provable Service Support for Human-Intensive Real-Estate Processes&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Ribeiro de Mello, E., Parastatidis, S., Reinecke, P., Smith, C., van Moorsel, A., Webber, J. CS-TR: 960, School of Computing Science, University of Newcastle, May  2006.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/851.pdf&#34;&gt;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/960.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis, S. and Webber, J. CS-TR: 851, School of Computing Science, University of Newcastle, July 2004.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/851.pdf&#34;&gt;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/851.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Using Web Services to Build Grid Applications &amp;#8211; The &amp;#8220;No Risk&amp;#8221; WS-GAF Profile&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis, S., Webber, J. and Watson, P. CS-TR: 850, School of Computing Science, University of Newcastle, June 2004.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/850.pdf&#34;&gt;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/850.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;A Grid Application Framework based on Web Services Specifications and Practices&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Parastatidis, S., Webber, J., Watson, P. and Rischbeck, T. CS-TR: 825 School of Computing Science, University of Newcastle, Jan 2004.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/825.pdf&#34;&gt;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/825.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Taxonomy for Visual Parallel Programming&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Lee, P. A. and Webber, J., CS-TR: 793, School of Computing Science, University of Newcastle, April 2003.&lt;br /&gt;
+See also: &lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/793.pdf&#34;&gt;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/793.pdf&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Books by Jim Webber</title>
+      <link>/books/</link>
+      <pubDate>Thu, 05 Jul 2018 19:06:51 +0100</pubDate>
+      
+      <guid>/books/</guid>
+      <description>&lt;p&gt;&lt;h2&gt;Graph Databases&lt;/h2&gt;
+&lt;p&gt;By Ian Robinson, Jim Webber and Emil Eifrem&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://graphdatabases.com&#34;&gt;&lt;img class=&#34;alignnone&#34; alt=&#34;&#34; src=&#34;http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg&#34; width=&#34;180&#34; height=&#34;236&#34; align=&#34;none&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Graph databases &amp;#8211; like &lt;a href=&#34;http://neo4j.org&#34;&gt;Neo4j&lt;/a&gt; &amp;#8211; are a powerful tool for storing and querying highly connected data. Indeed Neo4j can be thousands of times faster than relational databases for such connected data, making it a popular for managing complex data across many domains from finance to social, and telecoms to geospatial. In this book, Ian, Emil, and I explain what a graph database is and how it can be used to gain insight into business critical data. We show how modern graph databases are an excellent choice for both &lt;a href=&#34;http://en.wikipedia.org/wiki/Online_transaction_processing&#34;&gt;OLTP&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Online_analytical_processing&#34;&gt;OLAP&lt;/a&gt; data stores and demonstrate the myriad of use-cases for the Neo4j database.&lt;/p&gt;
+&lt;h2&gt;REST in Practice&lt;/h2&gt;
+&lt;p&gt;By Jim Webber, Savas Parastatidis, and Ian Robinson&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://restinpractice.com&#34;&gt;&lt;img class=&#34;alignnone&#34; alt=&#34;REST in Practice book cover&#34; src=&#34;http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg&#34; width=&#34;180&#34; height=&#34;236&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Does the REST architectural style really present a viable alternative for building distributed systems and enterprise-class applications? In this book, Savas, Ian and I provide a down-to-earth explanation of REST and demonstrate how to develop simple and elegant distributed systems using Web techniques and technology. Throughout the book, we use Web technologies and patterns to solve the needs of a typical company as it grows from modest beginnings to become a global enterprise, from simple CRUD applications through to hypermedia-driven business processes. We&amp;#8217;ll also demonstrate how those enterprise staples &amp;#8211; security and event-driven systems &amp;#8211; are easy to implement with Web tools.&lt;/p&gt;
+&lt;p&gt;Buy: &lt;a href=&#34;http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;amp;tag=jimwebbesblog-20&amp;amp;linkCode=xm2&amp;amp;camp=1789&amp;amp;creativeASIN=0596805829&#34;&gt;Amazon (US)&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;amp;tag=jimwebbesblog-21&amp;amp;linkCode=xm2&amp;amp;camp=1634&amp;amp;creativeASIN=0596805829&#34;&gt;Amazon (UK)&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Developing Enterprise Web Services: An Architect&amp;#8217;s Guide&lt;/h2&gt;
+&lt;p&gt;By Sandeep Chatterjee and Jim Webber&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;alignnone  wp-image-631&#34; alt=&#34;DEWS&#34; src=&#34;https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg&#34; width=&#34;180&#34; height=&#34;240&#34; srcset=&#34;/archive/contents/data/2012/12/DEWS-225x300.png 225w, /archive/contents/data/2012/12/DEWS.png 375w&#34; sizes=&#34;(max-width: 180px) 100vw, 180px&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This was one of the first books to demonstrate how to build (WS-*) Web Services with enterprise-class reliability, and performance. This book takes a no-nonsense view of architecting and constructing enterprise-class Web services and applications. The authors assess the state of the art of the Web services platform circa 2004, offering best practices and new architectural patterns for taking advantage of Web Services.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;While the architectural patterns in this book generally remain worthwhile today, the protocols and standards covered are now looking somewhat out of date, especially since there is a strong groundswell towards building RESTful systems on the Web rather than tunnelling through HTTP with clever XML payloads.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Buy: &lt;a href=&#34;http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;amp;tag=jimwebbesblog-20&amp;amp;linkCode=xm2&amp;amp;camp=1789&amp;amp;creativeASIN=B005MZDYRE&#34;&gt;Amazon (US)&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;amp;tag=jimwebbesblog-21&amp;amp;linkCode=xm2&amp;amp;camp=1634&amp;amp;creativeASIN=0131401602&#34;&gt;Amazon (UK)&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>

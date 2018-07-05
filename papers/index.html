@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.41" />
+  <meta name="author" content="Jim Webber">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Academic Book Chapters (The technical books I&#8217;ve authored are on my books page.)
+Realising Service Oriented Architectures Using Web Services Jim Webber and Savas Parastatidis, Service-Oriented Computing: The Web Services Phenomenon, MIT Press 2008.
+Protocol-based Integration using SSDL and Pi-Calculus Woodman, S., Parastatidis, S. and Webber, J. In Workflows for E-science: Scientific Workflows for Grids Taylor, I. .J., Deelman, E., Gannon, D.B. and Shields, M. (eds.), pp 227-243, ISBN 978-1-84628-519-6, Springer-Verlag 2007.">
+
+  
+  <link rel="alternate" hreflang="en-gb" href="/papers/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="World Wide Webber">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="World Wide Webber">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/papers/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@jimwebber">
+  <meta property="twitter:creator" content="@jimwebber">
+  
+  <meta property="og:site_name" content="World Wide Webber">
+  <meta property="og:url" content="/papers/">
+  <meta property="og:title" content="Refereed Publications | World Wide Webber">
+  <meta property="og:description" content="Academic Book Chapters (The technical books I&#8217;ve authored are on my books page.)
+Realising Service Oriented Architectures Using Web Services Jim Webber and Savas Parastatidis, Service-Oriented Computing: The Web Services Phenomenon, MIT Press 2008.
+Protocol-based Integration using SSDL and Pi-Calculus Woodman, S., Parastatidis, S. and Webber, J. In Workflows for E-science: Scientific Workflows for Grids Taylor, I. .J., Deelman, E., Gannon, D.B. and Shields, M. (eds.), pp 227-243, ISBN 978-1-84628-519-6, Springer-Verlag 2007.">
+  <meta property="og:locale" content="en-gb">
+  
+  <meta property="article:published_time" content="2018-07-05T19:08:39&#43;01:00">
+  
+  <meta property="article:modified_time" content="2018-07-05T19:08:39&#43;01:00">
+  
+
+  
+  
+
+  <title>Refereed Publications | World Wide Webber</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">World Wide Webber</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/books">
+            
+            <span>Books</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/papers">
+            
+            <span>Papers</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/archive">
+            
+            <span>Old Site</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Refereed Publications</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-07-05 19:08:39 &#43;0100 BST" itemprop="datePublished dateModified">
+      2018-07-05
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jim Webber">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Refereed%20Publications&amp;url=%2fpapers%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpapers%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpapers%2f&amp;title=Refereed%20Publications"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpapers%2f&amp;title=Refereed%20Publications"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Refereed%20Publications&amp;body=%2fpapers%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="academic-book-chapters">Academic Book Chapters</h2>
+
+<p>(The technical books I&#8217;ve authored are on my <a href="/books/">books page</a>.</a>)</p>
+
+<h4 id="realising-service-oriented-architectures-using-web-services">Realising Service Oriented Architectures Using Web Services</h4>
+
+<p>Jim Webber and Savas Parastatidis, <a href="http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;amp;tid=11654" target="_blank">Service-Oriented Computing: The Web Services Phenomenon</a>, MIT Press 2008.</p>
+
+<h4 id="protocol-based-integration-using-ssdl-and-pi-calculus">Protocol-based Integration using SSDL and Pi-Calculus</h4>
+
+<p>Woodman, S., Parastatidis, S. and Webber, J. In <a href="http://www.springer.com/computer/communication+networks/book/978-1-84628-519-6" target="_blank">Workflows for E-science: Scientific Workflows for Grids</a> Taylor, I. .J., Deelman, E., Gannon, D.B. and Shields, M. (eds.), pp 227-243, ISBN 978-1-84628-519-6, Springer-Verlag 2007.</p>
+
+<h4 id="visual-object-oriented-development-of-parallel-applications-ph-d-thesis-http-www-cs-ncl-ac-uk-publications-articles-papers-366-pdf">Visual Object-Oriented Development of Parallel Applications (<a href="http://www.cs.ncl.ac.uk/publications/articles/papers/366.pdf" target="_blank">Ph.D. Thesis</a>)</h4>
+
+<p>Webber, J. Department of Computing Science, University of Newcastle upon Tyne, 2000.</p>
+
+<h2 id="academic-journals">Academic Journals</h2>
+
+<h4 id="investigations-on-path-indexing-for-graph-databases">Investigations on path indexing for graph databases</h4>
+
+<p>Sumrall J., Fletcher G. H. L. , Poulovassilis A., Svensson J., Vejlstrup M., Vest C., and Webber J. <a href="https://sites.google.com/site/pelga16/" target="_blank">Proceedings of PELGA 2016</a>.
+<h4><strong>An Architect&#8217;s Guide to Developing Enterprise Web Services</strong></h4>
+<p>Webber, J., CSI Communications, Volume 29, Issue 9, pp. 15-20, March 2006.</p>
+<h4><strong>Asynchronous Messaging between Web Services Using SSDL</strong></h4>
+<p>Parastatidis, S., Woodman, S., Webber, J., Kuo, D., Greenfield, P., IEEE Internet Computing, vol. 10, no. 1, pp. 26-39, January/February, 2006.<br />
+See also: <a href="http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4236%2F33376%2F01580411.pdf%3Farnumber%3D1580411&amp;authDecision=-203">IEEE Web site</a></p>
+<h4><strong>Grid Computing using Web Services Technologies</strong></h4>
+<p>Parastatidis S., Watson, P., Webber, J., 6th Thematic Workshop of the EU Network of Excellence DELOS, Cagliari, Italy, June 24-25, 2004, Lecture Notes in Computer Science, Springer-Verlag, ISSN: 0302-9743. See also <a href="http://dx.doi.org/10.1007/11549819_2">http://dx.doi.org/10.1007/11549819_2</a></p>
+<h4><strong>WS-GAF: a framework for building Grid applications using Web Services</strong></h4>
+<p>Parastatidis S., Webber, J., Watson, P. Rischbeck, T., Journal of Concurrency and Computation: Practice and Experience, 17(2-4), p391-417, 2005</p>
+<h4><strong>Web Service Grids: An Evolutionary Approach</strong></h4>
+<p>Atkinson, M. et al, Journal of Concurrency and Computation: Practice and Experience, 17(2-4), p377-389), 2005</p>
+<h4><strong>Coordinating Business Transactions on the Web</strong></h4>
+<p>Dalal, S. Little, M. Potts, M. Temel, S., Webber, J., IEEE Internet Computing Special Edition on Web Services, January 2003.</p>
+<h4><strong>Visual, Object-Oriented Development of Parallel Applications</strong></h4>
+<p>Webber, J. and Lee, P.A., Journal of Visual Languages and Computing, Volume 12, Issue 2, pp 145-161, Academic Press, ISSN: 1045-926X, 2001.</p>
+<h2>Conference Proceedings</h2>
+<h4><strong>Towards a Horizontally Scalable Graph Database</strong></h4>
+<p>Jim Webber, Proceedings of the <a href="http://data-forum.eu/">European Data Forum</a>, June 6-7 2012, Copenhagen, Denmark.</p>
+<h4><strong>The Role of Hypermedia in Distributed System Development</strong></h4>
+<p>Savas Parastatidis, Jim Webber, Guilherme Silveira and Ian Robinson, Proceedings of the First International Workshop on RESTful Design (WS-REST 2010), at WWW 2010</p>
+<h4><strong>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</strong></h4>
+<p>Patric Fornasier, Jim Webber, and Ian Gorton, Proceedings of the <a href="http://www.csse.monash.edu.au/~hws/CBSE10/">10th International ACM SIGSOFT Symposium on Component-Based Software Engineering</a> (CBSE 2007)</p>
+<h4><strong>Expressing and Reasoning about Service Contracts in Service-Oriented Computing</strong></h4>
+<p>Kuo, D. et al., Proceedings of the IEEE International Conference on Web Services 2006, pp 915-918, July 2006</p>
+<h4><strong>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</strong></h4>
+<p>Emerson Ribeiro de Mello et al, Proceedings of the IEEE International Conference on Services Computing (SCC&#8217;06), pp. 495-504<br />
+See also: <a href="http://doi.ieeecomputersociety.org/10.1109/SCC.2006.84">http://doi.ieeecomputersociety.org/10.1109/SCC.2006.84</a></p>
+<h4><strong>Proceedings of the First International Workshop on the Design of Service-Oriented Applications (WDSOA&#8217;05)</strong></h4>
+<p>Chung, J.Y., Feuerlicht, G., Webber J. (eds), Amsterdam, 2005. IBM Research Report RC23819.<br />
+See also: <a href="http://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/0fd9b681aadeffa1852570cf005fdc06?OpenDocument">http://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/0fd9b681aadeffa1852570cf005fdc06?OpenDocument</a></p>
+<h4><strong>Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications</strong></h4>
+<p>Parastatidis, S. and Webber, J., Proceedings of the 2004 IEEE International Conference on Services Computing, Shanghai, China, 2004.</p>
+<h4><strong>The WS-GAF Registry Service</strong></h4>
+<p>Parastatidis S., and Webber, J., 2nd Workshop on Building Service-based Grids, GGF 11 Honolulu, Hawaii, USA, July 2004.</p>
+<h4><strong>Grid Computing using Web Services Technologies</strong></h4>
+<p>Parastatidis, S., Watson, , P., and Webber, J., Proceedings of the DELOS Workshop on Digital Library Architectures, S. Margherita di Pula, Cagliari, Italy, June 2004.</p>
+<h4><strong>The Misplaced Comma: Programmers&#8217; Tales and Traditions</strong></h4>
+<p>Marshall, L. and Webber, J., Proceedings of the 14th Annual Workshop of the Psychology of Programming Interest Group, 2002.<br />
+See also: <a href="http://www.ppig.org/papers/14th-marshall.pdf">http://www.ppig.org/papers/14th-marshall.pdf</a></p>
+<h4><strong>Visual, Object-Oriented Development of Parallel Applications</strong></h4>
+<p>Webber, J. and Lee, P.A., Proceedings of Satellite Workshop on Visual Methods for Parallel and Distributed Programming, IEEE Visual Languages, Seattle, USA, September 2000.</p>
+<h4><strong>Gotos Considered Harmful and other Programmer&#8217;s Taboos</strong></h4>
+<p>Marshall, L. and Webber, J. Proceedings of the 12th Annual Workshop of the Psychology of Programming Interest Group, 2000.<br />
+See also: <a href="http://www.ppig.org/papers/12th-marshall.pdf">http://www.ppig.org/papers/12th-marshall.pdf</a></p>
+<h4><strong>Vorlon: A Visual Object-Oriented Approach to Parallel Application Development</strong></h4>
+<p>Webber, J. Proceedings of the Doctoral Symposium, 13th IEEE Conference on Automated Software Engineering, 1998.<br />
+See also: <a href="http://ase.informatik.uni-essen.de/ase/past/ase98/ASE98DocSymProc.pdf">http://ase.informatik.uni-essen.de/ase/past/ase98/ASE98DocSymProc.pdf</a></p>
+<h2>Industrial Journals</h2>
+<h4><strong>Service-Oriented, Distributed, High-Performance Computing</strong></h4>
+<p>Parastatidis S. and Webber, J., Microsoft Architecture Journal, Vol. 1, Issue 5, July 2005.<br />
+See also: <a href="http://www.microsoft.com/architecture/library.aspx?pid=journal.5&amp;abver=FEEB2E89-4412-4C58-A7F8-9B2CA0E0BDAC&amp;id=http://msdn.microsoft.com/architecture/default.aspx?pull=/library/en-us/dnmaj/html/Jour5Serv.asp">http://www.microsoft.com/architecture/default.aspx?pid=journal.5</a></p>
+<h4><strong>Stateful Interactions in Web Services:<br />
+</strong><strong>A Comparison of WS-Context and WS-ResourceFramework</strong></h4>
+<p>Webber, J., Parastatidis S., Little, M.C., Web Services Journal, Vol. 4, Issue 5, May 2004.<br />
+See also: <a href="http://webservices.sys-con.com/read/44675.htm">http://webservices.sys-con.com/read/44675.htm</a></p>
+<h4><strong>Why WSDL is not Yet Another Object IDL</strong></h4>
+<p>Webber, J., and Parastatidis S., Web Services Journal, Vol. 4, Issue 4, April 2004.<br />
+See also: <a href="http://webservices.sys-con.com/read/44354.htm">http://webservices.sys-con.com/read/44354.htm</a></p>
+<h4><strong>Horses for Courses: Services, Objects, and Loose Coupling</strong></h4>
+<p>Webber, J., and Parastatidis S., Web Services Journal, Vol. 4, Issue 1, January 2004.<br />
+See also: <a href="http://webservices.sys-con.com/read/39953.htm">http://webservices.sys-con.com/read/39953.htm</a></p>
+<h4><strong>Introducing WS-CAF</strong></h4>
+<p>Webber, J. and Little, M.C., Web Services Journal, Vol. 3, Issue 12, December 2003.<br />
+See also: <a href="http://webservices.sys-con.com/read/39936.htm">http://webservices.sys-con.com/read/39936.htm</a></p>
+<h4><strong>Demystifying Service Oriented Architectures</strong></h4>
+<p>Webber, J. and Parastatidis, S., Web Services Journal, Vol. 3, Issue 11, November 2003.<br />
+See also: <a href="http://webservices.sys-con.com/read/39908.htm">http://webservices.sys-con.com/read/39908.htm</a></p>
+<h4><strong>Introducing BPEL4WS</strong></h4>
+<p>Webber J., and Little M.C., Web Services Journal, Vol. 3, Issue 8, August 2003.<br />
+See also: <a href="http://webservices.sys-con.com/read/39830.htm">http://webservices.sys-con.com/read/39830.htm</a></p>
+<h4><strong>Introducing WS-Transaction</strong></h4>
+<p>Little M.C. and Webber J., Web Services Journal, Vol. 3, Issue 6, June 2003. Continued Vol. 3, Issue 7, June 2003.<br />
+See also: <a href="http://webservices.sys-con.com/read/39769.htm">http://webservices.sys-con.com/read/39769.htm</a> and <a href="http://webservices.sys-con.com/read/39795.htm">http://webservices.sys-con.com/read/39795.htm</a></p>
+<h4><strong>Introducing WS-Coordination</strong></h4>
+<p>Webber J., and Little M.C., Web Services Journal, Vol. 3, Issue 5, May 2003.<br />
+See also: <a href="http://webservices.sys-con.com/read/39751.htm">http://webservices.sys-con.com/read/39751.htm</a></p>
+<h4><strong>Building Transactional Web Services with OASIS BTP</strong></h4>
+<p>Webber J., Web Services Journal, Vol. 2, Issue 10, October 2002. Continued Vol.2, Issue 11, November 2002.<br />
+See also: <a href="http://webservices.sys-con.com/read/39577.htm">http://webservices.sys-con.com/read/39577.htm</a> and <a href="http://webservices.sys-con.com/read/39606.htm">http://webservices.sys-con.com/read/39606.htm</a></p>
+<h4><strong>The Smart Money s on OASIS BTP</strong> (Guest Editorial)</h4>
+<p>Webber J., Web Services Journal, Vol. 2, Issue 4, April 2002.<br />
+See also: <a href="http://webservices.sys-con.com/read/39424.htm">http://webservices.sys-con.com/read/39424.htm</a></p>
+<h4><strong>Making Web Services Work</strong></h4>
+<p>Webber, J., et al, Application Development Advisor, Volume 5, Issue 9, pp 68-71 SIGS Ltd., ISSN: 1369-4200, 2001</p>
+<h2>Whitepapers</h2>
+<h4><strong>Soap Service Description Language</strong></h4>
+<p>Parastatidis, S., Webber J., et al<br />
+See <a href="http://www.ssdl.org/">http://www.ssdl.org</a></p>
+<h4><strong>Web Services Composite Application Framework (WS-CAF) Specification</strong></h4>
+<p>Bunting, D. et al.<br />
+See <a href="http://www.arjuna.com/standards/ws-caf/">http://www.arjuna.com/standards/ws-caf/</a></p>
+<h2>Technical Reports</h2>
+<h4><strong>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</strong></h4>
+<p>Ribeiro de Mello, E., Parastatidis, S., Reinecke, P., Smith, C., van Moorsel, A., Webber, J. CS-TR: 960, School of Computing Science, University of Newcastle, May  2006.<br />
+See also: <a href="http://www.cs.ncl.ac.uk/research/pubs/trs/papers/851.pdf">http://www.cs.ncl.ac.uk/research/pubs/trs/papers/960.pdf</a></p>
+<h4><strong>Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications</strong></h4>
+<p>Parastatidis, S. and Webber, J. CS-TR: 851, School of Computing Science, University of Newcastle, July 2004.<br />
+See also: <a href="http://www.cs.ncl.ac.uk/research/pubs/trs/papers/851.pdf">http://www.cs.ncl.ac.uk/research/pubs/trs/papers/851.pdf</a></p>
+<h4><strong>Using Web Services to Build Grid Applications &#8211; The &#8220;No Risk&#8221; WS-GAF Profile</strong></h4>
+<p>Parastatidis, S., Webber, J. and Watson, P. CS-TR: 850, School of Computing Science, University of Newcastle, June 2004.<br />
+See also: <a href="http://www.cs.ncl.ac.uk/research/pubs/trs/papers/850.pdf">http://www.cs.ncl.ac.uk/research/pubs/trs/papers/850.pdf</a></p>
+<h4><strong>A Grid Application Framework based on Web Services Specifications and Practices</strong></h4>
+<p>Parastatidis, S., Webber, J., Watson, P. and Rischbeck, T. CS-TR: 825 School of Computing Science, University of Newcastle, Jan 2004.<br />
+See also: <a href="http://www.cs.ncl.ac.uk/research/pubs/trs/papers/825.pdf">http://www.cs.ncl.ac.uk/research/pubs/trs/papers/825.pdf</a></p>
+<h4><strong>Taxonomy for Visual Parallel Programming</strong></h4>
+<p>Lee, P. A. and Webber, J., CS-TR: 793, School of Computing Science, University of Newcastle, April 2003.<br />
+See also: <a href="http://www.cs.ncl.ac.uk/research/pubs/trs/papers/793.pdf">http://www.cs.ncl.ac.uk/research/pubs/trs/papers/793.pdf</a></p></p>
+
+    </div>
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
