@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Social Media</title>
+      <link>/social-media/</link>
+      <pubDate>Tue, 25 Sep 2018 12:13:57 +0100</pubDate>
+      
+      <guid>/social-media/</guid>
+      <description>
+
+&lt;h1 id=&#34;twitter&#34;&gt;Twitter&lt;/h1&gt;
+
+&lt;p&gt;Nowadays I have a relatively quiet &lt;a href=&#34;https://twitter.com/jimwebber&#34; target=&#34;_blank&#34;&gt;Twitter account&lt;/a&gt; which is mixture of chatter with friends and colleagues, some computing science things, and a dash of left politics. Following &lt;a href=&#34;https://jmtd.net/log/twitter_10th/&#34; target=&#34;_blank&#34;&gt;the example of&lt;/a&gt; &lt;a href=&#34;https://twitter.com/jmtd&#34; target=&#34;_blank&#34;&gt;Jonthan Dowland&lt;/a&gt; my Twitter feed has a sliding window of 90 days worth of tweets. I like Twitter (somewhat) for conversations, but as a system of record much less so.&lt;/p&gt;
+
+&lt;h1 id=&#34;facebook-instagram-snapchat-etc&#34;&gt;Facebook, Instagram, Snapchat etc.&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;m not on any other social media sites. I prefer email to Facebook and have a face for radio rather than Instagram. If you meet a Jim Webber on these platforms, it&amp;rsquo;s not me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Refereed Publications</title>
       <link>/papers/</link>
       <pubDate>Thu, 05 Jul 2018 19:08:39 +0100</pubDate>
