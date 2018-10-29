@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rms on World Wide Webber</title>
+    <link>/rms/</link>
+    <description>Recent content in Rms on World Wide Webber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2018</copyright>
+    
+	<atom:link href="/rms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/rms/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rms/readme/</guid>
+      <description>RESTful Microservices Here are the links to the current slides and RESTbucks Java server code.</description>
+    </item>
+    
+  </channel>
+</rss>

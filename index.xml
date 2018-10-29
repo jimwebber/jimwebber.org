@@ -248,5 +248,19 @@ Webber, J., Parastatidis S., Little, M.C., &lt;a href=&#34;http://webservices.sy
 </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/rms/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rms/readme/</guid>
+      <description>
+
+&lt;h1 id=&#34;restful-microservices&#34;&gt;RESTful Microservices&lt;/h1&gt;
+
+&lt;p&gt;Here are the links to the current slides and RESTbucks Java server code.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
