@@ -41,14 +41,6 @@
     
     <url>
     
-      <loc>/rms/readme/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/categories/</loc>
       <priority>0</priority>
     </url>
@@ -69,15 +61,6 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/rms/</loc>
       <priority>0</priority>
     </url>
     
