@@ -237,6 +237,34 @@ Webber, J., Parastatidis S., Little, M.C., &lt;a href=&#34;http://webservices.sy
     </item>
     
     <item>
+      <title>Social Media</title>
+      <link>/social-media/</link>
+      <pubDate>Thu, 05 Jul 2018 19:06:51 +0100</pubDate>
+      
+      <guid>/social-media/</guid>
+      <description>
+
+&lt;h1 id=&#34;graph-databases&#34;&gt;Graph Databases&lt;/h1&gt;
+
+&lt;p&gt;By Ian Robinson, Jim Webber and Emil Eifrem
+&lt;a href=&#34;https://graphdatabases.com&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone&#34; alt=&#34;&#34; src=&#34;http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg&#34; width=&#34;180&#34; height=&#34;236&#34; align=&#34;none&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Graph databases &amp;#8211; like &lt;a href=&#34;http://neo4j.org&#34;&gt;Neo4j&lt;/a&gt; &amp;#8211; are a powerful tool for storing and querying highly connected data. Indeed Neo4j can be thousands of times faster than relational databases for such connected data, making it a popular for managing complex data across many domains from finance to social, and telecoms to geospatial. In this book, Ian, Emil, and I explain what a graph database is and how it can be used to gain insight into business critical data. We show how modern graph databases are an excellent choice for both &lt;a href=&#34;http://en.wikipedia.org/wiki/Online_transaction_processing&#34;&gt;OLTP&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Online_analytical_processing&#34;&gt;OLAP&lt;/a&gt; data stores and demonstrate the myriad of use-cases for the Neo4j database.&lt;/p&gt;
+&lt;h2&gt;REST in Practice&lt;/h2&gt;
+&lt;p&gt;By Jim Webber, Savas Parastatidis, and Ian Robinson&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://restinpractice.com&#34;&gt;&lt;img class=&#34;alignnone&#34; alt=&#34;REST in Practice book cover&#34; src=&#34;http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg&#34; width=&#34;180&#34; height=&#34;236&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Does the REST architectural style really present a viable alternative for building distributed systems and enterprise-class applications? In this book, Savas, Ian and I provide a down-to-earth explanation of REST and demonstrate how to develop simple and elegant distributed systems using Web techniques and technology. Throughout the book, we use Web technologies and patterns to solve the needs of a typical company as it grows from modest beginnings to become a global enterprise, from simple CRUD applications through to hypermedia-driven business processes. We&amp;#8217;ll also demonstrate how those enterprise staples &amp;#8211; security and event-driven systems &amp;#8211; are easy to implement with Web tools.&lt;/p&gt;
+&lt;p&gt;Buy: &lt;a href=&#34;http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;amp;tag=jimwebbesblog-20&amp;amp;linkCode=xm2&amp;amp;camp=1789&amp;amp;creativeASIN=0596805829&#34;&gt;Amazon (US)&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;amp;tag=jimwebbesblog-21&amp;amp;linkCode=xm2&amp;amp;camp=1634&amp;amp;creativeASIN=0596805829&#34;&gt;Amazon (UK)&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Developing Enterprise Web Services: An Architect&amp;#8217;s Guide&lt;/h2&gt;
+&lt;p&gt;By Sandeep Chatterjee and Jim Webber&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;alignnone  wp-image-631&#34; alt=&#34;DEWS&#34; src=&#34;https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg&#34; width=&#34;180&#34; height=&#34;240&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;This was one of the first books to demonstrate how to build (WS-*) Web Services with enterprise-class reliability, and performance. This book takes a no-nonsense view of architecting and constructing enterprise-class Web services and applications. The authors assess the state of the art of the Web services platform circa 2004, offering best practices and new architectural patterns for taking advantage of Web Services.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;While the architectural patterns in this book generally remain worthwhile today, the protocols and standards covered are now looking somewhat out of date, especially since there is a strong groundswell towards building RESTful systems on the Web rather than tunnelling through HTTP with clever XML payloads.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Buy: &lt;a href=&#34;http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;amp;tag=jimwebbesblog-20&amp;amp;linkCode=xm2&amp;amp;camp=1789&amp;amp;creativeASIN=B005MZDYRE&#34;&gt;Amazon (US)&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;amp;tag=jimwebbesblog-21&amp;amp;linkCode=xm2&amp;amp;camp=1634&amp;amp;creativeASIN=0131401602&#34;&gt;Amazon (UK)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Blog being resurrected very soon</title>
       <link>/post/coming-soon/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
