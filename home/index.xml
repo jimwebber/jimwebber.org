@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 11:44:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Sep 2018 11:44:00 -0400</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/home/about/</link>
-      <pubDate>Mon, 24 Sep 2018 11:44:00 +0100</pubDate>
+      <pubDate>Mon, 24 Sep 2018 11:44:00 -0400</pubDate>
       
       <guid>/home/about/</guid>
       <description>Biography Dr. Jim Webber is Neo4j&amp;rsquo;s Chief Scientist and Visiting Professor at Newcastle University. At Neo4j, Jim works on fault-tolerant graph databases and co-wrote O&amp;rsquo;Reilly&amp;rsquo;s Graph Databases book.
@@ -25,7 +25,7 @@ Prior to Neo4j, Jim worked on fault tolerant distributed systems. First at Newca
     <item>
       <title>Contact</title>
       <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/contact/</guid>
       <description></description>
