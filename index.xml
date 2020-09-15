@@ -1,368 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>World Wide Webber on World Wide Webber</title>
+    <title>World Wide Webber</title>
     <link>/</link>
-    <description>Recent content in World Wide Webber on World Wide Webber</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 11:44:00 +0100</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>World Wide Webber</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright><lastBuildDate>Tue, 15 Sep 2020 15:30:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>World Wide Webber</title>
+      <link>/</link>
+    </image>
     
     <item>
-      <title>Refereed Publications</title>
-      <link>/papers/</link>
-      <pubDate>Mon, 27 Apr 2020 11:15:39 +0100</pubDate>
-      
-      <guid>/papers/</guid>
-      <description>
-
-&lt;h2 id=&#34;book-chapters&#34;&gt;Book Chapters&lt;/h2&gt;
-
-&lt;p&gt;(The technical books I&amp;#8217;ve authored are on my &lt;a href=&#34;/books/&#34;&gt;books page&lt;/a&gt;.&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h3 id=&#34;realising-service-oriented-architectures-using-web-services&#34;&gt;Realising Service Oriented Architectures Using Web Services&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Jim Webber and Savas Parastatidis&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;amp;amp;tid=11654&#34; target=&#34;_blank&#34;&gt;Service-Oriented Computing: The Web Services Phenomenon&lt;/a&gt;, MIT Press 2008.&lt;/p&gt;
-
-&lt;h3 id=&#34;protocol-based-integration-using-ssdl-and-pi-calculus&#34;&gt;Protocol-based Integration using SSDL and Pi-Calculus&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Woodman, S., Parastatidis, S. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.springer.com/computer/communication+networks/book/978-1-84628-519-6&#34; target=&#34;_blank&#34;&gt;Workflows for E-science: Scientific Workflows for Grids&lt;/a&gt;, pp 227-243, ISBN 978-1-84628-519-6, Springer-Verlag 2007.&lt;/p&gt;
-
-&lt;h3 id=&#34;visual-object-oriented-development-of-parallel-applications-ph-d-thesis-http-www-cs-ncl-ac-uk-publications-articles-papers-366-pdf&#34;&gt;Visual Object-Oriented Development of Parallel Applications (&lt;a href=&#34;http://www.cs.ncl.ac.uk/publications/articles/papers/366.pdf&#34; target=&#34;_blank&#34;&gt;Ph.D. Thesis&lt;/a&gt;)&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J.&lt;/em&gt;
-&lt;br&gt;
-Department of Computing Science, Newcastle University upon Tyne, 2000.&lt;/p&gt;
-
-&lt;h2 id=&#34;journal-papers&#34;&gt;Journal papers&lt;/h2&gt;
-
-&lt;h3 id=&#34;an-architect-8217-s-guide-to-developing-enterprise-web-services&#34;&gt;An Architect&amp;#8217;s Guide to Developing Enterprise Web Services&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J.&lt;/em&gt;
-&lt;br&gt;
-CSI Communications, Volume 29, Issue 9, pp. 15-20, March 2006.&lt;/p&gt;
-
-&lt;h3 id=&#34;asynchronous-messaging-between-web-services-using-ssdl&#34;&gt;Asynchronous Messaging between Web Services Using SSDL&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., Woodman, S., Webber, J., Kuo, D., Greenfield, P.&lt;/em&gt;
-&lt;br&gt;
-Appears in &lt;a href=&#34;http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4236%2F33376%2F01580411.pdf%3Farnumber%3D1580411&amp;amp;amp;authDecision=-203&#34; target=&#34;_blank&#34;&gt;IEEE Internet Computing, vol. 10, no. 1, pp. 26-39, January/February&lt;/a&gt;, 2006.&lt;/p&gt;
-
-&lt;h3 id=&#34;grid-computing-using-web-services-technologies&#34;&gt;Grid Computing using Web Services Technologies&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., Watson, P., Webber, J.&lt;/em&gt;
-&lt;br&gt;
-6th Thematic Workshop of the EU Network of Excellence DELOS, Cagliari, Italy, June 24-25, 2004, &lt;a href=&#34;http://dx.doi.org/10.1007/11549819_2&#34; target=&#34;_blank&#34;&gt;Lecture Notes in Computer Science, Springer-Verlag, ISSN: 0302-9743&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;ws-gaf-a-framework-for-building-grid-applications-using-web-services&#34;&gt;WS-GAF: a framework for building Grid applications using Web Services&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., Webber, J., Watson, P. Rischbeck, T.&lt;/em&gt;
-&lt;br&gt;
-Journal of Concurrency and Computation: Practice and Experience, 17(2-4), p391-417, 2005&lt;/p&gt;
-
-&lt;h3 id=&#34;web-service-grids-an-evolutionary-approach&#34;&gt;Web Service Grids: An Evolutionary Approach&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Atkinson, M. et al.&lt;/em&gt;
-&lt;br&gt;
-Journal of Concurrency and Computation: Practice and Experience, 17(2-4), p377-389), 2005&lt;/p&gt;
-
-&lt;h3 id=&#34;coordinating-business-transactions-on-the-web&#34;&gt;Coordinating Business Transactions on the Web&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Dalal, S. Little, M. Potts, M. Temel, S., Webber, J.&lt;/em&gt;
-&lt;br&gt;
-IEEE Internet Computing Special Edition on Web Services, January 2003.&lt;/p&gt;
-
-&lt;h3 id=&#34;visual-object-oriented-development-of-parallel-applications&#34;&gt;Visual, Object-Oriented Development of Parallel Applications&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J. and Lee, P.A.&lt;/em&gt;
-&lt;br&gt;
-Journal of Visual Languages and Computing, Volume 12, Issue 2, pp 145-161, Academic Press, ISSN: 1045-926X, 2001.&lt;/p&gt;
-
-&lt;h2 id=&#34;conference-papers&#34;&gt;Conference Papers&lt;/h2&gt;
-
-&lt;h3 id=&#34;preserving-reciprocal-consistency-in-distributed-graph-databases&#34;&gt;Preserving Reciprocal Consistency in Distributed Graph Databases&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Jack Waudby, Paul Ezhilchelvan, Jim Webber, and Isi Mitrani&lt;/em&gt;
-&lt;br&gt;
-PaPoC &amp;lsquo;20: Proceedings of the 7th Workshop on Principles and Practice of Consistency for Distributed DataApril 2020 Article No.: 2 Pages 1–7
-&lt;a href=&#34;https://doi.org/10.1145/3380787.3393675&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1145/3380787.3393675&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;on-the-degradation-of-distributed-graph-databases-with-eventual-consistency&#34;&gt;On the Degradation of Distributed Graph Databases with Eventual Consistency&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Paul Ezhilchelvan, Isi Mitrani, and Jim Webber&lt;/em&gt;
-&lt;br&gt;
-Computer Performance Engineering: &lt;a href=&#34;http://epew2018.lacl.fr/&#34; target=&#34;_blank&#34;&gt;Proceedings of the 15th European Performance Engineering Workshop, EPEW 2018&lt;/a&gt;, Paris, France, October 29-30, 2018.&lt;/p&gt;
-
-&lt;h3 id=&#34;investigations-on-path-indexing-for-graph-databases&#34;&gt;Investigations on path indexing for graph databases&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Sumrall J., Fletcher G. H. L. , Poulovassilis A., Svensson J., Vejlstrup M., Vest C., and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;https://sites.google.com/site/pelga16/&#34; target=&#34;_blank&#34;&gt;Proceedings of PELGA 2016&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;towards-a-horizontally-scalable-graph-database&#34;&gt;Towards a Horizontally Scalable Graph Database&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Jim Webber&lt;/em&gt;
-&lt;br&gt;
-Proceedings of the &lt;a href=&#34;http://data-forum.eu/&#34; target=&#34;_blank&#34;&gt;European Data Forum&lt;/a&gt;, June 6-7 2012, Copenhagen, Denmark.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-role-of-hypermedia-in-distributed-system-development&#34;&gt;The Role of Hypermedia in Distributed System Development&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Savas Parastatidis, Jim Webber, Guilherme Silveira and Ian Robinson&lt;/em&gt;
-&lt;br&gt;
-Proceedings of the First International Workshop on RESTful Design (WS-REST 2010), at WWW 2010&lt;/p&gt;
-
-&lt;h3 id=&#34;soya-a-programming-model-and-runtime-environment-for-component-composition-using-ssdl&#34;&gt;Soya: a Programming Model and Runtime Environment for Component Composition using SSDL&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Patric Fornasier, Jim Webber, and Ian Gorton&lt;/em&gt;
-&lt;br&gt;
-Proceedings of the &lt;a href=&#34;http://www.csse.monash.edu.au/~hws/CBSE10/&#34; target=&#34;_blank&#34;&gt;10th International ACM SIGSOFT Symposium on Component-Based Software Engineering (CBSE 2007)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;expressing-and-reasoning-about-service-contracts-in-service-oriented-computing&#34;&gt;Expressing and Reasoning about Service Contracts in Service-Oriented Computing&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Kuo, D. et al.&lt;/em&gt;
-&lt;br&gt;
-Proceedings of the IEEE International Conference on Web Services 2006, pp 915-918, July 2006&lt;/p&gt;
-
-&lt;h3 id=&#34;secure-and-provable-service-support-for-human-intensive-real-estate-processes&#34;&gt;Secure and Provable Service Support for Human-Intensive Real-Estate Processes&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Emerson Ribeiro de Mello et al&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://doi.ieeecomputersociety.org/10.1109/SCC.2006.84&#34; target=&#34;_blank&#34;&gt;Proceedings of the IEEE International Conference on Services Computing (SCC&amp;#8217;06)&lt;/a&gt;, pp. 495-504&lt;/p&gt;
-
-&lt;h3 id=&#34;proceedings-of-the-first-international-workshop-on-the-design-of-service-oriented-applications-wdsoa-8217-05&#34;&gt;Proceedings of the First International Workshop on the Design of Service-Oriented Applications (WDSOA&amp;#8217;05)&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Chung, J.Y., Feuerlicht, G., Webber, J. (eds)&lt;/em&gt;
-&lt;br&gt;
-WDSOA, Amsterdam, 2005. &lt;a href=&#34;http://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/0fd9b681aadeffa1852570cf005fdc06?OpenDocument&#34; target=&#34;_blank&#34;&gt;IBM Research Report RC23819&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;assessing-the-risk-and-value-of-adopting-emerging-and-unstable-web-services-specifications&#34;&gt;Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-Proceedings of the 2004 IEEE International Conference on Services Computing, Shanghai, China, 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-ws-gaf-registry-service&#34;&gt;The WS-GAF Registry Service&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-2nd Workshop on Building Service-based Grids, GGF 11 Honolulu, Hawaii, USA, July 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;grid-computing-using-web-services-technologies-1&#34;&gt;Grid Computing using Web Services Technologies&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., Watson, P., and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-Proceedings of the DELOS Workshop on Digital Library Architectures, S. Margherita di Pula, Cagliari, Italy, June 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-misplaced-comma-programmers-8217-tales-and-traditions&#34;&gt;The Misplaced Comma: Programmers&amp;#8217; Tales and Traditions&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Marshall, L. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.ppig.org/papers/14th-marshall.pdf&#34; target=&#34;_blank&#34;&gt;Proceedings of the 14th Annual Workshop of the Psychology of Programming Interest Group&lt;/a&gt;, 2002.&lt;/p&gt;
-
-&lt;h3 id=&#34;visual-object-oriented-development-of-parallel-applications-1&#34;&gt;Visual, Object-Oriented Development of Parallel Applications&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J. and Lee, P.A.&lt;/em&gt;
-&lt;br&gt;
-Proceedings of Satellite Workshop on Visual Methods for Parallel and Distributed Programming, IEEE Visual Languages, Seattle, USA, September 2000.&lt;/p&gt;
-
-&lt;h3 id=&#34;gotos-considered-harmful-and-other-programmer-8217-s-taboos&#34;&gt;Gotos Considered Harmful and other Programmer&amp;#8217;s Taboos&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Marshall, L. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.ppig.org/papers/12th-marshall.pdf&#34; target=&#34;_blank&#34;&gt;Proceedings of the 12th Annual Workshop of the Psychology of Programming Interest Group&lt;/a&gt;, 2000.&lt;/p&gt;
-
-&lt;h3 id=&#34;vorlon-a-visual-object-oriented-approach-to-parallel-application-development&#34;&gt;Vorlon: A Visual Object-Oriented Approach to Parallel Application Development&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://ase.informatik.uni-essen.de/ase/past/ase98/ASE98DocSymProc.pdf&#34; target=&#34;_blank&#34;&gt;Proceedings of the Doctoral Symposium, 13th IEEE Conference on Automated Software Engineering&lt;/a&gt;, 1998.&lt;/p&gt;
-
-&lt;h2 id=&#34;industrial-journals&#34;&gt;Industrial Journals&lt;/h2&gt;
-
-&lt;h3 id=&#34;service-oriented-distributed-high-performance-computing&#34;&gt;Service-Oriented, Distributed, High-Performance Computing&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.microsoft.com/architecture/default.aspx?pid=journal.5&#34; target=&#34;_blank&#34;&gt;Microsoft Architecture Journal, Vol. 1, Issue 5&lt;/a&gt;, July 2005.&lt;/p&gt;
-
-&lt;h3 id=&#34;stateful-interactions-in-web-services-a-comparison-of-ws-context-and-ws-resourceframework&#34;&gt;Stateful Interactions in Web Services: A Comparison of WS-Context and WS-ResourceFramework&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J., Parastatidis, S., Little, M.C.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/44675.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 4, Issue 5&lt;/a&gt;, May 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;why-wsdl-is-not-yet-another-object-idl&#34;&gt;Why WSDL is not Yet Another Object IDL&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J., and Parastatidis, S.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/44354.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 4, Issue 4&lt;/a&gt;, April 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;horses-for-courses-services-objects-and-loose-coupling&#34;&gt;Horses for Courses: Services, Objects, and Loose Coupling&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J., and Parastatidis, S.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39953.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 4, Issue 1&lt;/a&gt;, January 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;introducing-ws-caf&#34;&gt;Introducing WS-CAF&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J. and Little, M.C.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39936.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 3, Issue 12&lt;/a&gt;, December 2003.&lt;/p&gt;
-
-&lt;h3 id=&#34;demystifying-service-oriented-architectures&#34;&gt;Demystifying Service Oriented Architectures&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J. and Parastatidis, S.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39908.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 3, Issue 11&lt;/a&gt;, November 2003.&lt;/p&gt;
-
-&lt;h3 id=&#34;introducing-bpel4ws&#34;&gt;Introducing BPEL4WS&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J., and Little, M.C.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39830.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 3, Issue 8&lt;/a&gt;, August 2003.&lt;/p&gt;
-
-&lt;h3 id=&#34;introducing-ws-transaction&#34;&gt;Introducing WS-Transaction&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Little, M.C. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39769.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 3, Issue 6&lt;/a&gt;, June 2003. Continued Vol. 3, Issue 7, June 2003.&lt;/p&gt;
-
-&lt;h3 id=&#34;introducing-ws-coordination&#34;&gt;Introducing WS-Coordination&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J., and Little, M.C.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39751.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 3, Issue 5&lt;/a&gt;, May 2003.&lt;/p&gt;
-
-&lt;h3 id=&#34;building-transactional-web-services-with-oasis-btp&#34;&gt;Building Transactional Web Services with OASIS BTP&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39577.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 2, Issue 10, October 2002. Continued Vol.2, Issue 11&lt;/a&gt;, November 2002.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-smart-money-s-on-oasis-btp-strong-guest-editorial-h4&#34;&gt;The Smart Money s on OASIS BTP&lt;/strong&gt; (Guest Editorial)&lt;/h4&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://webservices.sys-con.com/read/39424.htm&#34; target=&#34;_blank&#34;&gt;Web Services Journal, Vol. 2, Issue 4&lt;/a&gt;, April 2002.&lt;/p&gt;
-
-&lt;h3 id=&#34;making-web-services-work&#34;&gt;Making Web Services Work&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Webber, J., et al&lt;/em&gt;
-&lt;br&gt;
-Application Development Advisor, Volume 5, Issue 9, pp 68-71 SIGS Ltd., ISSN: 1369-4200, 2001&lt;/p&gt;
-
-&lt;h2 id=&#34;whitepapers&#34;&gt;Whitepapers&lt;/h2&gt;
-
-&lt;h3 id=&#34;soap-service-description-language&#34;&gt;Soap Service Description Language&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., Webber, J., et al&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.ssdl.org/&#34; target=&#34;_blank&#34;&gt;Online&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;web-services-composite-application-framework-ws-caf-specification&#34;&gt;Web Services Composite Application Framework (WS-CAF) Specification&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Bunting, D. et al.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.arjuna.com/standards/ws-caf/&#34; target=&#34;_blank&#34;&gt;Online&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;technical-reports&#34;&gt;Technical Reports&lt;/h2&gt;
-
-&lt;h3 id=&#34;secure-and-provable-service-support-for-human-intensive-real-estate-processes-1&#34;&gt;Secure and Provable Service Support for Human-Intensive Real-Estate Processes&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Ribeiro de Mello, E., Parastatidis, S., Reinecke, P., Smith, C., van Moorsel, A., Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/960.pdf&#34; target=&#34;_blank&#34;&gt;CS-TR: 960, School of Computing Science, Newcastle University&lt;/a&gt;, May  2006.&lt;/p&gt;
-
-&lt;h3 id=&#34;assessing-the-risk-and-value-of-adopting-emerging-and-unstable-web-services-specifications-1&#34;&gt;Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/851.pdf&#34; target=&#34;_blank&#34;&gt;CS-TR: 851, School of Computing Science, Newcastle University&lt;/a&gt;, July 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;using-web-services-to-build-grid-applications-8211-the-8220-no-risk-8221-ws-gaf-profile&#34;&gt;Using Web Services to Build Grid Applications &amp;#8211; The &amp;#8220;No Risk&amp;#8221; WS-GAF Profile&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., Webber, J. and Watson, P.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/850.pdf&#34; target=&#34;_blank&#34;&gt;CS-TR: 850, School of Computing Science, Newcastle University&lt;/a&gt;, June 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-grid-application-framework-based-on-web-services-specifications-and-practices&#34;&gt;A Grid Application Framework based on Web Services Specifications and Practices&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Parastatidis, S., Webber, J., Watson, P. and Rischbeck, T.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/825.pdf&#34; target=&#34;_blank&#34;&gt;CS-TR: 825 School of Computing Science, Newcastle University&lt;/a&gt;, Jan 2004.&lt;/p&gt;
-
-&lt;h3 id=&#34;taxonomy-for-visual-parallel-programming&#34;&gt;Taxonomy for Visual Parallel Programming&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Lee, P. A. and Webber, J.&lt;/em&gt;
-&lt;br&gt;
-&lt;a href=&#34;http://www.cs.ncl.ac.uk/research/pubs/trs/papers/793.pdf&#34; target=&#34;_blank&#34;&gt;CS-TR: 793, School of Computing Science, Newcastle University&lt;/a&gt;, April 2003.&lt;/p&gt;
+      <title>Graphs in Government</title>
+      <link>/talk/2020-09-connections/</link>
+      <pubDate>Tue, 15 Sep 2020 15:30:00 +0100</pubDate>
+      <guid>/talk/2020-09-connections/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Social Media</title>
-      <link>/social-media/</link>
-      <pubDate>Mon, 29 Oct 2018 17:06:51 +0100</pubDate>
-      
-      <guid>/social-media/</guid>
-      <description>
-
-&lt;h2 id=&#34;twitter&#34;&gt;Twitter&lt;/h2&gt;
-
-&lt;p&gt;I have a  &lt;a href=&#34;https://twitter.com/jimwebber&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; account which is mixture of chatter with friends and colleagues, some computing science things, and a dash of left politics.&lt;/p&gt;
-
-&lt;p&gt;Following &lt;a href=&#34;https://jmtd.net/log/twitter_10th/&#34; target=&#34;_blank&#34;&gt;the example of Jonthan Dowland&lt;/a&gt; my Twitter feed has a sliding window of 90 days worth of tweets. I like Twitter (somewhat) for conversations, but as a system of record much less so.&lt;/p&gt;
-
-&lt;h2 id=&#34;facebook-instagram-snapchat-etc&#34;&gt;Facebook, Instagram, Snapchat etc.&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m not on any other social media sites. I prefer email to Facebook and have a face for radio rather than Instagram. If you meet a Jim Webber on these platforms, it&amp;rsquo;s not me.&lt;/p&gt;
+      <title>Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</title>
+      <link>/publication/2020-qmsm/</link>
+      <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
+      <guid>/publication/2020-qmsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Databases for Dummies</title>
+      <link>/publication/graph-databases-for-dummies/</link>
+      <pubDate>Mon, 14 Sep 2020 22:49:54 +0100</pubDate>
+      <guid>/publication/graph-databases-for-dummies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Humane Presentation about Graph Database Internals</title>
+      <link>/talk/2020-09-yow/</link>
+      <pubDate>Wed, 09 Sep 2020 23:10:00 +0100</pubDate>
+      <guid>/talk/2020-09-yow/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Books by Jim Webber</title>
-      <link>/books/</link>
-      <pubDate>Thu, 05 Jul 2018 19:06:51 +0100</pubDate>
-      
-      <guid>/books/</guid>
-      <description>
-
-&lt;h1 id=&#34;graph-databases&#34;&gt;Graph Databases&lt;/h1&gt;
-
-&lt;p&gt;By Ian Robinson, Jim Webber and Emil Eifrem
-&lt;a href=&#34;https://graphdatabases.com&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone&#34; alt=&#34;&#34; src=&#34;http://ecx.images-amazon.com/images/I/51JijeM8MAL.jpg&#34; width=&#34;180&#34; height=&#34;236&#34; align=&#34;none&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Graph databases &amp;#8211; like &lt;a href=&#34;http://neo4j.org&#34;&gt;Neo4j&lt;/a&gt; &amp;#8211; are a powerful tool for storing and querying highly connected data. Indeed Neo4j can be thousands of times faster than relational databases for such connected data, making it a popular for managing complex data across many domains from finance to social, and telecoms to geospatial. In this book, Ian, Emil, and I explain what a graph database is and how it can be used to gain insight into business critical data. We show how modern graph databases are an excellent choice for both &lt;a href=&#34;http://en.wikipedia.org/wiki/Online_transaction_processing&#34;&gt;OLTP&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Online_analytical_processing&#34;&gt;OLAP&lt;/a&gt; data stores and demonstrate the myriad of use-cases for the Neo4j database.&lt;/p&gt;
-&lt;h2&gt;REST in Practice&lt;/h2&gt;
-&lt;p&gt;By Jim Webber, Savas Parastatidis, and Ian Robinson&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://restinpractice.com&#34;&gt;&lt;img class=&#34;alignnone&#34; alt=&#34;REST in Practice book cover&#34; src=&#34;http://akamaicovers.oreilly.com/images/9780596805838/lrg.jpg&#34; width=&#34;180&#34; height=&#34;236&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Does the REST architectural style really present a viable alternative for building distributed systems and enterprise-class applications? In this book, Savas, Ian and I provide a down-to-earth explanation of REST and demonstrate how to develop simple and elegant distributed systems using Web techniques and technology. Throughout the book, we use Web technologies and patterns to solve the needs of a typical company as it grows from modest beginnings to become a global enterprise, from simple CRUD applications through to hypermedia-driven business processes. We&amp;#8217;ll also demonstrate how those enterprise staples &amp;#8211; security and event-driven systems &amp;#8211; are easy to implement with Web tools.&lt;/p&gt;
-&lt;p&gt;Buy: &lt;a href=&#34;http://www.amazon.com/gp/product/0596805829?ie=UTF8&amp;amp;tag=jimwebbesblog-20&amp;amp;linkCode=xm2&amp;amp;camp=1789&amp;amp;creativeASIN=0596805829&#34;&gt;Amazon (US)&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.co.uk/gp/product/0596805829?ie=UTF8&amp;amp;tag=jimwebbesblog-21&amp;amp;linkCode=xm2&amp;amp;camp=1634&amp;amp;creativeASIN=0596805829&#34;&gt;Amazon (UK)&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Developing Enterprise Web Services: An Architect&amp;#8217;s Guide&lt;/h2&gt;
-&lt;p&gt;By Sandeep Chatterjee and Jim Webber&lt;/p&gt;
-&lt;p&gt;&lt;img class=&#34;alignnone  wp-image-631&#34; alt=&#34;DEWS&#34; src=&#34;https://images-na.ssl-images-amazon.com/images/I/51ojvewjoHL._SX387_BO1,204,203,200_.jpg&#34; width=&#34;180&#34; height=&#34;240&#34;/&gt;&lt;/p&gt;
-&lt;p&gt;This was one of the first books to demonstrate how to build (WS-*) Web Services with enterprise-class reliability, and performance. This book takes a no-nonsense view of architecting and constructing enterprise-class Web services and applications. The authors assess the state of the art of the Web services platform circa 2004, offering best practices and new architectural patterns for taking advantage of Web Services.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;While the architectural patterns in this book generally remain worthwhile today, the protocols and standards covered are now looking somewhat out of date, especially since there is a strong groundswell towards building RESTful systems on the Web rather than tunnelling through HTTP with clever XML payloads.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Buy: &lt;a href=&#34;http://www.amazon.com/gp/product/B005MZDYRE?ie=UTF8&amp;amp;tag=jimwebbesblog-20&amp;amp;linkCode=xm2&amp;amp;camp=1789&amp;amp;creativeASIN=B005MZDYRE&#34;&gt;Amazon (US)&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.co.uk/gp/product/0131401602?ie=UTF8&amp;amp;tag=jimwebbesblog-21&amp;amp;linkCode=xm2&amp;amp;camp=1634&amp;amp;creativeASIN=0131401602&#34;&gt;Amazon (UK)&lt;/a&gt;&lt;/p&gt;
+      <title>A Humane Presentation about Graph Database Internals</title>
+      <link>/talk/2020-10-nodes/</link>
+      <pubDate>Wed, 09 Sep 2020 23:10:00 +0100</pubDate>
+      <guid>/talk/2020-10-nodes/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Blog being resurrected very soon</title>
-      <link>/post/coming-soon/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>/post/coming-soon/</guid>
-      <description>
-
-&lt;h1 id=&#34;i-ll-port-over-all-my-old-blog-posts-one-of-these-days&#34;&gt;I&amp;rsquo;ll port over all my old blog posts one of these days&amp;hellip;&lt;/h1&gt;
-</description>
+      <title>Graph Databases</title>
+      <link>/publication/graph-databases/</link>
+      <pubDate>Tue, 09 Jun 2015 10:30:46 +0100</pubDate>
+      <guid>/publication/graph-databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest in Practice</title>
+      <link>/publication/rest-in-practice/</link>
+      <pubDate>Mon, 27 Sep 2010 10:33:08 +0100</pubDate>
+      <guid>/publication/rest-in-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing Enterprise Web Services</title>
+      <link>/publication/developing-enterprise-web-services/</link>
+      <pubDate>Fri, 14 Nov 2003 11:01:05 +0100</pubDate>
+      <guid>/publication/developing-enterprise-web-services/</guid>
+      <description></description>
     </item>
     
   </channel>

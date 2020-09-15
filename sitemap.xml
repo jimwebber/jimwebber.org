@@ -1,87 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <loc>/papers/</loc>
-      <lastmod>2020-04-27T11:15:39+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/talk/2020-09-connections/</loc>
+    <lastmod>2020-09-15T15:30:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/social-media/</loc>
-      <lastmod>2018-10-29T17:06:51+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-09-15T15:30:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/books/</loc>
-      <lastmod>2018-07-05T19:06:51+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-15T15:30:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/post/coming-soon/</loc>
-      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/author/isi-mitrani/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/2020-qmsm/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2018-09-24T11:44:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/author/paul-ezhilchelvan/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/test/</loc>
-      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/5/</loc>
+    <lastmod>2020-09-14T22:49:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/graph-databases-for-dummies/</loc>
+    <lastmod>2020-09-14T22:49:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber-and-rik-van-bruggen/</loc>
+    <lastmod>2020-09-14T22:49:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2020-09-yow/</loc>
+    <lastmod>2020-09-09T23:10:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2020-10-nodes/</loc>
+    <lastmod>2020-09-09T23:10:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/and-emil-eifrem/</loc>
+    <lastmod>2015-06-09T10:30:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/graph-databases/</loc>
+    <lastmod>2015-06-09T10:30:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ian-robinson/</loc>
+    <lastmod>2015-06-09T10:30:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/rest-in-practice/</loc>
+    <lastmod>2010-09-27T10:33:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/savas-parastatidis/</loc>
+    <lastmod>2010-09-27T10:33:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/developing-enterprise-web-services/</loc>
+    <lastmod>2003-11-14T11:01:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/sandeep-chatterjee-and-jim-webber/</loc>
+    <lastmod>2003-11-14T11:01:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/dr.-jim-webber/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
   
 </urlset>

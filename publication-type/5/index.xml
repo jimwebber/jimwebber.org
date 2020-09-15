@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 | World Wide Webber</title>
+    <link>/publication-type/5/</link>
+      <atom:link href="/publication-type/5/index.xml" rel="self" type="application/rss+xml" />
+    <description>5</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright><lastBuildDate>Mon, 14 Sep 2020 22:49:54 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>5</title>
+      <link>/publication-type/5/</link>
+    </image>
+    
+    <item>
+      <title>Graph Databases for Dummies</title>
+      <link>/publication/graph-databases-for-dummies/</link>
+      <pubDate>Mon, 14 Sep 2020 22:49:54 +0100</pubDate>
+      <guid>/publication/graph-databases-for-dummies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Databases</title>
+      <link>/publication/graph-databases/</link>
+      <pubDate>Tue, 09 Jun 2015 10:30:46 +0100</pubDate>
+      <guid>/publication/graph-databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest in Practice</title>
+      <link>/publication/rest-in-practice/</link>
+      <pubDate>Mon, 27 Sep 2010 10:33:08 +0100</pubDate>
+      <guid>/publication/rest-in-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing Enterprise Web Services</title>
+      <link>/publication/developing-enterprise-web-services/</link>
+      <pubDate>Fri, 14 Nov 2003 11:01:05 +0100</pubDate>
+      <guid>/publication/developing-enterprise-web-services/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

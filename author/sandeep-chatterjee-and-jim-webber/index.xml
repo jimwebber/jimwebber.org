@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sandeep Chatterjee and Jim Webber | World Wide Webber</title>
+    <link>/author/sandeep-chatterjee-and-jim-webber/</link>
+      <atom:link href="/author/sandeep-chatterjee-and-jim-webber/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sandeep Chatterjee and Jim Webber</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright><lastBuildDate>Fri, 14 Nov 2003 11:01:05 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sandeep Chatterjee and Jim Webber</title>
+      <link>/author/sandeep-chatterjee-and-jim-webber/</link>
+    </image>
+    
+    <item>
+      <title>Developing Enterprise Web Services</title>
+      <link>/publication/developing-enterprise-web-services/</link>
+      <pubDate>Fri, 14 Nov 2003 11:01:05 +0100</pubDate>
+      <guid>/publication/developing-enterprise-web-services/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
