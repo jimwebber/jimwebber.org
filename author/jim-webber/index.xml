@@ -5,36 +5,12 @@
     <link>/author/jim-webber/</link>
       <atom:link href="/author/jim-webber/index.xml" rel="self" type="application/rss+xml" />
     <description>Jim Webber</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright><lastBuildDate>Tue, 15 Sep 2020 10:24:24 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
       <title>Jim Webber</title>
       <link>/author/jim-webber/</link>
     </image>
-    
-    <item>
-      <title>Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</title>
-      <link>/publication/2020-qmsm/</link>
-      <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
-      <guid>/publication/2020-qmsm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph Databases</title>
-      <link>/publication/graph-databases/</link>
-      <pubDate>Tue, 09 Jun 2015 10:30:46 +0100</pubDate>
-      <guid>/publication/graph-databases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rest in Practice</title>
-      <link>/publication/rest-in-practice/</link>
-      <pubDate>Mon, 27 Sep 2010 10:33:08 +0100</pubDate>
-      <guid>/publication/rest-in-practice/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
