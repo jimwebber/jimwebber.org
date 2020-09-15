@@ -35,6 +35,15 @@
     </item>
     
     <item>
+      <title>Site Upgrade</title>
+      <link>/post/site-upgrade/</link>
+      <pubDate>Tue, 15 Sep 2020 13:38:47 +0100</pubDate>
+      <guid>/post/site-upgrade/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve just upgraded to the new modular Hugo static site builder and have taken the opportunity to smarten up a few things on my site. In the meantime I&amp;rsquo;m slowly migrating over some content like my publication record. Stay tuned.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</title>
       <link>/publication/2020-qmsm/</link>
       <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>

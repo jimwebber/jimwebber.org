@@ -18,6 +18,16 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2020-09-15T13:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/site-upgrade/</loc>
+    <lastmod>2020-09-15T13:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
@@ -127,10 +137,6 @@
   
   <url>
     <loc>/author/jim-webber/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
   </url>
   
   <url>
