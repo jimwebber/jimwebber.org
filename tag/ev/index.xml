@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | World Wide Webber</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>EV | World Wide Webber</title>
+    <link>/tag/ev/</link>
+      <atom:link href="/tag/ev/index.xml" rel="self" type="application/rss+xml" />
+    <description>EV</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright><lastBuildDate>Mon, 21 Sep 2020 10:00:47 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
-      <link>/post/</link>
+      <title>EV</title>
+      <link>/tag/ev/</link>
     </image>
     
     <item>
@@ -171,15 +171,6 @@
 &lt;/figure&gt;
 
 &lt;p&gt;I&amp;rsquo;m very impressed so far. Sure there were a couple of little gotchas while I learned my way around the menus, but otherwise a straightforward experience. Funelling excess solar into the car automatically is super nice, and the unit looks smart and is safe. The setup can also handle a static battery installation and can prioritise whether EV or static battery storage gets excess solar power and it can also avoid using the battery to charge the car (which is very sensible).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Site Upgrade</title>
-      <link>/post/site-upgrade/</link>
-      <pubDate>Tue, 15 Sep 2020 13:38:47 +0100</pubDate>
-      <guid>/post/site-upgrade/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve just upgraded to the new modular Hugo static site builder and have taken the opportunity to smarten up a few things on my site. In the meantime I&amp;rsquo;m slowly migrating over some content like my publication record. Stay tuned.&lt;/p&gt;
 </description>
     </item>
     
