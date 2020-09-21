@@ -80,7 +80,7 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;I recently bought a ferrule set and clamper after seeing one in use on a video by 
+&lt;p&gt;I recently bought a ferrule set and crimper after seeing one in use on a video by 
 &lt;a href=&#34;https://artisanelectrics.co.uk/,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Artisan Electrics&lt;/a&gt; which really made the 10mm cable connections feel very robust. I would recommend this since they&amp;rsquo;re cheap to buy and easy to use.&lt;/p&gt;
 &lt;p&gt;So far so good - the electical work is very easy and because the charger has clever electronics, it&amp;rsquo;s just like wiring a regular domestic socket.&lt;/p&gt;
 &lt;p&gt;One of the nice things about the Zappi is that it&amp;rsquo;s &amp;ldquo;smart.&amp;rdquo; It can try to use on-site generation to charge your EV when there&amp;rsquo;s excess power. And even if there&amp;rsquo;s a heavy load on your main supply (I live in the UK, so single-phase supplies are very common for houses), it&amp;rsquo;ll adjust its power delivery so that the house as a whole never draws more the mains rating (100A for me).&lt;/p&gt;
@@ -127,7 +127,7 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Zappi senses its electrical environment using 
-&lt;a href=&#34;https://myenergi.com/product/ct-clamp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;current transformer (CT) clamps&lt;/a&gt;. Remembering A-level physics, the current passing along a conductor can induce a current in a nearby coil proportionally to the current flowing in the main conductor which can be safely measured. Zappi comes with a CT clamp and I used the 
+&lt;a href=&#34;https://myenergi.com/product/ct-clamp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;current transformer (CT) clamps&lt;/a&gt;. Remembering A-level physics, the current passing along a conductor can induce a current in a nearby coil proportionally to the current flowing in the main conductor which can be (safely) measured. Zappi comes with a CT clamp and I used the 
 &lt;a href=&#34;https://myenergi.com/product/harvi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harvi&lt;/a&gt; which provides a wireless bridge from the CT clamp to the Zappi instead of running the cable across the ceiling of my garage.&lt;/p&gt;
 &lt;p&gt;I hadn&amp;rsquo;t read the instructions well enough and there were two problems here:&lt;/p&gt;
 &lt;ol&gt;
