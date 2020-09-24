@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Things learned installing a Zappi home EV charging socket.">
+  <meta name="description" content="Thinking about programmers&#39; susperstitions and taboos and the effects they have on software development.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/zappi-installation/">
+  <link rel="alternate" hreflang="en-us" href="/publication/2000-ppig/">
 
   
 
@@ -253,7 +253,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/zappi-installation/">
+  <link rel="canonical" href="/publication/2000-ppig/">
 
   
   
@@ -269,15 +269,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="World Wide Webber">
-  <meta property="og:url" content="/post/zappi-installation/">
-  <meta property="og:title" content="Zappi Installation | World Wide Webber">
-  <meta property="og:description" content="Things learned installing a Zappi home EV charging socket."><meta property="og:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/2000-ppig/">
+  <meta property="og:title" content="Gotos Considered Harmful and Other Programmers&#39; Taboos | World Wide Webber">
+  <meta property="og:description" content="Thinking about programmers&#39; susperstitions and taboos and the effects they have on software development."><meta property="og:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-09-21T10:00:47&#43;01:00">
+      <meta property="article:published_time" content="2000-04-10T10:24:24&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-09-21T10:00:47&#43;01:00">
+    <meta property="article:modified_time" content="2000-04-10T10:24:24&#43;01:00">
   
 
   
@@ -289,8 +289,6 @@
 
 
 
-
-  
 
 
 
@@ -298,19 +296,19 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/zappi-installation/"
+    "@id": "/publication/2000-ppig/"
   },
-  "headline": "Zappi Installation",
+  "headline": "Gotos Considered Harmful and Other Programmers' Taboos",
   
-  "datePublished": "2020-09-21T10:00:47+01:00",
-  "dateModified": "2020-09-21T10:00:47+01:00",
+  "datePublished": "2000-04-10T10:24:24+01:00",
+  "dateModified": "2000-04-10T10:24:24+01:00",
   
   "author": {
     "@type": "Person",
-    "name": "Dr. Jim Webber"
+    "name": "Lindsay Marshall and Jim Webber"
   },
   
   "publisher": {
@@ -321,7 +319,7 @@
       "url": "/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Things learned installing a Zappi home EV charging socket."
+  "description": "Thinking about programmers' susperstitions and taboos and the effects they have on software development."
 }
 </script>
 
@@ -339,7 +337,7 @@
 
 
 
-  <title>Zappi Installation | World Wide Webber</title>
+  <title>Gotos Considered Harmful and Other Programmers&#39; Taboos | World Wide Webber</title>
 
 </head>
 
@@ -733,7 +731,7 @@
 
 
 
-  <article class="article">
+  <div class="pub">
 
   
 
@@ -754,10 +752,8 @@
   
   
 <div class="article-container pt-3">
-  <h1>Zappi Installation</h1>
+  <h1>Gotos Considered Harmful and Other Programmers&#39; Taboos</h1>
 
-  
-  <p class="page-subtitle">Replacing a dumb EV charger with a smart one.</p>
   
 
   
@@ -768,6 +764,16 @@
 
   
   
+  
+  
+  <div>
+    
+
+  
+  <span >Lindsay Marshall and Jim Webber</span>
+  </div>
+  
+  
 
   
   <span class="article-date">
@@ -775,17 +781,12 @@
     
       
     
-    Sep 21, 2020
+    April 2000
   </span>
   
 
   
 
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    5 min read
-  </span>
   
 
   
@@ -819,164 +820,49 @@
 
   <div class="article-container">
 
-    <div class="article-style">
-      <p>Back in 2015 I bought a 
-<a href="https://www.autoexpress.co.uk/bmw/i3/88777/long-term-test-review-bmw-i3-range-extender" target="_blank" rel="noopener">BMW i3 REX</a>, and at the time had a 7kW <del>charger</del> charging socket fitted from 
-<a href="https://bpchargemaster.com/" target="_blank" rel="noopener">ChargeMaster</a> (now part of BP). It worked fine, and since the 2015 i3 has a small battery (~20kWh) full charges took just a few short hours. Wonderfully boring and predictable.</p>
-<p>Fast forward to present day and the ChargeMaster socket repeatedly overheats and cuts out leaving me with potentially not enough charge for the day (ok, so there&rsquo;s the range extender but that defeats the point). After a few calls to genuinely lovely people at BP ChargeMaster, we&rsquo;re not getting anywhere fast. The warranty has expired and I never did talk to anyone - nice as they were - that I&rsquo;d trust to wire a plug. But if I hand over another £500 I can get a replacement at some point.</p>
-<p>£500 for a socket - even a special, high-current, safety-concious socket is a lot of cash. So let&rsquo;s look around first.</p>
-<p>My first port of call was the 
-<a href="http://www.rolecserv.com/ev-charging/" target="_blank" rel="noopener">Rolec</a> sockets. Since this is a straight swap of like for like, it looked like a winner. It&rsquo;s a few quid cheaper than the ChargeMaster kit too. Only problem is that electrical regulations have tightened up since my original socket was installed. The 
-<a href="https://uk.rs-online.com/web/p/books/1737283/?cm_mmc=UK-PPC-DS3A-_-google-_-DSA_UK_EN_Office_Supplies_Feed-_-Books_Training_Materials%7CBooks%7CProducts-_-DYNAMIC&#43;SEARCH&#43;ADS&amp;matchtype=b&amp;dsa-725905712321&amp;s_kwcid=AL!7457!3!439084729426!b!!g!!&amp;gclid=EAIaIQobChMIifCT0fj56wIVT-btCh1OUAX5EAAYASAAEgKn8_D_BwE&amp;gclsrc=aw.ds" target="_blank" rel="noopener">18th edition regs</a> require additional earthing to protect from the  terrifying possibility of 
-<a href="https://www.youtube.com/watch?v=JRHyqouJPzE" target="_blank" rel="noopener">PEN faults on TN-C-S supplies</a>. Installing an earth rod is a big undertaking, so what to do?</p>
-<p><strong>Earth rods are not strictly required for indoor use (on the basis that you&rsquo;re unlikely to sever the earth), but I&rsquo;m conservative around mains electricity.</strong></p>
-<p>As it happens there is a  more expensive but far better value EV charging socket available - the 
-<a href="https://myenergi.com/product/zappi/" target="_blank" rel="noopener">MyEnergi Zappi</a> - which does not require an earth rod and has clever circuitry to detect PEN faults. It&rsquo;s a couple of hundred quid more at ~£700 plus another few quid for associated smart gadgets. But this is easily made up for by the simple install and being 18th edition compliant without the cost and (surprising) complexity of correctly installing an earth rod.</p>
-<p>Having received the Zappi, Harvi and Hub the installation was easy enough. In the Consumer Unit (&ldquo;fuse box&rdquo;), the existing 32A Type C MCB had to be replaced with a 32A B-curve MCB. This circuit on my CU happens to be RCD protected, but that&rsquo;s not critical since the Zappi has RCD protection on the AC <em>and</em> DC circuits (18th edition regs again). My wiring was already present and suitable from the previous installation, 40A rated, wall-pinned and visually in excellent condition. It only needed 30-40cm of 10mm twin and earth from the existing junction box through the conduit and into the Zappi.</p>
-
-
-
-
-
-
-  
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-zappi-unit-looks-nice-enough-for-a-garage-anyway">
-
-
-  <a data-fancybox="" href="/post/zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg" data-caption="Zappi unit looks nice enough, for a garage anyway.">
-
-
-  <img data-src="/post/zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="35%" height="1024">
-</a>
-
-
-  
-  
-  <figcaption>
-    Zappi unit looks nice enough, for a garage anyway.
-  </figcaption>
-
-
-</figure>
-
-<p>I recently bought a ferrule set and crimper after seeing one in use on a video by 
-<a href="https://artisanelectrics.co.uk/," target="_blank" rel="noopener">Artisan Electrics</a> which really made the 10mm cable connections feel very robust. I would recommend this since they&rsquo;re cheap to buy and easy to use.</p>
-<p>So far so good - the electical work is very easy and because the charger has clever electronics, it&rsquo;s just like wiring a regular domestic socket.</p>
-<p>One of the nice things about the Zappi is that it&rsquo;s &ldquo;smart.&rdquo; It can try to use on-site generation to charge your EV when there&rsquo;s excess power. And even if there&rsquo;s a heavy load on your main supply (I live in the UK, so single-phase supplies are very common for houses), it&rsquo;ll adjust its power delivery so that the house as a whole never draws more the mains rating (100A for me).</p>
-
-
-
-
-
-
-  
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-looks-like-i-should-plug-the-car-in">
-
-
-  <a data-fancybox="" href="/post/zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg" data-caption="Looks like I should plug the car in.">
-
-
-  <img data-src="/post/zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="35%" height="1304">
-</a>
-
-
-  
-  
-  <figcaption>
-    Looks like I should plug the car in.
-  </figcaption>
-
-
-</figure>
-
-<p>Zappi senses its electrical environment using 
-<a href="https://myenergi.com/product/ct-clamp/" target="_blank" rel="noopener">current transformer (CT) clamps</a>. Remembering A-level physics, the current passing along a conductor can induce a current in a nearby coil proportionally to the current flowing in the main conductor which can be (safely) measured. Zappi comes with a CT clamp and I used the 
-<a href="https://myenergi.com/product/harvi/" target="_blank" rel="noopener">Harvi</a> which provides a wireless bridge from the CT clamp to the Zappi instead of running the cable across the ceiling of my garage.</p>
-<p>I hadn&rsquo;t read the instructions well enough and there were two problems here:</p>
-<ol>
-<li>You have to tell Zappi that its internal <code>CT1</code> is set to <code>NONE</code>. Then you have to nagivate to the Harvi device and set <em>its</em> <code>CT1</code> to <code>GRID</code>. Ok, so took me a little while to fathom that, but got there.</li>
-<li>The bigger downside is that when using Harvi to wirelessly monitor the grid line, the maximum permissible mains current is 65A, which is 35A less than my mains rating (and indeed could supply a whole other charger). It&rsquo;s not a problem for now, but adding a second EV and Zappi in the future could lead to slower and less predictable charging rates.</li>
-</ol>
-<p>My solution to this will be to hardwire the grid CT clamp to the Zappi by running cable round the garage. I&rsquo;ll then use a second CT clamp plus the Harvi (bought and paid for, so I have to put it to use) to monitor solar output. Solar monitoring is just a nerd thing so that I can see generation on the app: the Zappi does not use the solar CT clamp in its control algorithm.</p>
-<p>All of this comes together in a nice app if you use the 
-<a href="https://myenergi.com/product/hub/" target="_blank" rel="noopener">Hub</a>, so you can see real-time use and program EV charging without having to be at the Zappi.</p>
-
-
-
-
-
-
-  
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-<figure id="figure-hub-sitting-in-a-rats-nest-of-wires-with-google-wifi-dont-judge-me">
-
-
-  <a data-fancybox="" href="/post/zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg" data-caption="Hub sitting in a rat&amp;rsquo;s nest of wires with Google wifi. Don&amp;rsquo;t judge me.">
-
-
-  <img data-src="/post/zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="35%" height="1024">
-</a>
-
-
-  
-  
-  <figcaption>
-    Hub sitting in a rat&rsquo;s nest of wires with Google wifi. Don&rsquo;t judge me.
-  </figcaption>
-
-
-</figure>
-
-<p>I&rsquo;m very impressed so far. Sure there were a couple of little gotchas while I learned my way around the menus, but otherwise a straightforward experience. Funelling excess solar into the car automatically is super nice, and the unit looks smart and is safe. The setup can also handle a static battery installation (with more CT clamps) and can prioritise whether EV or static battery storage gets excess solar power and it can also minimise using the battery to charge the car (which is very sensible).</p>
-
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Programmers are constrained not just by conscious application of rules and procedures, but also by taboos that they have acquired as part of their formal education or informally from colleagues. These taboos usually embody perceived sound advice and have generally been concerned with the breaking of abstraction boundaries. However their effect can be to needlessly restrict the range of solutions to design problems that programmers consider.  This paper examines a set of common programming taboos, and addresses both social aspects and technical reasons as to why programming taboos have arisen.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Proceedings of the 12th Annual Workshop of the Psychology of Programming Interest Group, PPIG 2000</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -984,14 +870,6 @@
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tag/zappi/">zappi</a>
-  
-  <a class="badge badge-light" href="/tag/ev/">EV</a>
-  
-</div>
 
 
 
@@ -1006,7 +884,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/zappi-installation/&amp;text=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/2000-ppig/&amp;text=Gotos%20Considered%20Harmful%20and%20Other%20Programmers&amp;#39;%20Taboos" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1019,7 +897,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/zappi-installation/&amp;t=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/2000-ppig/&amp;t=Gotos%20Considered%20Harmful%20and%20Other%20Programmers&amp;#39;%20Taboos" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1032,7 +910,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Zappi%20Installation&amp;body=/post/zappi-installation/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Gotos%20Considered%20Harmful%20and%20Other%20Programmers&amp;#39;%20Taboos&amp;body=/publication/2000-ppig/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1045,7 +923,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/zappi-installation/&amp;title=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/2000-ppig/&amp;title=Gotos%20Considered%20Harmful%20and%20Other%20Programmers&amp;#39;%20Taboos" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1058,7 +936,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Zappi%20Installation%20/post/zappi-installation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Gotos%20Considered%20Harmful%20and%20Other%20Programmers&amp;#39;%20Taboos%20/publication/2000-ppig/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1071,7 +949,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/zappi-installation/&amp;title=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/2000-ppig/&amp;title=Gotos%20Considered%20Harmful%20and%20Other%20Programmers&amp;#39;%20Taboos" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1091,88 +969,17 @@
 
 
   
-  
+    
+    
 
 
 
 
 
   
-    
-    
-    
-      
-    
-    
-    
-    <div class="media author-card content-widget-hr">
-      
-        
-        <img class="avatar mr-3 avatar-circle" src="/author/dr.-jim-webber/avatar_hua063f72fafcff2cee8f7b2c1e3059f36_530492_270x270_fill_lanczos_center_2.png" alt="Dr. Jim Webber">
-      
-
-      <div class="media-body">
-        <h5 class="card-title"><a href="/">Dr. Jim Webber</a></h5>
-        <h6 class="card-subtitle">Chief Scientist</h6>
-        <p class="card-text">I&rsquo;m Chief Scientist at Neo4j.</p>
-        <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:jim@jimwebber.org" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/jimwebber" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/jimwebber" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-</ul>
-
-      </div>
-    </div>
-  
 
 
+  
 
 
 
@@ -1193,7 +1000,7 @@
 
 
   </div>
-</article>
+</div>
 
       
 

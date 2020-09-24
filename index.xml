@@ -22,9 +22,9 @@
     
     <item>
       <title>Zappi Installation</title>
-      <link>/post/zappi-installation/</link>
+      <link>/post/2020-09-zappi-installation/</link>
       <pubDate>Mon, 21 Sep 2020 10:00:47 +0100</pubDate>
-      <guid>/post/zappi-installation/</guid>
+      <guid>/post/2020-09-zappi-installation/</guid>
       <description>&lt;p&gt;Back in 2015 I bought a 
 &lt;a href=&#34;https://www.autoexpress.co.uk/bmw/i3/88777/long-term-test-review-bmw-i3-range-extender&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BMW i3 REX&lt;/a&gt;, and at the time had a 7kW &lt;del&gt;charger&lt;/del&gt; charging socket fitted from 
 &lt;a href=&#34;https://bpchargemaster.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ChargeMaster&lt;/a&gt; (now part of BP). It worked fine, and since the 2015 i3 has a small battery (~20kWh) full charges took just a few short hours. Wonderfully boring and predictable.&lt;/p&gt;
@@ -64,10 +64,10 @@
 &lt;figure id=&#34;figure-zappi-unit-looks-nice-enough-for-a-garage-anyway&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Zappi unit looks nice enough, for a garage anyway.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Zappi unit looks nice enough, for a garage anyway.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-09-zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
 &lt;/a&gt;
 
 
@@ -110,10 +110,10 @@
 &lt;figure id=&#34;figure-looks-like-i-should-plug-the-car-in&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Looks like I should plug the car in.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Looks like I should plug the car in.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1304&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-09-zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1304&#34;&gt;
 &lt;/a&gt;
 
 
@@ -163,10 +163,10 @@
 &lt;figure id=&#34;figure-hub-sitting-in-a-rats-nest-of-wires-with-google-wifi-dont-judge-me&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Hub sitting in a rat&amp;amp;rsquo;s nest of wires with Google wifi. Don&amp;amp;rsquo;t judge me.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Hub sitting in a rat&amp;amp;rsquo;s nest of wires with Google wifi. Don&amp;amp;rsquo;t judge me.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-09-zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
 &lt;/a&gt;
 
 
@@ -265,10 +265,98 @@
     </item>
     
     <item>
+      <title>The Role of Hypermedia in Distributed System Development</title>
+      <link>/publication/2010-ws-rest/</link>
+      <pubDate>Mon, 26 Apr 2010 10:24:24 +0100</pubDate>
+      <guid>/publication/2010-ws-rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
+      <link>/publication/2007-acm-cbse/</link>
+      <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
+      <guid>/publication/2007-acm-cbse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressing and Reasoning about Service Contracts in Service-Oriented Computing</title>
+      <link>/publication/2006-ieee-scc/</link>
+      <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-ieee-scc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</title>
+      <link>/publication/2006-ieee-icws/</link>
+      <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-ieee-icws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First International Workshop on Design of Service-Oriented Applications (WDSOA&#39;05)</title>
+      <link>/publication/2005-wdsoa/</link>
+      <pubDate>Mon, 12 Dec 2005 10:24:24 +0100</pubDate>
+      <guid>/publication/2005-wdsoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications</title>
+      <link>/publication/2004-ieee-scc/</link>
+      <pubDate>Wed, 15 Sep 2004 10:24:24 +0100</pubDate>
+      <guid>/publication/2004-ieee-scc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grid Computing using Web Services Technologies</title>
+      <link>/publication/2004-delos/</link>
+      <pubDate>Thu, 24 Jun 2004 10:24:24 +0100</pubDate>
+      <guid>/publication/2004-delos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The WS-GAF Registry Service</title>
+      <link>/publication/2004-ggf/</link>
+      <pubDate>Sat, 05 Jun 2004 10:24:24 +0100</pubDate>
+      <guid>/publication/2004-ggf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Developing Enterprise Web Services</title>
       <link>/publication/developing-enterprise-web-services/</link>
       <pubDate>Fri, 14 Nov 2003 11:01:05 +0100</pubDate>
       <guid>/publication/developing-enterprise-web-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Misplaced Comma: Programmers’ Tales and Traditions</title>
+      <link>/publication/2002-ppig/</link>
+      <pubDate>Tue, 18 Jun 2002 10:24:24 +0100</pubDate>
+      <guid>/publication/2002-ppig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual, Object-Oriented Development of Parallel Applications</title>
+      <link>/publication/2000-ieee-visual-languages/</link>
+      <pubDate>Sun, 10 Sep 2000 10:24:24 +0100</pubDate>
+      <guid>/publication/2000-ieee-visual-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gotos Considered Harmful and Other Programmers&#39; Taboos</title>
+      <link>/publication/2000-ppig/</link>
+      <pubDate>Mon, 10 Apr 2000 10:24:24 +0100</pubDate>
+      <guid>/publication/2000-ppig/</guid>
       <description></description>
     </item>
     

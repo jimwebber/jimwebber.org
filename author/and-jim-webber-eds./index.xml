@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>and Jim Webber (Eds.) | World Wide Webber</title>
+    <link>/author/and-jim-webber-eds./</link>
+      <atom:link href="/author/and-jim-webber-eds./index.xml" rel="self" type="application/rss+xml" />
+    <description>and Jim Webber (Eds.)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright>
+    <image>
+      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
+      <title>and Jim Webber (Eds.)</title>
+      <link>/author/and-jim-webber-eds./</link>
+    </image>
+    
+    <item>
+      <title>First International Workshop on Design of Service-Oriented Applications (WDSOA&#39;05)</title>
+      <link>/publication/2005-wdsoa/</link>
+      <pubDate>Mon, 12 Dec 2005 10:24:24 +0100</pubDate>
+      <guid>/publication/2005-wdsoa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
