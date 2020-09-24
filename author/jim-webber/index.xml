@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>Towards a Horizontally Scalable Graph Database</title>
+      <link>/publication/2012-euro-data-forum/</link>
+      <pubDate>Wed, 06 Jun 2012 10:24:24 +0100</pubDate>
+      <guid>/publication/2012-euro-data-forum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rest in Practice</title>
       <link>/publication/rest-in-practice/</link>
       <pubDate>Mon, 27 Sep 2010 10:33:08 +0100</pubDate>
@@ -57,6 +65,46 @@
       <link>/publication/2007-acm-cbse/</link>
       <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
       <guid>/publication/2007-acm-cbse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Architect’s Guide to Developing Enterprise Web Services</title>
+      <link>/publication/2006-csi/</link>
+      <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-csi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asynchronous messaging between Web services using SSDL</title>
+      <link>/publication/2006-ieee-internet-computing/</link>
+      <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-ieee-internet-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Service Grids: An Evolutionary Approach</title>
+      <link>/publication/2005-journal-concurrency-computation-ws-gaf/</link>
+      <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
+      <guid>/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WS‐GAF: a framework for building Grid applications using Web Services</title>
+      <link>/publication/2005-journal-concurrency-computation-ws-i-plus/</link>
+      <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
+      <guid>/publication/2005-journal-concurrency-computation-ws-i-plus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Object-Oriented Development of Parallel Applications</title>
+      <link>/publication/2000-phd-thesis/</link>
+      <pubDate>Fri, 29 Sep 2000 10:24:24 +0100</pubDate>
+      <guid>/publication/2000-phd-thesis/</guid>
       <description></description>
     </item>
     
