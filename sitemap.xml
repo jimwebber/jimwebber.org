@@ -208,6 +208,31 @@
   </url>
   
   <url>
+    <loc>/publication-type/10/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/dean-kuo/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/paul-greenfield/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/simon-woodman/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2007-11-ssdl/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/and-ian-gorton/</loc>
     <lastmod>2007-07-09T10:24:24+01:00</lastmod>
   </url>
@@ -243,11 +268,6 @@
   </url>
   
   <url>
-    <loc>/author/dean-kuo/</loc>
-    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/emerson-ribeiro-de-mello/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
   </url>
@@ -259,11 +279,6 @@
   
   <url>
     <loc>/author/john-zic/</loc>
-    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/paul-greenfield/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
   </url>
   
@@ -299,11 +314,6 @@
   
   <url>
     <loc>/publication/2006-ieee-internet-computing/</loc>
-    <lastmod>2006-02-01T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/simon-woodman/</loc>
     <lastmod>2006-02-01T10:24:24+01:00</lastmod>
   </url>
   
@@ -413,12 +423,62 @@
   </url>
   
   <url>
-    <loc>/publication/2003-ieee-computing/</loc>
-    <lastmod>2003-02-01T10:24:24+01:00</lastmod>
+    <loc>/author/dale-moberg/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/doug-bunting/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/eric-newcomer/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jan-alexander/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jeff-mischkinsky/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/keith-swenson/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
   </url>
   
   <url>
     <loc>/author/mark-little/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/martin-chapman/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2007-11-ws-caf/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/pete-wenzel/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ramesh-nagappan/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2003-ieee-computing/</loc>
     <lastmod>2003-02-01T10:24:24+01:00</lastmod>
   </url>
   
@@ -445,6 +505,26 @@
   <url>
     <loc>/publication/2002-ppig/</loc>
     <lastmod>2002-06-18T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/9/</loc>
+    <lastmod>2001-11-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/and-savas-parastatidis/</loc>
+    <lastmod>2001-11-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2001-app-dev-advisor/</loc>
+    <lastmod>2001-11-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/victor-corrales/</loc>
+    <lastmod>2001-11-30T10:24:24+00:00</lastmod>
   </url>
   
   <url>

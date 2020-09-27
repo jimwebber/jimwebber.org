@@ -61,6 +61,14 @@
     </item>
     
     <item>
+      <title>SSDL - The SOAP Service Description Language</title>
+      <link>/publication/2007-11-ssdl/</link>
+      <pubDate>Sat, 10 Nov 2007 10:24:24 +0100</pubDate>
+      <guid>/publication/2007-11-ssdl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
       <link>/publication/2007-acm-cbse/</link>
       <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
@@ -97,6 +105,22 @@
       <link>/publication/2005-journal-concurrency-computation-ws-i-plus/</link>
       <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
       <guid>/publication/2005-journal-concurrency-computation-ws-i-plus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OASIS Web Services Composite Application Framework (WS-CAF)</title>
+      <link>/publication/2007-11-ws-caf/</link>
+      <pubDate>Tue, 07 Oct 2003 10:24:24 +0100</pubDate>
+      <guid>/publication/2007-11-ws-caf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making Web Services Work</title>
+      <link>/publication/2001-app-dev-advisor/</link>
+      <pubDate>Fri, 30 Nov 2001 10:24:24 +0000</pubDate>
+      <guid>/publication/2001-app-dev-advisor/</guid>
       <description></description>
     </item>
     
