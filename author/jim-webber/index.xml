@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>Starting Graph Databases with Neo4j 2.0</title>
+      <link>/publication/2013-sdj-beginning-neo4j/</link>
+      <pubDate>Tue, 01 Oct 2013 10:24:24 +0000</pubDate>
+      <guid>/publication/2013-sdj-beginning-neo4j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Towards a Horizontally Scalable Graph Database</title>
       <link>/publication/2012-euro-data-forum/</link>
       <pubDate>Wed, 06 Jun 2012 10:24:24 +0100</pubDate>
@@ -109,10 +117,26 @@
     </item>
     
     <item>
+      <title>Stateful Interactions in Web Services: A Comparison of WS-Context and WS-ResourceFramework </title>
+      <link>/publication/2004-wsj-wsdl-not-idl/</link>
+      <pubDate>Sat, 01 May 2004 10:24:24 +0900</pubDate>
+      <guid>/publication/2004-wsj-wsdl-not-idl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>OASIS Web Services Composite Application Framework (WS-CAF)</title>
       <link>/publication/2007-11-ws-caf/</link>
       <pubDate>Tue, 07 Oct 2003 10:24:24 +0100</pubDate>
       <guid>/publication/2007-11-ws-caf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Smart Money&#39;s on OASIS BTP</title>
+      <link>/publication/2002-wsj-oasis-btp/</link>
+      <pubDate>Tue, 30 Apr 2002 10:24:24 +0000</pubDate>
+      <guid>/publication/2002-wsj-oasis-btp/</guid>
       <description></description>
     </item>
     
