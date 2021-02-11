@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright><lastBuildDate>Tue, 15 Sep 2020 10:24:24 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Jim Webber</copyright><lastBuildDate>Tue, 15 Sep 2020 10:24:24 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -53,30 +53,6 @@
     </item>
     
     <item>
-      <title>Starting Graph Databases with Neo4j 2.0</title>
-      <link>/publication/2013-sdj-beginning-neo4j/</link>
-      <pubDate>Tue, 01 Oct 2013 10:24:24 +0000</pubDate>
-      <guid>/publication/2013-sdj-beginning-neo4j/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards a Horizontally Scalable Graph Database</title>
-      <link>/publication/2012-euro-data-forum/</link>
-      <pubDate>Wed, 06 Jun 2012 10:24:24 +0100</pubDate>
-      <guid>/publication/2012-euro-data-forum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exterminate! Your Database Woes with Neo4j</title>
-      <link>/publication/2011-osj-graphdb-doctor-who/</link>
-      <pubDate>Fri, 01 Jun 2012 10:24:24 +0100</pubDate>
-      <guid>/publication/2011-osj-graphdb-doctor-who/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Rest in Practice</title>
       <link>/publication/rest-in-practice/</link>
       <pubDate>Mon, 27 Sep 2010 10:33:08 +0100</pubDate>
@@ -85,58 +61,10 @@
     </item>
     
     <item>
-      <title>The Role of Hypermedia in Distributed System Development</title>
-      <link>/publication/2010-ws-rest/</link>
-      <pubDate>Mon, 26 Apr 2010 10:24:24 +0100</pubDate>
-      <guid>/publication/2010-ws-rest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SSDL - The SOAP Service Description Language</title>
-      <link>/publication/2007-11-ssdl/</link>
-      <pubDate>Sat, 10 Nov 2007 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-11-ssdl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
-      <link>/publication/2007-acm-cbse/</link>
-      <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-acm-cbse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expressing and Reasoning about Service Contracts in Service-Oriented Computing</title>
+      <title>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</title>
       <link>/publication/2006-ieee-scc/</link>
       <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
       <guid>/publication/2006-ieee-scc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</title>
-      <link>/publication/2006-ieee-icws/</link>
-      <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-ieee-icws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Architect’s Guide to Developing Enterprise Web Services</title>
-      <link>/publication/2006-csi/</link>
-      <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-csi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Asynchronous messaging between Web services using SSDL</title>
-      <link>/publication/2006-ieee-internet-computing/</link>
-      <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-ieee-internet-computing/</guid>
       <description></description>
     </item>
     
@@ -145,30 +73,6 @@
       <link>/publication/2005-wdsoa/</link>
       <pubDate>Mon, 12 Dec 2005 10:24:24 +0100</pubDate>
       <guid>/publication/2005-wdsoa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service-oriented, Distributed, High-Performance Computing</title>
-      <link>/publication/2005-msaj-hp-soa/</link>
-      <pubDate>Fri, 01 Jul 2005 10:24:24 +0900</pubDate>
-      <guid>/publication/2005-msaj-hp-soa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Service Grids: An Evolutionary Approach</title>
-      <link>/publication/2005-journal-concurrency-computation-ws-gaf/</link>
-      <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WS‐GAF: a framework for building Grid applications using Web Services</title>
-      <link>/publication/2005-journal-concurrency-computation-ws-i-plus/</link>
-      <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-journal-concurrency-computation-ws-i-plus/</guid>
       <description></description>
     </item>
     
@@ -197,38 +101,6 @@
     </item>
     
     <item>
-      <title>Stateful Interactions in Web Services: A Comparison of WS-Context and WS-ResourceFramework </title>
-      <link>/publication/2004-wsj-wsdl-not-idl/</link>
-      <pubDate>Sat, 01 May 2004 10:24:24 +0900</pubDate>
-      <guid>/publication/2004-wsj-wsdl-not-idl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Why WSDL is not Yet Another Object IDL</title>
-      <link>/publication/2005-wsj-stateful-interactions/</link>
-      <pubDate>Thu, 01 Apr 2004 10:24:24 +0900</pubDate>
-      <guid>/publication/2005-wsj-stateful-interactions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Horses for Courses: Services, Objects, and Loose Coupling</title>
-      <link>/publication/2004-wsj-horses-for-courses/</link>
-      <pubDate>Thu, 01 Jan 2004 10:24:24 +0900</pubDate>
-      <guid>/publication/2004-wsj-horses-for-courses/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducting WS-CAF</title>
-      <link>/publication/2003-wsj-ws-caf/</link>
-      <pubDate>Mon, 01 Dec 2003 10:24:24 +0000</pubDate>
-      <guid>/publication/2003-wsj-ws-caf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Developing Enterprise Web Services</title>
       <link>/publication/developing-enterprise-web-services/</link>
       <pubDate>Fri, 14 Nov 2003 11:01:05 +0100</pubDate>
@@ -237,98 +109,10 @@
     </item>
     
     <item>
-      <title>Demystifying Service Oriented Architectures</title>
-      <link>/publication/2003-wsj-demystifying-soa/</link>
-      <pubDate>Sat, 01 Nov 2003 10:24:24 +0000</pubDate>
-      <guid>/publication/2003-wsj-demystifying-soa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OASIS Web Services Composite Application Framework (WS-CAF)</title>
-      <link>/publication/2007-11-ws-caf/</link>
-      <pubDate>Tue, 07 Oct 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-11-ws-caf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducing BPEL4WS</title>
-      <link>/publication/2003-wsj-bpel4ws/</link>
-      <pubDate>Tue, 01 Jul 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-wsj-bpel4ws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducting WS-Transaction</title>
-      <link>/publication/2003-wsj-ws-transaction/</link>
-      <pubDate>Sun, 01 Jun 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-wsj-ws-transaction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducting WS-Coordination</title>
-      <link>/publication/2003-wsj-ws-coordination/</link>
-      <pubDate>Thu, 01 May 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-wsj-ws-coordination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coordinating Business Transactions on the Web</title>
-      <link>/publication/2003-ieee-computing/</link>
-      <pubDate>Sat, 01 Feb 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-ieee-computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Building Transactional Web Services with OASIS BTP</title>
-      <link>/publication/2002-wsj-building-with-btp/</link>
-      <pubDate>Wed, 30 Oct 2002 10:24:24 +0000</pubDate>
-      <guid>/publication/2002-wsj-building-with-btp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Misplaced Comma: Programmers’ Tales and Traditions</title>
       <link>/publication/2002-ppig/</link>
       <pubDate>Tue, 18 Jun 2002 10:24:24 +0100</pubDate>
       <guid>/publication/2002-ppig/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Smart Money&#39;s on OASIS BTP</title>
-      <link>/publication/2002-wsj-oasis-btp/</link>
-      <pubDate>Tue, 30 Apr 2002 10:24:24 +0000</pubDate>
-      <guid>/publication/2002-wsj-oasis-btp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Making Web Services Work</title>
-      <link>/publication/2001-app-dev-advisor/</link>
-      <pubDate>Fri, 30 Nov 2001 10:24:24 +0000</pubDate>
-      <guid>/publication/2001-app-dev-advisor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual, Object-Oriented Development of Parallel Applications</title>
-      <link>/publication/2001-visual-langs/</link>
-      <pubDate>Mon, 30 Apr 2001 10:24:24 +0100</pubDate>
-      <guid>/publication/2001-visual-langs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Object-Oriented Development of Parallel Applications</title>
-      <link>/publication/2000-phd-thesis/</link>
-      <pubDate>Fri, 29 Sep 2000 10:24:24 +0100</pubDate>
-      <guid>/publication/2000-phd-thesis/</guid>
       <description></description>
     </item>
     

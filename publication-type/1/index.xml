@@ -5,7 +5,7 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Jim Webber</copyright><lastBuildDate>Mon, 27 Apr 2020 10:24:24 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Jim Webber</copyright><lastBuildDate>Mon, 27 Apr 2020 10:24:24 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -29,42 +29,10 @@
     </item>
     
     <item>
-      <title>Towards a Horizontally Scalable Graph Database</title>
-      <link>/publication/2012-euro-data-forum/</link>
-      <pubDate>Wed, 06 Jun 2012 10:24:24 +0100</pubDate>
-      <guid>/publication/2012-euro-data-forum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Role of Hypermedia in Distributed System Development</title>
-      <link>/publication/2010-ws-rest/</link>
-      <pubDate>Mon, 26 Apr 2010 10:24:24 +0100</pubDate>
-      <guid>/publication/2010-ws-rest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
-      <link>/publication/2007-acm-cbse/</link>
-      <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-acm-cbse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expressing and Reasoning about Service Contracts in Service-Oriented Computing</title>
+      <title>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</title>
       <link>/publication/2006-ieee-scc/</link>
       <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
       <guid>/publication/2006-ieee-scc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</title>
-      <link>/publication/2006-ieee-icws/</link>
-      <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-ieee-icws/</guid>
       <description></description>
     </item>
     
