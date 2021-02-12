@@ -3,33 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tag/consistency/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+    <loc>/talk/2020-11-big-things/</loc>
+    <lastmod>2020-11-17T19:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/graph-databases/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2020-12-weak-stong-consistency/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+    <loc>/talk/</loc>
+    <lastmod>2020-11-17T19:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+    <lastmod>2020-11-17T19:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -38,17 +23,17 @@
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2020-10-20T09:05:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2020-09-weak-stong-consistency/</loc>
-    <lastmod>2020-09-23T13:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/ev/</loc>
+    <lastmod>2020-09-21T10:00:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-09-21T10:00:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-09-21T10:00:47+01:00</lastmod>
   </url>
   
@@ -203,6 +188,31 @@
   </url>
   
   <url>
+    <loc>/publication-type/9/</loc>
+    <lastmod>2013-10-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2013-sdj-beginning-neo4j/</loc>
+    <lastmod>2013-10-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2012-euro-data-forum/</loc>
+    <lastmod>2012-06-06T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2011-osj-graphdb-doctor-who/</loc>
+    <lastmod>2012-06-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber-and-ian-robinson/</loc>
+    <lastmod>2012-06-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/rest-in-practice/</loc>
     <lastmod>2010-09-27T10:33:08+01:00</lastmod>
   </url>
@@ -213,7 +223,62 @@
   </url>
   
   <url>
+    <loc>/author/guilherme-silveira/</loc>
+    <lastmod>2010-04-26T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2010-ws-rest/</loc>
+    <lastmod>2010-04-26T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/10/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/dean-kuo/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/paul-greenfield/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/simon-woodman/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2007-11-ssdl/</loc>
+    <lastmod>2007-11-10T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/and-ian-gorton/</loc>
+    <lastmod>2007-07-09T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/patric-fornasier/</loc>
+    <lastmod>2007-07-09T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2007-acm-cbse/</loc>
+    <lastmod>2007-07-09T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/aad-van-moorsel/</loc>
+    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/alan-fekete/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
   </url>
   
@@ -233,13 +298,48 @@
   </url>
   
   <url>
+    <loc>/publication/2006-ieee-scc/</loc>
+    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/john-zic/</loc>
+    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/philipp-reinecke/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/2006-ieee-scc/</loc>
+    <loc>/author/savas-parastatidis-and-jim-webber/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2006-ieee-icws/</loc>
+    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/surya-nepal/</loc>
+    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2006-csi/</loc>
+    <lastmod>2006-02-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/and-paul-greenfield/</loc>
+    <lastmod>2006-02-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2006-ieee-internet-computing/</loc>
+    <lastmod>2006-02-01T10:24:24+01:00</lastmod>
   </url>
   
   <url>
@@ -258,12 +358,77 @@
   </url>
   
   <url>
-    <loc>/publication/2004-ieee-scc/</loc>
-    <lastmod>2004-09-15T10:24:24+01:00</lastmod>
+    <loc>/publication/2005-msaj-hp-soa/</loc>
+    <lastmod>2005-07-01T10:24:24+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/savas-parastatidis-and-jim-webber/</loc>
+    <loc>/author/alistair-dunlop/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/anne-trefethen/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/david-deroure/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/geoffrey-fox/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/malcolm-atkinson/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/norman-paton/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/paul-watson/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/peter-henderson/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/steven-newhouse/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/thomas-rischbeck/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tony-hey/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2005-journal-concurrency-computation-ws-gaf/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2005-journal-concurrency-computation-ws-i-plus/</loc>
+    <lastmod>2005-02-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2004-ieee-scc/</loc>
     <lastmod>2004-09-15T10:24:24+01:00</lastmod>
   </url>
   
@@ -273,13 +438,43 @@
   </url>
   
   <url>
-    <loc>/author/paul-watson/</loc>
-    <lastmod>2004-06-24T10:24:24+01:00</lastmod>
+    <loc>/publication/2004-ggf/</loc>
+    <lastmod>2004-06-05T10:24:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/2004-ggf/</loc>
-    <lastmod>2004-06-05T10:24:24+01:00</lastmod>
+    <loc>/author/and-mark-little/</loc>
+    <lastmod>2004-05-01T10:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2004-wsj-wsdl-not-idl/</loc>
+    <lastmod>2004-05-01T10:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber-and-savas-parastatidis/</loc>
+    <lastmod>2004-04-01T10:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2005-wsj-stateful-interactions/</loc>
+    <lastmod>2004-04-01T10:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2004-wsj-horses-for-courses/</loc>
+    <lastmod>2004-01-01T10:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2003-wsj-ws-caf/</loc>
+    <lastmod>2003-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber-and-mark-little/</loc>
+    <lastmod>2003-12-01T10:24:24+00:00</lastmod>
   </url>
   
   <url>
@@ -293,6 +488,106 @@
   </url>
   
   <url>
+    <loc>/publication/2003-wsj-demystifying-soa/</loc>
+    <lastmod>2003-11-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/dale-moberg/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/doug-bunting/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/eric-newcomer/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jan-alexander/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jeff-mischkinsky/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/keith-swenson/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/mark-little/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/martin-chapman/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2007-11-ws-caf/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/pete-wenzel/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ramesh-nagappan/</loc>
+    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2003-wsj-bpel4ws/</loc>
+    <lastmod>2003-07-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2003-wsj-ws-transaction/</loc>
+    <lastmod>2003-06-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2003-wsj-ws-coordination/</loc>
+    <lastmod>2003-05-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2003-ieee-computing/</loc>
+    <lastmod>2003-02-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/mark-potts/</loc>
+    <lastmod>2003-02-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/sanjay-dalal/</loc>
+    <lastmod>2003-02-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/sazi-temel/</loc>
+    <lastmod>2003-02-01T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2002-wsj-building-with-btp/</loc>
+    <lastmod>2002-10-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/lindsay-marshall-and-jim-webber/</loc>
     <lastmod>2002-06-18T10:24:24+01:00</lastmod>
   </url>
@@ -303,8 +598,43 @@
   </url>
   
   <url>
+    <loc>/publication/2002-wsj-oasis-btp/</loc>
+    <lastmod>2002-04-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/and-savas-parastatidis/</loc>
+    <lastmod>2001-11-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2001-app-dev-advisor/</loc>
+    <lastmod>2001-11-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/victor-corrales/</loc>
+    <lastmod>2001-11-30T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/jim-webber-and-p.a.-lee/</loc>
-    <lastmod>2000-09-10T10:24:24+01:00</lastmod>
+    <lastmod>2001-04-30T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2001-visual-langs/</loc>
+    <lastmod>2001-04-30T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/7/</loc>
+    <lastmod>2000-09-29T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2000-phd-thesis/</loc>
+    <lastmod>2000-09-29T10:24:24+01:00</lastmod>
   </url>
   
   <url>
