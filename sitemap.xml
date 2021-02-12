@@ -138,6 +138,16 @@
   </url>
   
   <url>
+    <loc>/publication/2017-icdcs/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/georgios-goumas-et-al/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/alexandra-poulovassilis/</loc>
     <lastmod>2016-08-23T10:24:24+01:00</lastmod>
   </url>
@@ -195,6 +205,11 @@
   <url>
     <loc>/publication/2013-sdj-beginning-neo4j/</loc>
     <lastmod>2013-10-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2012-splash/</loc>
+    <lastmod>2012-10-19T09:00:00+07:00</lastmod>
   </url>
   
   <url>
