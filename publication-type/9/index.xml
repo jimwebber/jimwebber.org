@@ -5,12 +5,20 @@
     <link>/publication-type/9/</link>
       <atom:link href="/publication-type/9/index.xml" rel="self" type="application/rss+xml" />
     <description>9</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Jim Webber</copyright><lastBuildDate>Tue, 01 Oct 2013 10:24:24 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Jim Webber</copyright><lastBuildDate>Tue, 01 Dec 2020 10:24:24 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
       <title>9</title>
       <link>/publication-type/9/</link>
     </image>
+    
+    <item>
+      <title>The Coming of Age of Graph Databases</title>
+      <link>/publication/2020-ndbj-coming-age-graph-db/</link>
+      <pubDate>Tue, 01 Dec 2020 10:24:24 +0000</pubDate>
+      <guid>/publication/2020-ndbj-coming-age-graph-db/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Starting Graph Databases with Neo4j 2.0</title>

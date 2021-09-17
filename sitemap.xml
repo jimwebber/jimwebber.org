@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/9/</loc>
+    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2020-ndbj-coming-age-graph-db/</loc>
+    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/2020-11-big-things/</loc>
     <lastmod>2020-11-17T19:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/</loc>
-    <lastmod>2020-11-17T19:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-11-17T19:00:00+01:00</lastmod>
   </url>
   
@@ -63,17 +93,7 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/isi-mitrani/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jim-webber/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
   
@@ -84,16 +104,6 @@
   
   <url>
     <loc>/author/paul-ezhilchelvan/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
   
@@ -195,11 +205,6 @@
   <url>
     <loc>/author/ian-robinson/</loc>
     <lastmod>2015-06-09T10:30:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/9/</loc>
-    <lastmod>2013-10-01T10:24:24+00:00</lastmod>
   </url>
   
   <url>
