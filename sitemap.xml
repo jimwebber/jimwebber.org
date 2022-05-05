@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tag/consistency/</loc>
+    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/graph-databases/</loc>
+    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-12-weak-stong-consistency/</loc>
+    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/9/</loc>
     <lastmod>2020-12-01T10:24:24+00:00</lastmod>
   </url>
@@ -33,11 +63,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/talk/2020-11-big-things/</loc>
     <lastmod>2020-11-17T19:00:00+01:00</lastmod>
   </url>
@@ -54,16 +79,6 @@
   
   <url>
     <loc>/tag/ev/</loc>
-    <lastmod>2020-09-21T10:00:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-09-21T10:00:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-09-21T10:00:47+01:00</lastmod>
   </url>
   
