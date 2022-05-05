@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>World Wide Webber</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Jim Webber</copyright><lastBuildDate>Thu, 03 Dec 2020 00:00:47 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Jim Webber</copyright><lastBuildDate>Wed, 08 Jun 2022 09:00:00 -0600</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
       <title>World Wide Webber</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Keynote Speech</title>
+      <link>/talk/2022-06-graphconnect/</link>
+      <pubDate>Wed, 08 Jun 2022 09:00:00 -0600</pubDate>
+      <guid>/talk/2022-06-graphconnect/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Strong Consitency Claims in Distributed Graph Databases</title>
@@ -201,22 +209,6 @@ The difference with reciprocal consistency for graphs is that both tables would 
     </item>
     
     <item>
-      <title>A Humane Presentation about Graph Database Internals</title>
-      <link>/talk/2020-11-big-things/</link>
-      <pubDate>Tue, 17 Nov 2020 19:00:00 +0100</pubDate>
-      <guid>/talk/2020-11-big-things/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Humane Presentation about Graph Database Internals</title>
-      <link>/talk/2020-10-nodes/</link>
-      <pubDate>Tue, 20 Oct 2020 09:05:00 -0500</pubDate>
-      <guid>/talk/2020-10-nodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Zappi Installation</title>
       <link>/post/2020-09-zappi-installation/</link>
       <pubDate>Mon, 21 Sep 2020 10:00:47 +0100</pubDate>
@@ -380,14 +372,6 @@ The difference with reciprocal consistency for graphs is that both tables would 
     </item>
     
     <item>
-      <title>Graphs in Government</title>
-      <link>/talk/2020-09-connections/</link>
-      <pubDate>Tue, 15 Sep 2020 15:30:00 +0100</pubDate>
-      <guid>/talk/2020-09-connections/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Site Upgrade</title>
       <link>/post/site-upgrade/</link>
       <pubDate>Tue, 15 Sep 2020 13:38:47 +0100</pubDate>
@@ -409,22 +393,6 @@ The difference with reciprocal consistency for graphs is that both tables would 
       <link>/publication/graph-databases-for-dummies/</link>
       <pubDate>Mon, 14 Sep 2020 22:49:54 +0100</pubDate>
       <guid>/publication/graph-databases-for-dummies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Humane Presentation about Graph Database Internals</title>
-      <link>/talk/2020-09-yow/</link>
-      <pubDate>Wed, 09 Sep 2020 23:10:00 +0100</pubDate>
-      <guid>/talk/2020-09-yow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>360° View of Everything - How to Unlock the Power of Your Master Data using Graphs</title>
-      <link>/talk/2020-07-data-and-analytics-live/</link>
-      <pubDate>Wed, 22 Jul 2020 13:45:00 +0100</pubDate>
-      <guid>/talk/2020-07-data-and-analytics-live/</guid>
       <description></description>
     </item>
     
