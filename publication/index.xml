@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Jim Webber</copyright><lastBuildDate>Tue, 01 Dec 2020 10:24:24 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Jim Webber</copyright><lastBuildDate>Thu, 15 Sep 2022 10:24:24 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>The Coming of Age of Graph Databases</title>
-      <link>/publication/2020-ndbj-coming-age-graph-db/</link>
-      <pubDate>Tue, 01 Dec 2020 10:24:24 +0000</pubDate>
-      <guid>/publication/2020-ndbj-coming-age-graph-db/</guid>
+      <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
+      <link>/publication/2022-srds/</link>
+      <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
+      <guid>/publication/2022-srds/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
-      <link>/publication/2022-srds/</link>
-      <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
-      <guid>/publication/2022-srds/</guid>
+      <title>The Coming of Age of Graph Databases</title>
+      <link>/publication/2020-ndbj-coming-age-graph-db/</link>
+      <pubDate>Tue, 01 Dec 2020 10:24:24 +0000</pubDate>
+      <guid>/publication/2020-ndbj-coming-age-graph-db/</guid>
       <description></description>
     </item>
     

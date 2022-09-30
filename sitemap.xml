@@ -3,17 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2022-srds/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/analytical-solutions/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/distributed-databases/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/epochs/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/isi-mitrani/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jack-waudby/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/latency/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/paul-ezhilchelvan/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/performance-evaluation/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/simulations/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/throughput/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/transactions/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/two-phase-commit/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/2022-06-graphconnect/</loc>
     <lastmod>2022-06-08T09:00:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/</loc>
-    <lastmod>2022-06-08T09:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2022-06-08T09:00:00-06:00</lastmod>
   </url>
   
@@ -38,32 +133,7 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/9/</loc>
-    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jim-webber/</loc>
-    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-12-01T10:24:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2020-12-01T10:24:24+00:00</lastmod>
   </url>
   
@@ -93,82 +163,12 @@
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/2022-srds/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/analytical-solutions/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/distributed-databases/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/epochs/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/isi-mitrani/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jack-waudby/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/latency/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/2020-qmsm/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/paul-ezhilchelvan/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/performance-evaluation/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/simulations/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/throughput/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/transactions/</loc>
-    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/two-phase-commit/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
   
