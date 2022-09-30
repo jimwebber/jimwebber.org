@@ -93,12 +93,47 @@
   </url>
   
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
   
   <url>
+    <loc>/publication/2022-srds/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/analytical-solutions/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/distributed-databases/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/epochs/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/isi-mitrani/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jack-waudby/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/latency/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
   
@@ -109,6 +144,31 @@
   
   <url>
     <loc>/author/paul-ezhilchelvan/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/performance-evaluation/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/simulations/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/throughput/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/transactions/</loc>
+    <lastmod>2020-09-15T10:24:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/two-phase-commit/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
   </url>
   
@@ -125,16 +185,6 @@
   <url>
     <loc>/author/jim-webber-and-rik-van-bruggen/</loc>
     <lastmod>2020-09-14T22:49:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2020-04-27T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jack-waudby/</loc>
-    <lastmod>2020-04-27T10:24:24+01:00</lastmod>
   </url>
   
   <url>

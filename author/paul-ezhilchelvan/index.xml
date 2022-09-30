@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
+      <link>/publication/2022-srds/</link>
+      <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
+      <guid>/publication/2022-srds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</title>
       <link>/publication/2020-qmsm/</link>
       <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
