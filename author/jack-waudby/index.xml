@@ -5,7 +5,7 @@
     <link>/author/jack-waudby/</link>
       <atom:link href="/author/jack-waudby/index.xml" rel="self" type="application/rss+xml" />
     <description>Jack Waudby</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Jim Webber</copyright><lastBuildDate>Thu, 15 Sep 2022 10:24:24 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Thu, 15 Sep 2022 10:24:24 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
       <title>Jack Waudby</title>
@@ -25,6 +25,14 @@
       <link>/publication/2020-papoc/</link>
       <pubDate>Mon, 27 Apr 2020 10:24:24 +0100</pubDate>
       <guid>/publication/2020-papoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Evalution of an Edge-based Concurrency Protocol for Distributed Graph Databases</title>
+      <link>/publication/2019-epew/</link>
+      <pubDate>Thu, 28 Nov 2019 10:24:24 +0100</pubDate>
+      <guid>/publication/2019-epew/</guid>
       <description></description>
     </item>
     
