@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/8/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/distributed-databases/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/patent-11481385/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jim-webber-and-hugo-firth/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/scalability/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/transactions/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url>
@@ -14,16 +69,6 @@
   
   <url>
     <loc>/tag/analytical-solutions/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/distributed-databases/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url>
   
@@ -63,22 +108,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/simulations/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url>
   
@@ -88,17 +118,7 @@
   </url>
   
   <url>
-    <loc>/tag/transactions/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/two-phase-commit/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url>
   

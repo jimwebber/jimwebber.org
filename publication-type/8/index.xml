@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Distributed Databases | World Wide Webber</title>
-    <link>/tag/distributed-databases/</link>
-      <atom:link href="/tag/distributed-databases/index.xml" rel="self" type="application/rss+xml" />
-    <description>Distributed Databases</description>
+    <title>8 | World Wide Webber</title>
+    <link>/publication-type/8/</link>
+      <atom:link href="/publication-type/8/index.xml" rel="self" type="application/rss+xml" />
+    <description>8</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Wed, 05 Oct 2022 15:00:00 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
-      <title>Distributed Databases</title>
-      <link>/tag/distributed-databases/</link>
+      <title>8</title>
+      <link>/publication-type/8/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/patent-11481385/</link>
       <pubDate>Wed, 05 Oct 2022 15:00:00 +0100</pubDate>
       <guid>/publication/patent-11481385/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
-      <link>/publication/2022-srds/</link>
-      <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
-      <guid>/publication/2022-srds/</guid>
       <description></description>
     </item>
     
