@@ -13,12 +13,27 @@
   </url>
   
   <url>
+    <loc>/publication/2023-01-patent-11544280/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/2023-01-patent-11544251/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/distributed-databases/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/graph-databases/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/niels-de-jong-and-james-webber/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url>
   
@@ -33,6 +48,11 @@
   </url>
   
   <url>
+    <loc>/tag/query-planning/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/scalability/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url>
@@ -43,7 +63,7 @@
   </url>
   
   <url>
-    <loc>/author/tobias-lindaaker-and-jim-webber-and-hugo-firth/</loc>
+    <loc>/author/tobias-lindaaker-and-james-webber/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url>
   
@@ -169,11 +189,6 @@
   
   <url>
     <loc>/tag/consistency/</loc>
-    <lastmod>2020-12-03T00:00:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/graph-databases/</loc>
     <lastmod>2020-12-03T00:00:47+00:00</lastmod>
   </url>
   
