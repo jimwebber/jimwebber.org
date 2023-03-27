@@ -4,56 +4,66 @@
   
   <url>
     <loc>/publication-type/8/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2023-01-patent-11544251/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/distributed-databases/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/patent-11481385/</loc>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/scalability/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tobias-lindaaker-and-jim-webber-and-hugo-firth/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/transactions/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2022-10-patent-11481385/</loc>
     <lastmod>2022-10-05T15:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/author/jim-webber-and-hugo-firth/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/scalability/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/transactions/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2022-10-05T15:00:00+01:00</lastmod>
   </url>
   
