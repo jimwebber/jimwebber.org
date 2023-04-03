@@ -21,6 +21,14 @@
     </item>
     
     <item>
+      <title>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</title>
+      <link>/publication/2022-tpctc/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      <guid>/publication/2022-tpctc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Preserving reciprocal consistency in distributed graph databases</title>
       <link>/publication/2020-papoc/</link>
       <pubDate>Mon, 27 Apr 2020 10:24:24 +0100</pubDate>

@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Chief Scientist">
+  <meta name="description" content="Concurrency control is an integral component in achieving high performance in many-core databases. Implementing serializable transaction processing efficiently is challenging. One approach, serialization graph testing (SGT) faithfully implements the conflict graph theorem by aborting only those transactions that would actually violate serializability (introduce a cycle), thus maintaining the required acyclic invariant. Alternative approaches, such as two-phase locking, disallow certain valid schedules to increase throughput, whereas SGT has the theoretically optimal property of accepting all and only conflict serializable schedules. Historically, SGT was deemed unviable in practice due to the high computational costs of maintaining an acyclic graph. Research has however overturned this historical view by utilising the increased computational power available due to modern hardware. Furthermore, a survey of 24 databases suggests that not all transactions demand conflict serializability but different transactions can perfectly settle for different, weaker isolation levels which typically require relatively lower overheads. Thus, in such a mixed environment, providing only the isolation level required of each transaction should, in theory, increase throughput and reduce aborts. The aim of this paper is to extend SGT for mixed environments subject to Adya’s mixing-correct theorem and demonstrate the resulting performance improvement. We augment the YCSB benchmark to generate transactions with different isolation requirements. For certain workloads, mixed serialization graph testing can achieve up to a 28% increase in throughput and a 19% decrease in aborts over SGT.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/author/paul-ezhilchelvan/">
+  <link rel="alternate" hreflang="en-us" href="/publication/2022-tpctc/">
 
   
 
@@ -248,14 +248,12 @@
   
 
   
-  <link rel="alternate" href="/author/paul-ezhilchelvan/index.xml" type="application/rss+xml" title="World Wide Webber">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/author/paul-ezhilchelvan/">
+  <link rel="canonical" href="/publication/2022-tpctc/">
 
   
   
@@ -271,18 +269,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="World Wide Webber">
-  <meta property="og:url" content="/author/paul-ezhilchelvan/">
-  <meta property="og:title" content="Paul Ezhilchelvan | World Wide Webber">
-  <meta property="og:description" content="Chief Scientist"><meta property="og:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/2022-tpctc/">
+  <meta property="og:title" content="Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing | World Wide Webber">
+  <meta property="og:description" content="Concurrency control is an integral component in achieving high performance in many-core databases. Implementing serializable transaction processing efficiently is challenging. One approach, serialization graph testing (SGT) faithfully implements the conflict graph theorem by aborting only those transactions that would actually violate serializability (introduce a cycle), thus maintaining the required acyclic invariant. Alternative approaches, such as two-phase locking, disallow certain valid schedules to increase throughput, whereas SGT has the theoretically optimal property of accepting all and only conflict serializable schedules. Historically, SGT was deemed unviable in practice due to the high computational costs of maintaining an acyclic graph. Research has however overturned this historical view by utilising the increased computational power available due to modern hardware. Furthermore, a survey of 24 databases suggests that not all transactions demand conflict serializability but different transactions can perfectly settle for different, weaker isolation levels which typically require relatively lower overheads. Thus, in such a mixed environment, providing only the isolation level required of each transaction should, in theory, increase throughput and reduce aborts. The aim of this paper is to extend SGT for mixed environments subject to Adya’s mixing-correct theorem and demonstrate the resulting performance improvement. We augment the YCSB benchmark to generate transactions with different isolation requirements. For certain workloads, mixed serialization graph testing can achieve up to a 28% increase in throughput and a 19% decrease in aborts over SGT."><meta property="og:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-09-15T10:24:24&#43;01:00">
+    
+      <meta property="article:published_time" content="2022-09-05T10:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2022-09-05T10:00:00&#43;01:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/2022-tpctc/"
+  },
+  "headline": "Pick \u0026 Mix Isolation Levels: Mixed Serialization Graph Testing",
+  
+  "datePublished": "2022-09-05T10:00:00+01:00",
+  "dateModified": "2022-09-05T10:00:00+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jack Waudby"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "World Wide Webber",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Concurrency control is an integral component in achieving high performance in many-core databases. Implementing serializable transaction processing efficiently is challenging. One approach, serialization graph testing (SGT) faithfully implements the conflict graph theorem by aborting only those transactions that would actually violate serializability (introduce a cycle), thus maintaining the required acyclic invariant. Alternative approaches, such as two-phase locking, disallow certain valid schedules to increase throughput, whereas SGT has the theoretically optimal property of accepting all and only conflict serializable schedules. Historically, SGT was deemed unviable in practice due to the high computational costs of maintaining an acyclic graph. Research has however overturned this historical view by utilising the increased computational power available due to modern hardware. Furthermore, a survey of 24 databases suggests that not all transactions demand conflict serializability but different transactions can perfectly settle for different, weaker isolation levels which typically require relatively lower overheads. Thus, in such a mixed environment, providing only the isolation level required of each transaction should, in theory, increase throughput and reduce aborts. The aim of this paper is to extend SGT for mixed environments subject to Adya’s mixing-correct theorem and demonstrate the resulting performance improvement. We augment the YCSB benchmark to generate transactions with different isolation requirements. For certain workloads, mixed serialization graph testing can achieve up to a 28% increase in throughput and a 19% decrease in aborts over SGT."
+}
+</script>
+
+  
 
   
 
@@ -290,10 +331,13 @@
   
 
 
+  
 
 
 
-  <title>Paul Ezhilchelvan | World Wide Webber</title>
+
+
+  <title>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing | World Wide Webber</title>
 
 </head>
 
@@ -687,52 +731,341 @@
 
 
 
+  <div class="pub">
+
   
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1>Paul Ezhilchelvan</h1>
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Jack Waudby</span>, <span >Paul Ezhilchelvan</span>, <span >Jim Webber</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/databases/">Databases</a>, <a href="/category/concurrency-control/">Concurrency Control</a>, <a href="/category/weak-isolation/">Weak Isolation</a>, <a href="/category/serialization-graph-testing/">Serialization Graph Testing</a>, <a href="/category/mixing-correct-theorem/">Mixing-Correct Theorem</a>, <a href="/category/ycsb/">YCSB</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/https://link.springer.com/book/10.1007/978-3-031-29576-8" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Concurrency control is an integral component in achieving high performance in many-core databases. Implementing serializable transaction processing efficiently is challenging. One approach, serialization graph testing (SGT) faithfully implements the conflict graph theorem by aborting only those transactions that would actually violate serializability (introduce a cycle), thus maintaining the required acyclic invariant. Alternative approaches, such as two-phase locking, disallow certain valid schedules to increase throughput, whereas SGT has the theoretically optimal property of accepting all and only conflict serializable schedules. Historically, SGT was deemed unviable in practice due to the high computational costs of maintaining an acyclic graph. Research has however overturned this historical view by utilising the increased computational power available due to modern hardware. Furthermore, a survey of 24 databases suggests that not all transactions demand conflict serializability but different transactions can perfectly settle for different, weaker isolation levels which typically require relatively lower overheads. Thus, in such a mixed environment, providing only the isolation level required of each transaction should, in theory, increase throughput and reduce aborts. The aim of this paper is to extend SGT for mixed environments subject to Adya’s mixing-correct theorem and demonstrate the resulting performance improvement. We augment the YCSB benchmark to generate transactions with different isolation requirements. For certain workloads, mixed serialization graph testing can achieve up to a 28% increase in throughput and a 19% decrease in aborts over SGT.</p>
     
 
     
-    
-    
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/2022-srds/">A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</a>
-        </li>
-        
-        <li>
-          <a href="/publication/2022-tpctc/">Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</a>
-        </li>
-        
-        <li>
-          <a href="/publication/2020-qmsm/">Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</a>
-        </li>
-        
-        <li>
-          <a href="/publication/2020-papoc/">Preserving reciprocal consistency in distributed graph databases</a>
-        </li>
-        
-        <li>
-          <a href="/publication/2019-epew/">Design and Evalution of an Edge-based Concurrency Protocol for Distributed Graph Databases</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">14th TPC Technology Conference, TPCTC 2022, Sydney, Australia, September 5, 2022. LNCS 13860</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/2022-tpctc/&amp;text=Pick%20&amp;amp;%20Mix%20Isolation%20Levels:%20Mixed%20Serialization%20Graph%20Testing" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/2022-tpctc/&amp;t=Pick%20&amp;amp;%20Mix%20Isolation%20Levels:%20Mixed%20Serialization%20Graph%20Testing" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Pick%20&amp;amp;%20Mix%20Isolation%20Levels:%20Mixed%20Serialization%20Graph%20Testing&amp;body=/publication/2022-tpctc/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/2022-tpctc/&amp;title=Pick%20&amp;amp;%20Mix%20Isolation%20Levels:%20Mixed%20Serialization%20Graph%20Testing" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Pick%20&amp;amp;%20Mix%20Isolation%20Levels:%20Mixed%20Serialization%20Graph%20Testing%20/publication/2022-tpctc/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/2022-tpctc/&amp;title=Pick%20&amp;amp;%20Mix%20Isolation%20Levels:%20Mixed%20Serialization%20Graph%20Testing" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
   </div>
-</section>
+</div>
 
       
 

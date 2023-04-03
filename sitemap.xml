@@ -183,6 +183,46 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/concurrency-control/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/databases/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/mixing-correct-theorem/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2022-tpctc/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/serialization-graph-testing/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/weak-isolation/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/ycsb/</loc>
+    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/2022-06-graphconnect/</loc>
     <lastmod>2022-06-08T09:00:00-06:00</lastmod>
   </url>
@@ -818,7 +858,7 @@
   </url>
   
   <url>
-    <loc>/author/jim-webber-and-p.a.-lee/</loc>
+    <loc>/author/p.a.-lee/</loc>
     <lastmod>2001-04-30T10:24:24+01:00</lastmod>
   </url>
   
@@ -849,10 +889,6 @@
   
   <url>
     <loc>/author/and-jim-webber-eds./</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
   </url>
   
   <url>
