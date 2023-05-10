@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Victor Corrales | World Wide Webber</title>
+    <link>/author/victor-corrales/</link>
+      <atom:link href="/author/victor-corrales/index.xml" rel="self" type="application/rss+xml" />
+    <description>Victor Corrales</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Fri, 30 Nov 2001 10:24:24 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
+      <title>Victor Corrales</title>
+      <link>/author/victor-corrales/</link>
+    </image>
+    
+    <item>
+      <title>Making Web Services Work</title>
+      <link>/publication/2001-app-dev-advisor/</link>
+      <pubDate>Fri, 30 Nov 2001 10:24:24 +0000</pubDate>
+      <guid>/publication/2001-app-dev-advisor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

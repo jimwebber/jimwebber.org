@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patric Fornasier | World Wide Webber</title>
+    <link>/author/patric-fornasier/</link>
+      <atom:link href="/author/patric-fornasier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Patric Fornasier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Mon, 09 Jul 2007 10:24:24 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
+      <title>Patric Fornasier</title>
+      <link>/author/patric-fornasier/</link>
+    </image>
+    
+    <item>
+      <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
+      <link>/publication/2007-acm-cbse/</link>
+      <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
+      <guid>/publication/2007-acm-cbse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

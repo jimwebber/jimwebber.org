@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 | World Wide Webber</title>
+    <link>/publication-type/8/</link>
+      <atom:link href="/publication-type/8/index.xml" rel="self" type="application/rss+xml" />
+    <description>8</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Tue, 03 Jan 2023 15:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
+      <title>8</title>
+      <link>/publication-type/8/</link>
+    </image>
+    
+    <item>
+      <title>Bi-gram cardinality estimation in a graph database</title>
+      <link>/publication/2023-01-patent-11544280/</link>
+      <pubDate>Tue, 03 Jan 2023 15:00:00 +0100</pubDate>
+      <guid>/publication/2023-01-patent-11544280/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database system with transactional commit protocol based on safe conjunction of majorities</title>
+      <link>/publication/2023-01-patent-11544251/</link>
+      <pubDate>Tue, 03 Jan 2023 15:00:00 +0100</pubDate>
+      <guid>/publication/2023-01-patent-11544251/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pre-emptive graph search for guided natural language interactions with connected data systems</title>
+      <link>/publication/2022-10-patent-11475065/</link>
+      <pubDate>Tue, 18 Oct 2022 15:00:00 +0100</pubDate>
+      <guid>/publication/2022-10-patent-11475065/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph database system to safely store data at high volume and scale</title>
+      <link>/publication/2022-10-patent-11481385/</link>
+      <pubDate>Wed, 05 Oct 2022 15:00:00 +0100</pubDate>
+      <guid>/publication/2022-10-patent-11481385/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Method and apparatus for ensuring consistent outcomes in updates to distributed databases</title>
+      <link>/publication/2022-10-patent-9672266/</link>
+      <pubDate>Tue, 06 Jun 2017 15:00:00 +0100</pubDate>
+      <guid>/publication/2022-10-patent-9672266/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph database devices and methods for partitioning graphs</title>
+      <link>/publication/2022-10-patent-9477779/</link>
+      <pubDate>Tue, 25 Oct 2016 15:00:00 +0100</pubDate>
+      <guid>/publication/2022-10-patent-9477779/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
