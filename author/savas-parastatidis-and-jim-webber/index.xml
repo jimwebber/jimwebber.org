@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Savas Parastatidis and Jim Webber on World Wide Webber</title>
+    <link>/author/savas-parastatidis-and-jim-webber/</link>
+    <description>Recent content in Savas Parastatidis and Jim Webber on World Wide Webber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year} Jim Webber</copyright>
+    <lastBuildDate>Mon, 18 Sep 2006 10:24:24 +0100</lastBuildDate><atom:link href="/author/savas-parastatidis-and-jim-webber/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expressing and Reasoning about Service Contracts in Service-Oriented Computing</title>
+      <link>/publication/2006-ieee-scc/</link>
+      <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
+      
+      <guid>/publication/2006-ieee-scc/</guid>
+      <description>Using SSDL to reason about message exchange patterns (or business protocols) between autonomous services.</description>
+    </item>
+    
+    <item>
+      <title>Service-oriented, Distributed, High-Performance Computing</title>
+      <link>/publication/2005-msaj-hp-soa/</link>
+      <pubDate>Fri, 01 Jul 2005 10:24:24 +0900</pubDate>
+      
+      <guid>/publication/2005-msaj-hp-soa/</guid>
+      <description>An article on High Performance Computing (HPC) Grids built with SOA.</description>
+    </item>
+    
+    <item>
+      <title>Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications</title>
+      <link>/publication/2004-ieee-scc/</link>
+      <pubDate>Wed, 15 Sep 2004 10:24:24 +0100</pubDate>
+      
+      <guid>/publication/2004-ieee-scc/</guid>
+      <description>A framework for reasoning about an immature and chaotic set of protocols and standards for building potentially long-lived systems.</description>
+    </item>
+    
+    <item>
+      <title>The WS-GAF Registry Service</title>
+      <link>/publication/2004-ggf/</link>
+      <pubDate>Sat, 05 Jun 2004 10:24:24 +0100</pubDate>
+      
+      <guid>/publication/2004-ggf/</guid>
+      <description>The WS-GAF Registry Service is a naming and metadata service which allows clients to late bind (in a limited fashion) to services as part of a larger grid application.</description>
+    </item>
+    
+  </channel>
+</rss>

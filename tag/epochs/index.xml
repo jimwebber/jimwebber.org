@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epochs on World Wide Webber</title>
+    <link>/tag/epochs/</link>
+    <description>Recent content in Epochs on World Wide Webber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year} Jim Webber</copyright>
+    <lastBuildDate>Thu, 15 Sep 2022 10:24:24 +0100</lastBuildDate><atom:link href="/tag/epochs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
+      <link>/publication/2022-srds/</link>
+      <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
+      
+      <guid>/publication/2022-srds/</guid>
+      <description>Distributed OLTP systems execute the high- overhead, two-phase commit (2PC) protocol at the end of every distributed transaction. Epoch-based commit proposes that 2PC be executed only once for all transactions processed within a time interval called an epoch. Increasing epoch duration allows more transactions to be processed before the common 2PC. It thus reduces 2PC overhead per transaction, increases throughput but also increases average transaction latency. Therefore, required is the ability to choose the right epoch size that offers the desired trade-off between throughput and latency. To this end, we develop two analytical models to estimate throughput and average latency in terms of epoch size taking into account load and failure conditions. Simulations affirm their accuracy and effectiveness. We then present epoch-based multi-commit which, unlike epoch- based commit, seeks to avoid all transactions being aborted when failures occur, and also performs identically when failures do not occur. Our performance study identifies workload factors that make it more effective in preventing transaction aborts and concludes that the analytical models can be equally useful in predicting its performance as well.</description>
+    </item>
+    
+  </channel>
+</rss>

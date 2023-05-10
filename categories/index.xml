@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on World Wide Webber</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on World Wide Webber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year} Jim Webber</copyright>
+    <lastBuildDate>Mon, 05 Sep 2022 10:00:00 +0100</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concurrency Control</title>
+      <link>/category/concurrency-control/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      
+      <guid>/category/concurrency-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      <link>/category/databases/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      
+      <guid>/category/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixing-Correct Theorem</title>
+      <link>/category/mixing-correct-theorem/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      
+      <guid>/category/mixing-correct-theorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serialization Graph Testing</title>
+      <link>/category/serialization-graph-testing/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      
+      <guid>/category/serialization-graph-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weak Isolation</title>
+      <link>/category/weak-isolation/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      
+      <guid>/category/weak-isolation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>YCSB</title>
+      <link>/category/ycsb/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      
+      <guid>/category/ycsb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

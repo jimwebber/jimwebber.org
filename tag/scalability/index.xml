@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scalability on World Wide Webber</title>
+    <link>/tag/scalability/</link>
+    <description>Recent content in Scalability on World Wide Webber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year} Jim Webber</copyright>
+    <lastBuildDate>Tue, 03 Jan 2023 15:00:00 +0100</lastBuildDate><atom:link href="/tag/scalability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database system with transactional commit protocol based on safe conjunction of majorities</title>
+      <link>/publication/2023-01-patent-11544251/</link>
+      <pubDate>Tue, 03 Jan 2023 15:00:00 +0100</pubDate>
+      
+      <guid>/publication/2023-01-patent-11544251/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph database system to safely store data at high volume and scale</title>
+      <link>/publication/2022-10-patent-11481385/</link>
+      <pubDate>Wed, 05 Oct 2022 15:00:00 +0100</pubDate>
+      
+      <guid>/publication/2022-10-patent-11481385/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
