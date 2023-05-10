@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mark Little on World Wide Webber</title>
+    <link>/author/mark-little/</link>
+    <description>Recent content in Mark Little on World Wide Webber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year} Jim Webber</copyright>
+    <lastBuildDate>Tue, 07 Oct 2003 10:24:24 +0100</lastBuildDate><atom:link href="/author/mark-little/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OASIS Web Services Composite Application Framework (WS-CAF)</title>
+      <link>/publication/2007-11-ws-caf/</link>
+      <pubDate>Tue, 07 Oct 2003 10:24:24 +0100</pubDate>
+      
+      <guid>/publication/2007-11-ws-caf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coordinating Business Transactions on the Web</title>
+      <link>/publication/2003-ieee-computing/</link>
+      <pubDate>Sat, 01 Feb 2003 10:24:24 +0100</pubDate>
+      
+      <guid>/publication/2003-ieee-computing/</guid>
+      <description>An overview of the OASIS Business Transactions Protocol for reaching agreement on the Internet.</description>
+    </item>
+    
+    <item>
+      <title>Making Web Services Work</title>
+      <link>/publication/2001-app-dev-advisor/</link>
+      <pubDate>Fri, 30 Nov 2001 10:24:24 +0000</pubDate>
+      
+      <guid>/publication/2001-app-dev-advisor/</guid>
+      <description>Magazine article on using OASIS BTP to enable transactions between Web Services.</description>
+    </item>
+    
+  </channel>
+</rss>
