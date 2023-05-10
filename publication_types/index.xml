@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types on World Wide Webber</title>
+    <link>/publication_types/</link>
+    <description>Recent content in Publication_types on World Wide Webber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year} Jim Webber</copyright>
+    <lastBuildDate>Tue, 03 Jan 2023 15:00:00 +0100</lastBuildDate><atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8</title>
+      <link>/publication-type/8/</link>
+      <pubDate>Tue, 03 Jan 2023 15:00:00 +0100</pubDate>
+      
+      <guid>/publication-type/8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1</title>
+      <link>/publication-type/1/</link>
+      <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
+      
+      <guid>/publication-type/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>/publication-type/4/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/publication-type/4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>9</title>
+      <link>/publication-type/9/</link>
+      <pubDate>Tue, 01 Dec 2020 10:24:24 +0000</pubDate>
+      
+      <guid>/publication-type/9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+      <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
+      
+      <guid>/publication-type/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5</title>
+      <link>/publication-type/5/</link>
+      <pubDate>Mon, 14 Sep 2020 22:49:54 +0100</pubDate>
+      
+      <guid>/publication-type/5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>10</title>
+      <link>/publication-type/10/</link>
+      <pubDate>Sat, 10 Nov 2007 10:24:24 +0100</pubDate>
+      
+      <guid>/publication-type/10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7</title>
+      <link>/publication-type/7/</link>
+      <pubDate>Fri, 29 Sep 2000 10:24:24 +0100</pubDate>
+      
+      <guid>/publication-type/7/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
