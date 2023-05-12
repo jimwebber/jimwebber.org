@@ -5,9 +5,9 @@
     <link>/tag/zappi/</link>
       <atom:link href="/tag/zappi/index.xml" rel="self" type="application/rss+xml" />
     <description>zappi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Mon, 21 Sep 2020 10:00:47 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Mon, 21 Sep 2020 10:00:47 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
       <title>zappi</title>
       <link>/tag/zappi/</link>
     </image>
@@ -74,7 +74,7 @@
 
 &lt;p&gt;I recently bought a ferrule set and crimper after seeing one in use on a video by 
 &lt;a href=&#34;https://artisanelectrics.co.uk/,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Artisan Electrics&lt;/a&gt; which really made the 10mm cable connections feel very robust. I would recommend this since they&amp;rsquo;re cheap to buy and easy to use.&lt;/p&gt;
-&lt;p&gt;So far so good - the electical work is very easy and because the charger has clever electronics, it&amp;rsquo;s just like wiring a regular domestic socket.&lt;/p&gt;
+&lt;p&gt;So far so good - the electrical work is very easy and because the charger has clever electronics, it&amp;rsquo;s just like wiring a regular domestic socket.&lt;/p&gt;
 &lt;p&gt;One of the nice things about the Zappi is that it&amp;rsquo;s &amp;ldquo;smart.&amp;rdquo; It can try to use on-site generation to charge your EV when there&amp;rsquo;s excess power. And even if there&amp;rsquo;s a heavy load on your main supply (I live in the UK, so single-phase supplies are very common for houses), it&amp;rsquo;ll adjust its power delivery so that the house as a whole never draws more the mains rating (100A for me).&lt;/p&gt;
 
 
