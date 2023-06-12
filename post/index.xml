@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | World Wide Webber</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Thu, 03 Dec 2020 00:00:47 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Strong Consitency Claims in Distributed Graph Databases</title>
+      <link>/post/2020-12-weak-stong-consistency/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:47 +0000</pubDate>
+      <guid>/post/2020-12-weak-stong-consistency/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;For several years, I&amp;rsquo;ve been working with 
+&lt;a href=&#34;https://www.ncl.ac.uk/computing/people/profile/paulezhilchelvan.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paul Ezhilchelvan&lt;/a&gt;, 
+&lt;a href=&#34;https://www.ncl.ac.uk/computing/people/profile/isimitrani.html#background&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Isi Mitrani&lt;/a&gt;, and 
+&lt;a href=&#34;https://www.ncl.ac.uk/bigdata/people/people/waudbyjack.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jack Waudby&lt;/a&gt; from 
+&lt;a href=&#34;https://www.ncl.ac.uk/computing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Newcastle University&lt;/a&gt;. We&amp;rsquo;ve working on consistency models specifically for &lt;em&gt;graph&lt;/em&gt; databases, trying to understand whether consistency models for graph databases are different from other database types and if so how we can preserve correctness while still being useful for demanding production systems. This post is a summary of the work we&amp;rsquo;ve done for a technical generalist audience, and I hope you enjoy reading it.&lt;/p&gt;
+&lt;p&gt;The work has been both fun and fruitful. Our focus has been on &lt;em&gt;edge-distributed graph databases&lt;/em&gt;. In this kind of system, nodes (or vertices) reside on a single shard in the system, and relationships (or edges) can connect nodes within that shard &lt;em&gt;and&lt;/em&gt; across shards over the network. This results in a model where no denormalisation of the data model is necessary.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-nodes-representing-karl-and-rosa-are-on-different-servers-and-there-is-a-follows-relationshipedge-between-them-which-crosses-the-network&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;edge-distributed-graph-database.png&#34; data-caption=&#34;Nodes representing &amp;lt;code&amp;gt;Karl&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;Rosa&amp;lt;/code&amp;gt; are on different servers, and there is a &amp;lt;code&amp;gt;FOLLOWS&amp;lt;/code&amp;gt; relationship/edge between them which crosses the network.&#34;&gt;
+
+
+  &lt;img src=&#34;edge-distributed-graph-database.png&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Nodes representing &lt;code&gt;Karl&lt;/code&gt; and &lt;code&gt;Rosa&lt;/code&gt; are on different servers, and there is a &lt;code&gt;FOLLOWS&lt;/code&gt; relationship/edge between them which crosses the network.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;During our collaboration, we&amp;rsquo;ve identified an important safety property called 
+&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3380787.3393675&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reciprocal Consistency&lt;/a&gt;. Put simply, if the record that stores the &lt;code&gt;Karl&lt;/code&gt; node on &lt;code&gt;Server 1&lt;/code&gt; has an entry for an &lt;em&gt;outgoing&lt;/em&gt; &lt;code&gt;FOLLOWS&lt;/code&gt; relationship to the &lt;code&gt;Rosa&lt;/code&gt; node on &lt;code&gt;Server 2&lt;/code&gt; then the record representing the &lt;code&gt;Rosa&lt;/code&gt; node should have an entry for an &lt;em&gt;incoming&lt;/em&gt; relationship from the &lt;code&gt;Karl&lt;/code&gt; node. This stems from the labelled proprety graph model where relationships can be traversed in either direction. Generally, the nodes at the head and tail of a relationship hold reciprocal information, hence are &lt;em&gt;reciprocaly consistent&lt;/em&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you&amp;rsquo;re not familar with graphs, an analogy is to think of foreign key relationships in relational databases.
+Foreign keys constraints are used to prevent actions that would destroy links between tables and render the model incorrect.
+Foreign key constraints enforce integrity between a parent table and a child table.
+The parent table must reference some value in a column in the child table otherwise the constraint is violated (and the transaction causing the update will be rejected).
+The difference with reciprocal consistency for graphs is that both tables would be parent and child &lt;em&gt;to each other&lt;/em&gt; to ensure the integrity of the relationship between them.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Maintaining reciprocal consistency isn&amp;rsquo;t well addressed in the literature. Some distributed relational databases, like 
+&lt;a href=&#34;https://blog.yugabyte.com/relational-data-modeling-with-foreign-keys-in-a-distributed-sql-database/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YugabyteDB&lt;/a&gt;, preserve foreign key constraints by using strongly consistent (serializable) transaction protocols only where strictly necessary for correctiness and using less expensive (snapshot) protocols everywhere else.&lt;/p&gt;
+&lt;p&gt;In the case of graph databases, the equivalent of foreign key constraints aren&amp;rsquo;t a special case. Relationships in a graph are plentiful and the chance of any individual relationship being distributed across servers (or shards) is around 30% with a good partitioning algorithm like 
+&lt;a href=&#34;https://theses.ncl.ac.uk/jspui/bitstream/10443/4416/1/Firth%20H%202018.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Firth&amp;rsquo;s Taper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To preserve correctness in an edge-distributed graph database we could choose to fallback to a conservative transaction protocol (like two-phase commit), but we know that will harm performance as a blocking protocol. If we use cheaper models like eventual consistency, we might lose reciprocal consistency. In fact we found that 
+&lt;a href=&#34;http://qmsm.pu.edu.tw/papers/paper/QMSM-2020-6-04_corrected_proof.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eventually-consistent edge-distributed graph databases will corrupt data under normal operation&lt;/a&gt; to the extent that a large, busy production database may be rendered useless a matter of months.&lt;/p&gt;
+&lt;p&gt;But this article isn&amp;rsquo;t really about eventual consistency. Although we started with eventual consistency in mind, our enquiries lead to a more fundamental question: &lt;em&gt;if eventual consistency leads to corruption, are so-called strongly consistent systems immune from corruption for edge-distributed graph databases?&lt;/em&gt; Given that question, we&amp;rsquo;ve lately focussed on systems designs that claim to be strongly consistent (using words like ACID) but which nonetheless fail to uphold reciprocal consistency, causing corruption in normal (no-fault) operation.&lt;/p&gt;
+&lt;p&gt;Corruption by design is a shocking (and fascinating) result in a strongly consistent system. I&amp;rsquo;ll dig &lt;em&gt;much&lt;/em&gt; deeper into the root cause in a moment. But first a little history as to how we found ourselves here.&lt;/p&gt;
+&lt;h2 id=&#34;the-trouble-with-eventually-consistent-graph-databases&#34;&gt;The trouble with eventually-consistent graph databases&lt;/h2&gt;
+&lt;p&gt;A few years ago when the (now abandoned) 
+&lt;a href=&#34;http://espeed.github.io/titandb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TitanDB&lt;/a&gt; was launched I recall thinking that its design was problematic from a safety and performance viewpoint. For performance, the problems were around locality. TitanDB spreads bits of the graph across servers to boost write performance, with less regard to how the data would be queried - the expectation is that most queries will have to cross servers to complete, adding complexity and latency. But a slow database is might still be a safe database, but TitanDB wasn&amp;rsquo;t safe - in allowing uncoordinated writes across servers, race conditions could occur which would leave the database in inconsistent state.&lt;/p&gt;
+&lt;p&gt;This is partially understandable. The primary motivation for TitanDB, its successor 
+&lt;a href=&#34;https://janusgraph.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JanusGraph&lt;/a&gt;, and other similar graph databses was scalability. I think it was a rational decision: the market places a premium on scalability and scalability non-trivial if you also want safety and performance. What I think also helped is that the market tended to assume that features like performance and safety were innately part of anything called a &lt;em&gt;database&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Of course, scale does not necessarily mean high-performance in absolute terms. Scale means you can add more computers to a system and perform more processing relative to fewer computers in the same system. It&amp;rsquo;s often why 
+&lt;a href=&#34;https://youtu.be/Z7N6YWH1MKU?list=PL9Hl4pk2FsvUQY5FWQb0y6DqP5rmyyYji&amp;amp;t=1922&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neo4j on a laptop can humiliate scale-out graph databases on many powerful servers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In our work we were less concerned about performance, and much more about the safety properties of eventually-consistent graph databases. You probably already know that eventual consistency provides a straightforward guarantee for a single replica set that it will converge to the same value eventually (perhaps even before the next read in good systems). The value converged upon is influenced by the chosen concurrency control mechanisms (e.g. Last Writer Wins versus Logical Clocks etc), but nonetheless the guarantee is strictly for &lt;em&gt;one replica set/shard&lt;/em&gt;. This might be fine for some data types, but we strongly suspected that it is not fine for edge-distributed graphs. Spoiler: it isn&amp;rsquo;t.&lt;/p&gt;
+&lt;h2 id=&#34;sources-of-corruption-in-eventually-consistent-graph-databases&#34;&gt;Sources of corruption in eventually-consistent graph databases&lt;/h2&gt;
+&lt;p&gt;Eventually consistent databases scale because they avoid costly/centralised operations. Because of that, there&amp;rsquo;s no coordination/ordering  across the database, just local concurrency controls on each server. The concurrency control might be simple and cheap like Last-Writer-Wins (LWW) or it might be a fancy merge function, but whatever mechanism is chosen, it acts locally on each server. Fortunately anti-entropy functions are available on most databases so that divergence between replicas within a set can be salvaged (though such functions tend not to be aggresively used in case they inhibit performance).&lt;/p&gt;
+&lt;p&gt;Even with anti-entropy functionality, with an eventually consistent distributed graph database there are two primary sources of potential corruption:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The current transaction happens to read from a replica which is stale and uses that stale data to for updates. This is more complex than the same situation in a KV, document, or column store because graph database queries touch arbitrary keys and so undoing logical corruption is impractical and typically impossible. However, this is solvable with approaches like quorum reads though they will slow down the operation of the database considerably.&lt;/li&gt;
+&lt;li&gt;Two transactions contend on a single relationship/egde which happens to span replica sets (shards from here on) and are applied in a mutually inconsistent order. This is also solvable but requires some functionality to impose ordering, which is expensive completely undermines eventual consistency, and so nobody does this because it implies transactions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The TitanDB team were 
+&lt;a href=&#34;http://s3.thinkaurelius.com/docs/titan/1.0.0/eventual-consistency.html#_data_inconsistency&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rigorous enough to call out this problem&lt;/a&gt;, but the language they used downplays its signficance. The documentation uses phrases like &amp;ldquo;temporary inconsistency&amp;rdquo; rather than &amp;ldquo;corruption that might be repaired, but might also cause further irreperable corruption&amp;rdquo; and &amp;ldquo;half edges&amp;rdquo; rather than &amp;ldquo;corrupted edge records&amp;rdquo;. While I don&amp;rsquo;t think this mollifying language has directly lead to a slew of copycat databases, it certainly set a tone for ignoring safety properties (which is still followed by other databases in the family).&lt;/p&gt;
+&lt;h2 id=&#34;quantifying-corruption-in-no-fault-systems&#34;&gt;Quantifying corruption in no-fault systems&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s unsettling to be looking for data corruption for databases operating in a fault-free environment. The word &amp;ldquo;database&amp;rdquo; is closely associated with the notion of safety - we expect to be able to retrieve what we&amp;rsquo;ve stored.&lt;/p&gt;
+&lt;p&gt;Our starting point was the prior tacit admission of a possible 
+&lt;a href=&#34;http://s3.thinkaurelius.com/docs/titan/1.0.0/eventual-consistency.html#_data_inconsistency&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;technical error case&lt;/a&gt; from the TitanDB developers. We didn&amp;rsquo;t know, however, if it would be a problem im real systems running in production for a long time. We could just have run the database with a representative workload for many months, but waiting around in real time to see if corruption would occur is expensive in both time and infrastructure bills.&lt;/p&gt;
+&lt;p&gt;Instead, I asked academics 
+&lt;a href=&#34;https://www.ncl.ac.uk/computing/people/profile/paulezhilchelvan.html#background&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paul Ezhilchelvan&lt;/a&gt; and 
+&lt;a href=&#34;https://www.ncl.ac.uk/computing/people/profile/isimitrani.html#background&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Isi Mitrani&lt;/a&gt; for help. In a way it was a kind of homecoming for me, being able to work with two of the lecturers who&amp;rsquo;d taught me Computer Science as an undergraduate (a gruelling task no doubt). On that note I&amp;rsquo;ll point out that any errors or misunderstandings are mine alone since Paul and Isi are outstanding computer scientists.&lt;/p&gt;
+&lt;p&gt;We decided to model the effects of failing reciprocal consistency for a busy, long-lived, eventually-consistent distributed graph database. We chose a scale-free graph as the basis for our model, and informally thought of it a social network with a few nodes representing popular celebrities with very high degree, the next few layers with increasing freqency and decreasing degree representing various levels of sub-celebrity influence, scaling all the down to many nodes with very low degree representing most ordinary people.&lt;/p&gt;
+&lt;p&gt;Our model treats a graph database as a collection of replica sets or shards each holding some fraction of the overall graph. It has to be distributed, of course, so that we can elicit the mechanical failure modes of distrbuted-edge partitioned graph databases. In our model, usually two connected nodes will be held on a single shard, and by implication so to will the relationships joining them be stored on that shard. However according to 
+&lt;a href=&#34;https://dblp.org/pid/147/5256.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;research on graph partitioning algorithms&lt;/a&gt; by my colleague 
+&lt;a href=&#34;https://www.linkedin.com/in/hugo-firth-11265711/?originalSubdomain=uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Firth&lt;/a&gt;, a good partitioning still results in around 30% of relationships connecting nodes that are hosted on different shards - these relationships are said to be &lt;em&gt;distributed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The model allows for write-after-stale-read from a replica as one source of corruption, and also allowed mutually out of order update processing for relationship records that span shards as the other primary source of corruption. Out of order updates have a chance of being overwritten correctly before they&amp;rsquo;re ever seen, but they also have a chance of the stale side of the relationship being read and used to compute future incorrect updates from where it becomes impossible to repair the data in the general case.&lt;/p&gt;
+&lt;p&gt;In our model, relationship records which cross shards are physically implemented as a two reciprocal records on each shard (a common real-world implementation strategy). That is if shard A has a node representing Rosa with an outgoing &lt;code&gt;FOLLOWS&lt;/code&gt; relationship to a node representing Karl on shard B, then the Karl node on shard B should have an incoming &lt;code&gt;FOLLOWS&lt;/code&gt; from Rosa on shard A.&lt;/p&gt;
+&lt;p&gt;// TODO: picture needed&lt;/p&gt;
+&lt;p&gt;Equally any properties on that relationship must be identical whether the relationship is traversed head to tail or tail to head.&lt;/p&gt;
+&lt;p&gt;// TODO: picture needed&lt;/p&gt;
+&lt;p&gt;We term this reciprocal consistency and it is an invariant on the database so that data can be safely stored. Any deviation from a reciprocally consistent state is corruption, and that corruption has a chance to spread through the graph.&lt;/p&gt;
+&lt;p&gt;Using the model, we showed that for a billions-node scale-free graph and ~10,000 TPS and with some conservative estimates for the likelihood of transactions being applied mutually out of order, that the system would be garbage (defined as 10% corruption) in around 12-18 months.&lt;/p&gt;
+&lt;p&gt;Since the model was computationally expensive (many hours of compute time needed for each minor parameter change) we used it to calibrate a computationally cheap numerical approximation which you can parameterise to see how your eventually consistent graph database might behave in production.&lt;/p&gt;
+&lt;h2 id=&#34;its-not-about-eventual-consistency-its-about-uncoordinated-updates&#34;&gt;It&amp;rsquo;s not about eventual consistency, it&amp;rsquo;s about uncoordinated updates&lt;/h2&gt;
+&lt;p&gt;Our suspicion going into this work was that eventual consistency was the problematic factor. Clearly if you can read a stale value and write back to the database based on that stale value, you&amp;rsquo;re going to get logical corruption. But that can be mitigated, albeit at a cost in competent eventually consistent systems.&lt;/p&gt;
+&lt;p&gt;So, our focus on eventual consistency wasn&amp;rsquo;t wrong, but it wasn&amp;rsquo;t quite right either. In fact we found that the consistency model for how a &lt;em&gt;replication within a shard&lt;/em&gt; was less important than how updates are  &lt;em&gt;delivered across shards&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;With hindsight, eventually consistent databases were obvious because they have no coordination at all and so by implication no &lt;em&gt;consistent ordering&lt;/em&gt; of arrival/processing by receiving shards. What&amp;rsquo;s surprising though is if we make the model more generous, we still get corruption.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s assume that the replicas in a shard converge immediately and that faults can never occur. This is an impossible, magical algorithm for replication, and still the database would suffer corruption.&lt;/p&gt;
+&lt;p&gt;The problem is of reciprocal consistency being undermined by race conditions in the presence of concurrent contended transactions. While we have fewer opportunities to read stale data in a single shard (because we assumed instant convergence), it&amp;rsquo;s still possible that transactions will be delivered mutually out of order to a pair of shards.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s play this out. Consider two transactions &lt;code&gt;T1&lt;/code&gt; and &lt;code&gt;T2&lt;/code&gt; which both update a common cross-shard relationship &lt;code&gt;R&lt;/code&gt; in some mutally incompatible manner. Drawing on the TitanDB example, this could be where one transaction tries to delete &lt;code&gt;R&lt;/code&gt; while the other tries to update it.&lt;/p&gt;
+&lt;p&gt;There are two ways these transactions can achieve a consistent outcome and two ways in which they won&amp;rsquo;t, and since we don&amp;rsquo;t have any coordination logic to impose an ordering (on the basis that it inhibits scalability) then we have to rely on natural arrival order.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shard 1&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Shard 2&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Consistent&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;T1-&amp;gt;T2&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;T1-&amp;gt;T2&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;T2-&amp;gt;T1&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;T2-&amp;gt;T1&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;T2-&amp;gt;T1&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;T1-&amp;gt;T2&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Maybe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;T1-&amp;gt;T2&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;T2-&amp;gt;T1&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Maybe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Corruption &lt;em&gt;can&lt;/em&gt; occur when &lt;code&gt;T1&lt;/code&gt; and &lt;code&gt;T2&lt;/code&gt; are processed in different orders on different shards for operations that don&amp;rsquo;t commute. In such cases reciprocal consistency will have been violated.&lt;/p&gt;
+&lt;p&gt;For example, if &lt;code&gt;T1&lt;/code&gt; adds property &lt;code&gt;since:2010&lt;/code&gt; to the &lt;code&gt;FOLLOWS&lt;/code&gt; relationship between Rosa and Karl while concurrently &lt;code&gt;T2&lt;/code&gt; adds property &lt;code&gt;since:2015&lt;/code&gt; to the &lt;code&gt;FOLLOWS&lt;/code&gt; relationship between Rosa and Karl, then we have a problem. Ideally we&amp;rsquo;d like the values to converge to one of these, but they never will because there is no protocol to enforce consistency across the shards.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shard 1 (&lt;code&gt;T1-&amp;gt;T2&lt;/code&gt;)&lt;/th&gt;
+&lt;th&gt;Shard 2 (&lt;code&gt;T2-&amp;gt;T1&lt;/code&gt;)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;(Rosa)-[:FOLLOWS {since:2010}]-&amp;gt;(remote) &lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;(remote)-[:FOLLOWS {since:2015}]-&amp;gt;(Karl)&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This is a type of non-deterministic corruption where one shard holds the &amp;ldquo;correct&amp;rdquo; record as seen in a strictly serializable history and the other shard holds the &amp;ldquo;incorrect&amp;rdquo; record. In this case the two transactions with inconsistent arrival order do not commute: one adds a property value to a relationship and one deletes that relationship.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s possible that a subsquent write might immediately correct this error with no side-effects, and it&amp;rsquo;s possible that the shard with the &amp;ldquo;correct&amp;rdquo; record might be read. But it&amp;rsquo;s also possible that the shard with the &amp;ldquo;incorrect&amp;rdquo; record will be read, and those incorrect values used to seed further writes, propagating the corruption around the graph. In general, there is no recovery from this corruption when it spreads. It&amp;rsquo;s often a coin toss as to which record is the correct one in the instant after it is written&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll reiterate that: &lt;em&gt;without any hardware or software failures, your data will be irreversibly garbage within its production lifetime.&lt;/em&gt; That&amp;rsquo;s a shocking result for a class of technology that has a degree of market buy-in.&lt;/p&gt;
+&lt;p&gt;Our work has now been 
+&lt;a href=&#34;https://eprint.ncl.ac.uk/author_pubs.aspx?author_id=62181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;multiply peer reviewed and published&lt;/a&gt;, with the most recent analysis being in the Journal 
+&lt;a href=&#34;https://jimwebber.org/publication/2020-qmsm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Queueing Models and Service Management&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;when-is-strongly-consistent-not-strongly-consistent-when-its-not-consistently-applied&#34;&gt;When is strongly consistent not strongly consistent? When it&amp;rsquo;s not consistently applied.&lt;/h2&gt;
+&lt;p&gt;Other entrants to the graph database market must have also seen the risks of eventual consistency for graphs have and opted to build their offerings atop strongly consistent models to avoid these pitfalls. The approach that I&amp;rsquo;ve seen in two databases (one closed source, one open) is to build strong guarantees into the replica sets (shards) that store the data. This is a very good starting point and is used in their marketing materials to give a sense of safety. Words like &amp;ldquo;ACID&amp;rdquo; and &amp;ldquo;strongly consistent&amp;rdquo; are used frequently to convey the safety properties of the systems.&lt;/p&gt;
+&lt;p&gt;But all is not well here. In fact, despite having better guarantees for consistency within a single replica set than eventually consistent databases, the same global ordering problem haunts these newer databases.&lt;/p&gt;
+&lt;p&gt;// They fall foul of consistency within a shard and anything goes between shards.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;The research work was made possible by a continuing joint effort between Newcastle University and Neo4j. Many thanks to my academic collaborators 
+&lt;a href=&#34;https://www.ncl.ac.uk/computing/people/profile/paulezhilchelvan.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paul Ezhilchelvan&lt;/a&gt;, 
+&lt;a href=&#34;https://www.ncl.ac.uk/computing/people/profile/isimitrani.html#background&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Isi Mitrani&lt;/a&gt;, and 
+&lt;a href=&#34;https://www.ncl.ac.uk/bigdata/people/people/waudbyjack.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jack Waudby&lt;/a&gt; for entertaining my hunches and putting them on a solid academic foundation.&lt;/p&gt;
+&lt;p&gt;My colleage 
+&lt;a href=&#34;https://www.linkedin.com/in/hugo-firth-11265711/?originalSubdomain=uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Firth&lt;/a&gt; (ex-Newcastle Ph.D., like me) provided a great deal of valuable feedback in writing up this piece as well as day to day sensible discussions on reliability in distributed systems.&lt;/p&gt;
+&lt;h2 id=&#34;like-this-want-to-get-more-involved&#34;&gt;Like this? Want to get more involved?&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ll make a final pitch and remind you that Neo4j are hiring. So if you want to work with Hugo and me, then take a look at 
+&lt;a href=&#34;https://neo4j.com/careers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our open roles&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zappi Installation</title>
+      <link>/post/2020-09-zappi-installation/</link>
+      <pubDate>Mon, 21 Sep 2020 10:00:47 +0100</pubDate>
+      <guid>/post/2020-09-zappi-installation/</guid>
+      <description>&lt;p&gt;Back in 2015 I bought a 
+&lt;a href=&#34;https://www.autoexpress.co.uk/bmw/i3/88777/long-term-test-review-bmw-i3-range-extender&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BMW i3 REX&lt;/a&gt;, and at the time had a 7kW &lt;del&gt;charger&lt;/del&gt; charging socket fitted from 
+&lt;a href=&#34;https://bpchargemaster.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ChargeMaster&lt;/a&gt; (now part of BP). It worked fine, and since the 2015 i3 has a small battery (~20kWh) full charges took just a few short hours. Wonderfully boring and predictable.&lt;/p&gt;
+&lt;p&gt;Fast forward to present day and the ChargeMaster socket repeatedly overheats and cuts out leaving me with potentially not enough charge for the day (ok, so there&amp;rsquo;s the range extender but that defeats the point). After a few calls to genuinely lovely people at BP ChargeMaster, we&amp;rsquo;re not getting anywhere fast. The warranty has expired and I never did talk to anyone - nice as they were - that I&amp;rsquo;d trust to wire a plug. But if I hand over another £500 I can get a replacement at some point.&lt;/p&gt;
+&lt;p&gt;£500 for a socket - even a special, high-current, safety-concious socket is a lot of cash. So let&amp;rsquo;s look around first.&lt;/p&gt;
+&lt;p&gt;My first port of call was the 
+&lt;a href=&#34;http://www.rolecserv.com/ev-charging/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rolec&lt;/a&gt; sockets. Since this is a straight swap of like for like, it looked like a winner. It&amp;rsquo;s a few quid cheaper than the ChargeMaster kit too. Only problem is that electrical regulations have tightened up since my original socket was installed. The 
+&lt;a href=&#34;https://uk.rs-online.com/web/p/books/1737283/?cm_mmc=UK-PPC-DS3A-_-google-_-DSA_UK_EN_Office_Supplies_Feed-_-Books_Training_Materials%7CBooks%7CProducts-_-DYNAMIC&amp;#43;SEARCH&amp;#43;ADS&amp;amp;matchtype=b&amp;amp;dsa-725905712321&amp;amp;s_kwcid=AL!7457!3!439084729426!b!!g!!&amp;amp;gclid=EAIaIQobChMIifCT0fj56wIVT-btCh1OUAX5EAAYASAAEgKn8_D_BwE&amp;amp;gclsrc=aw.ds&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;18th edition regs&lt;/a&gt; require additional earthing to protect from the  terrifying possibility of 
+&lt;a href=&#34;https://www.youtube.com/watch?v=JRHyqouJPzE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PEN faults on TN-C-S supplies&lt;/a&gt;. Installing an earth rod is a big undertaking, so what to do?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Earth rods are not strictly required for indoor use (on the basis that you&amp;rsquo;re unlikely to sever the earth), but I&amp;rsquo;m conservative around mains electricity.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As it happens there is a  more expensive but far better value EV charging socket available - the 
+&lt;a href=&#34;https://myenergi.com/product/zappi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MyEnergi Zappi&lt;/a&gt; - which does not require an earth rod and has clever circuitry to detect PEN faults. It&amp;rsquo;s a couple of hundred quid more at ~£700 plus another few quid for associated smart gadgets. But this is easily made up for by the simple install and being 18th edition compliant without the cost and (surprising) complexity of correctly installing an earth rod.&lt;/p&gt;
+&lt;p&gt;Having received the Zappi, Harvi and Hub the installation was easy enough. In the Consumer Unit (&amp;ldquo;fuse box&amp;rdquo;), the existing 32A Type C MCB had to be replaced with a 32A B-curve MCB. This circuit on my CU happens to be RCD protected, but that&amp;rsquo;s not critical since the Zappi has RCD protection on the AC &lt;em&gt;and&lt;/em&gt; DC circuits (18th edition regs again). My wiring was already present and suitable from the previous installation, 40A rated, wall-pinned and visually in excellent condition. It only needed 30-40cm of 10mm twin and earth from the existing junction box through the conduit and into the Zappi.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-zappi-unit-looks-nice-enough-for-a-garage-anyway&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Zappi unit looks nice enough, for a garage anyway.&#34;&gt;
+
+
+  &lt;img data-src=&#34;/post/2020-09-zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Zappi unit looks nice enough, for a garage anyway.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I recently bought a ferrule set and crimper after seeing one in use on a video by 
+&lt;a href=&#34;https://artisanelectrics.co.uk/,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Artisan Electrics&lt;/a&gt; which really made the 10mm cable connections feel very robust. I would recommend this since they&amp;rsquo;re cheap to buy and easy to use.&lt;/p&gt;
+&lt;p&gt;So far so good - the electrical work is very easy and because the charger has clever electronics, it&amp;rsquo;s just like wiring a regular domestic socket.&lt;/p&gt;
+&lt;p&gt;One of the nice things about the Zappi is that it&amp;rsquo;s &amp;ldquo;smart.&amp;rdquo; It can try to use on-site generation to charge your EV when there&amp;rsquo;s excess power. And even if there&amp;rsquo;s a heavy load on your main supply (I live in the UK, so single-phase supplies are very common for houses), it&amp;rsquo;ll adjust its power delivery so that the house as a whole never draws more the mains rating (100A for me).&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-looks-like-i-should-plug-the-car-in&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Looks like I should plug the car in.&#34;&gt;
+
+
+  &lt;img data-src=&#34;/post/2020-09-zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1304&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Looks like I should plug the car in.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Zappi senses its electrical environment using 
+&lt;a href=&#34;https://myenergi.com/product/ct-clamp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;current transformer (CT) clamps&lt;/a&gt;. Remembering A-level physics, the current passing along a conductor can induce a current in a nearby coil proportionally to the current flowing in the main conductor which can be (safely) measured. Zappi comes with a CT clamp and I used the 
+&lt;a href=&#34;https://myenergi.com/product/harvi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harvi&lt;/a&gt; which provides a wireless bridge from the CT clamp to the Zappi instead of running the cable across the ceiling of my garage.&lt;/p&gt;
+&lt;p&gt;I hadn&amp;rsquo;t read the instructions well enough and there were two problems here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You have to tell Zappi that its internal &lt;code&gt;CT1&lt;/code&gt; is set to &lt;code&gt;NONE&lt;/code&gt;. Then you have to nagivate to the Harvi device and set &lt;em&gt;its&lt;/em&gt; &lt;code&gt;CT1&lt;/code&gt; to &lt;code&gt;GRID&lt;/code&gt;. Ok, so took me a little while to fathom that, but got there.&lt;/li&gt;
+&lt;li&gt;The bigger downside is that when using Harvi to wirelessly monitor the grid line, the maximum permissible mains current is 65A, which is 35A less than my mains rating (and indeed could supply a whole other charger). It&amp;rsquo;s not a problem for now, but adding a second EV and Zappi in the future could lead to slower and less predictable charging rates.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;My solution to this will be to hardwire the grid CT clamp to the Zappi by running cable round the garage. I&amp;rsquo;ll then use a second CT clamp plus the Harvi (bought and paid for, so I have to put it to use) to monitor solar output. Solar monitoring is just a nerd thing so that I can see generation on the app: the Zappi does not use the solar CT clamp in its control algorithm.&lt;/p&gt;
+&lt;p&gt;All of this comes together in a nice app if you use the 
+&lt;a href=&#34;https://myenergi.com/product/hub/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hub&lt;/a&gt;, so you can see real-time use and program EV charging without having to be at the Zappi.&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-hub-sitting-in-a-rats-nest-of-wires-with-google-wifi-dont-judge-me&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Hub sitting in a rat&amp;amp;rsquo;s nest of wires with Google wifi. Don&amp;amp;rsquo;t judge me.&#34;&gt;
+
+
+  &lt;img data-src=&#34;/post/2020-09-zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Hub sitting in a rat&amp;rsquo;s nest of wires with Google wifi. Don&amp;rsquo;t judge me.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I&amp;rsquo;m very impressed so far. Sure there were a couple of little gotchas while I learned my way around the menus, but otherwise a straightforward experience. Funelling excess solar into the car automatically is super nice, and the unit looks smart and is safe. The setup can also handle a static battery installation (with more CT clamps) and can prioritise whether EV or static battery storage gets excess solar power and it can also minimise using the battery to charge the car (which is very sensible).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Site Upgrade</title>
+      <link>/post/site-upgrade/</link>
+      <pubDate>Tue, 15 Sep 2020 13:38:47 +0100</pubDate>
+      <guid>/post/site-upgrade/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve just upgraded to the new modular Hugo static site builder and have taken the opportunity to smarten up a few things on my site. In the meantime I&amp;rsquo;m slowly migrating over some content like my publication record. Stay tuned.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

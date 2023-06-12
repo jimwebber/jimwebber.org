@@ -1,0 +1,1370 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Dr. Jim Webber">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Things learned installing a Zappi home EV charging socket.">
+
+  
+  <link rel="alternate" hreflang="en-gb" href="/post/2020-09-zappi-installation/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="/post/2020-09-zappi-installation/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="World Wide Webber">
+  <meta property="og:url" content="/post/2020-09-zappi-installation/">
+  <meta property="og:title" content="Zappi Installation | World Wide Webber">
+  <meta property="og:description" content="Things learned installing a Zappi home EV charging socket."><meta property="og:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-gb">
+  
+    
+      <meta property="article:published_time" content="2020-09-21T10:00:47&#43;01:00">
+    
+    <meta property="article:modified_time" content="2020-09-21T10:00:47&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/2020-09-zappi-installation/"
+  },
+  "headline": "Zappi Installation",
+  
+  "datePublished": "2020-09-21T10:00:47+01:00",
+  "dateModified": "2020-09-21T10:00:47+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Dr. Jim Webber"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "World Wide Webber",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Things learned installing a Zappi home EV charging socket."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Zappi Installation | World Wide Webber</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">World Wide Webber</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">World Wide Webber</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#books"><span>Books</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Professional Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#social-media"><span>Social Media</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Zappi Installation</h1>
+
+  
+  <p class="page-subtitle">Replacing a dumb EV charger with a smart one.</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 21, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Back in 2015 I bought a 
+<a href="https://www.autoexpress.co.uk/bmw/i3/88777/long-term-test-review-bmw-i3-range-extender" target="_blank" rel="noopener">BMW i3 REX</a>, and at the time had a 7kW <del>charger</del> charging socket fitted from 
+<a href="https://bpchargemaster.com/" target="_blank" rel="noopener">ChargeMaster</a> (now part of BP). It worked fine, and since the 2015 i3 has a small battery (~20kWh) full charges took just a few short hours. Wonderfully boring and predictable.</p>
+<p>Fast forward to present day and the ChargeMaster socket repeatedly overheats and cuts out leaving me with potentially not enough charge for the day (ok, so there&rsquo;s the range extender but that defeats the point). After a few calls to genuinely lovely people at BP ChargeMaster, we&rsquo;re not getting anywhere fast. The warranty has expired and I never did talk to anyone - nice as they were - that I&rsquo;d trust to wire a plug. But if I hand over another £500 I can get a replacement at some point.</p>
+<p>£500 for a socket - even a special, high-current, safety-concious socket is a lot of cash. So let&rsquo;s look around first.</p>
+<p>My first port of call was the 
+<a href="http://www.rolecserv.com/ev-charging/" target="_blank" rel="noopener">Rolec</a> sockets. Since this is a straight swap of like for like, it looked like a winner. It&rsquo;s a few quid cheaper than the ChargeMaster kit too. Only problem is that electrical regulations have tightened up since my original socket was installed. The 
+<a href="https://uk.rs-online.com/web/p/books/1737283/?cm_mmc=UK-PPC-DS3A-_-google-_-DSA_UK_EN_Office_Supplies_Feed-_-Books_Training_Materials%7CBooks%7CProducts-_-DYNAMIC&#43;SEARCH&#43;ADS&amp;matchtype=b&amp;dsa-725905712321&amp;s_kwcid=AL!7457!3!439084729426!b!!g!!&amp;gclid=EAIaIQobChMIifCT0fj56wIVT-btCh1OUAX5EAAYASAAEgKn8_D_BwE&amp;gclsrc=aw.ds" target="_blank" rel="noopener">18th edition regs</a> require additional earthing to protect from the  terrifying possibility of 
+<a href="https://www.youtube.com/watch?v=JRHyqouJPzE" target="_blank" rel="noopener">PEN faults on TN-C-S supplies</a>. Installing an earth rod is a big undertaking, so what to do?</p>
+<p><strong>Earth rods are not strictly required for indoor use (on the basis that you&rsquo;re unlikely to sever the earth), but I&rsquo;m conservative around mains electricity.</strong></p>
+<p>As it happens there is a  more expensive but far better value EV charging socket available - the 
+<a href="https://myenergi.com/product/zappi/" target="_blank" rel="noopener">MyEnergi Zappi</a> - which does not require an earth rod and has clever circuitry to detect PEN faults. It&rsquo;s a couple of hundred quid more at ~£700 plus another few quid for associated smart gadgets. But this is easily made up for by the simple install and being 18th edition compliant without the cost and (surprising) complexity of correctly installing an earth rod.</p>
+<p>Having received the Zappi, Harvi and Hub the installation was easy enough. In the Consumer Unit (&ldquo;fuse box&rdquo;), the existing 32A Type C MCB had to be replaced with a 32A B-curve MCB. This circuit on my CU happens to be RCD protected, but that&rsquo;s not critical since the Zappi has RCD protection on the AC <em>and</em> DC circuits (18th edition regs again). My wiring was already present and suitable from the previous installation, 40A rated, wall-pinned and visually in excellent condition. It only needed 30-40cm of 10mm twin and earth from the existing junction box through the conduit and into the Zappi.</p>
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-zappi-unit-looks-nice-enough-for-a-garage-anyway">
+
+
+  <a data-fancybox="" href="/post/2020-09-zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg" data-caption="Zappi unit looks nice enough, for a garage anyway.">
+
+
+  <img data-src="/post/2020-09-zappi-installation/zappi_hued32a7134490b77b5bc33bfe71e8865a_247928_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="35%" height="1024">
+</a>
+
+
+  
+  
+  <figcaption>
+    Zappi unit looks nice enough, for a garage anyway.
+  </figcaption>
+
+
+</figure>
+
+<p>I recently bought a ferrule set and crimper after seeing one in use on a video by 
+<a href="https://artisanelectrics.co.uk/," target="_blank" rel="noopener">Artisan Electrics</a> which really made the 10mm cable connections feel very robust. I would recommend this since they&rsquo;re cheap to buy and easy to use.</p>
+<p>So far so good - the electrical work is very easy and because the charger has clever electronics, it&rsquo;s just like wiring a regular domestic socket.</p>
+<p>One of the nice things about the Zappi is that it&rsquo;s &ldquo;smart.&rdquo; It can try to use on-site generation to charge your EV when there&rsquo;s excess power. And even if there&rsquo;s a heavy load on your main supply (I live in the UK, so single-phase supplies are very common for houses), it&rsquo;ll adjust its power delivery so that the house as a whole never draws more the mains rating (100A for me).</p>
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-looks-like-i-should-plug-the-car-in">
+
+
+  <a data-fancybox="" href="/post/2020-09-zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg" data-caption="Looks like I should plug the car in.">
+
+
+  <img data-src="/post/2020-09-zappi-installation/app_huceee2baa28c8b71fa0b322fe4e8004d5_74672_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="35%" height="1304">
+</a>
+
+
+  
+  
+  <figcaption>
+    Looks like I should plug the car in.
+  </figcaption>
+
+
+</figure>
+
+<p>Zappi senses its electrical environment using 
+<a href="https://myenergi.com/product/ct-clamp/" target="_blank" rel="noopener">current transformer (CT) clamps</a>. Remembering A-level physics, the current passing along a conductor can induce a current in a nearby coil proportionally to the current flowing in the main conductor which can be (safely) measured. Zappi comes with a CT clamp and I used the 
+<a href="https://myenergi.com/product/harvi/" target="_blank" rel="noopener">Harvi</a> which provides a wireless bridge from the CT clamp to the Zappi instead of running the cable across the ceiling of my garage.</p>
+<p>I hadn&rsquo;t read the instructions well enough and there were two problems here:</p>
+<ol>
+<li>You have to tell Zappi that its internal <code>CT1</code> is set to <code>NONE</code>. Then you have to nagivate to the Harvi device and set <em>its</em> <code>CT1</code> to <code>GRID</code>. Ok, so took me a little while to fathom that, but got there.</li>
+<li>The bigger downside is that when using Harvi to wirelessly monitor the grid line, the maximum permissible mains current is 65A, which is 35A less than my mains rating (and indeed could supply a whole other charger). It&rsquo;s not a problem for now, but adding a second EV and Zappi in the future could lead to slower and less predictable charging rates.</li>
+</ol>
+<p>My solution to this will be to hardwire the grid CT clamp to the Zappi by running cable round the garage. I&rsquo;ll then use a second CT clamp plus the Harvi (bought and paid for, so I have to put it to use) to monitor solar output. Solar monitoring is just a nerd thing so that I can see generation on the app: the Zappi does not use the solar CT clamp in its control algorithm.</p>
+<p>All of this comes together in a nice app if you use the 
+<a href="https://myenergi.com/product/hub/" target="_blank" rel="noopener">Hub</a>, so you can see real-time use and program EV charging without having to be at the Zappi.</p>
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-hub-sitting-in-a-rats-nest-of-wires-with-google-wifi-dont-judge-me">
+
+
+  <a data-fancybox="" href="/post/2020-09-zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg" data-caption="Hub sitting in a rat&amp;rsquo;s nest of wires with Google wifi. Don&amp;rsquo;t judge me.">
+
+
+  <img data-src="/post/2020-09-zappi-installation/hub_hu06d4049565a1de4cce75ccb6a8da3a0c_298097_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="35%" height="1024">
+</a>
+
+
+  
+  
+  <figcaption>
+    Hub sitting in a rat&rsquo;s nest of wires with Google wifi. Don&rsquo;t judge me.
+  </figcaption>
+
+
+</figure>
+
+<p>I&rsquo;m very impressed so far. Sure there were a couple of little gotchas while I learned my way around the menus, but otherwise a straightforward experience. Funelling excess solar into the car automatically is super nice, and the unit looks smart and is safe. The setup can also handle a static battery installation (with more CT clamps) and can prioritise whether EV or static battery storage gets excess solar power and it can also minimise using the battery to charge the car (which is very sensible).</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/zappi/">zappi</a>
+  
+  <a class="badge badge-light" href="/tag/ev/">EV</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/2020-09-zappi-installation/&amp;text=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/2020-09-zappi-installation/&amp;t=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Zappi%20Installation&amp;body=/post/2020-09-zappi-installation/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/2020-09-zappi-installation/&amp;title=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Zappi%20Installation%20/post/2020-09-zappi-installation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/2020-09-zappi-installation/&amp;title=Zappi%20Installation" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/dr.-jim-webber/avatar_hua063f72fafcff2cee8f7b2c1e3059f36_530492_270x270_fill_lanczos_center_3.png" alt="Dr. Jim Webber">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/">Dr. Jim Webber</a></h5>
+        <h6 class="card-subtitle">Chief Scientist</h6>
+        <p class="card-text">I&rsquo;m a computer scientist interested in fault-tolerance for graph databases.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jim@jimwebber.org" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/jimwebber" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/jimwebber" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4182b289689108d47721d002a07cd804.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    ©2023 Jim Webber
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
