@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/publication-type/8/</loc>
-    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+    <loc>/publication-type/5/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/building-knowledge-graphs/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/jesus-barrasa/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication-type/8/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication/2023-01-patent-11544280/</loc>
@@ -23,12 +44,6 @@
     <loc>/author/niels-de-jong-and-james-webber/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
-  </url><url>
     <loc>/tag/query-planning/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
@@ -42,9 +57,6 @@
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/tag/transactions/</loc>
-    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/author/alistair-philip-campbell-jones/</loc>
@@ -87,9 +99,6 @@
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/author/jack-waudby/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url><url>
-    <loc>/author/jim-webber/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/tag/latency/</loc>
@@ -149,9 +158,6 @@
     <loc>/author/and-jim-webber/</loc>
     <lastmod>2021-07-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/jesus-barrasa/</loc>
-    <lastmod>2021-07-01T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>/publication/knowledge-graphs-report/</loc>
     <lastmod>2021-07-01T00:00:00+01:00</lastmod>
   </url><url>
@@ -187,9 +193,6 @@
   </url><url>
     <loc>/publication/2020-qmsm/</loc>
     <lastmod>2020-09-15T10:24:24+01:00</lastmod>
-  </url><url>
-    <loc>/publication-type/5/</loc>
-    <lastmod>2020-09-14T22:49:54+01:00</lastmod>
   </url><url>
     <loc>/publication/graph-databases-for-dummies/</loc>
     <lastmod>2020-09-14T22:49:54+01:00</lastmod>
