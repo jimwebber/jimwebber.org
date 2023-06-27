@@ -41,7 +41,10 @@
     <loc>/tag/graph-databases/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/niels-de-jong-and-james-webber/</loc>
+    <loc>/author/james-webber/</loc>
+    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/niels-de-jong/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/tag/query-planning/</loc>
@@ -53,16 +56,13 @@
     <loc>/tags/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/tobias-lindaaker-and-james-webber/</loc>
+    <loc>/author/tobias-lindaaker/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/tag/transactions/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/author/alistair-philip-campbell-jones/</loc>
-    <lastmod>2022-10-18T15:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/and-james-webber/</loc>
     <lastmod>2022-10-18T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/author/irfan-nuri-karaca/</loc>
@@ -80,7 +80,7 @@
     <loc>/publication/2022-10-patent-11481385/</loc>
     <lastmod>2022-10-05T15:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/james-webber-and-hugo-firth/</loc>
+    <loc>/author/hugo-firth/</loc>
     <lastmod>2022-10-05T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication-type/1/</loc>
@@ -209,19 +209,70 @@
     <loc>/author/ian-s.-robinson/</loc>
     <lastmod>2017-06-06T15:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/james-webber/</loc>
-    <lastmod>2017-06-06T15:00:00+01:00</lastmod>
-  </url><url>
     <loc>/publication/2022-10-patent-9672266/</loc>
-    <lastmod>2017-06-06T15:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/tobias-lindaaker/</loc>
     <lastmod>2017-06-06T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication/2017-icdcs/</loc>
     <lastmod>2017-06-05T09:00:00+05:00</lastmod>
   </url><url>
-    <loc>/author/georgios-goumas-et-al/</loc>
+    <loc>/author/andrew-attwood/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/atle-vesterkjaer/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/christos-kotselidis/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/davide-grohmann/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/einar-rustad/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/erik-elmroth/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/ewnetu-bayuh-lakew/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/georgios-goumas/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/john-goodacre/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/john-thomson/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/konstantinos-nikas/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/luis-tomas/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/martin-kersten/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/michail-flouris/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/mikel-lujan/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/nectarios-koziris/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/nikos-foutris/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/panagiotis-koutsourakis/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/vasileios-karakostas/</loc>
+    <lastmod>2017-06-05T09:00:00+05:00</lastmod>
+  </url><url>
+    <loc>/author/ying-zhang/</loc>
     <lastmod>2017-06-05T09:00:00+05:00</lastmod>
   </url><url>
     <loc>/publication/2022-10-patent-9477779/</loc>
@@ -272,9 +323,6 @@
     <loc>/publication/2011-osj-graphdb-doctor-who/</loc>
     <lastmod>2012-06-01T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/author/jim-webber-and-ian-robinson/</loc>
-    <lastmod>2012-06-01T10:24:24+01:00</lastmod>
-  </url><url>
     <loc>/publication/rest-in-practice/</loc>
     <lastmod>2010-09-27T10:33:08+01:00</lastmod>
   </url><url>
@@ -302,7 +350,7 @@
     <loc>/publication/2007-11-ssdl/</loc>
     <lastmod>2007-11-10T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/author/and-ian-gorton/</loc>
+    <loc>/author/ian-gorton/</loc>
     <lastmod>2007-07-09T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/author/patric-fornasier/</loc>
@@ -332,9 +380,6 @@
     <loc>/author/philipp-reinecke/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/author/savas-parastatidis-and-jim-webber/</loc>
-    <lastmod>2006-09-18T10:24:24+01:00</lastmod>
-  </url><url>
     <loc>/publication/2006-ieee-icws/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
   </url><url>
@@ -342,9 +387,6 @@
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2006-csi/</loc>
-    <lastmod>2006-02-01T10:24:24+01:00</lastmod>
-  </url><url>
-    <loc>/author/and-paul-greenfield/</loc>
     <lastmod>2006-02-01T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2006-ieee-internet-computing/</loc>
@@ -410,14 +452,11 @@
     <loc>/publication/2004-ggf/</loc>
     <lastmod>2004-06-05T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/author/and-mark-little/</loc>
+    <loc>/author/mark-little/</loc>
     <lastmod>2004-05-01T10:24:24+09:00</lastmod>
   </url><url>
     <loc>/publication/2004-wsj-wsdl-not-idl/</loc>
     <lastmod>2004-05-01T10:24:24+09:00</lastmod>
-  </url><url>
-    <loc>/author/jim-webber-and-savas-parastatidis/</loc>
-    <lastmod>2004-04-01T10:24:24+09:00</lastmod>
   </url><url>
     <loc>/publication/2005-wsj-stateful-interactions/</loc>
     <lastmod>2004-04-01T10:24:24+09:00</lastmod>
@@ -428,13 +467,10 @@
     <loc>/publication/2003-wsj-ws-caf/</loc>
     <lastmod>2003-12-01T10:24:24+00:00</lastmod>
   </url><url>
-    <loc>/author/jim-webber-and-mark-little/</loc>
-    <lastmod>2003-12-01T10:24:24+00:00</lastmod>
-  </url><url>
     <loc>/publication/developing-enterprise-web-services/</loc>
     <lastmod>2003-11-14T11:01:05+01:00</lastmod>
   </url><url>
-    <loc>/author/sandeep-chatterjee-and-jim-webber/</loc>
+    <loc>/author/sandeep-chatterjee/</loc>
     <lastmod>2003-11-14T11:01:05+01:00</lastmod>
   </url><url>
     <loc>/publication/2003-wsj-demystifying-soa/</loc>
@@ -458,9 +494,6 @@
     <loc>/author/keith-swenson/</loc>
     <lastmod>2003-10-07T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/author/mark-little/</loc>
-    <lastmod>2003-10-07T10:24:24+01:00</lastmod>
-  </url><url>
     <loc>/author/martin-chapman/</loc>
     <lastmod>2003-10-07T10:24:24+01:00</lastmod>
   </url><url>
@@ -474,6 +507,9 @@
     <lastmod>2003-10-07T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2003-wsj-bpel4ws/</loc>
+    <lastmod>2003-07-01T10:24:24+01:00</lastmod>
+  </url><url>
+    <loc>/author/jim-webber-and-mark-little/</loc>
     <lastmod>2003-07-01T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2003-wsj-ws-transaction/</loc>
@@ -497,7 +533,7 @@
     <loc>/publication/2002-wsj-building-with-btp/</loc>
     <lastmod>2002-10-30T10:24:24+00:00</lastmod>
   </url><url>
-    <loc>/author/lindsay-marshall-and-jim-webber/</loc>
+    <loc>/author/lindsay-marshall/</loc>
     <lastmod>2002-06-18T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2002-ppig/</loc>
@@ -528,9 +564,6 @@
     <lastmod>2000-09-10T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2000-ppig/</loc>
-    <lastmod>2000-04-10T10:24:24+01:00</lastmod>
-  </url><url>
-    <loc>/author/lindsay-marshall/</loc>
     <lastmod>2000-04-10T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/author/dr.-jim-webber/</loc>

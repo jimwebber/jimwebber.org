@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Thomson | World Wide Webber</title>
+    <link>/author/john-thomson/</link>
+      <atom:link href="/author/john-thomson/index.xml" rel="self" type="application/rss+xml" />
+    <description>John Thomson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2023 Jim Webber</copyright><lastBuildDate>Mon, 05 Jun 2017 09:00:00 +0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
+      <title>John Thomson</title>
+      <link>/author/john-thomson/</link>
+    </image>
+    
+    <item>
+      <title>ACTiCLOUD: Enabling the Next Generation of Cloud Applications</title>
+      <link>/publication/2017-icdcs/</link>
+      <pubDate>Mon, 05 Jun 2017 09:00:00 +0500</pubDate>
+      <guid>/publication/2017-icdcs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
