@@ -2,28 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/publication-type/5/</loc>
-    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/2023-qest/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/concurrency-control/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/databases/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/isi-mitrani/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/paul-ezhilchelvan/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/weak-isolation/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication-type/5/</loc>
     <lastmod>2023-06-25T00:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication/building-knowledge-graphs/</loc>
     <lastmod>2023-06-25T00:00:00+01:00</lastmod>
   </url><url>
     <loc>/author/jesus-barrasa/</loc>
-    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/jim-webber/</loc>
-    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2023-06-25T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2023-06-25T00:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication-type/8/</loc>
@@ -83,9 +107,6 @@
     <loc>/author/hugo-firth/</loc>
     <lastmod>2022-10-05T15:00:00+01:00</lastmod>
   </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url><url>
     <loc>/publication/2022-srds/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
@@ -95,16 +116,10 @@
     <loc>/tag/epochs/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/author/isi-mitrani/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url><url>
     <loc>/author/jack-waudby/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/tag/latency/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url><url>
-    <loc>/author/paul-ezhilchelvan/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/tag/performance-evaluation/</loc>
@@ -119,15 +134,6 @@
     <loc>/tag/two-phase-commit/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/concurrency-control/</loc>
-    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/databases/</loc>
-    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
-  </url><url>
     <loc>/category/mixing-correct-theorem/</loc>
     <lastmod>2022-09-05T10:00:00+01:00</lastmod>
   </url><url>
@@ -135,9 +141,6 @@
     <lastmod>2022-09-05T10:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/serialization-graph-testing/</loc>
-    <lastmod>2022-09-05T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/weak-isolation/</loc>
     <lastmod>2022-09-05T10:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/ycsb/</loc>
