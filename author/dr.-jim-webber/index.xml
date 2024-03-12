@@ -18,10 +18,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/author/dr.-jim-webber/</guid>
       <description>&lt;p&gt;Dr. Jim Webber is Neo4j’s Chief Scientist and Visiting Professor at Newcastle University. At Neo4j, Jim leads the Systems Research Group, working on a variety of database systems research topics including query languages and runtimes, scale, and fault-tolerance.&lt;/p&gt;
-&lt;p&gt;He also co-authored several books on graph technology including&lt;/p&gt;
-&lt;p&gt;[https://jimwebber.org/publication/graph-databases/](Graph Databases)&lt;/p&gt;
-&lt;p&gt;[https://jimwebber.org/publication/graph-databases-for-dummies/](Graph Databases for Dummies)&lt;/p&gt;
-&lt;p&gt;and [https://jimwebber.org/publication/building-knowledge-graphs/](Building Knowledge Graphs).&lt;/p&gt;
+&lt;p&gt;He also co-authored several books on graph technology including Graph Databases, Graph Databases for Dummies, and Building Knowledge Graphs.&lt;/p&gt;
 &lt;p&gt;Prior to Neo4j, Jim worked on fault-tolerant distributed systems. First at 
 &lt;a href=&#34;https://www.ncl.ac.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Newcastle University&lt;/a&gt; startup 
 &lt;a href=&#34;http://arjuna.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arjuna&lt;/a&gt; and then for a variety of clients for global consulting firm 
