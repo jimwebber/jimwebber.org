@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>World Wide Webber</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
       <title>World Wide Webber</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Lies, Damn Lies, and AIs</title>
+      <link>/talk/2024-04-gids-lies-and-ais/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/talk/2024-04-gids-lies-and-ais/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Distributed Consensus in 15 Minutes!</title>
