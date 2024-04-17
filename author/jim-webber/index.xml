@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | World Wide Webber</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Jim Webber | World Wide Webber</title>
+    <link>/author/jim-webber/</link>
+      <atom:link href="/author/jim-webber/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jim Webber</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Mon, 25 Mar 2024 01:00:00 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
-      <link>/publication/</link>
+      <title>Jim Webber</title>
+      <link>/author/jim-webber/</link>
     </image>
     
     <item>
@@ -18,6 +18,27 @@
       <pubDate>Mon, 25 Mar 2024 01:00:00 +0100</pubDate>
       <guid>/publication/2024-edbt/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Jim Webber</title>
+      <link>/author/jim-webber/</link>
+      <pubDate>Mon, 25 Mar 2024 01:00:00 +0100</pubDate>
+      <guid>/author/jim-webber/</guid>
+      <description>&lt;p&gt;Dr. Jim Webber is Neo4j’s Chief Scientist and Visiting Professor at Newcastle University. At Neo4j, Jim leads the Systems Research Group, working on a variety of database systems research topics including query languages and runtimes, scale, and fault-tolerance. He also co-authored several books on graph technology including 
+&lt;a href=&#34;https://jimwebber.org/publication/graph-databases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Databases -  1st and 2nd Editions&lt;/a&gt; (O&amp;rsquo;Reilly), 
+&lt;a href=&#34;https://jimwebber.org/publication/graph-databases-for-dummies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Databases for Dummies&lt;/a&gt; (Wiley), and 
+&lt;a href=&#34;https://jimwebber.org/publication/building-knowledge-graphs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Building Knowledge Graphs&lt;/a&gt; (O&amp;rsquo;Reilly).&lt;/p&gt;
+&lt;p&gt;Prior to Neo4j, Jim worked on fault-tolerant distributed systems. First at 
+&lt;a href=&#34;https://www.ncl.ac.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Newcastle University&lt;/a&gt; startup 
+&lt;a href=&#34;http://arjuna.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arjuna&lt;/a&gt; and then for a variety of clients for global consulting firm 
+&lt;a href=&#34;https://thoughtworks.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ThoughtWorks&lt;/a&gt;. Along the way Jim co-authored the distrubuted systems books 
+&lt;a href=&#34;https://jimwebber.org/publication/rest-in-practice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REST in Practice&lt;/a&gt; (O&amp;rsquo;Reilly) and 
+&lt;a href=&#34;https://jimwebber.org/publication/developing-enterprise-web-services/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Developing Enterprise Web Services - An Architect’s Guide&lt;/a&gt; (Prentice-Hall).&lt;/p&gt;
+&lt;p&gt;Jim&amp;rsquo;s blog is located at 
+&lt;a href=&#34;https://jimwebber.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jimwebber.org&lt;/a&gt; and he tweets sometimes at 
+&lt;a href=&#34;https://twitter.com/jimwebber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@jimwebber&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -474,6 +495,27 @@
       <pubDate>Mon, 10 Apr 2000 10:24:24 +0100</pubDate>
       <guid>/publication/2000-ppig/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Jim Webber</title>
+      <link>/author/dr.-jim-webber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/dr.-jim-webber/</guid>
+      <description>&lt;p&gt;Dr. Jim Webber is Neo4j’s Chief Scientist and Visiting Professor at Newcastle University. At Neo4j, Jim leads the Systems Research Group, working on a variety of database systems research topics including query languages and runtimes, scale, and fault-tolerance. He also co-authored several books on graph technology including 
+&lt;a href=&#34;https://jimwebber.org/publication/graph-databases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Databases -  1st and 2nd Editions&lt;/a&gt; (O&amp;rsquo;Reilly), 
+&lt;a href=&#34;https://jimwebber.org/publication/graph-databases-for-dummies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Databases for Dummies&lt;/a&gt; (Wiley), and 
+&lt;a href=&#34;https://jimwebber.org/publication/building-knowledge-graphs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Building Knowledge Graphs&lt;/a&gt; (O&amp;rsquo;Reilly).&lt;/p&gt;
+&lt;p&gt;Prior to Neo4j, Jim worked on fault-tolerant distributed systems. First at 
+&lt;a href=&#34;https://www.ncl.ac.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Newcastle University&lt;/a&gt; startup 
+&lt;a href=&#34;http://arjuna.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arjuna&lt;/a&gt; and then for a variety of clients for global consulting firm 
+&lt;a href=&#34;https://thoughtworks.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ThoughtWorks&lt;/a&gt;. Along the way Jim co-authored the distrubuted systems books 
+&lt;a href=&#34;https://jimwebber.org/publication/rest-in-practice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REST in Practice&lt;/a&gt; (O&amp;rsquo;Reilly) and 
+&lt;a href=&#34;https://jimwebber.org/publication/developing-enterprise-web-services/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Developing Enterprise Web Services - An Architect’s Guide&lt;/a&gt; (Prentice-Hall).&lt;/p&gt;
+&lt;p&gt;Jim&amp;rsquo;s blog is located at 
+&lt;a href=&#34;https://jimwebber.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jimwebber.org&lt;/a&gt; and he tweets sometimes at 
+&lt;a href=&#34;https://twitter.com/jimwebber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@jimwebber&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
