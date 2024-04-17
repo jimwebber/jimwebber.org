@@ -18,15 +18,39 @@
     <lastmod>2024-03-27T13:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/publication/2023-qest/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+    <loc>/publication/2024-edbt/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/dr.-jim-webber/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/georgios-theodorakis/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/graph-databases/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/james-clarkson/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/temporal-graphs/</loc>
+    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/2023-qest/</loc>
     <lastmod>2023-08-07T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/concurrency-control/</loc>
@@ -38,16 +62,7 @@
     <loc>/author/isi-mitrani/</loc>
     <lastmod>2023-08-07T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/jim-webber/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/author/paul-ezhilchelvan/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
     <lastmod>2023-08-07T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/weak-isolation/</loc>
@@ -407,9 +422,6 @@
     <loc>/author/jen-yao-chung/</loc>
     <lastmod>2005-12-12T10:24:24+01:00</lastmod>
   </url><url>
-    <loc>/author/jim-webber-eds./</loc>
-    <lastmod>2005-12-12T10:24:24+01:00</lastmod>
-  </url><url>
     <loc>/publication/2005-msaj-hp-soa/</loc>
     <lastmod>2005-07-01T10:24:24+09:00</lastmod>
   </url><url>
@@ -516,9 +528,6 @@
     <lastmod>2003-10-07T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2003-wsj-bpel4ws/</loc>
-    <lastmod>2003-07-01T10:24:24+01:00</lastmod>
-  </url><url>
-    <loc>/author/jim-webber-and-mark-little/</loc>
     <lastmod>2003-07-01T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/publication/2003-wsj-ws-transaction/</loc>
