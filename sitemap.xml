@@ -2,13 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/2024-seagraph/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/b-trees/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/benchmark-testing/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/complexity-theory/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/computer-crashes/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/data-engineering/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/georgios-theodorakis/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/graph-database-management-systems/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/indexes/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/james-clarkson/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/maintenance/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
     <loc>/talk/2024-04-gids-lies-and-ais/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/</loc>
-    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2024-04-gids-consensus/</loc>
@@ -17,61 +68,10 @@
     <loc>/talk/2024-03-gartner-d-and-a-sao-paulo/</loc>
     <lastmod>2024-03-27T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/publication/2024-edbt/</loc>
     <lastmod>2024-03-25T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/publication/2024-seagraph/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/b-trees/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/benchmark-testing/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/complexity-theory/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/computer-crashes/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/data-engineering/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/georgios-theodorakis/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/graph-database-management-systems/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/category/graph-databases/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/indexes/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/james-clarkson/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/jim-webber/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/category/maintenance/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2024-03-25T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
     <lastmod>2024-03-25T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/temporal-graphs/</loc>

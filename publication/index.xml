@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Mon, 25 Mar 2024 01:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Mon, 13 May 2024 01:00:00 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Aion: Efficient Temporal Graph Data Management</title>
-      <link>/publication/2024-edbt/</link>
-      <pubDate>Mon, 25 Mar 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-edbt/</guid>
+      <title>An Empirical Evaluation of Variable-length Record B&#43;Trees on a Modern Graph Database System</title>
+      <link>/publication/2024-seagraph/</link>
+      <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-seagraph/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>An Empirical Evaluation of Variable-length Record B&#43;Trees on a Modern Graph Database System</title>
-      <link>/publication/2024-seagraph/</link>
+      <title>Aion: Efficient Temporal Graph Data Management</title>
+      <link>/publication/2024-edbt/</link>
       <pubDate>Mon, 25 Mar 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-seagraph/</guid>
+      <guid>/publication/2024-edbt/</guid>
       <description></description>
     </item>
     
