@@ -193,8 +193,8 @@ The difference with reciprocal consistency for graphs is that both tables would 
 &lt;a href=&#34;https://jimwebber.org/publication/2020-qmsm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Queueing Models and Service Management&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;when-is-strongly-consistent-not-strongly-consistent-when-its-not-consistently-applied&#34;&gt;When is strongly consistent not strongly consistent? When it&amp;rsquo;s not consistently applied.&lt;/h2&gt;
 &lt;p&gt;Other entrants to the graph database market must have also seen the risks of eventual consistency for graphs have and opted to build their offerings atop strongly consistent models to avoid these pitfalls. The approach that I&amp;rsquo;ve seen in two databases (one closed source, one open) is to build strong guarantees into the replica sets (shards) that store the data. This is a very good starting point and is used in their marketing materials to give a sense of safety. Words like &amp;ldquo;ACID&amp;rdquo; and &amp;ldquo;strongly consistent&amp;rdquo; are used frequently to convey the safety properties of the systems.&lt;/p&gt;
-&lt;p&gt;But all is not well here. In fact, despite having better guarantees for consistency within a single replica set than eventually consistent databases, the same global ordering problem haunts these newer databases.&lt;/p&gt;
-&lt;p&gt;// They fall foul of consistency within a shard and anything goes between shards.&lt;/p&gt;
+&lt;p&gt;But all is not well here. In fact, despite having better guarantees for consistency &lt;em&gt;within a single replica set&lt;/em&gt; than eventually consistent databases, the same global ordering problem haunts these newer databases. But the arrival order for the same set of transactions operating across shards is not guaranteed. Even with those systems whose implementations use queues to enforce ordering allow race conditions for enqueuing such that T1 and T2 can interleave across queue. Coordinating access to the queues would solve this for safety, but reduce the much-vaunted scalability of these systems.&lt;/p&gt;
+&lt;p&gt;We can do better.&lt;/p&gt;
 &lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
 &lt;p&gt;The research work was made possible by a continuing joint effort between Newcastle University and Neo4j. Many thanks to my academic collaborators 
 &lt;a href=&#34;https://www.ncl.ac.uk/computing/people/profile/paulezhilchelvan.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paul Ezhilchelvan&lt;/a&gt;, 
@@ -205,6 +205,8 @@ The difference with reciprocal consistency for graphs is that both tables would 
 &lt;h2 id=&#34;like-this-want-to-get-more-involved&#34;&gt;Like this? Want to get more involved?&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ll make a final pitch and remind you that Neo4j are hiring. So if you want to work with Hugo and me, then take a look at 
 &lt;a href=&#34;https://neo4j.com/careers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our open roles&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;addendum&#34;&gt;Addendum&lt;/h2&gt;
+&lt;p&gt;This work was updated on 9th July 2024 to add text that was missing from the final section on arrival order and interleaving of transactions. As such this text is now, eventually, consistent :-)&lt;/p&gt;
 </description>
     </item>
     

@@ -277,7 +277,7 @@
     
       <meta property="article:published_time" content="2020-12-03T00:00:47&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-12-03T00:00:47&#43;00:00">
+    <meta property="article:modified_time" content="2024-07-09T10:17:00&#43;00:00">
   
 
   
@@ -306,7 +306,7 @@
   "headline": "Strong Consitency Claims in Distributed Graph Databases",
   
   "datePublished": "2020-12-03T00:00:47Z",
-  "dateModified": "2020-12-03T00:00:47Z",
+  "dateModified": "2024-07-09T10:17:00Z",
   
   "author": {
     "@type": "Person",
@@ -774,8 +774,10 @@
     
     
       
+          Last updated on
+      
     
-    Dec 3, 2020
+    Jul 9, 2024
   </span>
   
 
@@ -980,8 +982,8 @@ The difference with reciprocal consistency for graphs is that both tables would 
 <a href="https://jimwebber.org/publication/2020-qmsm/" target="_blank" rel="noopener">Queueing Models and Service Management</a>.</p>
 <h2 id="when-is-strongly-consistent-not-strongly-consistent-when-its-not-consistently-applied">When is strongly consistent not strongly consistent? When it&rsquo;s not consistently applied.</h2>
 <p>Other entrants to the graph database market must have also seen the risks of eventual consistency for graphs have and opted to build their offerings atop strongly consistent models to avoid these pitfalls. The approach that I&rsquo;ve seen in two databases (one closed source, one open) is to build strong guarantees into the replica sets (shards) that store the data. This is a very good starting point and is used in their marketing materials to give a sense of safety. Words like &ldquo;ACID&rdquo; and &ldquo;strongly consistent&rdquo; are used frequently to convey the safety properties of the systems.</p>
-<p>But all is not well here. In fact, despite having better guarantees for consistency within a single replica set than eventually consistent databases, the same global ordering problem haunts these newer databases.</p>
-<p>// They fall foul of consistency within a shard and anything goes between shards.</p>
+<p>But all is not well here. In fact, despite having better guarantees for consistency <em>within a single replica set</em> than eventually consistent databases, the same global ordering problem haunts these newer databases. But the arrival order for the same set of transactions operating across shards is not guaranteed. Even with those systems whose implementations use queues to enforce ordering allow race conditions for enqueuing such that T1 and T2 can interleave across queue. Coordinating access to the queues would solve this for safety, but reduce the much-vaunted scalability of these systems.</p>
+<p>We can do better.</p>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>The research work was made possible by a continuing joint effort between Newcastle University and Neo4j. Many thanks to my academic collaborators 
 <a href="https://www.ncl.ac.uk/computing/people/profile/paulezhilchelvan.html" target="_blank" rel="noopener">Paul Ezhilchelvan</a>, 
@@ -992,6 +994,8 @@ The difference with reciprocal consistency for graphs is that both tables would 
 <h2 id="like-this-want-to-get-more-involved">Like this? Want to get more involved?</h2>
 <p>I&rsquo;ll make a final pitch and remind you that Neo4j are hiring. So if you want to work with Hugo and me, then take a look at 
 <a href="https://neo4j.com/careers/" target="_blank" rel="noopener">our open roles</a>.</p>
+<h2 id="addendum">Addendum</h2>
+<p>This work was updated on 9th July 2024 to add text that was missing from the final section on arrival order and interleaving of transactions. As such this text is now, eventually, consistent :-)</p>
 
     </div>
 
