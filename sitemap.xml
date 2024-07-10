@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tag/ev/</loc>
+    <lastmod>2024-07-07T18:31:10+01:00</lastmod>
+  </url><url>
+    <loc>/tag/octopus/</loc>
+    <lastmod>2024-07-07T18:31:10+01:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2024-07-09T10:17:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/powerwall/</loc>
+    <lastmod>2024-07-07T18:31:10+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-07-07T18:31:10+01:00</lastmod>
+  </url><url>
+    <loc>/tag/tesla/</loc>
+    <lastmod>2024-07-07T18:31:10+01:00</lastmod>
+  </url><url>
+    <loc>/post/2024-07-powerwall/</loc>
+    <lastmod>2024-07-07T18:31:10+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-07-09T10:17:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/zappi/</loc>
+    <lastmod>2024-07-07T18:31:10+01:00</lastmod>
+  </url><url>
     <loc>/publication-type/1/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
@@ -29,6 +56,9 @@
     <loc>/category/data-engineering/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
+    <loc>/author/dr.-jim-webber/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
     <loc>/author/georgios-theodorakis/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
@@ -41,9 +71,6 @@
     <loc>/author/james-clarkson/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/jim-webber/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/category/maintenance/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
@@ -52,9 +79,6 @@
   </url><url>
     <loc>/publication/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2024-07-09T10:17:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2024-04-gids-lies-and-ais/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
@@ -126,9 +150,6 @@
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/tag/scalability/</loc>
-    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>/author/tobias-lindaaker/</loc>
@@ -206,20 +227,11 @@
     <loc>/publication/knowledge-graphs-report/</loc>
     <lastmod>2021-07-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2024-07-09T10:17:00+00:00</lastmod>
-  </url><url>
     <loc>/publication-type/9/</loc>
     <lastmod>2020-12-01T10:24:24+00:00</lastmod>
   </url><url>
     <loc>/publication/2020-ndbj-coming-age-graph-db/</loc>
     <lastmod>2020-12-01T10:24:24+00:00</lastmod>
-  </url><url>
-    <loc>/tag/ev/</loc>
-    <lastmod>2020-09-21T10:00:47+01:00</lastmod>
-  </url><url>
-    <loc>/tag/zappi/</loc>
-    <lastmod>2020-09-21T10:00:47+01:00</lastmod>
   </url><url>
     <loc>/post/2020-09-zappi-installation/</loc>
     <lastmod>2020-09-21T10:00:47+01:00</lastmod>
