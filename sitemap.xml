@@ -44,6 +44,9 @@
     <loc>/category/benchmark-testing/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
+    <loc>/publication/2024-icde/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
@@ -59,7 +62,13 @@
     <loc>/author/dr.-jim-webber/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
+    <loc>/category/dynamic-optimization/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
     <loc>/author/georgios-theodorakis/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/graph-database/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/graph-database-management-systems/</loc>
@@ -71,6 +80,9 @@
     <loc>/author/james-clarkson/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
+    <loc>/category/jit-compilation/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
     <loc>/category/maintenance/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
@@ -78,6 +90,9 @@
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication/</loc>
+    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/query-language-runtime/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/talk/2024-04-gids-lies-and-ais/</loc>
