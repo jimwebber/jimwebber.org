@@ -5,12 +5,20 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Mon, 13 May 2024 01:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Fri, 14 Jun 2024 01:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
+      <url>/images/icon_hu15447518814003910368.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Evaluating No-Wait Approach for resolving conflicts in database</title>
+      <link>/publication/2024-epew/</link>
+      <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-epew/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An Empirical Evaluation of Variable-length Record B&#43;Trees on a Modern Graph Database System</title>

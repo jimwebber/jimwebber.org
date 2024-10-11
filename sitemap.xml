@@ -30,12 +30,45 @@
     <lastmod>2024-09-01T20:42:01+01:00</lastmod>
   </url><url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication/2024-seagraph/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/concurrency-control/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/database-management-systems/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/2024-epew/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/jack-waudby/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/paul-ezhilchelvan/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/transactions/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/yingming-wang/</loc>
+    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/2024-seagraph/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/b-trees/</loc>
@@ -45,9 +78,6 @@
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication/2024-icde/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/complexity-theory/</loc>
@@ -77,19 +107,10 @@
     <loc>/author/james-clarkson/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/jim-webber/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/category/jit-compilation/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/maintenance/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/query-language-runtime/</loc>
@@ -119,16 +140,10 @@
     <loc>/publication/2023-qest/</loc>
     <lastmod>2023-08-07T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/category/concurrency-control/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/category/databases/</loc>
     <lastmod>2023-08-07T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/author/isi-mitrani/</loc>
-    <lastmod>2023-08-07T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/paul-ezhilchelvan/</loc>
     <lastmod>2023-08-07T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/category/weak-isolation/</loc>
@@ -201,9 +216,6 @@
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/tag/epochs/</loc>
-    <lastmod>2022-09-15T10:24:24+01:00</lastmod>
-  </url><url>
-    <loc>/author/jack-waudby/</loc>
     <lastmod>2022-09-15T10:24:24+01:00</lastmod>
   </url><url>
     <loc>/tag/latency/</loc>

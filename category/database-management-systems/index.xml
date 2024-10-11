@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database Management Systems | World Wide Webber</title>
+    <link>/category/database-management-systems/</link>
+      <atom:link href="/category/database-management-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Database Management Systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Fri, 14 Jun 2024 01:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu15447518814003910368.png</url>
+      <title>Database Management Systems</title>
+      <link>/category/database-management-systems/</link>
+    </image>
+    
+    <item>
+      <title>Evaluating No-Wait Approach for resolving conflicts in database</title>
+      <link>/publication/2024-epew/</link>
+      <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-epew/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

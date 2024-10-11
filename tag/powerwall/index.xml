@@ -7,7 +7,7 @@
     <description>Powerwall</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Sun, 07 Jul 2024 18:31:10 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu8d95d3ff713524d6d0121b98b85c750c_16505_512x512_fill_lanczos_center_3.png</url>
+      <url>/images/icon_hu15447518814003910368.png</url>
       <title>Powerwall</title>
       <link>/tag/powerwall/</link>
     </image>
@@ -52,12 +52,7 @@
 
 
 
-  
 
-
-
-  
-  
 
 
 
@@ -72,10 +67,10 @@
 &lt;figure id=&#34;figure-2x-tesla-powerwall-2-units-and-the-gateway-fit-well-in-the-available-space-in-my-garage-leaving-just-enough-space-for-a-third-unit-on-the-left&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/powerwalls_hu60208606e1e98486abe94be5c9819129_767182_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;2x Tesla Powerwall 2 units and the gateway fit well in the available space in my garage, leaving just enough space for a third unit on the left.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;powerwalls.png&#34; data-caption=&#34;2x Tesla Powerwall 2 units and the gateway fit well in the available space in my garage, leaving just enough space for a third unit on the left.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/powerwalls_hu60208606e1e98486abe94be5c9819129_767182_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; height=&#34;600&#34;&gt;
+  &lt;img src=&#34;powerwalls.png&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
 &lt;/a&gt;
 
 
@@ -106,12 +101,7 @@
 
 
 
-  
 
-
-
-  
-  
 
 
 
@@ -126,10 +116,10 @@
 &lt;figure id=&#34;figure-myenergi-app-now-working-fine-with-plentiful-solar-running-the-house-charging-a-car-and-topping-up-the-batteries&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/myenergi-app_hu312a30d91041cdb8730e978e09fc6db1_269914_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;MyEnergi App now working fine, with plentiful solar running the house, charging a car, and topping up the batteries.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;myenergi-app.png&#34; data-caption=&#34;MyEnergi App now working fine, with plentiful solar running the house, charging a car, and topping up the batteries.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/myenergi-app_hu312a30d91041cdb8730e978e09fc6db1_269914_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1211&#34;&gt;
+  &lt;img src=&#34;myenergi-app.png&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;
 &lt;/a&gt;
 
 
@@ -152,12 +142,7 @@
 
 
 
-  
 
-
-
-  
-  
 
 
 
@@ -172,10 +157,10 @@
 &lt;figure id=&#34;figure-powerwalls-are-depleted-after-my-own-mismanagement-and-a-succession-of-grey-summer-days&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/tesla-app_hucd82ca708a44f71f8f3e3085e4a442e2_86091_2000x2000_fit_q90_lanczos.jpeg&#34; data-caption=&#34;Powerwalls are depleted after my own mismanagement and a succession of grey summer days.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;tesla-app.jpeg&#34; data-caption=&#34;Powerwalls are depleted after my own mismanagement and a succession of grey summer days.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/tesla-app_hucd82ca708a44f71f8f3e3085e4a442e2_86091_2000x2000_fit_q90_lanczos.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1306&#34;&gt;
+  &lt;img src=&#34;tesla-app.jpeg&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;
 &lt;/a&gt;
 
 
@@ -204,12 +189,7 @@
 
 
 
-  
 
-
-
-  
-  
 
 
 
@@ -224,10 +204,10 @@
 &lt;figure id=&#34;figure-configuring-the-octopus-app-to-be-less-smart&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/octopus-app_hu5cb085924f9972840a2d970c3f438261_586690_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;Configuring the Octopus app to be less smart.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;octopus-app.png&#34; data-caption=&#34;Configuring the Octopus app to be less smart.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/octopus-app_hu5cb085924f9972840a2d970c3f438261_586690_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1280&#34;&gt;
+  &lt;img src=&#34;octopus-app.png&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;
 &lt;/a&gt;
 
 
