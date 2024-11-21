@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | World Wide Webber</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Tue, 15 Sep 2020 10:24:24 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu15447518814003910368.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</title>
+      <link>/publication/2020-qmsm/</link>
+      <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
+      <guid>/publication/2020-qmsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Architect’s Guide to Developing Enterprise Web Services</title>
+      <link>/publication/2006-csi/</link>
+      <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-csi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asynchronous messaging between Web services using SSDL</title>
+      <link>/publication/2006-ieee-internet-computing/</link>
+      <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-ieee-internet-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Service Grids: An Evolutionary Approach</title>
+      <link>/publication/2005-journal-concurrency-computation-ws-gaf/</link>
+      <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
+      <guid>/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WS‐GAF: a framework for building Grid applications using Web Services</title>
+      <link>/publication/2005-journal-concurrency-computation-ws-i-plus/</link>
+      <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
+      <guid>/publication/2005-journal-concurrency-computation-ws-i-plus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coordinating Business Transactions on the Web</title>
+      <link>/publication/2003-ieee-computing/</link>
+      <pubDate>Sat, 01 Feb 2003 10:24:24 +0100</pubDate>
+      <guid>/publication/2003-ieee-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual, Object-Oriented Development of Parallel Applications</title>
+      <link>/publication/2001-visual-langs/</link>
+      <pubDate>Mon, 30 Apr 2001 10:24:24 +0100</pubDate>
+      <guid>/publication/2001-visual-langs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

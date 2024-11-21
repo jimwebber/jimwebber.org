@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ying Zhang | World Wide Webber</title>
+    <link>/author/ying-zhang/</link>
+      <atom:link href="/author/ying-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ying Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Mon, 05 Jun 2017 09:00:00 +0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu15447518814003910368.png</url>
+      <title>Ying Zhang</title>
+      <link>/author/ying-zhang/</link>
+    </image>
+    
+    <item>
+      <title>ACTiCLOUD: Enabling the Next Generation of Cloud Applications</title>
+      <link>/publication/2017-icdcs/</link>
+      <pubDate>Mon, 05 Jun 2017 09:00:00 +0500</pubDate>
+      <guid>/publication/2017-icdcs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

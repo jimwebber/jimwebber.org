@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonathan Sumrall | World Wide Webber</title>
+    <link>/author/jonathan-sumrall/</link>
+      <atom:link href="/author/jonathan-sumrall/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jonathan Sumrall</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Tue, 23 Aug 2016 10:24:24 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu15447518814003910368.png</url>
+      <title>Jonathan Sumrall</title>
+      <link>/author/jonathan-sumrall/</link>
+    </image>
+    
+    <item>
+      <title>Investigations on path indexing for graph databases</title>
+      <link>/publication/2016-pelga/</link>
+      <pubDate>Tue, 23 Aug 2016 10:24:24 +0100</pubDate>
+      <guid>/publication/2016-pelga/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

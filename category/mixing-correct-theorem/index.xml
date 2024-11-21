@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mixing-Correct Theorem | World Wide Webber</title>
+    <link>/category/mixing-correct-theorem/</link>
+      <atom:link href="/category/mixing-correct-theorem/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mixing-Correct Theorem</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Mon, 05 Sep 2022 10:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu15447518814003910368.png</url>
+      <title>Mixing-Correct Theorem</title>
+      <link>/category/mixing-correct-theorem/</link>
+    </image>
+    
+    <item>
+      <title>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</title>
+      <link>/publication/2022-tpctc/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      <guid>/publication/2022-tpctc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

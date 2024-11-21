@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmark Testing | World Wide Webber</title>
+    <link>/category/benchmark-testing/</link>
+      <atom:link href="/category/benchmark-testing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Benchmark Testing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Mon, 13 May 2024 01:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu15447518814003910368.png</url>
+      <title>Benchmark Testing</title>
+      <link>/category/benchmark-testing/</link>
+    </image>
+    
+    <item>
+      <title>An Empirical Evaluation of Variable-length Record B&#43;Trees on a Modern Graph Database System</title>
+      <link>/publication/2024-seagraph/</link>
+      <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-seagraph/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

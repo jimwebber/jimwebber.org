@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance Evaluation | World Wide Webber</title>
+    <link>/category/performance-evaluation/</link>
+      <atom:link href="/category/performance-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Performance Evaluation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2024 Jim Webber</copyright><lastBuildDate>Tue, 20 Jun 2023 01:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu15447518814003910368.png</url>
+      <title>Performance Evaluation</title>
+      <link>/category/performance-evaluation/</link>
+    </image>
+    
+    <item>
+      <title>Evaluating the Performance of No-Wait Approach to Resolving Write Conflicts in Databases</title>
+      <link>/publication/2023-epew/</link>
+      <pubDate>Tue, 20 Jun 2023 01:00:00 +0100</pubDate>
+      <guid>/publication/2023-epew/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
