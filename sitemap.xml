@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2025-vldb/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tag/ev/</loc>
     <lastmod>2024-09-01T20:42:01+01:00</lastmod>
   </url><url>
@@ -23,14 +38,8 @@
     <loc>/post/2024-07-powerwall/</loc>
     <lastmod>2024-09-01T20:42:01+01:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-09-01T20:42:01+01:00</lastmod>
-  </url><url>
     <loc>/tag/zappi/</loc>
     <lastmod>2024-09-01T20:42:01+01:00</lastmod>
-  </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
     <lastmod>2024-06-14T01:00:00+01:00</lastmod>
@@ -54,9 +63,6 @@
     <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/author/paul-ezhilchelvan/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
     <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication/</loc>
@@ -136,6 +142,9 @@
   </url><url>
     <loc>/category/temporal-graphs/</loc>
     <lastmod>2024-03-25T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2024-seagraph/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/2023-qest/</loc>
     <lastmod>2023-08-07T01:00:00+01:00</lastmod>
@@ -299,6 +308,15 @@
     <loc>/publication/2019-epew/</loc>
     <lastmod>2019-11-28T10:24:24+01:00</lastmod>
   </url><url>
+    <loc>/reviewing/2019-cacm/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2018-graphsm/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2018-ieee-software/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tag/distributed-transactions/</loc>
     <lastmod>2017-06-06T15:00:00+01:00</lastmod>
   </url><url>
@@ -398,6 +416,9 @@
     <loc>/author/magnus-vejlstrup/</loc>
     <lastmod>2016-08-23T10:24:24+01:00</lastmod>
   </url><url>
+    <loc>/reviewing/2016-social-networks/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/author/and-emil-eifrem/</loc>
     <lastmod>2015-06-09T10:30:46+01:00</lastmod>
   </url><url>
@@ -419,6 +440,15 @@
     <loc>/publication/2011-osj-graphdb-doctor-who/</loc>
     <lastmod>2012-06-01T10:24:24+01:00</lastmod>
   </url><url>
+    <loc>/reviewing/2011-ecows/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2008-icsoc/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2011-wsrest/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication/rest-in-practice/</loc>
     <lastmod>2010-09-27T10:33:08+01:00</lastmod>
   </url><url>
@@ -430,6 +460,27 @@
   </url><url>
     <loc>/publication/2010-ws-rest/</loc>
     <lastmod>2010-04-26T10:24:24+01:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2010-mashups/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2010-ecows/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2010-wsrest/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2010-wesoa/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2008-ecows/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2008-wesoa/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2008-dpdb/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/10/</loc>
     <lastmod>2007-11-10T10:24:24+01:00</lastmod>
@@ -454,6 +505,9 @@
   </url><url>
     <loc>/publication/2007-acm-cbse/</loc>
     <lastmod>2007-07-09T10:24:24+01:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2007-www/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/aad-van-moorsel/</loc>
     <lastmod>2006-09-18T10:24:24+01:00</lastmod>
@@ -487,6 +541,30 @@
   </url><url>
     <loc>/publication/2006-ieee-internet-computing/</loc>
     <lastmod>2006-02-01T10:24:24+01:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2006-ecows/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2006-www/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2006-aswec/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2006-ijbpim/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2006-mws/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2008-mws/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2006-macquarie/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2006-wesoa/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/2005-wdsoa/</loc>
     <lastmod>2005-12-12T10:24:24+01:00</lastmod>
@@ -539,6 +617,15 @@
     <loc>/publication/2005-journal-concurrency-computation-ws-i-plus/</loc>
     <lastmod>2005-02-07T10:24:24+01:00</lastmod>
   </url><url>
+    <loc>/reviewing/2005-ecows/</loc>
+    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2005-wdsoa/</loc>
+    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2005-www/</loc>
+    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication/2004-ieee-scc/</loc>
     <lastmod>2004-09-15T10:24:24+01:00</lastmod>
   </url><url>
@@ -559,6 +646,9 @@
   </url><url>
     <loc>/publication/2004-wsj-horses-for-courses/</loc>
     <lastmod>2004-01-01T10:24:24+09:00</lastmod>
+  </url><url>
+    <loc>/reviewing/2004-ijwsr/</loc>
+    <lastmod>2004-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/2003-wsj-ws-caf/</loc>
     <lastmod>2003-12-01T10:24:24+00:00</lastmod>

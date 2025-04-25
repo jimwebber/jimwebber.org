@@ -5,12 +5,20 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Fri, 14 Jun 2024 01:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>VLDB</title>
+      <link>/reviewing/2025-vldb/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2025-vldb/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</title>
@@ -93,6 +101,14 @@
     </item>
     
     <item>
+      <title>IEEE Software</title>
+      <link>/reviewing/2018-ieee-software/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2018-ieee-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ACTiCLOUD: Enabling the Next Generation of Cloud Applications</title>
       <link>/publication/2017-icdcs/</link>
       <pubDate>Mon, 05 Jun 2017 09:00:00 +0500</pubDate>
@@ -105,6 +121,14 @@
       <link>/publication/2016-pelga/</link>
       <pubDate>Tue, 23 Aug 2016 10:24:24 +0100</pubDate>
       <guid>/publication/2016-pelga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Networks</title>
+      <link>/reviewing/2016-social-networks/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2016-social-networks/</guid>
       <description></description>
     </item>
     
@@ -153,6 +177,14 @@
       <link>/publication/2006-ieee-icws/</link>
       <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
       <guid>/publication/2006-ieee-icws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE Australian Software Engineering Conference (ASWEC)</title>
+      <link>/reviewing/2006-aswec/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2006-aswec/</guid>
       <description></description>
     </item>
     
