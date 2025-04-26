@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dr. Jim Webber | World Wide Webber</title>
-    <link>/author/dr.-jim-webber/</link>
-      <atom:link href="/author/dr.-jim-webber/index.xml" rel="self" type="application/rss+xml" />
-    <description>Dr. Jim Webber</description>
+    <title>Jim Webber | World Wide Webber</title>
+    <link>/author/jim-webber/</link>
+      <atom:link href="/author/jim-webber/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jim Webber</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Fri, 14 Jun 2024 01:00:00 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu_11b53cb81fbe4544.png</url>
-      <title>Dr. Jim Webber</title>
-      <link>/author/dr.-jim-webber/</link>
+      <title>Jim Webber</title>
+      <link>/author/jim-webber/</link>
     </image>
     
     <item>
-      <title>Dr. Jim Webber</title>
-      <link>/author/dr.-jim-webber/</link>
+      <title>Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</title>
+      <link>/publication/2024-epew/</link>
       <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
-      <guid>/author/dr.-jim-webber/</guid>
+      <guid>/publication/2024-epew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jim Webber</title>
+      <link>/author/jim-webber/</link>
+      <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
+      <guid>/author/jim-webber/</guid>
       <description>&lt;p&gt;I am Neo4j’s Chief Scientist and Visiting Professor at Newcastle University, UK. At Neo4j I lead the research group, working on a variety of database topics including query languages and runtimes, temporality, streaming, scale, and fault-tolerance. I have also also co-authored several books on graph technology including 
 &lt;a href=&#34;https://jimwebber.org/publication/graph-databases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Databases -  1st and 2nd Editions&lt;/a&gt; (O&amp;rsquo;Reilly), 
 &lt;a href=&#34;https://jimwebber.org/publication/graph-databases-for-dummies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Databases for Dummies&lt;/a&gt; (Wiley), and 
@@ -28,14 +36,6 @@
 &lt;a href=&#34;https://jimwebber.org/publication/rest-in-practice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REST in Practice&lt;/a&gt; (O&amp;rsquo;Reilly) and 
 &lt;a href=&#34;https://jimwebber.org/publication/developing-enterprise-web-services/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Developing Enterprise Web Services - An Architect’s Guide&lt;/a&gt; (Prentice-Hall).&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</title>
-      <link>/publication/2024-epew/</link>
-      <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-epew/</guid>
-      <description></description>
     </item>
     
     <item>
