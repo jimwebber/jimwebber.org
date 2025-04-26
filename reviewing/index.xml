@@ -141,6 +141,14 @@
     </item>
     
     <item>
+      <title>Middleware for Web Services (part of IEEE EDOC 2008)</title>
+      <link>/reviewing/2008-mws/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2008-mws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sixteenth International World Wide Web Conference</title>
       <link>/reviewing/2007-www/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
@@ -149,7 +157,7 @@
     </item>
     
     <item>
-      <title>4th European Conference on Web Services</title>
+      <title>4th IEEE European Conference on Web Services</title>
       <link>/reviewing/2006-ecows/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       <guid>/reviewing/2006-ecows/</guid>
@@ -185,14 +193,6 @@
       <link>/reviewing/2006-mws/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       <guid>/reviewing/2006-mws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Middleware for Web Services</title>
-      <link>/reviewing/2008-mws/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2008-mws/</guid>
       <description></description>
     </item>
     
