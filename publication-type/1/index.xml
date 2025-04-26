@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | World Wide Webber</title>
+    <link>/publication-type/1/</link>
+      <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <title>1</title>
+      <link>/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>VLDB</title>
+      <link>/reviewing/2025-vldb/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2025-vldb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</title>
+      <link>/publication/2024-epew/</link>
+      <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-epew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Empirical Evaluation of Variable-length Record B&#43;Trees on a Modern Graph Database System</title>
+      <link>/publication/2024-seagraph/</link>
+      <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-seagraph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BIFROST: A Future Graph Database Runtime</title>
+      <link>/publication/2024-icde/</link>
+      <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-icde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aion: Efficient Temporal Graph Data Management</title>
+      <link>/publication/2024-edbt/</link>
+      <pubDate>Mon, 25 Mar 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-edbt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of an epoch commit protocol for distributed processing systems</title>
+      <link>/publication/2023-qest/</link>
+      <pubDate>Mon, 07 Aug 2023 01:00:00 +0100</pubDate>
+      <guid>/publication/2023-qest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the Performance of No-Wait Approach to Resolving Write Conflicts in Databases</title>
+      <link>/publication/2023-epew/</link>
+      <pubDate>Tue, 20 Jun 2023 01:00:00 +0100</pubDate>
+      <guid>/publication/2023-epew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
+      <link>/publication/2022-srds/</link>
+      <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
+      <guid>/publication/2022-srds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</title>
+      <link>/publication/2022-tpctc/</link>
+      <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
+      <guid>/publication/2022-tpctc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preserving reciprocal consistency in distributed graph databases</title>
+      <link>/publication/2020-papoc/</link>
+      <pubDate>Mon, 27 Apr 2020 10:24:24 +0100</pubDate>
+      <guid>/publication/2020-papoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Evalution of an Edge-based Concurrency Protocol for Distributed Graph Databases</title>
+      <link>/publication/2019-epew/</link>
+      <pubDate>Thu, 28 Nov 2019 10:24:24 +0100</pubDate>
+      <guid>/publication/2019-epew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE Software</title>
+      <link>/reviewing/2018-ieee-software/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2018-ieee-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACTiCLOUD: Enabling the Next Generation of Cloud Applications</title>
+      <link>/publication/2017-icdcs/</link>
+      <pubDate>Mon, 05 Jun 2017 09:00:00 +0500</pubDate>
+      <guid>/publication/2017-icdcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigations on path indexing for graph databases</title>
+      <link>/publication/2016-pelga/</link>
+      <pubDate>Tue, 23 Aug 2016 10:24:24 +0100</pubDate>
+      <guid>/publication/2016-pelga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Networks</title>
+      <link>/reviewing/2016-social-networks/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2016-social-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A programmatic introduction to Neo4j</title>
+      <link>/publication/2012-splash/</link>
+      <pubDate>Fri, 19 Oct 2012 09:00:00 +0700</pubDate>
+      <guid>/publication/2012-splash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Horizontally Scalable Graph Database</title>
+      <link>/publication/2012-euro-data-forum/</link>
+      <pubDate>Wed, 06 Jun 2012 10:24:24 +0100</pubDate>
+      <guid>/publication/2012-euro-data-forum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Hypermedia in Distributed System Development</title>
+      <link>/publication/2010-ws-rest/</link>
+      <pubDate>Mon, 26 Apr 2010 10:24:24 +0100</pubDate>
+      <guid>/publication/2010-ws-rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
+      <link>/publication/2007-acm-cbse/</link>
+      <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
+      <guid>/publication/2007-acm-cbse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressing and Reasoning about Service Contracts in Service-Oriented Computing</title>
+      <link>/publication/2006-ieee-scc/</link>
+      <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-ieee-scc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</title>
+      <link>/publication/2006-ieee-icws/</link>
+      <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
+      <guid>/publication/2006-ieee-icws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE Australian Software Engineering Conference (ASWEC)</title>
+      <link>/reviewing/2006-aswec/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/reviewing/2006-aswec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First International Workshop on Design of Service-Oriented Applications (WDSOA&#39;05)</title>
+      <link>/publication/2005-wdsoa/</link>
+      <pubDate>Mon, 12 Dec 2005 10:24:24 +0100</pubDate>
+      <guid>/publication/2005-wdsoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications</title>
+      <link>/publication/2004-ieee-scc/</link>
+      <pubDate>Wed, 15 Sep 2004 10:24:24 +0100</pubDate>
+      <guid>/publication/2004-ieee-scc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grid Computing using Web Services Technologies</title>
+      <link>/publication/2004-delos/</link>
+      <pubDate>Thu, 24 Jun 2004 10:24:24 +0100</pubDate>
+      <guid>/publication/2004-delos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The WS-GAF Registry Service</title>
+      <link>/publication/2004-ggf/</link>
+      <pubDate>Sat, 05 Jun 2004 10:24:24 +0100</pubDate>
+      <guid>/publication/2004-ggf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Misplaced Comma: Programmers’ Tales and Traditions</title>
+      <link>/publication/2002-ppig/</link>
+      <pubDate>Tue, 18 Jun 2002 10:24:24 +0100</pubDate>
+      <guid>/publication/2002-ppig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual, Object-Oriented Development of Parallel Applications</title>
+      <link>/publication/2000-ieee-visual-languages/</link>
+      <pubDate>Sun, 10 Sep 2000 10:24:24 +0100</pubDate>
+      <guid>/publication/2000-ieee-visual-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gotos Considered Harmful and Other Programmers&#39; Taboos</title>
+      <link>/publication/2000-ppig/</link>
+      <pubDate>Mon, 10 Apr 2000 10:24:24 +0100</pubDate>
+      <guid>/publication/2000-ppig/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

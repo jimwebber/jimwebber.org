@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graph Database | World Wide Webber</title>
+    <link>/category/graph-database/</link>
+      <atom:link href="/category/graph-database/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graph Database</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 13 May 2024 01:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <title>Graph Database</title>
+      <link>/category/graph-database/</link>
+    </image>
+    
+    <item>
+      <title>BIFROST: A Future Graph Database Runtime</title>
+      <link>/publication/2024-icde/</link>
+      <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
+      <guid>/publication/2024-icde/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

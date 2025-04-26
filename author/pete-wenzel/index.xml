@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pete Wenzel | World Wide Webber</title>
+    <link>/author/pete-wenzel/</link>
+      <atom:link href="/author/pete-wenzel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pete Wenzel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Tue, 07 Oct 2003 10:24:24 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <title>Pete Wenzel</title>
+      <link>/author/pete-wenzel/</link>
+    </image>
+    
+    <item>
+      <title>OASIS Web Services Composite Application Framework (WS-CAF)</title>
+      <link>/publication/2007-11-ws-caf/</link>
+      <pubDate>Tue, 07 Oct 2003 10:24:24 +0100</pubDate>
+      <guid>/publication/2007-11-ws-caf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

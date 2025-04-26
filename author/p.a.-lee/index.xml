@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P.A. Lee | World Wide Webber</title>
+    <link>/author/p.a.-lee/</link>
+      <atom:link href="/author/p.a.-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>P.A. Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 30 Apr 2001 10:24:24 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <title>P.A. Lee</title>
+      <link>/author/p.a.-lee/</link>
+    </image>
+    
+    <item>
+      <title>Visual, Object-Oriented Development of Parallel Applications</title>
+      <link>/publication/2001-visual-langs/</link>
+      <pubDate>Mon, 30 Apr 2001 10:24:24 +0100</pubDate>
+      <guid>/publication/2001-visual-langs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual, Object-Oriented Development of Parallel Applications</title>
+      <link>/publication/2000-ieee-visual-languages/</link>
+      <pubDate>Sun, 10 Sep 2000 10:24:24 +0100</pubDate>
+      <guid>/publication/2000-ieee-visual-languages/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

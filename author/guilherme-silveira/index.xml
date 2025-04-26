@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guilherme Silveira | World Wide Webber</title>
+    <link>/author/guilherme-silveira/</link>
+      <atom:link href="/author/guilherme-silveira/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guilherme Silveira</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 26 Apr 2010 10:24:24 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <title>Guilherme Silveira</title>
+      <link>/author/guilherme-silveira/</link>
+    </image>
+    
+    <item>
+      <title>The Role of Hypermedia in Distributed System Development</title>
+      <link>/publication/2010-ws-rest/</link>
+      <pubDate>Mon, 26 Apr 2010 10:24:24 +0100</pubDate>
+      <guid>/publication/2010-ws-rest/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
