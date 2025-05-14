@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/talk/</loc>
+    <lastmod>2025-12-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2025-12-yow-australia/</loc>
+    <lastmod>2025-12-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-12-04T13:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication-type/1/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +21,6 @@
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/reviewing/2025-vldb/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/ev/</loc>
@@ -123,9 +129,6 @@
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/talk/2024-04-gids-lies-and-ais/</loc>
-    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/talk/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2024-04-gids-consensus/</loc>

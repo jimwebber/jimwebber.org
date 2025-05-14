@@ -5,12 +5,20 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Thu, 04 Dec 2025 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>The Pub-Time Parliament</title>
+      <link>/talk/2025-12-yow-australia/</link>
+      <pubDate>Thu, 04 Dec 2025 13:00:00 +0000</pubDate>
+      <guid>/talk/2025-12-yow-australia/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Lies, Damn Lies, and AIs</title>
