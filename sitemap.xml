@@ -11,13 +11,49 @@
     <loc>/</loc>
     <lastmod>2025-12-04T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <loc>/publication/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/reviewing/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/distributed-systems/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/jim-webber/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/ordering/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/paul-ezhilchelvan/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/replication/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/category/ring-networks/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/publication/2025-ideas/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/ye-liu/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/author/yingming-wang/</loc>
+    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+  </url><url>
+    <loc>/reviewing/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/reviewing/2025-vldb/</loc>
@@ -47,12 +83,6 @@
     <loc>/tag/zappi/</loc>
     <lastmod>2024-09-01T20:42:01+01:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/category/concurrency-control/</loc>
     <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
@@ -65,19 +95,7 @@
     <loc>/author/jack-waudby/</loc>
     <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>/author/jim-webber/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/paul-ezhilchelvan/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>/category/transactions/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/author/yingming-wang/</loc>
     <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
     <loc>/publication/2024-seagraph/</loc>

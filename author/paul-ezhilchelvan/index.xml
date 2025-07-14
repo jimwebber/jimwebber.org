@@ -5,12 +5,20 @@
     <link>/author/paul-ezhilchelvan/</link>
       <atom:link href="/author/paul-ezhilchelvan/index.xml" rel="self" type="application/rss+xml" />
     <description>Paul Ezhilchelvan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Fri, 14 Jun 2024 01:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 14 Jul 2025 15:45:00 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Paul Ezhilchelvan</title>
       <link>/author/paul-ezhilchelvan/</link>
     </image>
+    
+    <item>
+      <title>Throughput-Driven Database Replication Using a Ring-Based Order Protocol</title>
+      <link>/publication/2025-ideas/</link>
+      <pubDate>Mon, 14 Jul 2025 15:45:00 +0100</pubDate>
+      <guid>/publication/2025-ideas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</title>
