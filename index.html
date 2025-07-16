@@ -2858,6 +2858,8 @@
 
 
 
+  
+
 
 <div class="card-simple">
 
@@ -2924,6 +2926,12 @@
     <a href="/publication/2025-ideas/">Throughput-Driven Database Replication Using a Ring-Based Order Protocol</a>
   </h3>
 
+  
+  <a href="/publication/2025-ideas/" class="summary-link">
+    <div class="article-style">
+      <p>We present a database replication architecture that guarantees ACID transaction properties as well as high throughput expected of modern database systems. Higher throughput results due to server replicas processing distinct, non-overlapping subsets of incoming transactions in parallel. Our novel approach addresses all challenges that emerge in ensuring ACID properties across all incoming transactions processed in parallel even when access pattern of transactions is not known a priori. At the core of our approach is a high-throughput, ring-based total order protocol which the database replicas use to reach consensus for resolving conflicts among transactions, ensuring serializability and accomplishing atomic commit. After presenting the architecture, protocol performance is evaluated through implementations when replication degree is two and three, tolerating at most one replica crash. While 2-fold replication requires perfect crash detection, three-fold can do with weak detectors.</p>
+    </div>
+  </a>
   
 
   
