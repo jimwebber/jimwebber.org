@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>George Feuerlicht | World Wide Webber</title>
-    <link>/author/george-feuerlicht/</link>
-      <atom:link href="/author/george-feuerlicht/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/george-feuerlicht/</link>
+      <atom:link href="https://jimwebber.org/author/george-feuerlicht/index.xml" rel="self" type="application/rss+xml" />
     <description>George Feuerlicht</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 12 Dec 2005 10:24:24 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>George Feuerlicht</title>
-      <link>/author/george-feuerlicht/</link>
+      <link>https://jimwebber.org/author/george-feuerlicht/</link>
     </image>
     
     <item>
       <title>First International Workshop on Design of Service-Oriented Applications (WDSOA&#39;05)</title>
-      <link>/publication/2005-wdsoa/</link>
+      <link>https://jimwebber.org/publication/2005-wdsoa/</link>
       <pubDate>Mon, 12 Dec 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-wdsoa/</guid>
+      <guid>https://jimwebber.org/publication/2005-wdsoa/</guid>
       <description></description>
     </item>
     

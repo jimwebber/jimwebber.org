@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Performance Evaluation | World Wide Webber</title>
-    <link>/tag/performance-evaluation/</link>
-      <atom:link href="/tag/performance-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/tag/performance-evaluation/</link>
+      <atom:link href="https://jimwebber.org/tag/performance-evaluation/index.xml" rel="self" type="application/rss+xml" />
     <description>Performance Evaluation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Thu, 15 Sep 2022 10:24:24 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Performance Evaluation</title>
-      <link>/tag/performance-evaluation/</link>
+      <link>https://jimwebber.org/tag/performance-evaluation/</link>
     </image>
     
     <item>
       <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
-      <link>/publication/2022-srds/</link>
+      <link>https://jimwebber.org/publication/2022-srds/</link>
       <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
-      <guid>/publication/2022-srds/</guid>
+      <guid>https://jimwebber.org/publication/2022-srds/</guid>
       <description></description>
     </item>
     

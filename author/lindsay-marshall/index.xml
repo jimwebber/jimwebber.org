@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lindsay Marshall | World Wide Webber</title>
-    <link>/author/lindsay-marshall/</link>
-      <atom:link href="/author/lindsay-marshall/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/lindsay-marshall/</link>
+      <atom:link href="https://jimwebber.org/author/lindsay-marshall/index.xml" rel="self" type="application/rss+xml" />
     <description>Lindsay Marshall</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Tue, 18 Jun 2002 10:24:24 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Lindsay Marshall</title>
-      <link>/author/lindsay-marshall/</link>
+      <link>https://jimwebber.org/author/lindsay-marshall/</link>
     </image>
     
     <item>
       <title>The Misplaced Comma: Programmers’ Tales and Traditions</title>
-      <link>/publication/2002-ppig/</link>
+      <link>https://jimwebber.org/publication/2002-ppig/</link>
       <pubDate>Tue, 18 Jun 2002 10:24:24 +0100</pubDate>
-      <guid>/publication/2002-ppig/</guid>
+      <guid>https://jimwebber.org/publication/2002-ppig/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gotos Considered Harmful and Other Programmers&#39; Taboos</title>
-      <link>/publication/2000-ppig/</link>
+      <link>https://jimwebber.org/publication/2000-ppig/</link>
       <pubDate>Mon, 10 Apr 2000 10:24:24 +0100</pubDate>
-      <guid>/publication/2000-ppig/</guid>
+      <guid>https://jimwebber.org/publication/2000-ppig/</guid>
       <description></description>
     </item>
     

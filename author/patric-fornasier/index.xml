@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patric Fornasier | World Wide Webber</title>
-    <link>/author/patric-fornasier/</link>
-      <atom:link href="/author/patric-fornasier/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/patric-fornasier/</link>
+      <atom:link href="https://jimwebber.org/author/patric-fornasier/index.xml" rel="self" type="application/rss+xml" />
     <description>Patric Fornasier</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 09 Jul 2007 10:24:24 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Patric Fornasier</title>
-      <link>/author/patric-fornasier/</link>
+      <link>https://jimwebber.org/author/patric-fornasier/</link>
     </image>
     
     <item>
       <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
-      <link>/publication/2007-acm-cbse/</link>
+      <link>https://jimwebber.org/publication/2007-acm-cbse/</link>
       <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-acm-cbse/</guid>
+      <guid>https://jimwebber.org/publication/2007-acm-cbse/</guid>
       <description></description>
     </item>
     

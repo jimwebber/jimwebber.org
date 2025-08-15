@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Implementation | World Wide Webber</title>
-    <link>/category/implementation/</link>
-      <atom:link href="/category/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/category/implementation/</link>
+      <atom:link href="https://jimwebber.org/category/implementation/index.xml" rel="self" type="application/rss+xml" />
     <description>Implementation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Tue, 20 Jun 2023 01:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Implementation</title>
-      <link>/category/implementation/</link>
+      <link>https://jimwebber.org/category/implementation/</link>
     </image>
     
     <item>
       <title>Evaluating the Performance of No-Wait Approach to Resolving Write Conflicts in Databases</title>
-      <link>/publication/2023-epew/</link>
+      <link>https://jimwebber.org/publication/2023-epew/</link>
       <pubDate>Tue, 20 Jun 2023 01:00:00 +0100</pubDate>
-      <guid>/publication/2023-epew/</guid>
+      <guid>https://jimwebber.org/publication/2023-epew/</guid>
       <description></description>
     </item>
     

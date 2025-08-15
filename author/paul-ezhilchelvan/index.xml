@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Ezhilchelvan | World Wide Webber</title>
-    <link>/author/paul-ezhilchelvan/</link>
-      <atom:link href="/author/paul-ezhilchelvan/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/paul-ezhilchelvan/</link>
+      <atom:link href="https://jimwebber.org/author/paul-ezhilchelvan/index.xml" rel="self" type="application/rss+xml" />
     <description>Paul Ezhilchelvan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 14 Jul 2025 15:45:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Paul Ezhilchelvan</title>
-      <link>/author/paul-ezhilchelvan/</link>
+      <link>https://jimwebber.org/author/paul-ezhilchelvan/</link>
     </image>
     
     <item>
       <title>Throughput-Driven Database Replication Using a Ring-Based Order Protocol</title>
-      <link>/publication/2025-ideas/</link>
+      <link>https://jimwebber.org/publication/2025-ideas/</link>
       <pubDate>Mon, 14 Jul 2025 15:45:00 +0100</pubDate>
-      <guid>/publication/2025-ideas/</guid>
+      <guid>https://jimwebber.org/publication/2025-ideas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</title>
-      <link>/publication/2024-epew/</link>
+      <link>https://jimwebber.org/publication/2024-epew/</link>
       <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-epew/</guid>
+      <guid>https://jimwebber.org/publication/2024-epew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analysis of an epoch commit protocol for distributed processing systems</title>
-      <link>/publication/2023-qest/</link>
+      <link>https://jimwebber.org/publication/2023-qest/</link>
       <pubDate>Mon, 07 Aug 2023 01:00:00 +0100</pubDate>
-      <guid>/publication/2023-qest/</guid>
+      <guid>https://jimwebber.org/publication/2023-qest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluating the Performance of No-Wait Approach to Resolving Write Conflicts in Databases</title>
-      <link>/publication/2023-epew/</link>
+      <link>https://jimwebber.org/publication/2023-epew/</link>
       <pubDate>Tue, 20 Jun 2023 01:00:00 +0100</pubDate>
-      <guid>/publication/2023-epew/</guid>
+      <guid>https://jimwebber.org/publication/2023-epew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
-      <link>/publication/2022-srds/</link>
+      <link>https://jimwebber.org/publication/2022-srds/</link>
       <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
-      <guid>/publication/2022-srds/</guid>
+      <guid>https://jimwebber.org/publication/2022-srds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</title>
-      <link>/publication/2022-tpctc/</link>
+      <link>https://jimwebber.org/publication/2022-tpctc/</link>
       <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
-      <guid>/publication/2022-tpctc/</guid>
+      <guid>https://jimwebber.org/publication/2022-tpctc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</title>
-      <link>/publication/2020-qmsm/</link>
+      <link>https://jimwebber.org/publication/2020-qmsm/</link>
       <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
-      <guid>/publication/2020-qmsm/</guid>
+      <guid>https://jimwebber.org/publication/2020-qmsm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preserving reciprocal consistency in distributed graph databases</title>
-      <link>/publication/2020-papoc/</link>
+      <link>https://jimwebber.org/publication/2020-papoc/</link>
       <pubDate>Mon, 27 Apr 2020 10:24:24 +0100</pubDate>
-      <guid>/publication/2020-papoc/</guid>
+      <guid>https://jimwebber.org/publication/2020-papoc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design and Evalution of an Edge-based Concurrency Protocol for Distributed Graph Databases</title>
-      <link>/publication/2019-epew/</link>
+      <link>https://jimwebber.org/publication/2019-epew/</link>
       <pubDate>Thu, 28 Nov 2019 10:24:24 +0100</pubDate>
-      <guid>/publication/2019-epew/</guid>
+      <guid>https://jimwebber.org/publication/2019-epew/</guid>
       <description></description>
     </item>
     

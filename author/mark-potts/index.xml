@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mark Potts | World Wide Webber</title>
-    <link>/author/mark-potts/</link>
-      <atom:link href="/author/mark-potts/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/mark-potts/</link>
+      <atom:link href="https://jimwebber.org/author/mark-potts/index.xml" rel="self" type="application/rss+xml" />
     <description>Mark Potts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Sat, 01 Feb 2003 10:24:24 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Mark Potts</title>
-      <link>/author/mark-potts/</link>
+      <link>https://jimwebber.org/author/mark-potts/</link>
     </image>
     
     <item>
       <title>Coordinating Business Transactions on the Web</title>
-      <link>/publication/2003-ieee-computing/</link>
+      <link>https://jimwebber.org/publication/2003-ieee-computing/</link>
       <pubDate>Sat, 01 Feb 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-ieee-computing/</guid>
+      <guid>https://jimwebber.org/publication/2003-ieee-computing/</guid>
       <description></description>
     </item>
     

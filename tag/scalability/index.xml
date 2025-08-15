@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scalability | World Wide Webber</title>
-    <link>/tag/scalability/</link>
-      <atom:link href="/tag/scalability/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/tag/scalability/</link>
+      <atom:link href="https://jimwebber.org/tag/scalability/index.xml" rel="self" type="application/rss+xml" />
     <description>Scalability</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Tue, 03 Jan 2023 15:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Scalability</title>
-      <link>/tag/scalability/</link>
+      <link>https://jimwebber.org/tag/scalability/</link>
     </image>
     
     <item>
       <title>Database system with transactional commit protocol based on safe conjunction of majorities</title>
-      <link>/publication/2023-01-patent-11544251/</link>
+      <link>https://jimwebber.org/publication/2023-01-patent-11544251/</link>
       <pubDate>Tue, 03 Jan 2023 15:00:00 +0100</pubDate>
-      <guid>/publication/2023-01-patent-11544251/</guid>
+      <guid>https://jimwebber.org/publication/2023-01-patent-11544251/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph database system to safely store data at high volume and scale</title>
-      <link>/publication/2022-10-patent-11481385/</link>
+      <link>https://jimwebber.org/publication/2022-10-patent-11481385/</link>
       <pubDate>Wed, 05 Oct 2022 15:00:00 +0100</pubDate>
-      <guid>/publication/2022-10-patent-11481385/</guid>
+      <guid>https://jimwebber.org/publication/2022-10-patent-11481385/</guid>
       <description></description>
     </item>
     

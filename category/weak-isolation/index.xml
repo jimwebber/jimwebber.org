@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Weak Isolation | World Wide Webber</title>
-    <link>/category/weak-isolation/</link>
-      <atom:link href="/category/weak-isolation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/category/weak-isolation/</link>
+      <atom:link href="https://jimwebber.org/category/weak-isolation/index.xml" rel="self" type="application/rss+xml" />
     <description>Weak Isolation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 07 Aug 2023 01:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Weak Isolation</title>
-      <link>/category/weak-isolation/</link>
+      <link>https://jimwebber.org/category/weak-isolation/</link>
     </image>
     
     <item>
       <title>Analysis of an epoch commit protocol for distributed processing systems</title>
-      <link>/publication/2023-qest/</link>
+      <link>https://jimwebber.org/publication/2023-qest/</link>
       <pubDate>Mon, 07 Aug 2023 01:00:00 +0100</pubDate>
-      <guid>/publication/2023-qest/</guid>
+      <guid>https://jimwebber.org/publication/2023-qest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</title>
-      <link>/publication/2022-tpctc/</link>
+      <link>https://jimwebber.org/publication/2022-tpctc/</link>
       <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
-      <guid>/publication/2022-tpctc/</guid>
+      <guid>https://jimwebber.org/publication/2022-tpctc/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alistair Dunlop | World Wide Webber</title>
-    <link>/author/alistair-dunlop/</link>
-      <atom:link href="/author/alistair-dunlop/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/alistair-dunlop/</link>
+      <atom:link href="https://jimwebber.org/author/alistair-dunlop/index.xml" rel="self" type="application/rss+xml" />
     <description>Alistair Dunlop</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 07 Feb 2005 10:24:24 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Alistair Dunlop</title>
-      <link>/author/alistair-dunlop/</link>
+      <link>https://jimwebber.org/author/alistair-dunlop/</link>
     </image>
     
     <item>
       <title>Web Service Grids: An Evolutionary Approach</title>
-      <link>/publication/2005-journal-concurrency-computation-ws-gaf/</link>
+      <link>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-gaf/</link>
       <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
+      <guid>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
       <description></description>
     </item>
     

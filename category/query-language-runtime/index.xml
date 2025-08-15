@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Query Language Runtime | World Wide Webber</title>
-    <link>/category/query-language-runtime/</link>
-      <atom:link href="/category/query-language-runtime/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/category/query-language-runtime/</link>
+      <atom:link href="https://jimwebber.org/category/query-language-runtime/index.xml" rel="self" type="application/rss+xml" />
     <description>Query Language Runtime</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 13 May 2024 01:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Query Language Runtime</title>
-      <link>/category/query-language-runtime/</link>
+      <link>https://jimwebber.org/category/query-language-runtime/</link>
     </image>
     
     <item>
       <title>BIFROST: A Future Graph Database Runtime</title>
-      <link>/publication/2024-icde/</link>
+      <link>https://jimwebber.org/publication/2024-icde/</link>
       <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-icde/</guid>
+      <guid>https://jimwebber.org/publication/2024-icde/</guid>
       <description></description>
     </item>
     

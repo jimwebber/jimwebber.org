@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David DeRoure | World Wide Webber</title>
-    <link>/author/david-deroure/</link>
-      <atom:link href="/author/david-deroure/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/david-deroure/</link>
+      <atom:link href="https://jimwebber.org/author/david-deroure/index.xml" rel="self" type="application/rss+xml" />
     <description>David DeRoure</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 07 Feb 2005 10:24:24 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>David DeRoure</title>
-      <link>/author/david-deroure/</link>
+      <link>https://jimwebber.org/author/david-deroure/</link>
     </image>
     
     <item>
       <title>Web Service Grids: An Evolutionary Approach</title>
-      <link>/publication/2005-journal-concurrency-computation-ws-gaf/</link>
+      <link>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-gaf/</link>
       <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
+      <guid>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
       <description></description>
     </item>
     

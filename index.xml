@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>World Wide Webber</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/</link>
+      <atom:link href="https://jimwebber.org/index.xml" rel="self" type="application/rss+xml" />
     <description>World Wide Webber</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Thu, 04 Dec 2025 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>World Wide Webber</title>
-      <link>/</link>
+      <link>https://jimwebber.org/</link>
     </image>
     
     <item>
       <title>The Pub-Time Parliament</title>
-      <link>/talk/2025-12-yow-australia/</link>
+      <link>https://jimwebber.org/talk/2025-12-yow-australia/</link>
       <pubDate>Thu, 04 Dec 2025 13:00:00 +0000</pubDate>
-      <guid>/talk/2025-12-yow-australia/</guid>
+      <guid>https://jimwebber.org/talk/2025-12-yow-australia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Throughput-Driven Database Replication Using a Ring-Based Order Protocol</title>
-      <link>/publication/2025-ideas/</link>
+      <link>https://jimwebber.org/publication/2025-ideas/</link>
       <pubDate>Mon, 14 Jul 2025 15:45:00 +0100</pubDate>
-      <guid>/publication/2025-ideas/</guid>
+      <guid>https://jimwebber.org/publication/2025-ideas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VLDB</title>
-      <link>/reviewing/2025-vldb/</link>
+      <link>https://jimwebber.org/reviewing/2025-vldb/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2025-vldb/</guid>
+      <guid>https://jimwebber.org/reviewing/2025-vldb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Complete Domestic Electrification</title>
-      <link>/post/2024-07-powerwall/</link>
+      <link>https://jimwebber.org/post/2024-07-powerwall/</link>
       <pubDate>Sun, 07 Jul 2024 18:31:10 +0100</pubDate>
-      <guid>/post/2024-07-powerwall/</guid>
+      <guid>https://jimwebber.org/post/2024-07-powerwall/</guid>
       <description>&lt;p&gt;It has been a long time since 
 &lt;a href=&#34;https://jimwebber.org/post/2020-09-zappi-installation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;I wrote about my experiences in electric vehicles and home charging&lt;/a&gt;, and much has changed in my home since then with the addition of more EVs, chargers, solar panels (thermal and PV), and storage (heat and battery).&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ll deal with the renewable heat side of things in another post (since that is an ongoing work). In this post I&amp;rsquo;m going to talk about my experience of installing and using batteries, smart chargers, and time-of-use electricity tariffs. Specifically:&lt;/p&gt;
@@ -96,10 +96,10 @@
 &lt;figure id=&#34;figure-2x-tesla-powerwall-2-units-and-the-gateway-fit-well-in-the-available-space-in-my-garage-leaving-just-enough-space-for-a-third-unit-on-the-left&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/powerwalls_hu_ea3262235c9351a9.png&#34; data-caption=&#34;2x Tesla Powerwall 2 units and the gateway fit well in the available space in my garage, leaving just enough space for a third unit on the left.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jimwebber.org/post/2024-07-powerwall/powerwalls_hu_ea3262235c9351a9.png&#34; data-caption=&#34;2x Tesla Powerwall 2 units and the gateway fit well in the available space in my garage, leaving just enough space for a third unit on the left.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/powerwalls_hu_ea3262235c9351a9.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; height=&#34;600&#34;&gt;
+  &lt;img data-src=&#34;https://jimwebber.org/post/2024-07-powerwall/powerwalls_hu_ea3262235c9351a9.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;80%&#34; height=&#34;600&#34;&gt;
 &lt;/a&gt;
 
 
@@ -150,10 +150,10 @@
 &lt;figure id=&#34;figure-myenergi-app-now-working-fine-with-plentiful-solar-running-the-house-charging-a-car-and-topping-up-the-batteries&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/myenergi-app_hu_f32f55f420816fa2.png&#34; data-caption=&#34;MyEnergi App now working fine, with plentiful solar running the house, charging a car, and topping up the batteries.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jimwebber.org/post/2024-07-powerwall/myenergi-app_hu_f32f55f420816fa2.png&#34; data-caption=&#34;MyEnergi App now working fine, with plentiful solar running the house, charging a car, and topping up the batteries.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/myenergi-app_hu_f32f55f420816fa2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1211&#34;&gt;
+  &lt;img data-src=&#34;https://jimwebber.org/post/2024-07-powerwall/myenergi-app_hu_f32f55f420816fa2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1211&#34;&gt;
 &lt;/a&gt;
 
 
@@ -196,10 +196,10 @@
 &lt;figure id=&#34;figure-powerwalls-are-depleted-after-my-own-mismanagement-and-a-succession-of-grey-summer-days&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/tesla-app_hu_6d020a4949e268ef.jpeg&#34; data-caption=&#34;Powerwalls are depleted after my own mismanagement and a succession of grey summer days.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jimwebber.org/post/2024-07-powerwall/tesla-app_hu_6d020a4949e268ef.jpeg&#34; data-caption=&#34;Powerwalls are depleted after my own mismanagement and a succession of grey summer days.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/tesla-app_hu_6d020a4949e268ef.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1306&#34;&gt;
+  &lt;img data-src=&#34;https://jimwebber.org/post/2024-07-powerwall/tesla-app_hu_6d020a4949e268ef.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1306&#34;&gt;
 &lt;/a&gt;
 
 
@@ -248,10 +248,10 @@
 &lt;figure id=&#34;figure-configuring-the-octopus-app-to-be-less-smart&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2024-07-powerwall/octopus-app_hu_22c0af39b1b65a3a.png&#34; data-caption=&#34;Configuring the Octopus app to be less smart.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jimwebber.org/post/2024-07-powerwall/octopus-app_hu_22c0af39b1b65a3a.png&#34; data-caption=&#34;Configuring the Octopus app to be less smart.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2024-07-powerwall/octopus-app_hu_22c0af39b1b65a3a.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1280&#34;&gt;
+  &lt;img data-src=&#34;https://jimwebber.org/post/2024-07-powerwall/octopus-app_hu_22c0af39b1b65a3a.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;60%&#34; height=&#34;1280&#34;&gt;
 &lt;/a&gt;
 
 
@@ -270,161 +270,161 @@
     
     <item>
       <title>Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</title>
-      <link>/publication/2024-epew/</link>
+      <link>https://jimwebber.org/publication/2024-epew/</link>
       <pubDate>Fri, 14 Jun 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-epew/</guid>
+      <guid>https://jimwebber.org/publication/2024-epew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Empirical Evaluation of Variable-length Record B&#43;Trees on a Modern Graph Database System</title>
-      <link>/publication/2024-seagraph/</link>
+      <link>https://jimwebber.org/publication/2024-seagraph/</link>
       <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-seagraph/</guid>
+      <guid>https://jimwebber.org/publication/2024-seagraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BIFROST: A Future Graph Database Runtime</title>
-      <link>/publication/2024-icde/</link>
+      <link>https://jimwebber.org/publication/2024-icde/</link>
       <pubDate>Mon, 13 May 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-icde/</guid>
+      <guid>https://jimwebber.org/publication/2024-icde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lies, Damn Lies, and AIs</title>
-      <link>/talk/2024-04-gids-lies-and-ais/</link>
+      <link>https://jimwebber.org/talk/2024-04-gids-lies-and-ais/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>/talk/2024-04-gids-lies-and-ais/</guid>
+      <guid>https://jimwebber.org/talk/2024-04-gids-lies-and-ais/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Distributed Consensus in 15 Minutes!</title>
-      <link>/talk/2024-04-gids-consensus/</link>
+      <link>https://jimwebber.org/talk/2024-04-gids-consensus/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>/talk/2024-04-gids-consensus/</guid>
+      <guid>https://jimwebber.org/talk/2024-04-gids-consensus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Como os Knowledge Graphs Mantêm a IA Confiável e sem Mentiras (Lies, Damn Lies, and AIs)</title>
-      <link>/talk/2024-03-gartner-d-and-a-sao-paulo/</link>
+      <link>https://jimwebber.org/talk/2024-03-gartner-d-and-a-sao-paulo/</link>
       <pubDate>Wed, 27 Mar 2024 13:00:00 +0000</pubDate>
-      <guid>/talk/2024-03-gartner-d-and-a-sao-paulo/</guid>
+      <guid>https://jimwebber.org/talk/2024-03-gartner-d-and-a-sao-paulo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aion: Efficient Temporal Graph Data Management</title>
-      <link>/publication/2024-edbt/</link>
+      <link>https://jimwebber.org/publication/2024-edbt/</link>
       <pubDate>Mon, 25 Mar 2024 01:00:00 +0100</pubDate>
-      <guid>/publication/2024-edbt/</guid>
+      <guid>https://jimwebber.org/publication/2024-edbt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SEAGRAPH: Search, Exploration, and Analysis in Heterogeneous Datastores - Graph Edition</title>
-      <link>/reviewing/2024-seagraph/</link>
+      <link>https://jimwebber.org/reviewing/2024-seagraph/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2024-seagraph/</guid>
+      <guid>https://jimwebber.org/reviewing/2024-seagraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analysis of an epoch commit protocol for distributed processing systems</title>
-      <link>/publication/2023-qest/</link>
+      <link>https://jimwebber.org/publication/2023-qest/</link>
       <pubDate>Mon, 07 Aug 2023 01:00:00 +0100</pubDate>
-      <guid>/publication/2023-qest/</guid>
+      <guid>https://jimwebber.org/publication/2023-qest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building Knowledge Graphs - A Practitioner&#39;s Guide</title>
-      <link>/publication/building-knowledge-graphs/</link>
+      <link>https://jimwebber.org/publication/building-knowledge-graphs/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0100</pubDate>
-      <guid>/publication/building-knowledge-graphs/</guid>
+      <guid>https://jimwebber.org/publication/building-knowledge-graphs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluating the Performance of No-Wait Approach to Resolving Write Conflicts in Databases</title>
-      <link>/publication/2023-epew/</link>
+      <link>https://jimwebber.org/publication/2023-epew/</link>
       <pubDate>Tue, 20 Jun 2023 01:00:00 +0100</pubDate>
-      <guid>/publication/2023-epew/</guid>
+      <guid>https://jimwebber.org/publication/2023-epew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bi-gram cardinality estimation in a graph database</title>
-      <link>/publication/2023-01-patent-11544280/</link>
+      <link>https://jimwebber.org/publication/2023-01-patent-11544280/</link>
       <pubDate>Tue, 03 Jan 2023 15:00:00 +0100</pubDate>
-      <guid>/publication/2023-01-patent-11544280/</guid>
+      <guid>https://jimwebber.org/publication/2023-01-patent-11544280/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database system with transactional commit protocol based on safe conjunction of majorities</title>
-      <link>/publication/2023-01-patent-11544251/</link>
+      <link>https://jimwebber.org/publication/2023-01-patent-11544251/</link>
       <pubDate>Tue, 03 Jan 2023 15:00:00 +0100</pubDate>
-      <guid>/publication/2023-01-patent-11544251/</guid>
+      <guid>https://jimwebber.org/publication/2023-01-patent-11544251/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pre-emptive graph search for guided natural language interactions with connected data systems</title>
-      <link>/publication/2022-10-patent-11475065/</link>
+      <link>https://jimwebber.org/publication/2022-10-patent-11475065/</link>
       <pubDate>Tue, 18 Oct 2022 15:00:00 +0100</pubDate>
-      <guid>/publication/2022-10-patent-11475065/</guid>
+      <guid>https://jimwebber.org/publication/2022-10-patent-11475065/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph database system to safely store data at high volume and scale</title>
-      <link>/publication/2022-10-patent-11481385/</link>
+      <link>https://jimwebber.org/publication/2022-10-patent-11481385/</link>
       <pubDate>Wed, 05 Oct 2022 15:00:00 +0100</pubDate>
-      <guid>/publication/2022-10-patent-11481385/</guid>
+      <guid>https://jimwebber.org/publication/2022-10-patent-11481385/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Performance Study of Epoch-based Commit Protocols in Distributed OLTP Databases</title>
-      <link>/publication/2022-srds/</link>
+      <link>https://jimwebber.org/publication/2022-srds/</link>
       <pubDate>Thu, 15 Sep 2022 10:24:24 +0100</pubDate>
-      <guid>/publication/2022-srds/</guid>
+      <guid>https://jimwebber.org/publication/2022-srds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pick &amp; Mix Isolation Levels: Mixed Serialization Graph Testing</title>
-      <link>/publication/2022-tpctc/</link>
+      <link>https://jimwebber.org/publication/2022-tpctc/</link>
       <pubDate>Mon, 05 Sep 2022 10:00:00 +0100</pubDate>
-      <guid>/publication/2022-tpctc/</guid>
+      <guid>https://jimwebber.org/publication/2022-tpctc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Knowledge Graphs</title>
-      <link>/publication/knowledge-graphs-report/</link>
+      <link>https://jimwebber.org/publication/knowledge-graphs-report/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0100</pubDate>
-      <guid>/publication/knowledge-graphs-report/</guid>
+      <guid>https://jimwebber.org/publication/knowledge-graphs-report/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Coming of Age of Graph Databases</title>
-      <link>/publication/2020-ndbj-coming-age-graph-db/</link>
+      <link>https://jimwebber.org/publication/2020-ndbj-coming-age-graph-db/</link>
       <pubDate>Tue, 01 Dec 2020 10:24:24 +0000</pubDate>
-      <guid>/publication/2020-ndbj-coming-age-graph-db/</guid>
+      <guid>https://jimwebber.org/publication/2020-ndbj-coming-age-graph-db/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zappi Installation</title>
-      <link>/post/2020-09-zappi-installation/</link>
+      <link>https://jimwebber.org/post/2020-09-zappi-installation/</link>
       <pubDate>Mon, 21 Sep 2020 10:00:47 +0100</pubDate>
-      <guid>/post/2020-09-zappi-installation/</guid>
+      <guid>https://jimwebber.org/post/2020-09-zappi-installation/</guid>
       <description>&lt;p&gt;Back in 2015 I bought a 
 &lt;a href=&#34;https://www.autoexpress.co.uk/bmw/i3/88777/long-term-test-review-bmw-i3-range-extender&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BMW i3 REX&lt;/a&gt;, and at the time had a 7kW &lt;del&gt;charger&lt;/del&gt; charging socket fitted from 
 &lt;a href=&#34;https://bpchargemaster.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ChargeMaster&lt;/a&gt; (now part of BP). It worked fine, and since the 2015 i3 has a small battery (~20kWh) full charges took just a few short hours. Wonderfully boring and predictable.&lt;/p&gt;
@@ -464,10 +464,10 @@
 &lt;figure id=&#34;figure-zappi-unit-looks-nice-enough-for-a-garage-anyway&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/zappi_hu_9639846dbdcc701b.jpg&#34; data-caption=&#34;Zappi unit looks nice enough, for a garage anyway.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jimwebber.org/post/2020-09-zappi-installation/zappi_hu_9639846dbdcc701b.jpg&#34; data-caption=&#34;Zappi unit looks nice enough, for a garage anyway.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2020-09-zappi-installation/zappi_hu_9639846dbdcc701b.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
+  &lt;img data-src=&#34;https://jimwebber.org/post/2020-09-zappi-installation/zappi_hu_9639846dbdcc701b.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
 &lt;/a&gt;
 
 
@@ -510,10 +510,10 @@
 &lt;figure id=&#34;figure-looks-like-i-should-plug-the-car-in&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/app_hu_29bab5cd6f6e7d85.jpg&#34; data-caption=&#34;Looks like I should plug the car in.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jimwebber.org/post/2020-09-zappi-installation/app_hu_29bab5cd6f6e7d85.jpg&#34; data-caption=&#34;Looks like I should plug the car in.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2020-09-zappi-installation/app_hu_29bab5cd6f6e7d85.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1304&#34;&gt;
+  &lt;img data-src=&#34;https://jimwebber.org/post/2020-09-zappi-installation/app_hu_29bab5cd6f6e7d85.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1304&#34;&gt;
 &lt;/a&gt;
 
 
@@ -563,10 +563,10 @@
 &lt;figure id=&#34;figure-hub-sitting-in-a-rats-nest-of-wires-with-google-wifi-dont-judge-me&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/2020-09-zappi-installation/hub_hu_ff58a551449c2097.jpg&#34; data-caption=&#34;Hub sitting in a rat&amp;amp;rsquo;s nest of wires with Google wifi. Don&amp;amp;rsquo;t judge me.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://jimwebber.org/post/2020-09-zappi-installation/hub_hu_ff58a551449c2097.jpg&#34; data-caption=&#34;Hub sitting in a rat&amp;amp;rsquo;s nest of wires with Google wifi. Don&amp;amp;rsquo;t judge me.&#34;&gt;
 
 
-  &lt;img data-src=&#34;/post/2020-09-zappi-installation/hub_hu_ff58a551449c2097.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
+  &lt;img data-src=&#34;https://jimwebber.org/post/2020-09-zappi-installation/hub_hu_ff58a551449c2097.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;1024&#34;&gt;
 &lt;/a&gt;
 
 
@@ -585,602 +585,602 @@
     
     <item>
       <title>Site Upgrade</title>
-      <link>/post/site-upgrade/</link>
+      <link>https://jimwebber.org/post/site-upgrade/</link>
       <pubDate>Tue, 15 Sep 2020 13:38:47 +0100</pubDate>
-      <guid>/post/site-upgrade/</guid>
+      <guid>https://jimwebber.org/post/site-upgrade/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve just upgraded to the new modular Hugo static site builder and have taken the opportunity to smarten up a few things on my site. In the meantime I&amp;rsquo;m slowly migrating over some content like my publication record. Stay tuned.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Modeling the Gradual Degradation of Eventually-Consistent Distributed Graph Databases</title>
-      <link>/publication/2020-qmsm/</link>
+      <link>https://jimwebber.org/publication/2020-qmsm/</link>
       <pubDate>Tue, 15 Sep 2020 10:24:24 +0100</pubDate>
-      <guid>/publication/2020-qmsm/</guid>
+      <guid>https://jimwebber.org/publication/2020-qmsm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph Databases for Dummies</title>
-      <link>/publication/graph-databases-for-dummies/</link>
+      <link>https://jimwebber.org/publication/graph-databases-for-dummies/</link>
       <pubDate>Mon, 14 Sep 2020 22:49:54 +0100</pubDate>
-      <guid>/publication/graph-databases-for-dummies/</guid>
+      <guid>https://jimwebber.org/publication/graph-databases-for-dummies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preserving reciprocal consistency in distributed graph databases</title>
-      <link>/publication/2020-papoc/</link>
+      <link>https://jimwebber.org/publication/2020-papoc/</link>
       <pubDate>Mon, 27 Apr 2020 10:24:24 +0100</pubDate>
-      <guid>/publication/2020-papoc/</guid>
+      <guid>https://jimwebber.org/publication/2020-papoc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design and Evalution of an Edge-based Concurrency Protocol for Distributed Graph Databases</title>
-      <link>/publication/2019-epew/</link>
+      <link>https://jimwebber.org/publication/2019-epew/</link>
       <pubDate>Thu, 28 Nov 2019 10:24:24 +0100</pubDate>
-      <guid>/publication/2019-epew/</guid>
+      <guid>https://jimwebber.org/publication/2019-epew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Communications of the ACM</title>
-      <link>/reviewing/2019-cacm/</link>
+      <link>https://jimwebber.org/reviewing/2019-cacm/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2019-cacm/</guid>
+      <guid>https://jimwebber.org/reviewing/2019-cacm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fifth International Workshop on Large-scale Graph Analysis, Management and Applications</title>
-      <link>/reviewing/2018-graphsm/</link>
+      <link>https://jimwebber.org/reviewing/2018-graphsm/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2018-graphsm/</guid>
+      <guid>https://jimwebber.org/reviewing/2018-graphsm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IEEE Software</title>
-      <link>/reviewing/2018-ieee-software/</link>
+      <link>https://jimwebber.org/reviewing/2018-ieee-software/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2018-ieee-software/</guid>
+      <guid>https://jimwebber.org/reviewing/2018-ieee-software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Method and apparatus for ensuring consistent outcomes in updates to distributed databases</title>
-      <link>/publication/2022-10-patent-9672266/</link>
+      <link>https://jimwebber.org/publication/2022-10-patent-9672266/</link>
       <pubDate>Tue, 06 Jun 2017 15:00:00 +0100</pubDate>
-      <guid>/publication/2022-10-patent-9672266/</guid>
+      <guid>https://jimwebber.org/publication/2022-10-patent-9672266/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ACTiCLOUD: Enabling the Next Generation of Cloud Applications</title>
-      <link>/publication/2017-icdcs/</link>
+      <link>https://jimwebber.org/publication/2017-icdcs/</link>
       <pubDate>Mon, 05 Jun 2017 09:00:00 +0500</pubDate>
-      <guid>/publication/2017-icdcs/</guid>
+      <guid>https://jimwebber.org/publication/2017-icdcs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph database devices and methods for partitioning graphs</title>
-      <link>/publication/2022-10-patent-9477779/</link>
+      <link>https://jimwebber.org/publication/2022-10-patent-9477779/</link>
       <pubDate>Tue, 25 Oct 2016 15:00:00 +0100</pubDate>
-      <guid>/publication/2022-10-patent-9477779/</guid>
+      <guid>https://jimwebber.org/publication/2022-10-patent-9477779/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Investigations on path indexing for graph databases</title>
-      <link>/publication/2016-pelga/</link>
+      <link>https://jimwebber.org/publication/2016-pelga/</link>
       <pubDate>Tue, 23 Aug 2016 10:24:24 +0100</pubDate>
-      <guid>/publication/2016-pelga/</guid>
+      <guid>https://jimwebber.org/publication/2016-pelga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Networks</title>
-      <link>/reviewing/2016-social-networks/</link>
+      <link>https://jimwebber.org/reviewing/2016-social-networks/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2016-social-networks/</guid>
+      <guid>https://jimwebber.org/reviewing/2016-social-networks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph Databases</title>
-      <link>/publication/graph-databases/</link>
+      <link>https://jimwebber.org/publication/graph-databases/</link>
       <pubDate>Tue, 09 Jun 2015 10:30:46 +0100</pubDate>
-      <guid>/publication/graph-databases/</guid>
+      <guid>https://jimwebber.org/publication/graph-databases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Starting Graph Databases with Neo4j 2.0</title>
-      <link>/publication/2013-sdj-beginning-neo4j/</link>
+      <link>https://jimwebber.org/publication/2013-sdj-beginning-neo4j/</link>
       <pubDate>Tue, 01 Oct 2013 10:24:24 +0000</pubDate>
-      <guid>/publication/2013-sdj-beginning-neo4j/</guid>
+      <guid>https://jimwebber.org/publication/2013-sdj-beginning-neo4j/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A programmatic introduction to Neo4j</title>
-      <link>/publication/2012-splash/</link>
+      <link>https://jimwebber.org/publication/2012-splash/</link>
       <pubDate>Fri, 19 Oct 2012 09:00:00 +0700</pubDate>
-      <guid>/publication/2012-splash/</guid>
+      <guid>https://jimwebber.org/publication/2012-splash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards a Horizontally Scalable Graph Database</title>
-      <link>/publication/2012-euro-data-forum/</link>
+      <link>https://jimwebber.org/publication/2012-euro-data-forum/</link>
       <pubDate>Wed, 06 Jun 2012 10:24:24 +0100</pubDate>
-      <guid>/publication/2012-euro-data-forum/</guid>
+      <guid>https://jimwebber.org/publication/2012-euro-data-forum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exterminate! Your Database Woes with Neo4j</title>
-      <link>/publication/2011-osj-graphdb-doctor-who/</link>
+      <link>https://jimwebber.org/publication/2011-osj-graphdb-doctor-who/</link>
       <pubDate>Fri, 01 Jun 2012 10:24:24 +0100</pubDate>
-      <guid>/publication/2011-osj-graphdb-doctor-who/</guid>
+      <guid>https://jimwebber.org/publication/2011-osj-graphdb-doctor-who/</guid>
       <description></description>
     </item>
     
     <item>
       <title>9th European Conference on Web Services</title>
-      <link>/reviewing/2011-ecows/</link>
+      <link>https://jimwebber.org/reviewing/2011-ecows/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2011-ecows/</guid>
+      <guid>https://jimwebber.org/reviewing/2011-ecows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ACM 6th International Conference on Service Oriented Computing</title>
-      <link>/reviewing/2008-icsoc/</link>
+      <link>https://jimwebber.org/reviewing/2008-icsoc/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2008-icsoc/</guid>
+      <guid>https://jimwebber.org/reviewing/2008-icsoc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Second International Workshop on RESTful Design</title>
-      <link>/reviewing/2011-wsrest/</link>
+      <link>https://jimwebber.org/reviewing/2011-wsrest/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2011-wsrest/</guid>
+      <guid>https://jimwebber.org/reviewing/2011-wsrest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rest in Practice</title>
-      <link>/publication/rest-in-practice/</link>
+      <link>https://jimwebber.org/publication/rest-in-practice/</link>
       <pubDate>Mon, 27 Sep 2010 10:33:08 +0100</pubDate>
-      <guid>/publication/rest-in-practice/</guid>
+      <guid>https://jimwebber.org/publication/rest-in-practice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Role of Hypermedia in Distributed System Development</title>
-      <link>/publication/2010-ws-rest/</link>
+      <link>https://jimwebber.org/publication/2010-ws-rest/</link>
       <pubDate>Mon, 26 Apr 2010 10:24:24 +0100</pubDate>
-      <guid>/publication/2010-ws-rest/</guid>
+      <guid>https://jimwebber.org/publication/2010-ws-rest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4th International Workshop on Web APIs and Services Mashups</title>
-      <link>/reviewing/2010-mashups/</link>
+      <link>https://jimwebber.org/reviewing/2010-mashups/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2010-mashups/</guid>
+      <guid>https://jimwebber.org/reviewing/2010-mashups/</guid>
       <description></description>
     </item>
     
     <item>
       <title>8th IEEE European Conference on Web Services</title>
-      <link>/reviewing/2010-ecows/</link>
+      <link>https://jimwebber.org/reviewing/2010-ecows/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2010-ecows/</guid>
+      <guid>https://jimwebber.org/reviewing/2010-ecows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First International Workshop on RESTful Design</title>
-      <link>/reviewing/2010-wsrest/</link>
+      <link>https://jimwebber.org/reviewing/2010-wsrest/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2010-wsrest/</guid>
+      <guid>https://jimwebber.org/reviewing/2010-wsrest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sixth International Workshop on Engineering Service-Oriented Applications</title>
-      <link>/reviewing/2010-wesoa/</link>
+      <link>https://jimwebber.org/reviewing/2010-wesoa/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2010-wesoa/</guid>
+      <guid>https://jimwebber.org/reviewing/2010-wesoa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>6th IEEE European Conference on Web Services</title>
-      <link>/reviewing/2008-ecows/</link>
+      <link>https://jimwebber.org/reviewing/2008-ecows/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2008-ecows/</guid>
+      <guid>https://jimwebber.org/reviewing/2008-ecows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fourth International Workshop on Engineering Service-Oriented Applications</title>
-      <link>/reviewing/2008-wesoa/</link>
+      <link>https://jimwebber.org/reviewing/2008-wesoa/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2008-wesoa/</guid>
+      <guid>https://jimwebber.org/reviewing/2008-wesoa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Journal of Distributed and Parallel Databases</title>
-      <link>/reviewing/2008-dpdb/</link>
+      <link>https://jimwebber.org/reviewing/2008-dpdb/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2008-dpdb/</guid>
+      <guid>https://jimwebber.org/reviewing/2008-dpdb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Middleware for Web Services (part of IEEE EDOC 2008)</title>
-      <link>/reviewing/2008-mws/</link>
+      <link>https://jimwebber.org/reviewing/2008-mws/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2008-mws/</guid>
+      <guid>https://jimwebber.org/reviewing/2008-mws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSDL - The SOAP Service Description Language</title>
-      <link>/publication/2007-11-ssdl/</link>
+      <link>https://jimwebber.org/publication/2007-11-ssdl/</link>
       <pubDate>Sat, 10 Nov 2007 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-11-ssdl/</guid>
+      <guid>https://jimwebber.org/publication/2007-11-ssdl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Soya: a Programming Model and Runtime Environment for Component Composition using SSDL</title>
-      <link>/publication/2007-acm-cbse/</link>
+      <link>https://jimwebber.org/publication/2007-acm-cbse/</link>
       <pubDate>Mon, 09 Jul 2007 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-acm-cbse/</guid>
+      <guid>https://jimwebber.org/publication/2007-acm-cbse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sixteenth International World Wide Web Conference</title>
-      <link>/reviewing/2007-www/</link>
+      <link>https://jimwebber.org/reviewing/2007-www/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2007-www/</guid>
+      <guid>https://jimwebber.org/reviewing/2007-www/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Expressing and Reasoning about Service Contracts in Service-Oriented Computing</title>
-      <link>/publication/2006-ieee-scc/</link>
+      <link>https://jimwebber.org/publication/2006-ieee-scc/</link>
       <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-ieee-scc/</guid>
+      <guid>https://jimwebber.org/publication/2006-ieee-scc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Secure and Provable Service Support for Human-Intensive Real-Estate Processes</title>
-      <link>/publication/2006-ieee-icws/</link>
+      <link>https://jimwebber.org/publication/2006-ieee-icws/</link>
       <pubDate>Mon, 18 Sep 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-ieee-icws/</guid>
+      <guid>https://jimwebber.org/publication/2006-ieee-icws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Architect’s Guide to Developing Enterprise Web Services</title>
-      <link>/publication/2006-csi/</link>
+      <link>https://jimwebber.org/publication/2006-csi/</link>
       <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-csi/</guid>
+      <guid>https://jimwebber.org/publication/2006-csi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Asynchronous messaging between Web services using SSDL</title>
-      <link>/publication/2006-ieee-internet-computing/</link>
+      <link>https://jimwebber.org/publication/2006-ieee-internet-computing/</link>
       <pubDate>Wed, 01 Feb 2006 10:24:24 +0100</pubDate>
-      <guid>/publication/2006-ieee-internet-computing/</guid>
+      <guid>https://jimwebber.org/publication/2006-ieee-internet-computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4th IEEE European Conference on Web Services</title>
-      <link>/reviewing/2006-ecows/</link>
+      <link>https://jimwebber.org/reviewing/2006-ecows/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2006-ecows/</guid>
+      <guid>https://jimwebber.org/reviewing/2006-ecows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fifteenth International World Wide Web Conference</title>
-      <link>/reviewing/2006-www/</link>
+      <link>https://jimwebber.org/reviewing/2006-www/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2006-www/</guid>
+      <guid>https://jimwebber.org/reviewing/2006-www/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IEEE Australian Software Engineering Conference (ASWEC)</title>
-      <link>/reviewing/2006-aswec/</link>
+      <link>https://jimwebber.org/reviewing/2006-aswec/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2006-aswec/</guid>
+      <guid>https://jimwebber.org/reviewing/2006-aswec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>International Journal of Business Process Integration and Management</title>
-      <link>/reviewing/2006-ijbpim/</link>
+      <link>https://jimwebber.org/reviewing/2006-ijbpim/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2006-ijbpim/</guid>
+      <guid>https://jimwebber.org/reviewing/2006-ijbpim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Macquarie University</title>
-      <link>/reviewing/2006-mws/</link>
+      <link>https://jimwebber.org/reviewing/2006-mws/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2006-mws/</guid>
+      <guid>https://jimwebber.org/reviewing/2006-mws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Middleware for Web Services (part of IEEE EDOC 2006)</title>
-      <link>/reviewing/2006-macquarie/</link>
+      <link>https://jimwebber.org/reviewing/2006-macquarie/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2006-macquarie/</guid>
+      <guid>https://jimwebber.org/reviewing/2006-macquarie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Second International Workshop on Engineering Service-Oriented Applications</title>
-      <link>/reviewing/2006-wesoa/</link>
+      <link>https://jimwebber.org/reviewing/2006-wesoa/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2006-wesoa/</guid>
+      <guid>https://jimwebber.org/reviewing/2006-wesoa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First International Workshop on Design of Service-Oriented Applications (WDSOA&#39;05)</title>
-      <link>/publication/2005-wdsoa/</link>
+      <link>https://jimwebber.org/publication/2005-wdsoa/</link>
       <pubDate>Mon, 12 Dec 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-wdsoa/</guid>
+      <guid>https://jimwebber.org/publication/2005-wdsoa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service-oriented, Distributed, High-Performance Computing</title>
-      <link>/publication/2005-msaj-hp-soa/</link>
+      <link>https://jimwebber.org/publication/2005-msaj-hp-soa/</link>
       <pubDate>Fri, 01 Jul 2005 10:24:24 +0900</pubDate>
-      <guid>/publication/2005-msaj-hp-soa/</guid>
+      <guid>https://jimwebber.org/publication/2005-msaj-hp-soa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Service Grids: An Evolutionary Approach</title>
-      <link>/publication/2005-journal-concurrency-computation-ws-gaf/</link>
+      <link>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-gaf/</link>
       <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
+      <guid>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-gaf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WS‐GAF: a framework for building Grid applications using Web Services</title>
-      <link>/publication/2005-journal-concurrency-computation-ws-i-plus/</link>
+      <link>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-i-plus/</link>
       <pubDate>Mon, 07 Feb 2005 10:24:24 +0100</pubDate>
-      <guid>/publication/2005-journal-concurrency-computation-ws-i-plus/</guid>
+      <guid>https://jimwebber.org/publication/2005-journal-concurrency-computation-ws-i-plus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3rd IEEE European Conference on Web Services</title>
-      <link>/reviewing/2005-ecows/</link>
+      <link>https://jimwebber.org/reviewing/2005-ecows/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2005-ecows/</guid>
+      <guid>https://jimwebber.org/reviewing/2005-ecows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First International Workshop on Design of Service-Oriented Applications</title>
-      <link>/reviewing/2005-wdsoa/</link>
+      <link>https://jimwebber.org/reviewing/2005-wdsoa/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2005-wdsoa/</guid>
+      <guid>https://jimwebber.org/reviewing/2005-wdsoa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fourteenth International World Wide Web Conference</title>
-      <link>/reviewing/2005-www/</link>
+      <link>https://jimwebber.org/reviewing/2005-www/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2005-www/</guid>
+      <guid>https://jimwebber.org/reviewing/2005-www/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assessing the Risk and Value of Adopting Emerging and Unstable Web Services Specifications</title>
-      <link>/publication/2004-ieee-scc/</link>
+      <link>https://jimwebber.org/publication/2004-ieee-scc/</link>
       <pubDate>Wed, 15 Sep 2004 10:24:24 +0100</pubDate>
-      <guid>/publication/2004-ieee-scc/</guid>
+      <guid>https://jimwebber.org/publication/2004-ieee-scc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grid Computing using Web Services Technologies</title>
-      <link>/publication/2004-delos/</link>
+      <link>https://jimwebber.org/publication/2004-delos/</link>
       <pubDate>Thu, 24 Jun 2004 10:24:24 +0100</pubDate>
-      <guid>/publication/2004-delos/</guid>
+      <guid>https://jimwebber.org/publication/2004-delos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The WS-GAF Registry Service</title>
-      <link>/publication/2004-ggf/</link>
+      <link>https://jimwebber.org/publication/2004-ggf/</link>
       <pubDate>Sat, 05 Jun 2004 10:24:24 +0100</pubDate>
-      <guid>/publication/2004-ggf/</guid>
+      <guid>https://jimwebber.org/publication/2004-ggf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stateful Interactions in Web Services: A Comparison of WS-Context and WS-ResourceFramework </title>
-      <link>/publication/2004-wsj-wsdl-not-idl/</link>
+      <link>https://jimwebber.org/publication/2004-wsj-wsdl-not-idl/</link>
       <pubDate>Sat, 01 May 2004 10:24:24 +0900</pubDate>
-      <guid>/publication/2004-wsj-wsdl-not-idl/</guid>
+      <guid>https://jimwebber.org/publication/2004-wsj-wsdl-not-idl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why WSDL is not Yet Another Object IDL</title>
-      <link>/publication/2005-wsj-stateful-interactions/</link>
+      <link>https://jimwebber.org/publication/2005-wsj-stateful-interactions/</link>
       <pubDate>Thu, 01 Apr 2004 10:24:24 +0900</pubDate>
-      <guid>/publication/2005-wsj-stateful-interactions/</guid>
+      <guid>https://jimwebber.org/publication/2005-wsj-stateful-interactions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Horses for Courses: Services, Objects, and Loose Coupling</title>
-      <link>/publication/2004-wsj-horses-for-courses/</link>
+      <link>https://jimwebber.org/publication/2004-wsj-horses-for-courses/</link>
       <pubDate>Thu, 01 Jan 2004 10:24:24 +0900</pubDate>
-      <guid>/publication/2004-wsj-horses-for-courses/</guid>
+      <guid>https://jimwebber.org/publication/2004-wsj-horses-for-courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>International Journal of Web Services Research</title>
-      <link>/reviewing/2004-ijwsr/</link>
+      <link>https://jimwebber.org/reviewing/2004-ijwsr/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>/reviewing/2004-ijwsr/</guid>
+      <guid>https://jimwebber.org/reviewing/2004-ijwsr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introducting WS-CAF</title>
-      <link>/publication/2003-wsj-ws-caf/</link>
+      <link>https://jimwebber.org/publication/2003-wsj-ws-caf/</link>
       <pubDate>Mon, 01 Dec 2003 10:24:24 +0000</pubDate>
-      <guid>/publication/2003-wsj-ws-caf/</guid>
+      <guid>https://jimwebber.org/publication/2003-wsj-ws-caf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developing Enterprise Web Services</title>
-      <link>/publication/developing-enterprise-web-services/</link>
+      <link>https://jimwebber.org/publication/developing-enterprise-web-services/</link>
       <pubDate>Fri, 14 Nov 2003 11:01:05 +0100</pubDate>
-      <guid>/publication/developing-enterprise-web-services/</guid>
+      <guid>https://jimwebber.org/publication/developing-enterprise-web-services/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demystifying Service Oriented Architectures</title>
-      <link>/publication/2003-wsj-demystifying-soa/</link>
+      <link>https://jimwebber.org/publication/2003-wsj-demystifying-soa/</link>
       <pubDate>Sat, 01 Nov 2003 10:24:24 +0000</pubDate>
-      <guid>/publication/2003-wsj-demystifying-soa/</guid>
+      <guid>https://jimwebber.org/publication/2003-wsj-demystifying-soa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OASIS Web Services Composite Application Framework (WS-CAF)</title>
-      <link>/publication/2007-11-ws-caf/</link>
+      <link>https://jimwebber.org/publication/2007-11-ws-caf/</link>
       <pubDate>Tue, 07 Oct 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2007-11-ws-caf/</guid>
+      <guid>https://jimwebber.org/publication/2007-11-ws-caf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introducing BPEL4WS</title>
-      <link>/publication/2003-wsj-bpel4ws/</link>
+      <link>https://jimwebber.org/publication/2003-wsj-bpel4ws/</link>
       <pubDate>Tue, 01 Jul 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-wsj-bpel4ws/</guid>
+      <guid>https://jimwebber.org/publication/2003-wsj-bpel4ws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introducting WS-Transaction</title>
-      <link>/publication/2003-wsj-ws-transaction/</link>
+      <link>https://jimwebber.org/publication/2003-wsj-ws-transaction/</link>
       <pubDate>Sun, 01 Jun 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-wsj-ws-transaction/</guid>
+      <guid>https://jimwebber.org/publication/2003-wsj-ws-transaction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introducting WS-Coordination</title>
-      <link>/publication/2003-wsj-ws-coordination/</link>
+      <link>https://jimwebber.org/publication/2003-wsj-ws-coordination/</link>
       <pubDate>Thu, 01 May 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-wsj-ws-coordination/</guid>
+      <guid>https://jimwebber.org/publication/2003-wsj-ws-coordination/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coordinating Business Transactions on the Web</title>
-      <link>/publication/2003-ieee-computing/</link>
+      <link>https://jimwebber.org/publication/2003-ieee-computing/</link>
       <pubDate>Sat, 01 Feb 2003 10:24:24 +0100</pubDate>
-      <guid>/publication/2003-ieee-computing/</guid>
+      <guid>https://jimwebber.org/publication/2003-ieee-computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building Transactional Web Services with OASIS BTP</title>
-      <link>/publication/2002-wsj-building-with-btp/</link>
+      <link>https://jimwebber.org/publication/2002-wsj-building-with-btp/</link>
       <pubDate>Wed, 30 Oct 2002 10:24:24 +0000</pubDate>
-      <guid>/publication/2002-wsj-building-with-btp/</guid>
+      <guid>https://jimwebber.org/publication/2002-wsj-building-with-btp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Misplaced Comma: Programmers’ Tales and Traditions</title>
-      <link>/publication/2002-ppig/</link>
+      <link>https://jimwebber.org/publication/2002-ppig/</link>
       <pubDate>Tue, 18 Jun 2002 10:24:24 +0100</pubDate>
-      <guid>/publication/2002-ppig/</guid>
+      <guid>https://jimwebber.org/publication/2002-ppig/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Smart Money&#39;s on OASIS BTP</title>
-      <link>/publication/2002-wsj-oasis-btp/</link>
+      <link>https://jimwebber.org/publication/2002-wsj-oasis-btp/</link>
       <pubDate>Tue, 30 Apr 2002 10:24:24 +0000</pubDate>
-      <guid>/publication/2002-wsj-oasis-btp/</guid>
+      <guid>https://jimwebber.org/publication/2002-wsj-oasis-btp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Making Web Services Work</title>
-      <link>/publication/2001-app-dev-advisor/</link>
+      <link>https://jimwebber.org/publication/2001-app-dev-advisor/</link>
       <pubDate>Fri, 30 Nov 2001 10:24:24 +0000</pubDate>
-      <guid>/publication/2001-app-dev-advisor/</guid>
+      <guid>https://jimwebber.org/publication/2001-app-dev-advisor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual, Object-Oriented Development of Parallel Applications</title>
-      <link>/publication/2001-visual-langs/</link>
+      <link>https://jimwebber.org/publication/2001-visual-langs/</link>
       <pubDate>Mon, 30 Apr 2001 10:24:24 +0100</pubDate>
-      <guid>/publication/2001-visual-langs/</guid>
+      <guid>https://jimwebber.org/publication/2001-visual-langs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual Object-Oriented Development of Parallel Applications</title>
-      <link>/publication/2000-phd-thesis/</link>
+      <link>https://jimwebber.org/publication/2000-phd-thesis/</link>
       <pubDate>Fri, 29 Sep 2000 10:24:24 +0100</pubDate>
-      <guid>/publication/2000-phd-thesis/</guid>
+      <guid>https://jimwebber.org/publication/2000-phd-thesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual, Object-Oriented Development of Parallel Applications</title>
-      <link>/publication/2000-ieee-visual-languages/</link>
+      <link>https://jimwebber.org/publication/2000-ieee-visual-languages/</link>
       <pubDate>Sun, 10 Sep 2000 10:24:24 +0100</pubDate>
-      <guid>/publication/2000-ieee-visual-languages/</guid>
+      <guid>https://jimwebber.org/publication/2000-ieee-visual-languages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gotos Considered Harmful and Other Programmers&#39; Taboos</title>
-      <link>/publication/2000-ppig/</link>
+      <link>https://jimwebber.org/publication/2000-ppig/</link>
       <pubDate>Mon, 10 Apr 2000 10:24:24 +0100</pubDate>
-      <guid>/publication/2000-ppig/</guid>
+      <guid>https://jimwebber.org/publication/2000-ppig/</guid>
       <description></description>
     </item>
     

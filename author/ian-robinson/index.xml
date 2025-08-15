@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ian Robinson | World Wide Webber</title>
-    <link>/author/ian-robinson/</link>
-      <atom:link href="/author/ian-robinson/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jimwebber.org/author/ian-robinson/</link>
+      <atom:link href="https://jimwebber.org/author/ian-robinson/index.xml" rel="self" type="application/rss+xml" />
     <description>Ian Robinson</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Tue, 09 Jun 2015 10:30:46 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu_11b53cb81fbe4544.png</url>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Ian Robinson</title>
-      <link>/author/ian-robinson/</link>
+      <link>https://jimwebber.org/author/ian-robinson/</link>
     </image>
     
     <item>
       <title>Graph Databases</title>
-      <link>/publication/graph-databases/</link>
+      <link>https://jimwebber.org/publication/graph-databases/</link>
       <pubDate>Tue, 09 Jun 2015 10:30:46 +0100</pubDate>
-      <guid>/publication/graph-databases/</guid>
+      <guid>https://jimwebber.org/publication/graph-databases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exterminate! Your Database Woes with Neo4j</title>
-      <link>/publication/2011-osj-graphdb-doctor-who/</link>
+      <link>https://jimwebber.org/publication/2011-osj-graphdb-doctor-who/</link>
       <pubDate>Fri, 01 Jun 2012 10:24:24 +0100</pubDate>
-      <guid>/publication/2011-osj-graphdb-doctor-who/</guid>
+      <guid>https://jimwebber.org/publication/2011-osj-graphdb-doctor-who/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rest in Practice</title>
-      <link>/publication/rest-in-practice/</link>
+      <link>https://jimwebber.org/publication/rest-in-practice/</link>
       <pubDate>Mon, 27 Sep 2010 10:33:08 +0100</pubDate>
-      <guid>/publication/rest-in-practice/</guid>
+      <guid>https://jimwebber.org/publication/rest-in-practice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Role of Hypermedia in Distributed System Development</title>
-      <link>/publication/2010-ws-rest/</link>
+      <link>https://jimwebber.org/publication/2010-ws-rest/</link>
       <pubDate>Mon, 26 Apr 2010 10:24:24 +0100</pubDate>
-      <guid>/publication/2010-ws-rest/</guid>
+      <guid>https://jimwebber.org/publication/2010-ws-rest/</guid>
       <description></description>
     </item>
     
