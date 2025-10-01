@@ -2877,6 +2877,144 @@
     
 
   
+  <span >Georgios Theodorakis</span>, <span >Hugo Firth</span>, <span >James Clarkson</span>, <span >Natacha Crooks</span>, <span >Jim Webber</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2025
+  </span>
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      VLDB 2025
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/graph-database-management-systems/">Graph Database Management Systems</a>, <a href="/category/transactions/">Transactions</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/2025-vldb/">TuskFlow: An Efficient Graph Database for Long-Running Transactions</a>
+  </h3>
+
+  
+  <a href="/publication/2025-vldb/" class="summary-link">
+    <div class="article-style">
+      <p>Mammoth transactions, which involve long-running operations that access many items, are common in graph workloads. Graph analytics tasks, including pattern matching and graph algorithms, can generate large read-write operations that impact signi!cant portions of data, which makes their execution challenging under strict isolation guarantees. Consequently, we face an apparent trade-off between ensuring high isolation and achieving high performance, forcing users to choose between the two. In this work, we present TuskFlow, an experimental graph database based on Neo4j, designed to e#ciently handle mammoth transactions on graphs (the technique is applicable to other models such as relational) while maintaining existing transactional semantics. TuskFlow employs a deterministic protocol that safely reorders regular transactions around mammoths within an epoch. Our protocol supports parallel mammoth execution inspired by graph-parallel algorithms. To minimize con$icts with regular transactions, TuskFlow introduces query- and workload-aware optimizations, including graph entity tagging and partitioning. Our experiments demonstrate that, unlike traditional protocols like two-phase locking or MVCC, TuskFlow avoids blocking write transactions and improves tail latency by up to 45x.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.vldb.org/pvldb/vol18/p4777-theodorakis.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.14778/3750601.3750603" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+
+
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
   <span >Ye Liu</span>, <span >Paul Ezhilchelvan</span>, <span >Yingming Wang</span>, <span >Jim Webber</span>
   </div>
   
@@ -3376,144 +3514,6 @@
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/ICDE60146.2024.00448" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-
-
-  </div>
-  
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span >Georgios Theodorakis</span>, <span >James Clarkson</span>, <span >Jim Webber</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    March 2024
-  </span>
-  
-  
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      EDBT 2024
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/graph-databases/">Graph Databases</a>, <a href="/category/temporal-graphs/">Temporal Graphs</a></span>
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/2024-edbt/">Aion: Efficient Temporal Graph Data Management</a>
-  </h3>
-
-  
-  <a href="/publication/2024-edbt/" class="summary-link">
-    <div class="article-style">
-      <p>Modern graph database management systems (DBMSs) can process highly dynamic labeled property graphs (LPGs) with many billions of relationships comfortably, but those systems often ignore the temporal dimension of data, how a graph evolved over time. Temporal analytics allow users to query and compute over the graph throughout its history so that valuable line-of-business data is always accessible and never lost. However, existing approaches tend to be ad-hoc and vary in performance depending on the size of the effective graph workload, such as local pattern matching or global graph algorithms. In this work, we describe Aion, a transactional temporal graph DBMS that generalizes previous approaches for LPGs. Aion extends Neo4j, a modern graph DBMS, incurring minimal performance overhead by decoupling the graph’s history from the latest graph version. To support efficient temporal analytics independently of workload characteristics, Aion adopts a hybrid temporal storage approach: (i) for fast full graph restoration at arbitrary time points, it uses TimeStore that indexes updates by time; (ii) for fine-grained graph history accesses, it uses LineageStore that indexes updates by entity identifiers. To enable incremental graph computations for improved latency, Aion introduces a computeefficient in-memory LPG representation. Our experiments show that Aion achieves comparable or better performance versus existing non-transactional temporal systems and provides up to an order of magnitude speedup over classic Neo4j</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openproceedings.org/2024/conf/edbt/paper-124.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.48786/edbt.2024.43" target="_blank" rel="noopener">
   DOI
 </a>
 

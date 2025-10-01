@@ -15,27 +15,48 @@
     <lastmod>2025-10-21T15:45:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/publication-type/1/</loc>
-    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/authors/</loc>
-    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/categories/</loc>
-    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/category/distributed-systems/</loc>
-    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
+    <loc>https://jimwebber.org/author/georgios-theodorakis/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/category/graph-database-management-systems/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/author/hugo-firth/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/author/james-clarkson/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/author/jim-webber/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/author/natacha-crooks/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/publication_types/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/category/transactions/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/publication/2025-vldb/</loc>
+    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/category/distributed-systems/</loc>
     <lastmod>2025-07-14T15:45:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/category/ordering/</loc>
     <lastmod>2025-07-14T15:45:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/author/paul-ezhilchelvan/</loc>
-    <lastmod>2025-07-14T15:45:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/publication_types/</loc>
     <lastmod>2025-07-14T15:45:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/category/replication/</loc>
@@ -95,9 +116,6 @@
     <loc>https://jimwebber.org/author/jack-waudby/</loc>
     <lastmod>2024-06-14T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/category/transactions/</loc>
-    <lastmod>2024-06-14T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/publication/2024-seagraph/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
@@ -122,19 +140,10 @@
     <loc>https://jimwebber.org/category/dynamic-optimization/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/author/georgios-theodorakis/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/category/graph-database/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/category/graph-database-management-systems/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/category/indexes/</loc>
-    <lastmod>2024-05-13T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/author/james-clarkson/</loc>
     <lastmod>2024-05-13T01:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/category/jit-compilation/</loc>
@@ -249,9 +258,6 @@
     <lastmod>2022-10-18T15:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/publication/2022-10-patent-11481385/</loc>
-    <lastmod>2022-10-05T15:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/author/hugo-firth/</loc>
     <lastmod>2022-10-05T15:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/publication/2022-srds/</loc>
