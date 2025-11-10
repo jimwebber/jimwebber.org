@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Total Order | World Wide Webber</title>
+    <link>https://jimwebber.org/category/total-order/</link>
+      <atom:link href="https://jimwebber.org/category/total-order/index.xml" rel="self" type="application/rss+xml" />
+    <description>Total Order</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Tue, 21 Oct 2025 15:45:00 +0100</lastBuildDate>
+    <image>
+      <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
+      <title>Total Order</title>
+      <link>https://jimwebber.org/category/total-order/</link>
+    </image>
+    
+    <item>
+      <title>Throughput-Driven Database Replication Using a Ring-Based Order Protocol</title>
+      <link>https://jimwebber.org/publication/2025-mascots/</link>
+      <pubDate>Tue, 21 Oct 2025 15:45:00 +0100</pubDate>
+      <guid>https://jimwebber.org/publication/2025-mascots/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

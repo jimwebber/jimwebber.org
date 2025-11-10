@@ -5,12 +5,20 @@
     <link>https://jimwebber.org/author/isi-mitrani/</link>
       <atom:link href="https://jimwebber.org/author/isi-mitrani/index.xml" rel="self" type="application/rss+xml" />
     <description>Isi Mitrani</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Mon, 07 Aug 2023 01:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2025 Jim Webber</copyright><lastBuildDate>Tue, 21 Oct 2025 15:45:00 +0100</lastBuildDate>
     <image>
       <url>https://jimwebber.org/images/icon_hu_11b53cb81fbe4544.png</url>
       <title>Isi Mitrani</title>
       <link>https://jimwebber.org/author/isi-mitrani/</link>
     </image>
+    
+    <item>
+      <title>Throughput-Driven Database Replication Using a Ring-Based Order Protocol</title>
+      <link>https://jimwebber.org/publication/2025-mascots/</link>
+      <pubDate>Tue, 21 Oct 2025 15:45:00 +0100</pubDate>
+      <guid>https://jimwebber.org/publication/2025-mascots/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Analysis of an epoch commit protocol for distributed processing systems</title>
