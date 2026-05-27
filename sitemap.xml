@@ -23,6 +23,42 @@
     <loc>https://jimwebber.org/reviewing/2026-vldb/</loc>
     <lastmod>2026-08-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://jimwebber.org/authors/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/categories/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/category/fault-tolerance/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/author/georgios-theodorakis/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/category/graph-database-management-systems/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/author/hugo-firth/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/author/jim-webber/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/category/leaderless-consensus/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/author/natacha-crooks/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/publication/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/publication/2026-sigmod/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/category/transactions/</loc>
+    <lastmod>2026-05-30T01:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://jimwebber.org/reviewing/2026-icde/</loc>
     <lastmod>2026-05-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,19 +68,10 @@
     <loc>https://jimwebber.org/category/approximate-analysis/</loc>
     <lastmod>2025-10-21T15:45:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/authors/</loc>
-    <lastmod>2025-10-21T15:45:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/category/bulk-service/</loc>
     <lastmod>2025-10-21T15:45:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/categories/</loc>
-    <lastmod>2025-10-21T15:45:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/author/isi-mitrani/</loc>
-    <lastmod>2025-10-21T15:45:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/author/jim-webber/</loc>
     <lastmod>2025-10-21T15:45:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/category/logical-ring/</loc>
@@ -59,31 +86,13 @@
     <loc>https://jimwebber.org/publication/2025-mascots/</loc>
     <lastmod>2025-10-21T15:45:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/publication/</loc>
-    <lastmod>2025-10-21T15:45:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/category/server-replication/</loc>
     <lastmod>2025-10-21T15:45:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/category/total-order/</loc>
     <lastmod>2025-10-21T15:45:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/author/georgios-theodorakis/</loc>
-    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/category/graph-database-management-systems/</loc>
-    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/author/hugo-firth/</loc>
-    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/author/james-clarkson/</loc>
-    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/author/natacha-crooks/</loc>
-    <lastmod>2025-09-30T01:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/category/transactions/</loc>
     <lastmod>2025-09-30T01:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/publication/2025-vldb/</loc>
