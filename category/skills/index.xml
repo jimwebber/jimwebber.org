@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skills | World Wide Webber</title>
+    <link>https://jimwebber.org/category/skills/</link>
+      <atom:link href="https://jimwebber.org/category/skills/index.xml" rel="self" type="application/rss+xml" />
+    <description>Skills</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2026 Jim Webber</copyright><lastBuildDate>Fri, 04 Sep 2026 01:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://jimwebber.org/images/icon_hu_8d26359f701e3b3e.png</url>
+      <title>Skills</title>
+      <link>https://jimwebber.org/category/skills/</link>
+    </image>
+    
+    <item>
+      <title>AIP: A Graph Representation for Learning and Governing Agent Skills</title>
+      <link>https://jimwebber.org/publication/2026-agents&#43;graph/</link>
+      <pubDate>Fri, 04 Sep 2026 01:00:00 +0100</pubDate>
+      <guid>https://jimwebber.org/publication/2026-agents&#43;graph/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

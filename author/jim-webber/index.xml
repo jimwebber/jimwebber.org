@@ -5,7 +5,7 @@
     <link>https://jimwebber.org/author/jim-webber/</link>
       <atom:link href="https://jimwebber.org/author/jim-webber/index.xml" rel="self" type="application/rss+xml" />
     <description>Jim Webber</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2026 Jim Webber</copyright><lastBuildDate>Sat, 30 May 2026 01:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2026 Jim Webber</copyright><lastBuildDate>Fri, 04 Sep 2026 01:00:00 +0100</lastBuildDate>
     <image>
       <url>https://jimwebber.org/images/icon_hu_8d26359f701e3b3e.png</url>
       <title>Jim Webber</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>AIP: A Graph Representation for Learning and Governing Agent Skills</title>
+      <link>https://jimwebber.org/publication/2026-agents&#43;graph/</link>
+      <pubDate>Fri, 04 Sep 2026 01:00:00 +0100</pubDate>
+      <guid>https://jimwebber.org/publication/2026-agents&#43;graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jim Webber</title>
       <link>https://jimwebber.org/author/jim-webber/</link>
-      <pubDate>Sat, 30 May 2026 01:00:00 +0100</pubDate>
+      <pubDate>Fri, 04 Sep 2026 01:00:00 +0100</pubDate>
       <guid>https://jimwebber.org/author/jim-webber/</guid>
       <description>&lt;p&gt;I am Neo4j’s Chief Scientist and Visiting Professor at Newcastle University, UK. At Neo4j I lead the research group, working on a variety of database topics including query languages and runtimes, temporality, streaming, scale, and fault-tolerance. I have also also co-authored several books on graph technology including 
 &lt;a href=&#34;https://jimwebber.org/publication/graph-databases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Databases -  1st and 2nd Editions&lt;/a&gt; (O&amp;rsquo;Reilly), 

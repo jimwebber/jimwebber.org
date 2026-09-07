@@ -5,12 +5,20 @@
     <link>https://jimwebber.org/publication/</link>
       <atom:link href="https://jimwebber.org/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2026 Jim Webber</copyright><lastBuildDate>Sat, 30 May 2026 01:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2026 Jim Webber</copyright><lastBuildDate>Fri, 04 Sep 2026 01:00:00 +0100</lastBuildDate>
     <image>
       <url>https://jimwebber.org/images/icon_hu_8d26359f701e3b3e.png</url>
       <title>Publications</title>
       <link>https://jimwebber.org/publication/</link>
     </image>
+    
+    <item>
+      <title>AIP: A Graph Representation for Learning and Governing Agent Skills</title>
+      <link>https://jimwebber.org/publication/2026-agents&#43;graph/</link>
+      <pubDate>Fri, 04 Sep 2026 01:00:00 +0100</pubDate>
+      <guid>https://jimwebber.org/publication/2026-agents&#43;graph/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RIOT: Replicated Independently-Ordered Transactions</title>

@@ -2894,6 +2894,140 @@
     
 
   
+  <span >Zach Blumenfeld</span>, <span >Jim Webber</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2026
+  </span>
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Agents+Graph Workshop 2026
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/agents/">Agents</a>, <a href="/category/skills/">Skills</a>, <a href="/category/graphs/">Graphs</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/2026-agents&#43;graph/">AIP: A Graph Representation for Learning and Governing Agent Skills</a>
+  </h3>
+
+  
+  <a href="/publication/2026-agents&#43;graph/" class="summary-link">
+    <div class="article-style">
+      <p>Agent Skills today consist largely of free-form prose requiring the agent to read, interpret, and re-derive how to act in every session. This imposes two compounding costs: reduced reliability on implementation-heavy tasks, and difficulty in skill creation and improvement. Editing prose is a fragile process that both humans and agents struggle with, particularly for domain-specific procedural knowledge that is underrepresented in model training. The Agent Instruction Protocol (AIP) addresses both by modeling a skill as a directed execution graph with discrete steps as nodes backed by deterministic scripts or natural-language descriptions, connected by explicit typed input/output edges, all governed by a schema-validated YAML specification. A compiler meta-skill translates existing human-written skills into this form. The benefits are twofold. Firstly, compiling human-written skills to AIP raised Claude Sonnet’s mean task reward from 0.60 to 0.71 and pass rate from 53% to 67% across 27 real agent tasks from SkillsBench—a statistically significant gain (Wilcoxon signed-rank 𝑝 = 0.011), winning 12 tasks to 2 with 13 ties. It is often faster since the graph delivers vetted, runnable units to the agent rather than asking it to re-derive code, commands, and tool calls from natural language. Secondly, on creation and improvement, because each skill is schema-validated, functionally testable, and addressable node-by-node, failures can be diagnosed and repaired precisely. Two authored-skill failures were traced to the script level. After adjusting the AIP spec and recompiling, both recovered with zero regressions (one task going from 0/5 to 5/5), turning skill improvement into a measurable tuning loop rather than a prose rewrite. That same graph structure supports corpus-level governance and skill introspection, and provides a natural action space for reinforcement learning over skills.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://vldb.org/2026/Workshops/VLDB-Workshops-2026/Agents&#43;Graphs/AgentGraph26-4.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
   <span >Jim Webber</span>, <span >Georgios Theodorakis</span>, <span >Hugo Firth</span>, <span >Natacha Crooks</span>
   </div>
   
@@ -3379,140 +3513,6 @@
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2025-ideas/liu-ideas2025.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span >Yingming Wang</span>, <span >Paul Ezhilchelvan</span>, <span >Jack Waudby</span>, <span >Jim Webber</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    June 2024
-  </span>
-  
-  
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      EPEW 2024
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/transactions/">Transactions</a>, <a href="/category/concurrency-control/">Concurrency Control</a>, <a href="/category/database-management-systems/">Database Management Systems</a></span>
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/2024-epew/">Implementations Based Evaluation of No-Wait Approach for Resolving Conflicts in Databases</a>
-  </h3>
-
-  
-  <a href="/publication/2024-epew/" class="summary-link">
-    <div class="article-style">
-      <p>In this paper, we describe No-Wait concurrency control mechanisms to address conflict resolution and then comprehensively evaluate their performance under Read-Committed and Serializability isolation levels using an in-memory database system in various configurations and contention scenarios. Key performance metrics are percentage of transaction aborts and average latency for those who do not abort. Our evaluations affirm that the No-Wait approach indeed offers a cost-effective, practical alternative to traditional conflict resolution mechanisms.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://trebuchet.public.springernature.app/get_content/cd9ef11b-5ce6-4bd8-bfde-a88e3d414439?sap-outbound-id=46E7A1D5DF51B2B7608C54629C46D7D5EAA4D37C" target="_blank" rel="noopener">
   PDF
 </a>
 
