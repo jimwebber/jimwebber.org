@@ -5,12 +5,20 @@
     <link>https://jimwebber.org/tag/graph-databases/</link>
       <atom:link href="https://jimwebber.org/tag/graph-databases/index.xml" rel="self" type="application/rss+xml" />
     <description>Graph Databases</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2026 Jim Webber</copyright><lastBuildDate>Tue, 03 Jan 2023 15:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-gb</language><copyright>©2026 Jim Webber</copyright><lastBuildDate>Thu, 18 Sep 2025 15:00:00 +0100</lastBuildDate>
     <image>
       <url>https://jimwebber.org/images/icon_hu_8d26359f701e3b3e.png</url>
       <title>Graph Databases</title>
       <link>https://jimwebber.org/tag/graph-databases/</link>
     </image>
+    
+    <item>
+      <title>Efficient temporal graph data management</title>
+      <link>https://jimwebber.org/publication/2025-09-patent-us20250291806a1/</link>
+      <pubDate>Thu, 18 Sep 2025 15:00:00 +0100</pubDate>
+      <guid>https://jimwebber.org/publication/2025-09-patent-us20250291806a1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bi-gram cardinality estimation in a graph database</title>

@@ -113,6 +113,21 @@
     <loc>https://jimwebber.org/publication/2025-vldb/</loc>
     <lastmod>2025-09-30T01:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://jimwebber.org/publication-type/8/</loc>
+    <lastmod>2025-09-18T15:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/publication/2025-09-patent-us20250291806a1/</loc>
+    <lastmod>2025-09-18T15:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/tag/graph-databases/</loc>
+    <lastmod>2025-09-18T15:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/tags/</loc>
+    <lastmod>2025-09-18T15:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jimwebber.org/tag/temporal-graphs/</loc>
+    <lastmod>2025-09-18T15:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://jimwebber.org/reviewing/2025-vldb/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -147,9 +162,6 @@
     <lastmod>2024-09-01T20:42:01+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/tag/powerwall/</loc>
-    <lastmod>2024-09-01T20:42:01+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/tags/</loc>
     <lastmod>2024-09-01T20:42:01+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/tag/tesla/</loc>
@@ -266,9 +278,6 @@
     <loc>https://jimwebber.org/category/performance-evaluation/</loc>
     <lastmod>2023-06-20T01:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jimwebber.org/publication-type/8/</loc>
-    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jimwebber.org/publication/2023-01-patent-11544280/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
@@ -276,9 +285,6 @@
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/tag/distributed-databases/</loc>
-    <lastmod>2023-01-03T15:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jimwebber.org/tag/graph-databases/</loc>
     <lastmod>2023-01-03T15:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jimwebber.org/author/niels-de-jong/</loc>
